@@ -38,7 +38,7 @@
 </div>
 
 <div id="combined-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, R=Researcher, A=Affiliation, C=Combined Score, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Repro Rate, AE=AE Service, Ch=Chaired
+  <span id="combined-legend-text">Legend: #=Rank, R=Researcher, A=Affiliation, S=Score, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Repro Rate, AE=AE Service, Ch=Chaired</span>
 </div>
 
 <div id="combinedLoading" style="font-size:0.9em;"><em>Loading combined ranking data…</em></div>
@@ -81,7 +81,7 @@
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
     {label:'R',                key:'name',              type:'alpha', tip:'Researcher'},
     {label:'A',                key:'affiliation',       type:'alpha', tip:'Affiliation'},
-    {label:'C',                key:'combined_score',    type:'num',   tip:'Combined score'},
+    {label:'S',                key:'combined_score',    type:'num',   tip:'Score'},
     {label:'Ar',               key:'artifacts',         type:'num',   tip:'Total artifacts'},
     {label:'P',                key:'total_papers',      type:'num',   tip:'Total papers'},
     {label:'AR%',              key:'artifact_rate',     type:'num',   tip:'Artifact rate: % papers with artifact'},
@@ -89,6 +89,12 @@
     {label:'AE',               key:'ae_memberships',    type:'num',   tip:'AE memberships'},
     {label:'Ch',               key:'chair_count',       type:'num',   tip:'Times chaired (★)'}
   ];
+
+  function getScoreLabel() {
+    if (filterMode === 'artifacts_only') return 'Artifact Score';
+    if (filterMode === 'ae_only') return 'AE Service Score';
+    return 'Combined Score';
+  }
 
   function render() {
     var start = pageSize > 0 ? currentPage * pageSize : 0;
@@ -145,14 +151,14 @@
       filteredData = allData.filter(function(c) {
         return c.artifacts > 0;
       });
-      scoreKey = 'artifacts';
-      sortCol = 4;
+      scoreKey = 'artifact_score';
+      sortCol = 3;
     } else if (filterMode === 'ae_only') {
       filteredData = allData.filter(function(c) {
         return c.ae_memberships > 0;
       });
-      scoreKey = 'ae_memberships';
-      sortCol = 8;
+      scoreKey = 'ae_score';
+      sortCol = 3;
     } else {
       filteredData = allData.filter(function(c) {
         return c.artifacts > 0 && c.ae_memberships > 0;
@@ -229,6 +235,8 @@
     var tr = document.getElementById('combinedHead');
     tr.innerHTML = '';
     var allCols = fixedCols.slice();
+    // Update score column tooltip dynamically
+    allCols[3].tip = getScoreLabel();
     for (var i = 0; i < yearColumns.length; i++) {
       allCols.push({label: shortenYear(yearColumns[i]), key:'_y' + yearColumns[i], type:'num'});
     }
@@ -238,6 +246,7 @@
       th.className = 'c-sortable';
       th.dataset.colIdx = ci;
       th.style.cursor = 'pointer';
+      th.title = allCols[ci].tip || '';
       if (ci === sortCol) th.classList.add(sortAsc ? 'c-sorted-asc' : 'c-sorted-desc');
       th.addEventListener('click', (function(idx) {
         return function(e) {
@@ -307,6 +316,7 @@
   document.getElementById('contributionFilter').addEventListener('change', function() {
     filterMode = this.value;
     currentPage = 0;
+    buildHeader(); // Rebuild header to update score column tooltip
     applyFilter();
     render();
   });

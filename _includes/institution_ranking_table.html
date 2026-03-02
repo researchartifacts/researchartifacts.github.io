@@ -40,7 +40,7 @@
 </div>
 
 <div id="institution-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, I=Institution, C=Combined, R=Researchers, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Reproducibility Rate, AE=AE Service, Ch=Chaired
+  Legend: #=Rank, I=Institution, S=Score, R=Researchers, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Reproducibility Rate, AE=AE Service, Ch=Chaired
 </div>
 
 <div id="institutionLoading"><em>Loading institution ranking data…</em></div>
@@ -83,7 +83,7 @@
   var fixedCols = [
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
     {label:'I',                key:'affiliation',       type:'alpha', tip:'Institution'},
-    {label:'C',                key:'combined_score',    type:'num',   tip:'Combined score'},
+    {label:'S',                key:'combined_score',    type:'num',   tip:'Score'},
     {label:'R',                key:'num_authors',       type:'num',   tip:'Researchers'},
     {label:'Ar',               key:'artifacts',         type:'num',   tip:'Total artifacts'},
     {label:'P',                key:'total_papers',      type:'num',   tip:'Total papers'},
@@ -92,6 +92,12 @@
     {label:'AE',               key:'ae_memberships',    type:'num',   tip:'AE memberships'},
     {label:'Ch',               key:'chair_count',       type:'num',   tip:'Times chaired (★)'}
   ];
+
+  function getScoreLabel() {
+    if (filterMode === 'artifacts_only') return 'Artifact Score';
+    if (filterMode === 'ae_only') return 'AE Service Score';
+    return 'Combined Score';
+  }
 
   // Country code to flag HTML (using flag-icons CSS library)
   function countryCodeToFlagHtml(code) {
@@ -442,11 +448,11 @@
       scoreKey = 'combined_score';
       sortCol = 2;
     } else if (filterMode === 'artifacts_only') {
-      scoreKey = 'artifacts';
-      sortCol = 4;
+      scoreKey = 'artifact_score';
+      sortCol = 2;
     } else if (filterMode === 'ae_only') {
-      scoreKey = 'ae_memberships';
-      sortCol = 8;
+      scoreKey = 'ae_score';
+      sortCol = 2;
     }
 
     sortData(sortCol, sortAsc);
@@ -608,6 +614,8 @@
     var tr = document.getElementById('institutionHead');
     tr.innerHTML = '';
     var allCols = fixedCols.slice();
+    // Update score column tooltip dynamically
+    allCols[2].tip = getScoreLabel();
     for (var i = 0; i < yearColumns.length; i++) {
       allCols.push({label: shortenYear(yearColumns[i]), key:'_y' + yearColumns[i], type:'num'});
     }
@@ -617,6 +625,7 @@
       th.className = 'i-sortable';
       th.dataset.colIdx = ci;
       th.style.cursor = 'pointer';
+      th.title = allCols[ci].tip || '';
       if (ci === sortCol) th.classList.add(sortAsc ? 'i-sorted-asc' : 'i-sorted-desc');
       th.addEventListener('click', (function(idx) {
         return function(e) {
@@ -708,6 +717,7 @@
   document.getElementById('contributionFilter').addEventListener('change', function() {
     filterMode = this.value;
     currentPage = 0;
+    buildHeader(); // Rebuild header to update score column tooltip
     applySearch();
     render();
   });
