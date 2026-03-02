@@ -12,7 +12,9 @@ Researchers ranked by weighted contributions (artifact authorship + AE committee
 **Stats:** {{ site.data.combined_summary.combined_total }} total | {{ site.data.combined_summary.both_artifacts_and_ae }} with both contributions
 {% endif %}
 
+<div markdown="0">
 {% include combined_ranking_table.html %}
+</div>
 
 ---
 

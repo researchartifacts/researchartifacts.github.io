@@ -14,7 +14,9 @@ Institutions ranked by aggregate contributions of their researchers. Filter by c
 
 ---
 
+<div markdown="0">
 {% include institution_ranking_table.html %}
+</div>
 
 ---
 
