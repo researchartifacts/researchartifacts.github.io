@@ -25,6 +25,14 @@
       <select id="geoFilter" style="padding:2px 6px; font-size:1em;"></select>
     </div>
     <div style="white-space:nowrap;">
+      <label style="font-weight:bold; margin-right:4px; font-size:1em;">Contribution Type:</label>
+      <select id="contributionFilter" style="padding:2px 6px; font-size:1em;">
+        <option value="both" selected>Both (Artifacts + AE)</option>
+        <option value="artifacts_only">Artifacts Only</option>
+        <option value="ae_only">AE Service Only</option>
+      </select>
+    </div>
+    <div style="white-space:nowrap;">
       <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
       <input type="text" id="affiliationSearch" placeholder="Filter by institution name..." style="padding:2px 6px; font-size:1em; width:200px;">
     </div>
@@ -678,6 +686,14 @@
   // Geographic filter
   document.getElementById('geoFilter').addEventListener('change', function() {
     geoFilter = this.value;
+    applySearch();
+    render();
+  });
+
+  // Contribution type filter
+  document.getElementById('contributionFilter').addEventListener('change', function() {
+    filterMode = this.value;
+    currentPage = 0;
     applySearch();
     render();
   });
