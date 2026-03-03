@@ -487,6 +487,11 @@
       var flag = getFlagForInstitution(aff);
       cells.push('<td>' + (flag || '') + escHtml(aff) + '</td>');
       cells.push('<td><strong>' + inst[scoreKey] + '</strong></td>');
+      cells.push('<td>' + (inst.artifact_score || 0) + '</td>');
+      cells.push('<td>' + (inst.ae_score || 0) + '</td>');
+      // Display infinity symbol for null ae_ratio (no AE service)
+      var aeRatioDisplay = (inst.ae_ratio === null || inst.ae_ratio === undefined) ? '∞' : (inst.ae_ratio === 0 ? '0' : inst.ae_ratio);
+      cells.push('<td>' + aeRatioDisplay + '</td>');
       cells.push('<td>' + (inst.num_authors || '') + '</td>');
       cells.push('<td>' + (inst.artifacts || '') + '</td>');
       cells.push('<td>' + (inst.total_papers || '') + '</td>');
