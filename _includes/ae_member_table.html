@@ -20,7 +20,7 @@
 </div>
 
 <div id="ae-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, M=Member, E=AE Service, H=Chaired, A=Affiliation, Co=Conferences, F=First Year, L=Last Year
+  Legend: #=Rank, M=Member, A=Affiliation, AE=AE Service, Ch=Chaired, F=First Year, L=Last Year
 </div>
 
 <div id="memberLoading"><em>Loading AE member data…</em></div>
@@ -56,9 +56,9 @@
   var fixedCols = [
     {label:'#',                 key:'rank',               type:'num',   tip:'Rank'},
     {label:'M',                 key:'name',               type:'alpha', tip:'Member'},
+    {label:'A',                 key:'affiliation',        type:'alpha', tip:'Affiliation'},
     {label:'AE',                key:'total_memberships',  type:'num',   tip:'AE Service Score (3×memberships + 2×chairs)'},
     {label:'Ch',                key:'chair_count',        type:'num',   tip:'Times chaired (★)'},
-    {label:'A',                 key:'affiliation',        type:'alpha', tip:'Affiliation'},
     {label:'F',                 key:'first_year',         type:'num',   tip:'First year'},
     {label:'L',                 key:'last_year',          type:'num',   tip:'Last year'}
   ];
@@ -77,12 +77,11 @@
       var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(m.name);
       var displayName = m.display_name || m.name;
       cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
+      cells.push('<td>' + escHtml(m.affiliation || '') + '</td>');
       var aeScore = (m.total_memberships * 3) + (m.chair_count * 2);
       cells.push('<td><strong>' + aeScore + '</strong></td>');
       var chairLabel = m.chair_count > 0 ? m.chair_count + ' \u2605' : '';
       cells.push('<td>' + chairLabel + '</td>');
-      cells.push('<td>' + escHtml(m.affiliation || '') + '</td>');
-      cells.push('<td>' + (m.conferences ? m.conferences.length : '') + '</td>');
       cells.push('<td>' + (m.first_year ? shortenYear(m.first_year) : '') + '</td>');
       cells.push('<td>' + (m.last_year ? shortenYear(m.last_year) : '') + '</td>');
       for (var j = 0; j < yearColumns.length; j++) {
