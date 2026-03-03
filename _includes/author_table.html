@@ -19,7 +19,7 @@
 </div>
 
 <div id="author-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, R=Researcher, A=Affiliation, S=Combined Score, AS=Artifact Score, AES=AE Service Score, A:E=Artifact:Evaluation Ratio, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y
+  Legend: #=Rank, S=Combined Score, AS=Artifact Score, AES=AE Service Score, A:E=Artifact:Evaluation Ratio, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y
 </div>
 
 <div id="authorLoading"><em>Loading author data…</em></div>
@@ -54,8 +54,8 @@
   // Column definitions (index, label, key, type)
   var fixedCols = [
     {label:'#',                 key:'rank',            type:'num',   tip:'Rank'},
-    {label:'R',                 key:'name',            type:'alpha', tip:'Researcher'},
-    {label:'A',                 key:'affiliation',     type:'alpha', tip:'Affiliation'},
+    {label:'Researcher',        key:'name',            type:'alpha', tip:'Researcher'},
+    {label:'Affiliation',       key:'affiliation',     type:'alpha', tip:'Affiliation'},
     {label:'S',                 key:'combined_score',  type:'num',   tip:'Combined score (artifact + AE service)'},
     {label:'AS',                key:'artifact_score',  type:'num',   tip:'Artifact score: Available×1 + Functional×1 + Reproduced×1'},
     {label:'AES',               key:'ae_score',        type:'num',   tip:'AE service score: Member×3 + Chair×5'},

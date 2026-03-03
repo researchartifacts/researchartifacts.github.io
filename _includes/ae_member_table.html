@@ -20,7 +20,7 @@
 </div>
 
 <div id="ae-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, M=Member, A=Affiliation, AE=AE Service, Ch=Chaired, F=First Year, L=Last Year
+  Legend: #=Rank, AE=AE Service, Ch=Chaired, F=First Year, L=Last Year
 </div>
 
 <div id="memberLoading"><em>Loading AE member data…</em></div>
@@ -55,8 +55,8 @@
   // Column definitions
   var fixedCols = [
     {label:'#',                 key:'rank',               type:'num',   tip:'Rank'},
-    {label:'M',                 key:'name',               type:'alpha', tip:'Member'},
-    {label:'A',                 key:'affiliation',        type:'alpha', tip:'Affiliation'},
+    {label:'Member',            key:'name',               type:'alpha', tip:'Member'},
+    {label:'Affiliation',       key:'affiliation',        type:'alpha', tip:'Affiliation'},
     {label:'AE',                key:'total_memberships',  type:'num',   tip:'AE Service Score (3×memberships + 2×chairs)'},
     {label:'Ch',                key:'chair_count',        type:'num',   tip:'Times chaired (★)'},
     {label:'F',                 key:'first_year',         type:'num',   tip:'First year'},

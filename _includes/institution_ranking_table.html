@@ -40,7 +40,7 @@
 </div>
 
 <div id="institution-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, I=Institution, S=Combined Score, AS=Artifact Score, AES=AE Service Score, A:E=Artifact:Evaluation Ratio, R=Researchers, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Repro. Rate, AE=AE Memberships, Ch=Chairs
+  Legend: #=Rank, S=Combined Score, AS=Artifact Score, AES=AE Service Score, A:E=Artifact:Evaluation Ratio, R=Researchers, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Repro. Rate, AE=AE Memberships, Ch=Chairs
 </div>
 
 <div id="institutionLoading"><em>Loading institution ranking data…</em></div>
@@ -82,7 +82,7 @@
 
   var fixedCols = [
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
-    {label:'I',                key:'affiliation',       type:'alpha', tip:'Institution'},
+    {label:'Institution',      key:'affiliation',       type:'alpha', tip:'Institution'},
     {label:'S',                key:'combined_score',    type:'num',   tip:'Combined score (artifact + AE service)'},
     {label:'AS',               key:'artifact_score',    type:'num',   tip:'Artifact score: sum of all artifact badges'},
     {label:'AES',              key:'ae_score',          type:'num',   tip:'AE service score: sum of committee service'},

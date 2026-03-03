@@ -19,7 +19,7 @@
 </div>
 
 <div id="author-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, R=Researcher, A=Affiliation, S=Score, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y
+  Legend: #=Rank, S=Score, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y
 </div>
 
 <div id="authorLoading"><em>Loading author data…</em></div>
@@ -54,8 +54,8 @@
   // Column definitions (index, label, key, type)
   var fixedCols = [
     {label:'#',                 key:'rank',            type:'num',   tip:'Rank'},
-    {label:'R',                 key:'name',            type:'alpha', tip:'Researcher'},
-    {label:'A',                 key:'affiliation',     type:'alpha', tip:'Affiliation'},
+    {label:'Researcher',        key:'name',            type:'alpha', tip:'Researcher'},
+    {label:'Affiliation',       key:'affiliation',     type:'alpha', tip:'Affiliation'},
     {label:'S',                 key:'artifact_score',  type:'num',   tip:'Artifact score: Available×1 + Functional×1 + Reproduced×1'},
     {label:'Ar',                key:'artifacts',       type:'num',   tip:'Total artifacts'},
     {label:'P',                 key:'total_papers',    type:'num',   tip:'Total papers at tracked conferences'},
