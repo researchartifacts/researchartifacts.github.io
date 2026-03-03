@@ -595,6 +595,9 @@
       } else if (key === 'num_conferences') {
         av = a.conferences ? a.conferences.length : 0;
         bv = b.conferences ? b.conferences.length : 0;
+      } else if (key === 'ae_ratio') {
+        av = (a.ae_ratio === null || a.ae_ratio === undefined) ? Number.POSITIVE_INFINITY : a.ae_ratio;
+        bv = (b.ae_ratio === null || b.ae_ratio === undefined) ? Number.POSITIVE_INFINITY : b.ae_ratio;
       } else {
         av = a[key] || 0;
         bv = b[key] || 0;

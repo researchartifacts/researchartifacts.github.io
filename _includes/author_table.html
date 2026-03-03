@@ -151,6 +151,9 @@
       } else if (key === 'affiliation') {
         av = (a.affiliation || '').toLowerCase();
         bv = (b.affiliation || '').toLowerCase();
+      } else if (key === 'ae_ratio') {
+        av = (a.ae_ratio === null || a.ae_ratio === undefined) ? Number.POSITIVE_INFINITY : a.ae_ratio;
+        bv = (b.ae_ratio === null || b.ae_ratio === undefined) ? Number.POSITIVE_INFINITY : b.ae_ratio;
       } else {
         av = a[key] || 0;
         bv = b[key] || 0;
