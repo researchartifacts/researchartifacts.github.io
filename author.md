@@ -74,14 +74,25 @@ layout: default
       <tbody id="ae-body"></tbody>
     </table>
   </div>
+
+  <div id="citations-section" style="display:none;">
+    <h3>Cited Artifacts</h3>
+    <p id="citations-summary"></p>
+    <table class="paper-table" id="citations-table">
+      <thead><tr><th>#</th><th>Artifact Title</th><th>Conference</th><th>Year</th><th>Citations</th></tr></thead>
+      <tbody id="citations-body"></tbody>
+    </table>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script>
 (function() {
   var DATA_URL = '{{ "/assets/data/author_profiles.json" | relative_url }}';
+  var CITED_ARTIFACTS_URL = '{{ "/assets/data/cited_artifacts_by_author.json" | relative_url }}';
   var allProfiles = [];
   var profileMap = {};
+  var citedArtifactsMap = {};
   var chart = null;
 
   function escHtml(s) {
@@ -179,6 +190,29 @@ layout: default
       }
     } else {
       document.getElementById('ae-section').style.display = 'none';
+    }
+
+    // Cited artifacts
+    var authorData = citedArtifactsMap[p.name];
+    if (authorData && authorData.cited_artifacts && authorData.cited_artifacts.length > 0) {
+      document.getElementById('citations-section').style.display = 'block';
+      
+      var summary = '<p><strong>' + authorData.total_citations + '</strong> total citation' + 
+        (authorData.total_citations > 1 ? 's' : '') + ' to <strong>' + authorData.cited_artifacts.length + 
+        '</strong> artifact' + (authorData.cited_artifacts.length > 1 ? 's' : '') + '.</p>';
+      document.getElementById('citations-summary').innerHTML = summary;
+      
+      var rows = '';
+      var artifacts = authorData.cited_artifacts.sort(function(a, b) { return (b.citations || 0) - (a.citations || 0); });
+      for (var k = 0; k < artifacts.length; k++) {
+        var art = artifacts[k];
+        rows += '<tr><td>' + (k+1) + '</td><td>' + escHtml(art.title) + '</td><td>' +
+          escHtml(art.conference || '') + '</td><td>' + (art.year || '') + '</td><td><strong>' + 
+          (art.citations || 0) + '</strong></td></tr>';
+      }
+      document.getElementById('citations-body').innerHTML = rows;
+    } else {
+      document.getElementById('citations-section').style.display = 'none';
     }
 
     // Timeline chart
@@ -341,6 +375,21 @@ layout: default
       for (var i = 0; i < data.length; i++) {
         profileMap[data[i].name] = data[i];
       }
+      
+      // Load cited artifacts data
+      return fetch(CITED_ARTIFACTS_URL)
+        .then(function(r) { return r.json(); })
+        .then(function(citedData) {
+          citedArtifactsMap = citedData || {};
+          return true;
+        })
+        .catch(function(err) {
+          console.warn('Could not load cited artifacts data:', err);
+          citedArtifactsMap = {};
+          return true;
+        });
+    })
+    .then(function() {
       document.getElementById('loading-msg').style.display = 'none';
       searchBox.style.display = '';
 
@@ -355,7 +404,7 @@ layout: default
       } else if (nameParam) {
         // Try partial match
         var lower = nameParam.toLowerCase();
-        var match = data.find(function(p) { return p.name.toLowerCase() === lower || cleanName(p.name).toLowerCase() === lower; });
+        var match = allProfiles.find(function(p) { return p.name.toLowerCase() === lower || cleanName(p.name).toLowerCase() === lower; });
         if (match) {
           searchBox.value = cleanName(match.name);
           renderProfile(match);
