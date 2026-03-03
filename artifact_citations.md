@@ -99,7 +99,7 @@ layout: default
 
 <div class="stats-box">
   <p><strong id="total-artifacts">Loading...</strong> artifacts with citations</p>
-  <p>Showing artifacts that have been cited by other research papers (via DOI)</p>
+  <p>Showing artifacts that have been cited by other research papers (via DOI). <em id="data-status"></em></p>
 </div>
 
 <div class="controls">
@@ -240,20 +240,34 @@ layout: default
 
   // Load data
   fetch(DATA_URL)
-    .then(r => r.json())
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status} - data not yet available`);
+      return r.json();
+    })
     .then(data => {
       allArtifacts = data || [];
-      document.getElementById('total-artifacts').textContent = allArtifacts.length;
-
-      // Initial sort by citations descending
-      sortColumn = 'citations';
-      sortDesc = true;
-      filterArtifacts('');
+      
+      if (allArtifacts.length === 0) {
+        document.getElementById('data-status').textContent = '(Data will be populated after the analysis pipeline runs)';
+        document.getElementById('total-artifacts').textContent = '0';
+        document.getElementById('table-container').innerHTML = '<p style="text-align:center;color:#999;padding:40px;">No artifacts with citations yet. Run the analysis pipeline to generate citation data.</p>';
+      } else {
+        document.getElementById('total-artifacts').textContent = allArtifacts.length;
+        // Initial sort by citations descending
+        sortColumn = 'citations';
+        sortDesc = true;
+        filterArtifacts('');
+      }
     })
     .catch(err => {
+      console.error('Error loading citation data:', err);
+      document.getElementById('data-status').textContent = '(data loading disabled)';
+      document.getElementById('total-artifacts').textContent = '0';
       document.getElementById('table-container').innerHTML = 
-        `<p style="color:#c00;">Error loading artifact citations: ${err.message}</p>`;
-      console.error(err);
+        `<p style="text-align:center;color:#666;padding:40px;">
+          <strong>Citation data not yet available</strong><br>
+          <small>The analysis pipeline needs to run to generate artifact citation metrics from OpenAlex.</small>
+        </p>`;
     });
 })();
 </script>
