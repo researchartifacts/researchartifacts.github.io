@@ -32,9 +32,9 @@ title: "Artifact Evaluation across Security & Systems Conferences"
 
 Each cell shows **total (available, functional, reproduced)**.
 
-## Top Contributors: Combined Ranking
+## Ranking: Top Contributors
 
-Researchers contribute through artifact publication and AE committee service. The [combined ranking]({{ '/combined_rankings.html' | relative_url }}) merges both contributions into a unified score recognizing dual impact. Below are the top 10 most prolific contributors:
+Researchers contribute through artifact publication and AE committee service. The [author ranking]({{ '/combined_rankings.html' | relative_url }}) combines both contributions into a unified score recognizing dual impact. Below are the top 10 most prolific contributors:
 
 <table id="top10Table">
 <thead><tr><th>#</th><th>Name</th><th>Affiliation</th><th>Ar</th><th>AE</th><th>Ch</th><th>Score</th></tr></thead>
@@ -45,7 +45,7 @@ Researchers contribute through artifact publication and AE committee service. Th
 
 Explore detailed insights across institutions, authors, and conferences:
 
-- **[Combined Rankings]({{ '/combined_rankings.html' | relative_url }})** — Researchers ranked by artifact contributions + AE committee work
+- **[Author Rankings]({{ '/combined_rankings.html' | relative_url }})** — Researchers ranked by artifact contributions + AE committee work
 - **[Institution Rankings]({{ '/institution_rankings.html' | relative_url }})** — Institutions ranked by artifact contributions and author engagement
 - **[Author Rankings]({{ '/authors.html' | relative_url }})** — Individual authors ranked by artifact evaluation impact
 - **[Statistics]({{ '/statistics/' | relative_url }})** — Artifact evaluation trends by country and continent
