@@ -45,19 +45,29 @@ layout: default
   font-size: 1.1em;
 }
 .controls {
-  margin: 12px 0;
+  margin: 6px 0;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
   flex-wrap: wrap;
 }
+.pagination-controls {
+  margin-top: 6px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.9em;
+}
+.pagination-controls button {
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
 .search-box {
-  padding: 6px 10px;
+  padding: 2px 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 0.9em;
-  flex: 1;
-  min-width: 250px;
+  font-size: 1em;
+  width: 200px;
 }
 .filter-info {
   color: #666;
@@ -89,13 +99,13 @@ layout: default
 .stats-box {
   background: #f9f9f9;
   border: 1px solid #ddd;
-  padding: 8px 15px;
+  padding: 4px 12px;
   border-radius: 4px;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 }
 .stats-box p {
-  margin: 0;
-  font-size: 0.95em;
+  margin: 2px 0;
+  font-size: 0.9em;
 }
 .loading {
   text-align: center;
@@ -117,12 +127,12 @@ layout: default
 <h2>Artifact Citations Ranking</h2>
 
 <div class="stats-box">
-  <p><strong id="total-artifacts">Loading...</strong> artifacts with citations</p>
-  <p>Showing artifacts that have been cited by other research papers (via DOI). <em id="data-status"></em></p>
+  <p><strong id="total-artifacts">Loading...</strong> artifacts with citations. <em id="data-status"></em></p>
 </div>
 
 <div class="controls">
-  <input type="text" id="search-box" class="search-box" placeholder="Search by artifact title, author, or institution...">
+  <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
+  <input type="text" id="search-box" class="search-box" placeholder="Filter by title, author, institution...">
   <span class="filter-info" id="filter-info"></span>
 </div>
 
@@ -130,13 +140,23 @@ layout: default
   <div class="loading">Loading artifact citations...</div>
 </div>
 
+<div class="pagination-controls" id="pagination-bottom" style="display:none;">
+  <button id="prevBtn">&laquo; Prev</button>
+  <span id="pageInfo"></span>
+  <button id="nextBtn">Next &raquo;</button>
+  <span id="totalInfo" style="margin-left:12px; color:#666;"></span>
+</div>
+
 <script>
 (function() {
   const DATA_URL = '{{ "/assets/data/cited_artifacts_list.json" | relative_url }}';
+  const baseUrl = '{{ "" | relative_url }}';
   let allArtifacts = [];
   let filteredArtifacts = [];
   let sortColumn = null;
   let sortDesc = true;
+  let currentPage = 0;
+  let pageSize = 25;
 
   function escHtml(s) {
     if (!s) return '';
@@ -146,8 +166,15 @@ layout: default
   function renderTable(artifacts) {
     if (artifacts.length === 0) {
       document.getElementById('table-container').innerHTML = '<p style="text-align:center;color:#999;">No artifacts found</p>';
+      document.getElementById('pagination-bottom').style.display = 'none';
       return;
     }
+
+    // Pagination
+    const totalPages = Math.ceil(artifacts.length / pageSize);
+    const startIdx = currentPage * pageSize;
+    const endIdx = Math.min(startIdx + pageSize, artifacts.length);
+    const pageArtifacts = artifacts.slice(startIdx, endIdx);
 
     let html = '<table id="citations-table"><thead><tr>' +
       '<th data-col="citations" style="width:80px;">Citations</th>' +
@@ -158,18 +185,25 @@ layout: default
       '<th data-col="institutions">Institutions</th>' +
       '</tr></thead><tbody>';
 
-    for (let i = 0; i < artifacts.length; i++) {
-      const art = artifacts[i];
-      const authorsHtml = (art.authors || []).map(a => 
-        `<span class="author-tag" data-author="${escHtml(a)}">${escHtml(a)}</span>`
-      ).join('');
+    for (let i = 0; i < pageArtifacts.length; i++) {
+      const art = pageArtifacts[i];
+      const authorsHtml = (art.authors || []).map(a => {
+        const authorUrl = `${baseUrl}/author.html?author=${encodeURIComponent(a)}`;
+        return `<a href="${authorUrl}" class="author-tag" data-author="${escHtml(a)}">${escHtml(a)}</a>`;
+      }).join('');
       const institutionsHtml = (art.institutions || []).map(inst => 
         `<span class="institution-tag">${escHtml(inst)}</span>`
       ).join('');
+      
+      // Make title clickable with DOI link
+      let titleHtml = `<strong>${escHtml(art.title)}</strong>`;
+      if (art.doi) {
+        titleHtml = `<a href="https://doi.org/${escHtml(art.doi)}" target="_blank" rel="noopener noreferrer"><strong>${escHtml(art.title)}</strong></a>`;
+      }
 
       html += '<tr>' +
         `<td class="citations-count">${art.cited_by_count || 0}</td>` +
-        `<td><strong>${escHtml(art.title)}</strong></td>` +
+        `<td>${titleHtml}</td>` +
         `<td>${escHtml(art.conference || '')}</td>` +
         `<td>${art.year || ''}</td>` +
         `<td>${authorsHtml || '<em style="color:#999;">Unknown</em>'}</td>` +
@@ -180,9 +214,22 @@ layout: default
     html += '</tbody></table>';
     document.getElementById('table-container').innerHTML = html;
 
-    // Add click handlers to author tags
+    // Update pagination controls
+    document.getElementById('pagination-bottom').style.display = 'flex';
+    document.getElementById('pageInfo').textContent = `Page ${currentPage + 1} of ${totalPages}`;
+    document.getElementById('totalInfo').textContent = `Showing ${startIdx + 1}-${endIdx} of ${artifacts.length}`;
+    document.getElementById('prevBtn').disabled = currentPage === 0;
+    document.getElementById('nextBtn').disabled = currentPage >= totalPages - 1;
+
+    // Add click handlers to author tags for filtering
     document.querySelectorAll('.author-tag').forEach(tag => {
       tag.addEventListener('click', function(e) {
+        // Check if it's a genuine click on the tag itself (for filtering)
+        // Links will handle navigation themselves
+        if (e.target.tagName === 'A') {
+          return; // Let the link handle navigation
+        }
+        e.preventDefault();
         e.stopPropagation();
         const author = this.dataset.author;
         document.getElementById('search-box').value = author;
@@ -252,11 +299,13 @@ layout: default
 
     // Update filter info
     if (query) {
-      document.getElementById('filter-info').textContent = `Showing ${filteredArtifacts.length} of ${allArtifacts.length} artifacts`;
+      document.getElementById('filter-info').textContent = `Showing ${filteredArtifacts.length} of ${allArtifacts.length}`;
     } else {
       document.getElementById('filter-info').textContent = '';
     }
 
+    // Reset to first page when filtering
+    currentPage = 0;
     sortColumn = 'citations';
     sortDesc = true;
     sortAndRender();
@@ -265,6 +314,22 @@ layout: default
   // Search box listener
   document.getElementById('search-box').addEventListener('input', function() {
     filterArtifacts(this.value);
+  });
+
+  // Pagination listeners
+  document.getElementById('prevBtn').addEventListener('click', function() {
+    if (currentPage > 0) {
+      currentPage--;
+      renderTable(filteredArtifacts);
+    }
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', function() {
+    const totalPages = Math.ceil(filteredArtifacts.length / pageSize);
+    if (currentPage < totalPages - 1) {
+      currentPage++;
+      renderTable(filteredArtifacts);
+    }
   });
 
   // Load data

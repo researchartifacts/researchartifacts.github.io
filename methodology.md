@@ -203,11 +203,11 @@ To capture research lineage beyond repository engagement metrics, we track acade
 For each artifact record with a Zenodo or Figshare URL, we extract the Digital Object Identifier (DOI) using a two-priority approach:
 
 1. **Zenodo API lookup (preferred for Zenodo records)**: If the URL contains a Zenodo record ID (e.g., `https://zenodo.org/record/7234567`), we query the Zenodo API directly to retrieve the DOI associated with that record. This ensures we capture the **artifact's DOI** rather than any paper DOI that may be embedded elsewhere in the page.
-2. **Direct DOI extraction (fallback)**: 
-   - For direct DOI URLs: Extract DOI directly (e.g., `https://doi.org/10.5281/zenodo.7234567`)
-   - For Zenodo record URLs without explicit DOI: Convert Zenodo record ID to DOI format (`10.5281/zenodo.<record_id>`)
-   - For other archives (GitHub, Figshare): Use regex extraction
-3. **Filtering**: We exclude badge links and other non-archival URLs
+2. **Direct DOI extraction (fallback)**:
+  - For direct DOI URLs: Extract DOI directly (e.g., `https://doi.org/10.5281/zenodo.7234567`)
+  - For Zenodo record URLs without explicit DOI: Convert Zenodo record ID to DOI format (`10.5281/zenodo.<record_id>`)
+  - For other archives (GitHub, Figshare): Use regex extraction
+3. **Filtering**: We keep **only artifact storage DOIs** (currently Zenodo `10.5281/zenodo.*` and Figshare `10.6084/m9.figshare.*`) and drop paper DOIs (e.g., ACM `10.1145/...`)
 
 This approach ensures we consistently retrieve artifact DOIs rather than paper DOIs, improving citation accuracy.
 

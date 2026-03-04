@@ -62,7 +62,7 @@
     'systems': '{{ page.systems_data_url | relative_url }}',
     'security': '{{ page.security_data_url | relative_url }}'
   };
-  var currentArea = 'all';
+  var currentArea = '{{ page.default_area | default: "all" }}';
   var baseUrl = '{{ "" | relative_url }}';
   var allData = [];
   var filteredData = [];
@@ -375,6 +375,9 @@
   }
   document.getElementById('cPrevBtnB').addEventListener('click', goPrev);
   document.getElementById('cNextBtnB').addEventListener('click', goNext);
+
+  // Set initial area selection
+  document.getElementById('areaFilter').value = currentArea;
 
   // Load initial data
   loadArea(currentArea);
