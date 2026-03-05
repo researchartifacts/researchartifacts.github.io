@@ -2,7 +2,7 @@
 title: ""
 ---
 
-**Research artifacts & artifact evaluation (AE)** drive reproducibility and scientific impact. This project tracks and analyzes artifact evaluation outcomes across major [security]({{ '/security/' | relative_url }}) and [systems]({{ '/systems/' | relative_url }}) conferences, recognizing the contributions of both artifact authors and artifact evaluation committees.
+**Research artifacts & artifact evaluation (AE)** drive reproducibility and scientific impact. This project analyzes and makes accessible artifact evaluation outcomes across major [security]({{ '/security/' | relative_url }}) and [systems]({{ '/systems/' | relative_url }}) conferences, recognizing the contributions of both artifact authors and artifact evaluation committees.
 
 <div id="search-container" style="max-width:720px; margin:2em auto; text-align:center;">
   <div style="position:relative; width:100%;">
