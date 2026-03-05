@@ -219,6 +219,7 @@ title: ""
 
       // Line 4: Links
       var links = [];
+      if (d.doi_url) links.push('<a href="' + escHtml(d.doi_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Paper</a>');
       if (d.repository_url) links.push('<a href="' + escHtml(d.repository_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Repository</a>');
       if (d.artifact_url) links.push('<a href="' + escHtml(d.artifact_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Artifact</a>');
       if (d.artifact_urls) {
