@@ -323,29 +323,6 @@ title: "Artifact Evaluation across Security & Systems Conferences"
 })();
 </script>
 
-## API Access
-
-The full artifact dataset is available as a public JSON endpoint for programmatic access:
-
-```
-GET {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json
-```
-
-Returns an array of all {{ site.data.summary.total_artifacts }} artifacts with title, authors, affiliations, conference, year, badges, and repository/artifact URLs. No authentication required.
-
-Example using `curl`:
-
-```bash
-# Get all artifacts
-curl -s {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-# Filter: fuzzing papers from 2024
-results = [a for a in data if 'fuzz' in a['title'].lower() and a['year'] == 2024]
-print(json.dumps(results, indent=2))
-"
-```
-
 ## Data Sources
 
 - **[sysartifacts.github.io](https://sysartifacts.github.io)** — Systems conference artifact evaluation results (EuroSys, OSDI, SC, SOSP)

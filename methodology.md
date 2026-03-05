@@ -75,6 +75,7 @@ Explore detailed insights across institutions, authors, and conferences:
   - [Zenodo/Figshare Metrics](#zenodofigshare-metrics)
 - [Artifact Citations (Experimental)](#artifact-citations-experimental)
   - [Why Citation Data Is Not Included in Rankings](#why-citation-data-is-not-included-in-rankings)
+- [API Access](#api-access)
 
 ## Conferences Covered
 
@@ -267,3 +268,28 @@ OpenAlex reported 14 artifacts with a total of 43 citing DOIs. We verified each 
 Because current bibliographic indexes do not reliably distinguish artifact citations from paper citations, **citation counts are excluded from the combined score and ranking tables**. The citation collection pipeline remains available as an optional, experimental module for future use as citation infrastructure matures.
 
 See the [verification scripts and detailed results](https://github.com/researchartifacts/artifact_analysis) for the full analysis.
+
+---
+
+## API Access
+
+The full artifact dataset is available as a public JSON endpoint for programmatic access:
+
+```
+GET {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json
+```
+
+Returns an array of all {{ site.data.summary.total_artifacts }} artifacts with title, authors, affiliations, conference, year, badges, and repository/artifact URLs. No authentication required.
+
+Example using `curl`:
+
+```bash
+# Get all artifacts
+curl -s {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+# Filter: fuzzing papers from 2024
+results = [a for a in data if 'fuzz' in a['title'].lower() and a['year'] == 2024]
+print(json.dumps(results, indent=2))
+"
+```
