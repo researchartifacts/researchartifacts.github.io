@@ -27,6 +27,7 @@ This page explains how we collect, process, and analyze artifact evaluation data
   - [GitHub/GitLab Metrics](#githubgitlab-metrics)
   - [Zenodo/Figshare Metrics](#zenodofigshare-metrics)
 - [Artifact Citations (Experimental)](#artifact-citations-experimental)
+  - [Why Citation Data Is Not Included in Rankings](#why-citation-data-is-not-included-in-rankings)
 
 ## Conferences Covered
 

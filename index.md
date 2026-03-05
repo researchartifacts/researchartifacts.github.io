@@ -37,8 +37,8 @@ Each cell shows **total (available, functional, reproduced)**.
 Researchers contribute through artifact publication and AE committee service. The [author ranking]({{ '/combined_rankings.html' | relative_url }}) combines both contributions into a unified score recognizing dual impact. Below are the top 10 most prolific contributors:
 
 <table id="top10Table">
-<thead><tr><th>#</th><th>Name</th><th>Affiliation</th><th>Ar</th><th>AE</th><th>Ch</th><th>Score</th></tr></thead>
-<tbody><tr><td colspan="7"><em>Loading…</em></td></tr></tbody>
+<thead><tr><th>#</th><th>Name</th><th>Affiliation</th><th>Ar</th><th>AE</th><th>Ch</th><th>AS</th><th>AES</th><th>S</th></tr></thead>
+<tbody><tr><td colspan="9"><em>Loading…</em></td></tr></tbody>
 </table>
 
 ## Statistics & Analysis
@@ -73,6 +73,8 @@ Explore detailed insights across institutions, authors, and conferences:
           + '<td>' + (e.artifacts||0) + '</td>'
           + '<td>' + (e.ae_memberships||0) + '</td>'
           + '<td>' + (e.chair_count||0) + '</td>'
+          + '<td>' + (e.artifact_score||0) + '</td>'
+          + '<td>' + (e.ae_score||0) + '</td>'
           + '<td><strong>' + (e.combined_score||0) + '</strong></td>';
         tbody.appendChild(tr);
       });
