@@ -30,30 +30,16 @@ title: "Artifact Evaluation across Security & Systems Conferences"
   <button id="downloadBtn" onclick="downloadResults()" style="display:none; margin-left:10px; padding:4px 14px; border:1px solid #ccc; border-radius:4px; background:#fff; cursor:pointer; font-size:0.9em; vertical-align:middle;">⬇ Download JSON</button>
 </div>
 
-<div id="results-container" style="margin-top:1em; overflow-x:auto;">
-  <table id="resultsTable" style="width:100%; border-collapse:collapse; font-size:0.9em; display:none; table-layout:fixed;">
-    <colgroup>
-      <col style="width:22%">
-      <col style="width:22%">
-      <col style="width:14%">
-      <col style="width:8%">
-      <col style="width:5%">
-      <col style="width:18%">
-      <col style="width:11%">
-    </colgroup>
-    <thead>
-      <tr style="background:#f5f5f5; text-align:left;">
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd; cursor:pointer;" onclick="sortResults('title')">Title ⇅</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd;">Authors</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd;">Affiliations</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd; cursor:pointer;" onclick="sortResults('venue')">Venue ⇅</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd; cursor:pointer;" onclick="sortResults('year')">Year ⇅</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd;">Badges</th>
-        <th style="padding:8px 10px; border-bottom:2px solid #ddd;">Links</th>
-      </tr>
-    </thead>
-    <tbody id="resultsBody"></tbody>
-  </table>
+<div id="sort-controls" style="margin-top:1em; margin-bottom:8px; display:none; font-size:0.9em; color:#555;">
+  Sort by:
+  <a href="#" onclick="sortResults('year'); return false;" style="margin-left:6px;">Year</a> ·
+  <a href="#" onclick="sortResults('title'); return false;">Title</a> ·
+  <a href="#" onclick="sortResults('venue'); return false;">Venue</a>
+</div>
+
+<div id="results-container">
+  <div id="resultsList" style="display:none;"></div>
+  <div id="noResults" style="display:none; padding:16px; text-align:center; color:#999;">No artifacts found matching your search.</div>
 </div>
 
 <div id="pagination" style="margin-top:12px; text-align:center; display:none;">
@@ -169,9 +155,10 @@ title: "Artifact Evaluation across Security & Systems Conferences"
   }
 
   function renderResults() {
-    var table = document.getElementById('resultsTable');
-    var tbody = document.getElementById('resultsBody');
+    var list = document.getElementById('resultsList');
+    var noRes = document.getElementById('noResults');
     var pagination = document.getElementById('pagination');
+    var sortCtrl = document.getElementById('sort-controls');
     var status = document.getElementById('searchStatus');
     var query = document.getElementById('searchBox').value.trim();
     var yearVal = document.getElementById('yearFilter').value;
@@ -179,8 +166,10 @@ title: "Artifact Evaluation across Security & Systems Conferences"
     var areaVal = document.getElementById('areaFilter').value;
 
     if (!query && !yearVal && !venueVal && !areaVal) {
-      table.style.display = 'none';
+      list.style.display = 'none';
+      noRes.style.display = 'none';
       pagination.style.display = 'none';
+      sortCtrl.style.display = 'none';
       document.getElementById('downloadBtn').style.display = 'none';
       status.textContent = allData.length + ' artifacts available. Type a query or select a filter to search.';
       return;
@@ -190,74 +179,66 @@ title: "Artifact Evaluation across Security & Systems Conferences"
     var start = (currentPage - 1) * pageSize;
     var pageData = filtered.slice(start, start + pageSize);
 
-    tbody.innerHTML = '';
+    list.innerHTML = '';
     if (filtered.length === 0) {
-      table.style.display = 'table';
-      tbody.innerHTML = '<tr><td colspan="7" style="padding:16px; text-align:center; color:#999;">No artifacts found matching your search.</td></tr>';
+      list.style.display = 'none';
+      noRes.style.display = 'block';
       pagination.style.display = 'none';
+      sortCtrl.style.display = 'none';
       document.getElementById('downloadBtn').style.display = 'none';
       status.textContent = '0 results';
       return;
     }
 
+    noRes.style.display = 'none';
     pageData.forEach(function(d) {
-      var tr = document.createElement('tr');
-      tr.style.borderBottom = '1px solid #eee';
+      var entry = document.createElement('div');
+      entry.style.cssText = 'padding:10px 0; border-bottom:1px solid #eee;';
 
-      // Title
-      var titleHtml = escHtml(d.title);
+      // Line 1: Bold title (linked to first available URL)
+      var titleLink = d.repository_url || d.artifact_url || '';
+      var titleHtml = titleLink
+        ? '<a href="' + escHtml(titleLink) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + escHtml(d.title) + '</a>'
+        : escHtml(d.title);
 
-      // Authors (truncate if many)
+      // Line 2: Authors (clickable) with affiliations
       var authorsArr = d.authors || [];
-      var authorsHtml = authorsArr.length > 0
-        ? authorsArr.map(function(a) {
-            var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(a);
-            return '<a href="' + profileUrl + '" style="color:#0066cc;text-decoration:none;">' + escHtml(a) + '</a>';
-          }).join(', ')
-        : '<span style="color:#999;">—</span>';
+      var authorsHtml = authorsArr.map(function(a) {
+        var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(a);
+        return '<a href="' + profileUrl + '" style="color:#0066cc; text-decoration:none;">' + escHtml(a) + '</a>';
+      }).join(', ');
+      var affArr = d.affiliations || [];
+      var affStr = affArr.length > 0 ? ' (' + escHtml(affArr.join(', ')) + ')' : '';
+      var authorsLine = authorsHtml ? authorsHtml + affStr : '';
 
-      // Affiliations
-      var affHtml = (d.affiliations || []).length > 0
-        ? escHtml(d.affiliations.join(', '))
-        : '<span style="color:#999;">—</span>';
-
-      // Venue
-      var venueHtml = escHtml(d.conference);
-
-      // Year
-      var yearHtml = String(d.year);
-
-      // Badges
-      var badgesHtml = (d.badges || []).map(function(b) {
-        return '<span style="display:inline-block; padding:1px 5px; margin:1px 0; border-radius:3px; background:#e8f5e9; font-size:0.8em;">' + badgeLabel(b) + '</span>';
+      // Line 3: Venue, Year, Badges
+      var badges = (d.badges || []).map(function(b) {
+        return '<span style="display:inline-block; padding:1px 5px; margin:0 2px; border-radius:3px; background:#e8f5e9; font-size:0.85em;">' + badgeLabel(b) + '</span>';
       }).join(' ');
+      var metaLine = escHtml(d.conference) + ' ' + d.year + (badges ? ' &middot; ' + badges : '');
 
-      // Links
+      // Line 4: Links
       var links = [];
-      var repoUrl = d.repository_url || '';
-      var artUrl = d.artifact_url || '';
-      if (repoUrl) links.push('<a href="' + escHtml(repoUrl) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;" title="Repository">📂 Repo</a>');
-      if (artUrl) links.push('<a href="' + escHtml(artUrl) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;" title="Artifact">📎 Artifact</a>');
+      if (d.repository_url) links.push('<a href="' + escHtml(d.repository_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Repository</a>');
+      if (d.artifact_url) links.push('<a href="' + escHtml(d.artifact_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Artifact</a>');
       if (d.artifact_urls) {
         d.artifact_urls.forEach(function(u, i) {
-          if (u && links.length < 4) links.push('<a href="' + escHtml(u) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;" title="Artifact">📎 #' + (i+1) + '</a>');
+          if (u) links.push('<a href="' + escHtml(u) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Artifact #' + (i+1) + '</a>');
         });
       }
-      var linksHtml = links.length > 0 ? links.join('<br>') : '<span style="color:#999;">—</span>';
+      var linksLine = links.length > 0 ? links.join(' &middot; ') : '';
 
-      var cellBase = 'padding:6px 10px; overflow:hidden; overflow-wrap:break-word; word-wrap:break-word; vertical-align:top;';
-      tr.innerHTML =
-        '<td style="' + cellBase + '">' + titleHtml + '</td>' +
-        '<td style="' + cellBase + '">' + authorsHtml + '</td>' +
-        '<td style="' + cellBase + '">' + affHtml + '</td>' +
-        '<td style="' + cellBase + '">' + venueHtml + '</td>' +
-        '<td style="' + cellBase + '">' + yearHtml + '</td>' +
-        '<td style="' + cellBase + '">' + badgesHtml + '</td>' +
-        '<td style="' + cellBase + '">' + linksHtml + '</td>';
-      tbody.appendChild(tr);
+      entry.innerHTML =
+        '<div style="font-weight:bold; font-size:1em; line-height:1.4;">' + titleHtml + '</div>' +
+        (authorsLine ? '<div style="font-style:italic; color:#444; font-size:0.92em; line-height:1.4; margin-top:2px;">' + authorsLine + '</div>' : '') +
+        '<div style="font-size:0.9em; color:#555; margin-top:2px;">' + metaLine + '</div>' +
+        (linksLine ? '<div style="font-size:0.88em; margin-top:2px;">' + linksLine + '</div>' : '');
+
+      list.appendChild(entry);
     });
 
-    table.style.display = 'table';
+    list.style.display = 'block';
+    sortCtrl.style.display = 'block';
     status.textContent = filtered.length + ' result' + (filtered.length !== 1 ? 's' : '') + ' found';
     document.getElementById('downloadBtn').style.display = filtered.length > 0 ? 'inline-block' : 'none';
     pagination.style.display = maxPage > 1 ? 'block' : 'none';
