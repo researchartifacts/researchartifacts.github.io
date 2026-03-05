@@ -11,7 +11,7 @@ title: "Artifact Evaluation across Security & Systems Conferences"
       onfocus="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.12)'; this.style.borderColor='#4285f4';"
       onblur="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#ddd';"
       autocomplete="off">
-    <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); color:#999; font-size:1.2em; pointer-events:none;">&#128269;</span>
+    <svg style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
   </div>
   <div id="filters" style="margin-top:12px; display:flex; flex-wrap:wrap; gap:10px; justify-content:center; align-items:center;">
     <select id="yearFilter" style="padding:8px 12px; border:1px solid #ccc; border-radius:6px; font-size:0.95em; background:#fff;">
