@@ -5,9 +5,9 @@ title: "Artifact Evaluation across Security & Systems Conferences"
 **Research artifacts & artifact evaluation (AE)** drive reproducibility and scientific impact. This project tracks and analyzes artifact evaluation outcomes across major [security]({{ '/security/' | relative_url }}) and [systems]({{ '/systems/' | relative_url }}) conferences, recognizing the contributions of both artifact authors and artifact evaluation committees.
 
 <div id="search-container" style="max-width:720px; margin:2em auto; text-align:center;">
-  <div style="position:relative; display:inline-block; width:100%;">
+  <div style="position:relative; width:100%;">
     <input id="searchBox" type="text" placeholder="Search artifacts by title, author, affiliation, or venue…"
-      style="width:100%; padding:14px 48px 14px 20px; font-size:1.1em; border:2px solid #ddd; border-radius:28px; outline:none; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition: box-shadow 0.2s, border-color 0.2s;"
+      style="display:block; width:100%; padding:14px 48px 14px 20px; font-size:1.1em; border:2px solid #ddd; border-radius:28px; outline:none; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition: box-shadow 0.2s, border-color 0.2s; box-sizing:border-box;"
       onfocus="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.12)'; this.style.borderColor='#4285f4';"
       onblur="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'; this.style.borderColor='#ddd';"
       autocomplete="off">
