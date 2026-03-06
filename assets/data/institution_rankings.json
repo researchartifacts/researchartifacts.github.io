@@ -1118,21 +1118,21 @@
   },
   {
     "affiliation": "Microsoft Research",
-    "combined_score": 353,
-    "artifact_score": 239,
-    "artifact_citations": 1,
-    "citation_score": 1,
+    "combined_score": 350,
+    "artifact_score": 237,
+    "artifact_citations": 0,
+    "citation_score": 0,
     "ae_score": 113,
-    "ae_ratio": 2.12,
+    "ae_ratio": 2.1,
     "role": "Producer",
-    "artifacts": 92,
-    "badges_functional": 79,
+    "artifacts": 91,
+    "badges_functional": 78,
     "badges_reproducible": 68,
     "ae_memberships": 37,
     "chair_count": 1,
-    "total_papers": 155,
-    "artifact_rate": 59.4,
-    "num_authors": 39,
+    "total_papers": 154,
+    "artifact_rate": 59.1,
+    "num_authors": 38,
     "top_authors": [
       {
         "name": "Jing Liu 0074",
@@ -1334,7 +1334,7 @@
       "2025": 17,
       "2024": 18,
       "2023": 31,
-      "2022": 32,
+      "2022": 31,
       "2021": 14,
       "2020": 11,
       "2026": 2,
@@ -2913,10 +2913,10 @@
   },
   {
     "affiliation": "Hong Kong University of Science and Technology",
-    "combined_score": 238,
+    "combined_score": 237,
     "artifact_score": 105,
-    "artifact_citations": 1,
-    "citation_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
     "ae_score": 132,
     "ae_ratio": 0.8,
     "role": "Balanced",
@@ -3002,15 +3002,6 @@
         "total_papers": 1
       },
       {
-        "name": "Xinlei He 0001",
-        "affiliation": "Hong Kong University of Science and Technology",
-        "combined_score": 9,
-        "artifacts": 3,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 9
-      },
-      {
         "name": "Zongjie Li",
         "affiliation": "Hong Kong University of Science and Technology",
         "combined_score": 8,
@@ -3027,6 +3018,15 @@
         "artifact_citations": 0,
         "ae_memberships": 0,
         "total_papers": 7
+      },
+      {
+        "name": "Xinlei He 0001",
+        "affiliation": "Hong Kong University of Science and Technology",
+        "combined_score": 8,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 9
       },
       {
         "name": "Lingyun Yang",
@@ -3349,228 +3349,6 @@
       "2022": 14,
       "2021": 1,
       "2020": 4,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "Chinese University of Hong Kong",
-    "combined_score": 219,
-    "artifact_score": 56,
-    "artifact_citations": 52,
-    "citation_score": 52,
-    "ae_score": 111,
-    "ae_ratio": 0.5,
-    "role": "Balanced",
-    "artifacts": 24,
-    "badges_functional": 17,
-    "badges_reproducible": 15,
-    "ae_memberships": 37,
-    "chair_count": 0,
-    "total_papers": 33,
-    "artifact_rate": 72.7,
-    "num_authors": 27,
-    "top_authors": [
-      {
-        "name": "Boyang Li 0016",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 55,
-        "artifacts": 1,
-        "artifact_citations": 52,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Boxi Yu",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 12,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 0
-      },
-      {
-        "name": "Xin Tan",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 12,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 0
-      },
-      {
-        "name": "Sherman S. M. Chow",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 12,
-        "artifacts": 5,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 10
-      },
-      {
-        "name": "Yu Zheng",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 10,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 2
-      },
-      {
-        "name": "Michael R. Lyu",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 9,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Junliang Hu",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 9,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Qiuping Wang",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 9,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 2
-      },
-      {
-        "name": "Yongjun Zhao 0001",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 8,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 1
-      },
-      {
-        "name": "Kaixuan Luo",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 7,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 1
-      },
-      {
-        "name": "Aoyang Fang, The Chinese University of Hong Kong, Shenzhen",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Boxi Yu, The Chinese University of Hong Kong, Shenzhen",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Jiangfei Duan, The Chinese University of Hong Kong",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Qiang Su, The Chinese University of Hong Kong",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Xin Tan, The Chinese University of Hong Kong",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Zhihan Jiang",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Zhihan Jiang, The Chinese University of Hong Kong",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Chao Wang 0125",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 5,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Zili Shao",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 4,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Xianbo Wang",
-        "affiliation": "Chinese University of Hong Kong",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "NDSS",
-      "OSDI",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2025": 15,
-      "2024": 20,
-      "2023": 9,
-      "2022": 5,
-      "2021": 3,
-      "2020": 0,
-      "2026": 5,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -4242,6 +4020,228 @@
     }
   },
   {
+    "affiliation": "Chinese University of Hong Kong",
+    "combined_score": 167,
+    "artifact_score": 56,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 111,
+    "ae_ratio": 0.5,
+    "role": "Balanced",
+    "artifacts": 24,
+    "badges_functional": 17,
+    "badges_reproducible": 15,
+    "ae_memberships": 37,
+    "chair_count": 0,
+    "total_papers": 33,
+    "artifact_rate": 72.7,
+    "num_authors": 27,
+    "top_authors": [
+      {
+        "name": "Boxi Yu",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 12,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 0
+      },
+      {
+        "name": "Xin Tan",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 12,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 0
+      },
+      {
+        "name": "Sherman S. M. Chow",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 12,
+        "artifacts": 5,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 10
+      },
+      {
+        "name": "Yu Zheng",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 10,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 2
+      },
+      {
+        "name": "Michael R. Lyu",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 9,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Junliang Hu",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 9,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Qiuping Wang",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 9,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 2
+      },
+      {
+        "name": "Yongjun Zhao 0001",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 8,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 1
+      },
+      {
+        "name": "Kaixuan Luo",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 7,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 1
+      },
+      {
+        "name": "Aoyang Fang, The Chinese University of Hong Kong, Shenzhen",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Boxi Yu, The Chinese University of Hong Kong, Shenzhen",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Jiangfei Duan, The Chinese University of Hong Kong",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Qiang Su, The Chinese University of Hong Kong",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Xin Tan, The Chinese University of Hong Kong",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Zhihan Jiang",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Zhihan Jiang, The Chinese University of Hong Kong",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Chao Wang 0125",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 5,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Zili Shao",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 4,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Xianbo Wang",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 4,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Boyang Li 0016",
+        "affiliation": "Chinese University of Hong Kong",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "NDSS",
+      "OSDI",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2022": 5,
+      "2025": 15,
+      "2026": 5,
+      "2024": 20,
+      "2023": 9,
+      "2021": 3,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "KU Leuven",
     "combined_score": 166,
     "artifact_score": 62,
@@ -4642,229 +4642,6 @@
     }
   },
   {
-    "affiliation": "Virginia Tech",
-    "combined_score": 163,
-    "artifact_score": 58,
-    "artifact_citations": 17,
-    "citation_score": 17,
-    "ae_score": 88,
-    "ae_ratio": 0.66,
-    "role": "Balanced",
-    "artifacts": 26,
-    "badges_functional": 22,
-    "badges_reproducible": 10,
-    "ae_memberships": 28,
-    "chair_count": 2,
-    "total_papers": 37,
-    "artifact_rate": 70.3,
-    "num_authors": 25,
-    "top_authors": [
-      {
-        "name": "Peng Gao 0008",
-        "affiliation": "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA",
-        "combined_score": 21,
-        "artifacts": 2,
-        "artifact_citations": 17,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Huaicheng Li",
-        "affiliation": "Virginia Tech",
-        "combined_score": 13,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Dan Williams 0001",
-        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
-        "combined_score": 11,
-        "artifacts": 4,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 5
-      },
-      {
-        "name": "Arman Riasi",
-        "affiliation": "Virginia Tech",
-        "combined_score": 10,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 2
-      },
-      {
-        "name": "Hanchen Xu",
-        "affiliation": "Virginia Tech",
-        "combined_score": 9,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Xiaoguang Wang",
-        "affiliation": "Virginia Tech",
-        "combined_score": 9,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Wenjing Lou",
-        "affiliation": "Virginia Tech, Falls Church, VA, USA",
-        "combined_score": 9,
-        "artifacts": 4,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 6
-      },
-      {
-        "name": "Y. Thomas Hou 0001",
-        "affiliation": "Virginia Tech, Blacksburg, Virginia, USA",
-        "combined_score": 9,
-        "artifacts": 4,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 6
-      },
-      {
-        "name": "Zhengjie Ji",
-        "affiliation": "Virginia Tech",
-        "combined_score": 9,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Sumit Kumar Monga",
-        "affiliation": "Virginia Tech",
-        "combined_score": 8,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 2
-      },
-      {
-        "name": "Sam H. Noh",
-        "affiliation": "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA",
-        "combined_score": 6,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      },
-      {
-        "name": "Jae-Won Jang",
-        "affiliation": "Virginia Tech",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Sijia Li",
-        "affiliation": "Virginia Tech",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Abdul Haddi Amjad",
-        "affiliation": "Virginia Tech",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 1
-      },
-      {
-        "name": "Joshua A. Bockenek",
-        "affiliation": "Virginia Tech",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Kavya Shekar",
-        "affiliation": "Virginia Tech",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Danfeng Yao",
-        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
-        "combined_score": 3,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Ming Jin 0002",
-        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Ruoxi Jia 0001",
-        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Yi Zeng 0005",
-        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 2
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "NDSS",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 8,
-      "2025": 12,
-      "2024": 8,
-      "2023": 10,
-      "2022": 10,
-      "2021": 4,
-      "2020": 2,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Massachusetts Institute of Technology",
     "combined_score": 155,
     "artifact_score": 98,
@@ -5085,229 +4862,6 @@
       "2019": 0,
       "2018": 0,
       "2017": 1
-    }
-  },
-  {
-    "affiliation": "Stony Brook University",
-    "combined_score": 148,
-    "artifact_score": 51,
-    "artifact_citations": 19,
-    "citation_score": 19,
-    "ae_score": 78,
-    "ae_ratio": 0.65,
-    "role": "Balanced",
-    "artifacts": 20,
-    "badges_functional": 15,
-    "badges_reproducible": 16,
-    "ae_memberships": 26,
-    "chair_count": 0,
-    "total_papers": 43,
-    "artifact_rate": 46.5,
-    "num_authors": 23,
-    "top_authors": [
-      {
-        "name": "Ting Wang 0006",
-        "affiliation": "Stony Brook University",
-        "combined_score": 22,
-        "artifacts": 3,
-        "artifact_citations": 17,
-        "ae_memberships": 0,
-        "total_papers": 17
-      },
-      {
-        "name": "Johnny So",
-        "affiliation": "Stony Brook University",
-        "combined_score": 18,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 2
-      },
-      {
-        "name": "Sanket Goutam",
-        "affiliation": "Stony Brook University",
-        "combined_score": 18,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 5,
-        "total_papers": 1
-      },
-      {
-        "name": "Billy Tsouvalas",
-        "affiliation": "Stony Brook University",
-        "combined_score": 9,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Shuai Mu 0001",
-        "affiliation": "Stony Brook University",
-        "combined_score": 8,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 6
-      },
-      {
-        "name": "Weihai Shen",
-        "affiliation": "Stony Brook University",
-        "combined_score": 6,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 3
-      },
-      {
-        "name": "Amoghavarsha Suresh",
-        "affiliation": "Stony Brook University",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Sergey Madaminov",
-        "affiliation": "Stony Brook University",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Babak Amin Azad",
-        "affiliation": "Stony Brook University",
-        "combined_score": 6,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Huan Nguyen 0004",
-        "affiliation": "Stony Brook University",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "R. Sekar 0001",
-        "affiliation": "Stony Brook University",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      },
-      {
-        "name": "Jun Yuan 0006",
-        "affiliation": "Stony Brook University",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Michael A. Bender",
-        "affiliation": "Stony Brook University",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Seyedhamed Ghavamnia",
-        "affiliation": "Stony Brook University",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Scott A. Smolka",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Divyaank Tiwari",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Ibrahim Umit Akgun",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Mohsen \"Clay\" Bagheri",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Arie E. Kaufman",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Muhammad Muzammil",
-        "affiliation": "Stony Brook University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "EUROSYS",
-      "FAST",
-      "NDSS",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC",
-      "WOOT"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 8,
-      "2024": 6,
-      "2023": 8,
-      "2022": 8,
-      "2021": 2,
-      "2020": 8,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
     }
   },
   {
@@ -5730,6 +5284,229 @@
       "2021": 4,
       "2020": 3,
       "2026": 2,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Virginia Tech",
+    "combined_score": 146,
+    "artifact_score": 58,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 88,
+    "ae_ratio": 0.66,
+    "role": "Balanced",
+    "artifacts": 26,
+    "badges_functional": 22,
+    "badges_reproducible": 10,
+    "ae_memberships": 28,
+    "chair_count": 2,
+    "total_papers": 37,
+    "artifact_rate": 70.3,
+    "num_authors": 25,
+    "top_authors": [
+      {
+        "name": "Huaicheng Li",
+        "affiliation": "Virginia Tech",
+        "combined_score": 13,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Dan Williams 0001",
+        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
+        "combined_score": 11,
+        "artifacts": 4,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 5
+      },
+      {
+        "name": "Arman Riasi",
+        "affiliation": "Virginia Tech",
+        "combined_score": 10,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 2
+      },
+      {
+        "name": "Hanchen Xu",
+        "affiliation": "Virginia Tech",
+        "combined_score": 9,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Xiaoguang Wang",
+        "affiliation": "Virginia Tech",
+        "combined_score": 9,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Wenjing Lou",
+        "affiliation": "Virginia Tech, Falls Church, VA, USA",
+        "combined_score": 9,
+        "artifacts": 4,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 6
+      },
+      {
+        "name": "Y. Thomas Hou 0001",
+        "affiliation": "Virginia Tech, Blacksburg, Virginia, USA",
+        "combined_score": 9,
+        "artifacts": 4,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 6
+      },
+      {
+        "name": "Zhengjie Ji",
+        "affiliation": "Virginia Tech",
+        "combined_score": 9,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Sumit Kumar Monga",
+        "affiliation": "Virginia Tech",
+        "combined_score": 8,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 2
+      },
+      {
+        "name": "Sam H. Noh",
+        "affiliation": "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA",
+        "combined_score": 6,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      },
+      {
+        "name": "Jae-Won Jang",
+        "affiliation": "Virginia Tech",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Sijia Li",
+        "affiliation": "Virginia Tech",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Peng Gao 0008",
+        "affiliation": "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA",
+        "combined_score": 4,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Abdul Haddi Amjad",
+        "affiliation": "Virginia Tech",
+        "combined_score": 4,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 1
+      },
+      {
+        "name": "Joshua A. Bockenek",
+        "affiliation": "Virginia Tech",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Kavya Shekar",
+        "affiliation": "Virginia Tech",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Danfeng Yao",
+        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
+        "combined_score": 3,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Ming Jin 0002",
+        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Ruoxi Jia 0001",
+        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Yi Zeng 0005",
+        "affiliation": "Virginia Tech, Blacksburg, VA, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "NDSS",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2021": 4,
+      "2024": 8,
+      "2025": 12,
+      "2023": 10,
+      "2022": 10,
+      "2020": 2,
+      "2026": 8,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -6173,6 +5950,229 @@
       "2021": 1,
       "2020": 3,
       "2026": 5,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Stony Brook University",
+    "combined_score": 129,
+    "artifact_score": 51,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 78,
+    "ae_ratio": 0.65,
+    "role": "Balanced",
+    "artifacts": 20,
+    "badges_functional": 15,
+    "badges_reproducible": 16,
+    "ae_memberships": 26,
+    "chair_count": 0,
+    "total_papers": 43,
+    "artifact_rate": 46.5,
+    "num_authors": 23,
+    "top_authors": [
+      {
+        "name": "Johnny So",
+        "affiliation": "Stony Brook University",
+        "combined_score": 18,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 2
+      },
+      {
+        "name": "Sanket Goutam",
+        "affiliation": "Stony Brook University",
+        "combined_score": 18,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 5,
+        "total_papers": 1
+      },
+      {
+        "name": "Billy Tsouvalas",
+        "affiliation": "Stony Brook University",
+        "combined_score": 9,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Shuai Mu 0001",
+        "affiliation": "Stony Brook University",
+        "combined_score": 8,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 6
+      },
+      {
+        "name": "Weihai Shen",
+        "affiliation": "Stony Brook University",
+        "combined_score": 6,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 3
+      },
+      {
+        "name": "Amoghavarsha Suresh",
+        "affiliation": "Stony Brook University",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Sergey Madaminov",
+        "affiliation": "Stony Brook University",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Babak Amin Azad",
+        "affiliation": "Stony Brook University",
+        "combined_score": 6,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Ting Wang 0006",
+        "affiliation": "Stony Brook University",
+        "combined_score": 5,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 17
+      },
+      {
+        "name": "Huan Nguyen 0004",
+        "affiliation": "Stony Brook University",
+        "combined_score": 5,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "R. Sekar 0001",
+        "affiliation": "Stony Brook University",
+        "combined_score": 5,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      },
+      {
+        "name": "Seyedhamed Ghavamnia",
+        "affiliation": "Stony Brook University",
+        "combined_score": 4,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Jun Yuan 0006",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Michael A. Bender",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Scott A. Smolka",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Divyaank Tiwari",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Ibrahim Umit Akgun",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Mohsen \"Clay\" Bagheri",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Arie E. Kaufman",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Muhammad Muzammil",
+        "affiliation": "Stony Brook University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "EUROSYS",
+      "FAST",
+      "NDSS",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC",
+      "WOOT"
+    ],
+    "years": {
+      "2026": 3,
+      "2025": 8,
+      "2024": 6,
+      "2023": 8,
+      "2022": 8,
+      "2021": 2,
+      "2020": 8,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -7660,10 +7660,10 @@
   },
   {
     "affiliation": "New York University",
-    "combined_score": 111,
+    "combined_score": 110,
     "artifact_score": 51,
-    "artifact_citations": 1,
-    "citation_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
     "ae_score": 59,
     "ae_ratio": 0.86,
     "role": "Balanced",
@@ -7776,15 +7776,6 @@
         "total_papers": 2
       },
       {
-        "name": "Martin Farach-Colton",
-        "affiliation": "New York University",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
         "name": "Joseph Bonneau",
         "affiliation": "New York University",
         "combined_score": 4,
@@ -7792,6 +7783,15 @@
         "artifact_citations": 0,
         "ae_memberships": 0,
         "total_papers": 2
+      },
+      {
+        "name": "Martin Farach-Colton",
+        "affiliation": "New York University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
       },
       {
         "name": "David Pissarra",
@@ -10673,133 +10673,6 @@
     }
   },
   {
-    "affiliation": "Hong Kong Polytechnic University",
-    "combined_score": 87,
-    "artifact_score": 29,
-    "artifact_citations": 16,
-    "citation_score": 16,
-    "ae_score": 42,
-    "ae_ratio": 0.69,
-    "role": "Balanced",
-    "artifacts": 17,
-    "badges_functional": 7,
-    "badges_reproducible": 5,
-    "ae_memberships": 14,
-    "chair_count": 0,
-    "total_papers": 43,
-    "artifact_rate": 39.5,
-    "num_authors": 10,
-    "top_authors": [
-      {
-        "name": "Xiapu Luo",
-        "affiliation": "Hong Kong Polytechnic University",
-        "combined_score": 30,
-        "artifacts": 8,
-        "artifact_citations": 16,
-        "ae_memberships": 0,
-        "total_papers": 30
-      },
-      {
-        "name": "Ningyu He",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 16,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 5
-      },
-      {
-        "name": "Kunsong Zhao",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 10,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 1
-      },
-      {
-        "name": "Feng Luo",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 7,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Leming Shen",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Zihao Li 0001",
-        "affiliation": "Hong Kong Polytechnic University",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Jinan Jiang",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 1
-      },
-      {
-        "name": "Yifeng Zheng 0001",
-        "affiliation": "Hong Kong Polytechnic University",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Mengling LIU",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Yunpeng Tian",
-        "affiliation": "The Hong Kong Polytechnic University",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "ATC",
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2025": 12,
-      "2024": 4,
-      "2023": 2,
-      "2022": 3,
-      "2021": 0,
-      "2020": 0,
-      "2026": 8,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "University of Hong Kong",
     "combined_score": 86,
     "artifact_score": 41,
@@ -10968,10 +10841,10 @@
   },
   {
     "affiliation": "Cornell University",
-    "combined_score": 83,
+    "combined_score": 82,
     "artifact_score": 25,
-    "artifact_citations": 1,
-    "citation_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
     "ae_score": 57,
     "ae_ratio": 0.44,
     "role": "Consumer",
@@ -11014,9 +10887,9 @@
       {
         "name": "Alex Conway 0001",
         "affiliation": "Cornell University",
-        "combined_score": 7,
+        "combined_score": 6,
         "artifacts": 2,
-        "artifact_citations": 1,
+        "artifact_citations": 0,
         "ae_memberships": 0,
         "total_papers": 3
       },
@@ -11946,156 +11819,6 @@
     }
   },
   {
-    "affiliation": "University of Maryland",
-    "combined_score": 77,
-    "artifact_score": 32,
-    "artifact_citations": 6,
-    "citation_score": 6,
-    "ae_score": 39,
-    "ae_ratio": 0.82,
-    "role": "Balanced",
-    "artifacts": 18,
-    "badges_functional": 8,
-    "badges_reproducible": 6,
-    "ae_memberships": 13,
-    "chair_count": 0,
-    "total_papers": 57,
-    "artifact_rate": 31.6,
-    "num_authors": 12,
-    "top_authors": [
-      {
-        "name": "Zeying Zhu",
-        "affiliation": "University of Maryland",
-        "combined_score": 18,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 5,
-        "total_papers": 1
-      },
-      {
-        "name": "Kevin Bock 0001",
-        "affiliation": "University of Maryland",
-        "combined_score": 13,
-        "artifacts": 3,
-        "artifact_citations": 6,
-        "ae_memberships": 0,
-        "total_papers": 5
-      },
-      {
-        "name": "Nathan Reitinger",
-        "affiliation": "University of Maryland",
-        "combined_score": 8,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 6
-      },
-      {
-        "name": "Michelle L. Mazurek",
-        "affiliation": "University of Maryland",
-        "combined_score": 7,
-        "artifacts": 6,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 27
-      },
-      {
-        "name": "Omer Akgul",
-        "affiliation": "University of Maryland",
-        "combined_score": 7,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 6
-      },
-      {
-        "name": "Runzhou Tao 0001",
-        "affiliation": "University of Maryland",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      },
-      {
-        "name": "Noel Warford",
-        "affiliation": "University of Maryland",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 4
-      },
-      {
-        "name": "Joy Kitson",
-        "affiliation": "University of Maryland",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Bobby Bhattacharjee",
-        "affiliation": "University of Maryland",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Ian Miers",
-        "affiliation": "University of Maryland",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Kyungchan Lim",
-        "affiliation": "University of Maryland",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Shayan Shabihi",
-        "affiliation": "University of Maryland",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "ATC",
-      "FAST",
-      "OSDI",
-      "PETS",
-      "SC",
-      "SOSP",
-      "USENIXSEC",
-      "WOOT"
-    ],
-    "years": {
-      "2025": 7,
-      "2024": 4,
-      "2023": 1,
-      "2022": 5,
-      "2021": 7,
-      "2020": 2,
-      "2026": 2,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Northeastern University",
     "combined_score": 76,
     "artifact_score": 40,
@@ -12746,6 +12469,156 @@
     }
   },
   {
+    "affiliation": "University of Maryland",
+    "combined_score": 71,
+    "artifact_score": 32,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 39,
+    "ae_ratio": 0.82,
+    "role": "Balanced",
+    "artifacts": 18,
+    "badges_functional": 8,
+    "badges_reproducible": 6,
+    "ae_memberships": 13,
+    "chair_count": 0,
+    "total_papers": 57,
+    "artifact_rate": 31.6,
+    "num_authors": 12,
+    "top_authors": [
+      {
+        "name": "Zeying Zhu",
+        "affiliation": "University of Maryland",
+        "combined_score": 18,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 5,
+        "total_papers": 1
+      },
+      {
+        "name": "Nathan Reitinger",
+        "affiliation": "University of Maryland",
+        "combined_score": 8,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 6
+      },
+      {
+        "name": "Michelle L. Mazurek",
+        "affiliation": "University of Maryland",
+        "combined_score": 7,
+        "artifacts": 6,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 27
+      },
+      {
+        "name": "Kevin Bock 0001",
+        "affiliation": "University of Maryland",
+        "combined_score": 7,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 5
+      },
+      {
+        "name": "Omer Akgul",
+        "affiliation": "University of Maryland",
+        "combined_score": 7,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 6
+      },
+      {
+        "name": "Runzhou Tao 0001",
+        "affiliation": "University of Maryland",
+        "combined_score": 5,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      },
+      {
+        "name": "Noel Warford",
+        "affiliation": "University of Maryland",
+        "combined_score": 4,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 4
+      },
+      {
+        "name": "Joy Kitson",
+        "affiliation": "University of Maryland",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Bobby Bhattacharjee",
+        "affiliation": "University of Maryland",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Ian Miers",
+        "affiliation": "University of Maryland",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Kyungchan Lim",
+        "affiliation": "University of Maryland",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Shayan Shabihi",
+        "affiliation": "University of Maryland",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "ATC",
+      "FAST",
+      "OSDI",
+      "PETS",
+      "SC",
+      "SOSP",
+      "USENIXSEC",
+      "WOOT"
+    ],
+    "years": {
+      "2025": 7,
+      "2024": 4,
+      "2023": 1,
+      "2022": 5,
+      "2021": 7,
+      "2020": 2,
+      "2026": 2,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "Fudan University",
     "combined_score": 71,
     "artifact_score": 65,
@@ -12842,6 +12715,133 @@
       "2022": 0,
       "2021": 0,
       "2020": 3,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Hong Kong Polytechnic University",
+    "combined_score": 71,
+    "artifact_score": 29,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 42,
+    "ae_ratio": 0.69,
+    "role": "Balanced",
+    "artifacts": 17,
+    "badges_functional": 7,
+    "badges_reproducible": 5,
+    "ae_memberships": 14,
+    "chair_count": 0,
+    "total_papers": 43,
+    "artifact_rate": 39.5,
+    "num_authors": 10,
+    "top_authors": [
+      {
+        "name": "Ningyu He",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 16,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 5
+      },
+      {
+        "name": "Xiapu Luo",
+        "affiliation": "Hong Kong Polytechnic University",
+        "combined_score": 14,
+        "artifacts": 8,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 30
+      },
+      {
+        "name": "Kunsong Zhao",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 10,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 1
+      },
+      {
+        "name": "Feng Luo",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 7,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Leming Shen",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Zihao Li 0001",
+        "affiliation": "Hong Kong Polytechnic University",
+        "combined_score": 5,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Jinan Jiang",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 4,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 1
+      },
+      {
+        "name": "Yifeng Zheng 0001",
+        "affiliation": "Hong Kong Polytechnic University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Mengling LIU",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Yunpeng Tian",
+        "affiliation": "The Hong Kong Polytechnic University",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "ATC",
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 8,
+      "2025": 12,
+      "2024": 4,
+      "2023": 2,
+      "2022": 3,
+      "2021": 0,
+      "2020": 0,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -12998,89 +12998,6 @@
     }
   },
   {
-    "affiliation": "Meta",
-    "combined_score": 70,
-    "artifact_score": 15,
-    "artifact_citations": 52,
-    "citation_score": 52,
-    "ae_score": 3,
-    "ae_ratio": 5.0,
-    "role": "Producer",
-    "artifacts": 5,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 9,
-    "artifact_rate": 55.6,
-    "num_authors": 5,
-    "top_authors": [
-      {
-        "name": "Yidi Wu 0001",
-        "affiliation": "Meta, USA",
-        "combined_score": 58,
-        "artifacts": 2,
-        "artifact_citations": 52,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Konstantinos Karanasos",
-        "affiliation": "Meta, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Tianqi Tang 0001",
-        "affiliation": "Meta, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Cornelius Aschermann",
-        "affiliation": "Meta",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      },
-      {
-        "name": "Ravi Prakash Giri",
-        "affiliation": "Meta",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 2,
-      "2021": 2,
-      "2020": 1,
-      "2026": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "City University of Hong Kong",
     "combined_score": 70,
     "artifact_score": 13,
@@ -13222,116 +13139,6 @@
       "2024": 4,
       "2026": 2,
       "2025": 7,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "University at Buffalo",
-    "combined_score": 67,
-    "artifact_score": 20,
-    "artifact_citations": 8,
-    "citation_score": 8,
-    "ae_score": 39,
-    "ae_ratio": 0.51,
-    "role": "Balanced",
-    "artifacts": 11,
-    "badges_functional": 6,
-    "badges_reproducible": 3,
-    "ae_memberships": 13,
-    "chair_count": 0,
-    "total_papers": 14,
-    "artifact_rate": 78.6,
-    "num_authors": 8,
-    "top_authors": [
-      {
-        "name": "Yu Nong",
-        "affiliation": "University at Buffalo",
-        "combined_score": 14,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 1
-      },
-      {
-        "name": "Haipeng Cai",
-        "affiliation": "University at Buffalo",
-        "combined_score": 13,
-        "artifacts": 3,
-        "artifact_citations": 8,
-        "ae_memberships": 0,
-        "total_papers": 5
-      },
-      {
-        "name": "Feng Wei",
-        "affiliation": "University at Buffalo",
-        "combined_score": 13,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 4,
-        "total_papers": 1
-      },
-      {
-        "name": "Keyan Guo",
-        "affiliation": "University at Buffalo",
-        "combined_score": 12,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 3
-      },
-      {
-        "name": "Qiqing Huang",
-        "affiliation": "University at Buffalo",
-        "combined_score": 6,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 0
-      },
-      {
-        "name": "Jamil Hasibul",
-        "affiliation": "University at Buffalo",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Chen Yuan 0002",
-        "affiliation": "University at Buffalo",
-        "combined_score": 3,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Wenbo Ding 0003",
-        "affiliation": "University at Buffalo",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "EUROSYS",
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 4,
-      "2024": 6,
-      "2023": 7,
-      "2022": 2,
       "2021": 0,
       "2020": 0,
       "2019": 0,
@@ -15043,11 +14850,121 @@
     }
   },
   {
-    "affiliation": "Technical University of Munich",
+    "affiliation": "University at Buffalo",
     "combined_score": 59,
+    "artifact_score": 20,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 39,
+    "ae_ratio": 0.51,
+    "role": "Balanced",
+    "artifacts": 11,
+    "badges_functional": 6,
+    "badges_reproducible": 3,
+    "ae_memberships": 13,
+    "chair_count": 0,
+    "total_papers": 14,
+    "artifact_rate": 78.6,
+    "num_authors": 8,
+    "top_authors": [
+      {
+        "name": "Yu Nong",
+        "affiliation": "University at Buffalo",
+        "combined_score": 14,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 1
+      },
+      {
+        "name": "Feng Wei",
+        "affiliation": "University at Buffalo",
+        "combined_score": 13,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 4,
+        "total_papers": 1
+      },
+      {
+        "name": "Keyan Guo",
+        "affiliation": "University at Buffalo",
+        "combined_score": 12,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 3
+      },
+      {
+        "name": "Qiqing Huang",
+        "affiliation": "University at Buffalo",
+        "combined_score": 6,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 0
+      },
+      {
+        "name": "Haipeng Cai",
+        "affiliation": "University at Buffalo",
+        "combined_score": 5,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 5
+      },
+      {
+        "name": "Jamil Hasibul",
+        "affiliation": "University at Buffalo",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Chen Yuan 0002",
+        "affiliation": "University at Buffalo",
+        "combined_score": 3,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Wenbo Ding 0003",
+        "affiliation": "University at Buffalo",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "EUROSYS",
+      "NDSS",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 4,
+      "2024": 6,
+      "2023": 7,
+      "2022": 2,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Technical University of Munich",
+    "combined_score": 58,
     "artifact_score": 41,
-    "artifact_citations": 1,
-    "citation_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
     "ae_score": 17,
     "ae_ratio": 2.41,
     "role": "Producer",
@@ -15063,9 +14980,9 @@
       {
         "name": "Pramod Bhatotia",
         "affiliation": "Technical University of Munich, Germany",
-        "combined_score": 14,
+        "combined_score": 13,
         "artifacts": 5,
-        "artifact_citations": 1,
+        "artifact_citations": 0,
         "ae_memberships": 0,
         "total_papers": 5
       },
@@ -18370,79 +18287,6 @@
     }
   },
   {
-    "affiliation": "Case Western Reserve University",
-    "combined_score": 36,
-    "artifact_score": 13,
-    "artifact_citations": 17,
-    "citation_score": 17,
-    "ae_score": 6,
-    "ae_ratio": 2.17,
-    "role": "Producer",
-    "artifacts": 8,
-    "badges_functional": 3,
-    "badges_reproducible": 2,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_rate": 80.0,
-    "num_authors": 4,
-    "top_authors": [
-      {
-        "name": "Erman Ayday",
-        "affiliation": "Case Western Reserve University",
-        "combined_score": 22,
-        "artifacts": 4,
-        "artifact_citations": 17,
-        "ae_memberships": 0,
-        "total_papers": 6
-      },
-      {
-        "name": "Yuzhou Jiang",
-        "affiliation": "Case Western Reserve University",
-        "combined_score": 7,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 2,
-        "total_papers": 1
-      },
-      {
-        "name": "An Wang 0002",
-        "affiliation": "Case Western Reserve University",
-        "combined_score": 4,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Haonan Shi 0002",
-        "affiliation": "Case Western Reserve University",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "CHES",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 3,
-      "2024": 3,
-      "2023": 2,
-      "2022": 2,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Aalto University",
     "combined_score": 36,
     "artifact_score": 6,
@@ -19545,75 +19389,6 @@
     }
   },
   {
-    "affiliation": "VMware Research",
-    "combined_score": 31,
-    "artifact_score": 27,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 3,
-    "ae_ratio": 9.0,
-    "role": "Producer",
-    "artifacts": 9,
-    "badges_functional": 9,
-    "badges_reproducible": 9,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 12,
-    "artifact_rate": 75.0,
-    "num_authors": 4,
-    "top_authors": [
-      {
-        "name": "Andrea Lattuada 0001",
-        "affiliation": "VMware Research, Switzerland",
-        "combined_score": 15,
-        "artifacts": 4,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 4
-      },
-      {
-        "name": "Rob Johnson 0001",
-        "affiliation": "VMware Research, Palo Alto, CA, USA",
-        "combined_score": 7,
-        "artifacts": 2,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 3
-      },
-      {
-        "name": "Gerd Zellweger",
-        "affiliation": "VMware Research",
-        "combined_score": 6,
-        "artifacts": 2,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      },
-      {
-        "name": "Nina Narodytska",
-        "affiliation": "VMware Research, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "EUROSYS",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 2,
-      "2023": 2,
-      "2022": 1,
-      "2021": 2,
-      "2020": 3
-    }
-  },
-  {
     "affiliation": "University of Padua",
     "combined_score": 31,
     "artifact_score": 22,
@@ -19935,6 +19710,75 @@
       "2019": 0,
       "2018": 0,
       "2017": 0
+    }
+  },
+  {
+    "affiliation": "VMware Research",
+    "combined_score": 30,
+    "artifact_score": 27,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 9.0,
+    "role": "Producer",
+    "artifacts": 9,
+    "badges_functional": 9,
+    "badges_reproducible": 9,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 12,
+    "artifact_rate": 75.0,
+    "num_authors": 4,
+    "top_authors": [
+      {
+        "name": "Andrea Lattuada 0001",
+        "affiliation": "VMware Research, Switzerland",
+        "combined_score": 15,
+        "artifacts": 4,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 4
+      },
+      {
+        "name": "Gerd Zellweger",
+        "affiliation": "VMware Research",
+        "combined_score": 6,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      },
+      {
+        "name": "Rob Johnson 0001",
+        "affiliation": "VMware Research, Palo Alto, CA, USA",
+        "combined_score": 6,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 3
+      },
+      {
+        "name": "Nina Narodytska",
+        "affiliation": "VMware Research, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "EUROSYS",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 2,
+      "2023": 2,
+      "2022": 1,
+      "2021": 2,
+      "2020": 3
     }
   },
   {
@@ -21928,62 +21772,6 @@
     }
   },
   {
-    "affiliation": "Clemson University",
-    "combined_score": 22,
-    "artifact_score": 14,
-    "artifact_citations": 8,
-    "citation_score": 8,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 7,
-    "badges_functional": 6,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_rate": 87.5,
-    "num_authors": 2,
-    "top_authors": [
-      {
-        "name": "Long Cheng 0005",
-        "affiliation": "Clemson University",
-        "combined_score": 19,
-        "artifacts": 6,
-        "artifact_citations": 8,
-        "ae_memberships": 0,
-        "total_papers": 7
-      },
-      {
-        "name": "Rong Ge 0002",
-        "affiliation": "Clemson University",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "SC",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 3,
-      "2024": 0,
-      "2023": 1,
-      "2022": 1,
-      "2021": 1,
-      "2020": 1,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Dresden University of Technology",
     "combined_score": 22,
     "artifact_score": 10,
@@ -23055,50 +22843,6 @@
     }
   },
   {
-    "affiliation": "University of Notre Dame",
-    "combined_score": 19,
-    "artifact_score": 2,
-    "artifact_citations": 17,
-    "citation_score": 17,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 0,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Yanfang (Fanny) Ye",
-        "affiliation": "University of Notre Dame",
-        "combined_score": 19,
-        "artifacts": 1,
-        "artifact_citations": 17,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Northwestern Polytechnical University",
     "combined_score": 19,
     "artifact_score": 13,
@@ -23342,6 +23086,79 @@
       "2025": 2,
       "2024": 0,
       "2023": 1,
+      "2022": 2,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Case Western Reserve University",
+    "combined_score": 19,
+    "artifact_score": 13,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 2.17,
+    "role": "Producer",
+    "artifacts": 8,
+    "badges_functional": 3,
+    "badges_reproducible": 2,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 10,
+    "artifact_rate": 80.0,
+    "num_authors": 4,
+    "top_authors": [
+      {
+        "name": "Yuzhou Jiang",
+        "affiliation": "Case Western Reserve University",
+        "combined_score": 7,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 2,
+        "total_papers": 1
+      },
+      {
+        "name": "Erman Ayday",
+        "affiliation": "Case Western Reserve University",
+        "combined_score": 5,
+        "artifacts": 4,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 6
+      },
+      {
+        "name": "An Wang 0002",
+        "affiliation": "Case Western Reserve University",
+        "combined_score": 4,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Haonan Shi 0002",
+        "affiliation": "Case Western Reserve University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "CHES",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 3,
+      "2024": 3,
+      "2023": 2,
       "2022": 2,
       "2021": 0,
       "2020": 0,
@@ -24065,6 +23882,89 @@
     }
   },
   {
+    "affiliation": "Meta",
+    "combined_score": 18,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 5.0,
+    "role": "Producer",
+    "artifacts": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_rate": 55.6,
+    "num_authors": 5,
+    "top_authors": [
+      {
+        "name": "Yidi Wu 0001",
+        "affiliation": "Meta, USA",
+        "combined_score": 6,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Konstantinos Karanasos",
+        "affiliation": "Meta, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Tianqi Tang 0001",
+        "affiliation": "Meta, USA",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Cornelius Aschermann",
+        "affiliation": "Meta",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      },
+      {
+        "name": "Ravi Prakash Giri",
+        "affiliation": "Meta",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 1,
+      "2023": 0,
+      "2022": 2,
+      "2021": 2,
+      "2020": 1,
+      "2026": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "University of Chinese Academy of Sciences",
     "combined_score": 18,
     "artifact_score": 3,
@@ -24351,60 +24251,6 @@
       "2022": 2,
       "2021": 0,
       "2020": 1,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "Washington State University",
-    "combined_score": 17,
-    "artifact_score": 6,
-    "artifact_citations": 8,
-    "citation_score": 8,
-    "ae_score": 3,
-    "ae_ratio": 2.0,
-    "role": "Balanced",
-    "artifacts": 3,
-    "badges_functional": 2,
-    "badges_reproducible": 1,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 75.0,
-    "num_authors": 2,
-    "top_authors": [
-      {
-        "name": "Wen Li 0007",
-        "affiliation": "Washington State University",
-        "combined_score": 11,
-        "artifacts": 2,
-        "artifact_citations": 8,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Xuechen Zhang 0001",
-        "affiliation": "Washington State University",
-        "combined_score": 6,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 2
-      }
-    ],
-    "conferences": [
-      "FAST",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 1,
-      "2024": 1,
-      "2023": 1,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -25566,71 +25412,6 @@
     }
   },
   {
-    "affiliation": "King Abdullah University of Science and Technology",
-    "combined_score": 15,
-    "artifact_score": 5,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 9,
-    "ae_ratio": 0.56,
-    "role": "Balanced",
-    "artifacts": 4,
-    "badges_functional": 1,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_rate": 80.0,
-    "num_authors": 3,
-    "top_authors": [
-      {
-        "name": "Chen-Yu Ho",
-        "affiliation": "King Abdullah University of Science and Technology",
-        "combined_score": 9,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 3,
-        "total_papers": 0
-      },
-      {
-        "name": "Suhaib A. Fahmy",
-        "affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Di Wang 0015",
-        "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
-        "combined_score": 3,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 4
-      }
-    ],
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2022": 2,
-      "2024": 1,
-      "2025": 3,
-      "2023": 1,
-      "2021": 0,
-      "2020": 0,
-      "2026": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Technische Universität Braunschweig",
     "combined_score": 15,
     "artifact_score": 0,
@@ -26522,6 +26303,62 @@
       "2020": 0,
       "2026": 0,
       "2019": 1,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Clemson University",
+    "combined_score": 14,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 7,
+    "badges_functional": 6,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 8,
+    "artifact_rate": 87.5,
+    "num_authors": 2,
+    "top_authors": [
+      {
+        "name": "Long Cheng 0005",
+        "affiliation": "Clemson University",
+        "combined_score": 11,
+        "artifacts": 6,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 7
+      },
+      {
+        "name": "Rong Ge 0002",
+        "affiliation": "Clemson University",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "SC",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 3,
+      "2024": 0,
+      "2023": 1,
+      "2022": 1,
+      "2021": 1,
+      "2020": 1,
+      "2019": 0,
       "2018": 0,
       "2017": 0
     }
@@ -27648,6 +27485,62 @@
       "2024": 1,
       "2025": 2,
       "2026": 1
+    }
+  },
+  {
+    "affiliation": "King Abdullah University of Science and Technology",
+    "combined_score": 12,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.33,
+    "role": "Consumer",
+    "artifacts": 3,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_rate": 75.0,
+    "num_authors": 2,
+    "top_authors": [
+      {
+        "name": "Chen-Yu Ho",
+        "affiliation": "King Abdullah University of Science and Technology",
+        "combined_score": 9,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 3,
+        "total_papers": 0
+      },
+      {
+        "name": "Di Wang 0015",
+        "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+        "combined_score": 3,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 4
+      }
+    ],
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2022": 2,
+      "2024": 1,
+      "2026": 0,
+      "2025": 3,
+      "2023": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
     }
   },
   {
@@ -29459,61 +29352,6 @@
     }
   },
   {
-    "affiliation": "Polytechnic University of Milan",
-    "combined_score": 10,
-    "artifact_score": 8,
-    "artifact_citations": 2,
-    "citation_score": 2,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 4,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_rate": 50.0,
-    "num_authors": 2,
-    "top_authors": [
-      {
-        "name": "Stefano Zanero",
-        "affiliation": "Polytechnic University of Milan, Italy",
-        "combined_score": 6,
-        "artifacts": 3,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 6
-      },
-      {
-        "name": "Alessandro Barenghi",
-        "affiliation": "Polytechnic University of Milan, Italy",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 2,
-        "ae_memberships": 0,
-        "total_papers": 2
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 2,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 1,
-      "2019": 1,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Google DeepMind",
     "combined_score": 10,
     "artifact_score": 10,
@@ -30822,6 +30660,60 @@
       "2022": 0,
       "2021": 2,
       "2020": 0
+    }
+  },
+  {
+    "affiliation": "Washington State University",
+    "combined_score": 9,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 2.0,
+    "role": "Balanced",
+    "artifacts": 3,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_rate": 75.0,
+    "num_authors": 2,
+    "top_authors": [
+      {
+        "name": "Xuechen Zhang 0001",
+        "affiliation": "Washington State University",
+        "combined_score": 6,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Wen Li 0007",
+        "affiliation": "Washington State University",
+        "combined_score": 3,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      }
+    ],
+    "conferences": [
+      "FAST",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 1,
+      "2023": 1,
+      "2022": 1,
+      "2021": 0,
+      "2020": 0,
+      "2026": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
     }
   },
   {
@@ -33019,56 +32911,6 @@
     }
   },
   {
-    "affiliation": "Indraprastha Institute of Information Technology",
-    "combined_score": 7,
-    "artifact_score": 6,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "top_authors": [
-      {
-        "name": "Shubham Chaudhary 0006",
-        "affiliation": "Indraprastha Institute of Information Technology, Delhi",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Vivek Kumar 0001",
-        "affiliation": "Indraprastha Institute of Information Technology, Delhi, India",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 0,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "ATC",
-      "SC"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "University of Wrzburg",
     "combined_score": 7,
     "artifact_score": 7,
@@ -34929,6 +34771,52 @@
     }
   },
   {
+    "affiliation": "Polytechnic University of Milan",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 3,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_rate": 50.0,
+    "num_authors": 1,
+    "top_authors": [
+      {
+        "name": "Stefano Zanero",
+        "affiliation": "Polytechnic University of Milan, Italy",
+        "combined_score": 6,
+        "artifacts": 3,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 6
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 2,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 1,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "Amrita Vishwa Vidyapeetham",
     "combined_score": 6,
     "artifact_score": 6,
@@ -36313,6 +36201,56 @@
     }
   },
   {
+    "affiliation": "Indraprastha Institute of Information Technology",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 2,
+    "top_authors": [
+      {
+        "name": "Shubham Chaudhary 0006",
+        "affiliation": "Indraprastha Institute of Information Technology, Delhi",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      },
+      {
+        "name": "Vivek Kumar 0001",
+        "affiliation": "Indraprastha Institute of Information Technology, Delhi, India",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "ATC",
+      "SC"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 1,
+      "2023": 0,
+      "2022": 0,
+      "2021": 1,
+      "2020": 0
+    }
+  },
+  {
     "affiliation": "Institute of Computing Technology",
     "combined_score": 6,
     "artifact_score": 3,
@@ -36998,60 +36936,6 @@
     }
   },
   {
-    "affiliation": "University of Georgia",
-    "combined_score": 6,
-    "artifact_score": 2,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 3,
-    "ae_ratio": 0.67,
-    "role": "Balanced",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "top_authors": [
-      {
-        "name": "Wenwen Wang 0001",
-        "affiliation": "University of Georgia",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      },
-      {
-        "name": "Omid Setayeshfar",
-        "affiliation": "University of Georgia",
-        "combined_score": 3,
-        "artifacts": 0,
-        "artifact_citations": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "University of Louisiana at Lafayette",
     "combined_score": 6,
     "artifact_score": 3,
@@ -37370,46 +37254,6 @@
     ],
     "years": {
       "2025": 2
-    }
-  },
-  {
-    "affiliation": "Ain Shams University",
-    "combined_score": 5,
-    "artifact_score": 4,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 0,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_rate": 40.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Ahmed M. Abdelmoniem",
-        "affiliation": "Ain Shams University",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 5
-      }
-    ],
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 1,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0
     }
   },
   {
@@ -37906,50 +37750,6 @@
     }
   },
   {
-    "affiliation": "Fujian Normal University",
-    "combined_score": 5,
-    "artifact_score": 4,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 2,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Xinyi Huang 0001",
-        "affiliation": "Fujian Normal University",
-        "combined_score": 5,
-        "artifacts": 2,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 2
-      }
-    ],
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 2,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Secure-IC",
     "combined_score": 5,
     "artifact_score": 2,
@@ -38293,6 +38093,46 @@
     }
   },
   {
+    "affiliation": "Ain Shams University",
+    "combined_score": 4,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 0,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_rate": 40.0,
+    "num_authors": 1,
+    "top_authors": [
+      {
+        "name": "Ahmed M. Abdelmoniem",
+        "affiliation": "Ain Shams University",
+        "combined_score": 4,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 5
+      }
+    ],
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 1,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
+    }
+  },
+  {
     "affiliation": "Johannes Gutenberg University Mainz",
     "combined_score": 4,
     "artifact_score": 4,
@@ -38411,46 +38251,6 @@
       "2023": 0,
       "2022": 0,
       "2021": 2,
-      "2020": 0
-    }
-  },
-  {
-    "affiliation": "University of North Carolina at Chapel Hill",
-    "combined_score": 4,
-    "artifact_score": 3,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Donald E. Porter",
-        "affiliation": "University of North Carolina at Chapel Hill",
-        "combined_score": 4,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
       "2020": 0
     }
   },
@@ -39022,6 +38822,50 @@
       "2024": 1,
       "2023": 0,
       "2022": 1,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Fujian Normal University",
+    "combined_score": 4,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 2,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "top_authors": [
+      {
+        "name": "Xinyi Huang 0001",
+        "affiliation": "Fujian Normal University",
+        "combined_score": 4,
+        "artifacts": 2,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 2
+      }
+    ],
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 2,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
       "2021": 0,
       "2020": 0,
       "2019": 0,
@@ -39814,46 +39658,6 @@
     }
   },
   {
-    "affiliation": "Aptos Labs",
-    "combined_score": 3,
-    "artifact_score": 2,
-    "artifact_citations": 1,
-    "citation_score": 1,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": null,
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 0,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Alexander Spiegelman",
-        "affiliation": "Aptos Labs, Palo Alto, USA",
-        "combined_score": 3,
-        "artifacts": 1,
-        "artifact_citations": 1,
-        "ae_memberships": 0,
-        "total_papers": 1
-      }
-    ],
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "Hohai University",
     "combined_score": 3,
     "artifact_score": 3,
@@ -39929,6 +39733,46 @@
       "2024": 0,
       "2023": 1,
       "2022": 0,
+      "2021": 0,
+      "2020": 0
+    }
+  },
+  {
+    "affiliation": "University of North Carolina at Chapel Hill",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": null,
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "top_authors": [
+      {
+        "name": "Donald E. Porter",
+        "affiliation": "University of North Carolina at Chapel Hill",
+        "combined_score": 3,
+        "artifacts": 1,
+        "artifact_citations": 0,
+        "ae_memberships": 0,
+        "total_papers": 1
+      }
+    ],
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
       "2021": 0,
       "2020": 0
     }
@@ -48185,6 +48029,41 @@
     ],
     "years": {
       "2024": 1
+    }
+  },
+  {
+    "affiliation": "University of Georgia",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": null,
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "top_authors": [
+      {
+        "name": "Omid Setayeshfar",
+        "affiliation": "University of Georgia",
+        "combined_score": 3,
+        "artifacts": 0,
+        "artifact_citations": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2022": 1
     }
   },
   {
