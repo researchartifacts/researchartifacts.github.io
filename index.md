@@ -213,7 +213,8 @@ title: ""
       var badges = (d.badges || []).map(function(b) {
         return '<span style="display:inline-block; padding:1px 5px; margin:0 2px; border-radius:3px; background:#e8f5e9; font-size:0.85em;">' + badgeLabel(b) + '</span>';
       }).join(' ');
-      var metaLine = escHtml(d.conference) + ' ' + d.year + (badges ? ' &middot; ' + badges : '');
+      var awardTag = d.award ? ' <span style="display:inline-block; padding:1px 5px; margin:0 2px; border-radius:3px; background:#fff3e0; font-size:0.85em;">🏆 ' + escHtml(d.award) + '</span>' : '';
+      var metaLine = escHtml(d.conference) + ' ' + d.year + (badges ? ' &middot; ' + badges : '') + awardTag;
 
       // Line 4: Links
       var links = [];
@@ -270,6 +271,7 @@ title: ""
       if (d.paper_url) e.paper_url = d.paper_url;
       if (d.appendix_url) e.appendix_url = d.appendix_url;
       if (d.github_url) e.github_url = d.github_url;
+      if (d.award) e.award = d.award;
       return e;
     });
     var blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});

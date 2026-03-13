@@ -1896,7 +1896,8 @@
     ],
     "repository_url": "https://github.com/bundler-project/evaluation",
     "artifact_url": "",
-    "paper_url": "10.1145/3447786.3456260"
+    "paper_url": "10.1145/3447786.3456260",
+    "award": "Best Artifact Award"
   },
   {
     "conference": "EUROSYS",
@@ -2082,7 +2083,8 @@
     ],
     "repository_url": "https://github.com/mstniy/safepm",
     "artifact_url": "10.5281/zenodo.6338745",
-    "paper_url": "10.1145/3492321.3519574"
+    "paper_url": "10.1145/3492321.3519574",
+    "award": "Distinguished Artifact Honorable Mention"
   },
   {
     "conference": "EUROSYS",
@@ -2208,7 +2210,8 @@
     ],
     "repository_url": "https://github.com/virtines/wasp",
     "artifact_url": "10.5281/zenodo.6350453",
-    "paper_url": "10.1145/3492321.3519553"
+    "paper_url": "10.1145/3492321.3519553",
+    "award": "Distinguished Artifact"
   },
   {
     "conference": "EUROSYS",
@@ -2236,7 +2239,8 @@
     ],
     "repository_url": "https://github.com/SJTU-IPADS/fgnn-artifacts/tree/0abc7182",
     "artifact_url": "10.5281/zenodo.6347456",
-    "paper_url": "10.1145/3492321.3519557"
+    "paper_url": "10.1145/3492321.3519557",
+    "award": "Distinguished Artifact Honorable Mention"
   },
   {
     "conference": "EUROSYS",
@@ -2250,7 +2254,8 @@
     ],
     "repository_url": "https://github.com/Mic92/vmsh",
     "artifact_url": "10.5281/zenodo.6337102",
-    "paper_url": "10.1145/3492321.3519589"
+    "paper_url": "10.1145/3492321.3519589",
+    "award": "Distinguished Artifact Honorable Mention"
   },
   {
     "conference": "EUROSYS",
@@ -2677,7 +2682,8 @@
     ],
     "repository_url": "",
     "artifact_url": "https://doi.org/10.5281/zenodo.7726172",
-    "paper_url": "https://doi.org/10.1145/3552326.3587448"
+    "paper_url": "https://doi.org/10.1145/3552326.3587448",
+    "award": "Gilles Muller Best Artifact Award"
   },
   {
     "conference": "EUROSYS",
@@ -2794,7 +2800,8 @@
     ],
     "repository_url": "",
     "artifact_url": "https://doi.org/10.5281/zenodo.7703530",
-    "paper_url": "https://doi.org/10.1145/3552326.3567508"
+    "paper_url": "https://doi.org/10.1145/3552326.3567508",
+    "award": "Gilles Muller Best Artifact Award"
   },
   {
     "conference": "EUROSYS",
@@ -6061,7 +6068,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5151491",
+    "paper_url": "https://doi.org/10.1145/3458817.3476149"
   },
   {
     "conference": "SC",
@@ -6074,7 +6082,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5155769",
+    "paper_url": "https://doi.org/10.1145/3458817.3480854"
   },
   {
     "conference": "SC",
@@ -6087,7 +6096,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5144438",
+    "paper_url": "https://doi.org/10.1145/3458817.3476207"
   },
   {
     "conference": "SC",
@@ -6100,7 +6110,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5513082",
+    "paper_url": "https://doi.org/10.1145/3458817.3480859"
   },
   {
     "conference": "SC",
@@ -6113,7 +6124,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5165762",
+    "paper_url": "https://doi.org/10.1145/3458817.3476159"
   },
   {
     "conference": "SC",
@@ -6125,7 +6137,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5168853",
+    "paper_url": "https://doi.org/10.1145/3458817.3476201"
   },
   {
     "conference": "SC",
@@ -6136,7 +6149,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5092219",
+    "paper_url": "https://doi.org/10.1145/3458817.3480852"
   },
   {
     "conference": "SC",
@@ -6148,7 +6162,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4895203",
+    "paper_url": "https://doi.org/10.1145/3458817.3476152"
   },
   {
     "conference": "SC",
@@ -6159,7 +6174,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5147569",
+    "paper_url": "https://doi.org/10.1145/3458817.3476215"
   },
   {
     "conference": "SC",
@@ -6172,7 +6188,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5167629",
+    "paper_url": "https://doi.org/10.1145/3458817.3476163"
   },
   {
     "conference": "SC",
@@ -6185,7 +6202,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5167006",
+    "paper_url": "https://doi.org/10.1145/3458817.3476204"
   },
   {
     "conference": "SC",
@@ -6198,7 +6216,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5156431",
+    "paper_url": "https://doi.org/10.1145/3458817.3476177"
   },
   {
     "conference": "SC",
@@ -6211,7 +6230,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5168027",
+    "paper_url": "https://doi.org/10.1145/3458817.3476167"
   },
   {
     "conference": "SC",
@@ -6223,7 +6243,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5206960",
+    "paper_url": "https://doi.org/10.1145/3458817.3476169"
   },
   {
     "conference": "SC",
@@ -6235,7 +6256,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4884852",
+    "paper_url": "https://doi.org/10.1145/3458817.3476148"
   },
   {
     "conference": "SC",
@@ -6246,7 +6268,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.3881644",
+    "paper_url": "https://doi.org/10.1145/3458817.3476154"
   },
   {
     "conference": "SC",
@@ -6259,7 +6282,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5148715",
+    "paper_url": "https://doi.org/10.1145/3458817.3476166"
   },
   {
     "conference": "SC",
@@ -6272,7 +6296,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5162688",
+    "paper_url": "https://doi.org/10.1145/3458817.3476194"
   },
   {
     "conference": "SC",
@@ -6285,7 +6310,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5144709",
+    "paper_url": "https://doi.org/10.1145/3458817.3476199"
   },
   {
     "conference": "SC",
@@ -6296,7 +6322,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5166929",
+    "paper_url": "https://doi.org/10.1145/3458817.3476181"
   },
   {
     "conference": "SC",
@@ -6309,7 +6336,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5148797",
+    "paper_url": "https://doi.org/10.1145/3458817.3476153"
   },
   {
     "conference": "SC",
@@ -6320,7 +6348,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5158988",
+    "paper_url": "https://doi.org/10.1145/3458817.3476150"
   },
   {
     "conference": "SC",
@@ -6333,7 +6362,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5159333",
+    "paper_url": "https://doi.org/10.1145/3458817.3476173"
   },
   {
     "conference": "SC",
@@ -6346,7 +6376,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5176097",
+    "paper_url": "https://doi.org/10.1145/3458817.3476143"
   },
   {
     "conference": "SC",
@@ -6359,7 +6390,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5164404",
+    "paper_url": "https://doi.org/10.1145/3458817.3476175"
   },
   {
     "conference": "SC",
@@ -6372,7 +6404,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5204819",
+    "paper_url": "https://doi.org/10.1145/3458817.3476198"
   },
   {
     "conference": "SC",
@@ -6385,7 +6418,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.6084/m9.figshare.14396099",
+    "paper_url": "https://doi.org/10.1145/3458817.3476187"
   },
   {
     "conference": "SC",
@@ -6398,7 +6432,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5136675",
+    "paper_url": "https://doi.org/10.1145/3458817.3476182"
   },
   {
     "conference": "SC",
@@ -6411,7 +6446,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4899910",
+    "paper_url": "https://doi.org/10.1145/3458817.3476185"
   },
   {
     "conference": "SC",
@@ -6423,7 +6459,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5181820",
+    "paper_url": "https://doi.org/10.1145/3458817.3476209"
   },
   {
     "conference": "SC",
@@ -6435,7 +6472,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5168471",
+    "paper_url": "https://doi.org/10.1145/3458817.3476144"
   },
   {
     "conference": "SC",
@@ -6446,7 +6484,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4094667",
+    "paper_url": "https://doi.org/10.1145/3458817.3476203"
   },
   {
     "conference": "SC",
@@ -6458,7 +6497,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5003901",
+    "paper_url": "https://doi.org/10.1145/3458817.3476197"
   },
   {
     "conference": "SC",
@@ -6471,7 +6511,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5236852",
+    "paper_url": "https://doi.org/10.1145/3458817.3476186"
   },
   {
     "conference": "SC",
@@ -6483,7 +6524,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5152741",
+    "paper_url": "https://doi.org/10.1145/3458817.3480853"
   },
   {
     "conference": "SC",
@@ -6496,7 +6538,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5155509",
+    "paper_url": "https://doi.org/10.1145/3458817.3476176"
   },
   {
     "conference": "SC",
@@ -6509,7 +6552,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4836022",
+    "paper_url": "https://doi.org/10.1145/3458817.3476178"
   },
   {
     "conference": "SC",
@@ -6520,7 +6564,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5168093",
+    "paper_url": "https://doi.org/10.1145/3458817.3476213"
   },
   {
     "conference": "SC",
@@ -6533,7 +6578,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5171429",
+    "paper_url": "https://doi.org/10.1145/3458817.3476140"
   },
   {
     "conference": "SC",
@@ -6546,7 +6592,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5144378",
+    "paper_url": "https://doi.org/10.1145/3458817.3476157"
   },
   {
     "conference": "SC",
@@ -6557,7 +6604,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5164666",
+    "paper_url": "https://doi.org/10.1145/3458817.3476183"
   },
   {
     "conference": "SC",
@@ -6570,7 +6618,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5163851",
+    "paper_url": "https://doi.org/10.1145/3458817.3476142"
   },
   {
     "conference": "SC",
@@ -6581,7 +6630,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5168313",
+    "paper_url": "https://doi.org/10.1145/3458817.3476220"
   },
   {
     "conference": "SC",
@@ -6593,7 +6643,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5156596",
+    "paper_url": "https://doi.org/10.1145/3458817.3476205"
   },
   {
     "conference": "SC",
@@ -6606,7 +6657,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5165333",
+    "paper_url": "https://doi.org/10.1145/3458817.3476212"
   },
   {
     "conference": "SC",
@@ -6617,7 +6669,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5164277",
+    "paper_url": "https://doi.org/10.1145/3458817.3476208"
   },
   {
     "conference": "SC",
@@ -6630,7 +6683,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5148930",
+    "paper_url": "https://doi.org/10.1145/3458817.3480855"
   },
   {
     "conference": "SC",
@@ -6641,7 +6695,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5203281",
+    "paper_url": "https://doi.org/10.1145/3458817.3476191"
   },
   {
     "conference": "SC",
@@ -6654,7 +6709,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5116412",
+    "paper_url": "https://doi.org/10.1145/3458817.3476223"
   },
   {
     "conference": "SC",
@@ -6667,7 +6723,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5147573",
+    "paper_url": "https://doi.org/10.1145/3458817.3476165"
   },
   {
     "conference": "SC",
@@ -6678,7 +6735,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5201457",
+    "paper_url": "https://doi.org/10.1145/3458817.3476217"
   },
   {
     "conference": "SC",
@@ -6691,7 +6749,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5163624",
+    "paper_url": "https://doi.org/10.1145/3458817.3476180"
   },
   {
     "conference": "SC",
@@ -6704,7 +6763,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5167980",
+    "paper_url": "https://doi.org/10.1145/3458817.3476216"
   },
   {
     "conference": "SC",
@@ -6717,7 +6777,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5262865",
+    "paper_url": "https://doi.org/10.1145/3458817.3476168"
   },
   {
     "conference": "SC",
@@ -6728,7 +6789,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5171833",
+    "paper_url": "https://doi.org/10.1145/3458817.3476196"
   },
   {
     "conference": "SC",
@@ -6739,7 +6801,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5176507",
+    "paper_url": "https://doi.org/10.1145/3458817.3476171"
   },
   {
     "conference": "SC",
@@ -6751,7 +6814,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5203181",
+    "paper_url": "https://doi.org/10.1145/3458817.3476137"
   },
   {
     "conference": "SC",
@@ -6762,7 +6826,8 @@
       "available"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.4897500",
+    "paper_url": "https://doi.org/10.1145/3458817.3476192"
   },
   {
     "conference": "SC",
@@ -6775,7 +6840,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5144874",
+    "paper_url": "https://doi.org/10.1145/3458817.3476224"
   },
   {
     "conference": "SC",
@@ -6788,7 +6854,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.5281/zenodo.5154114",
+    "paper_url": "https://doi.org/10.1145/3458817.3476214"
   },
   {
     "conference": "SC",
@@ -6801,7 +6868,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476480",
+    "paper_url": "https://doi.org/10.1145/3458817.3476164"
   },
   {
     "conference": "SC",
@@ -6814,7 +6882,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476481",
+    "paper_url": "https://doi.org/10.1145/3458817.3476147"
   },
   {
     "conference": "SC",
@@ -6827,7 +6896,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476482",
+    "paper_url": "https://doi.org/10.1145/3458817.3476206"
   },
   {
     "conference": "SC",
@@ -6839,7 +6909,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476483",
+    "paper_url": "https://doi.org/10.1145/3458817.3480856"
   },
   {
     "conference": "SC",
@@ -6851,7 +6922,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476484",
+    "paper_url": "https://doi.org/10.1145/3458817.3476141"
   },
   {
     "conference": "SC",
@@ -6864,7 +6936,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "https://doi.org/10.1145/3476485",
+    "paper_url": "https://doi.org/10.1145/3458817.3476221"
   },
   {
     "conference": "SC",
@@ -6875,7 +6948,8 @@
       "functional"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3458817.3476145"
   },
   {
     "conference": "SOSP",
@@ -6889,6 +6963,7 @@
     ],
     "repository_url": "https://github.com/ut-osa/boki-benchmarks",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483541",
     "github_url": "https://github.com/ut-osa/boki-benchmarks"
   },
   {
@@ -6902,7 +6977,14 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/zlab-purdue/ds-upgrade",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/jwjwyoung/DUPChecker",
+    "artifact_urls": [
+      "https://github.com/jwjwyoung/DUPChecker",
+      "https://gitlab.dsrg.utoronto.ca/zhuqi/DUPTester",
+      "https://github.com/jwjwyoung/RecentUpgradeFailureStudy",
+      "http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY"
+    ],
+    "paper_url": "https://doi.org/10.1145/3477132.3483577",
     "github_url": "https://github.com/zlab-purdue/ds-upgrade"
   },
   {
@@ -6917,6 +6999,7 @@
     ],
     "repository_url": "https://gitlab.com/hipress/hipress",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483553",
     "github_url": "https://gitlab.com/hipress/hipress"
   },
   {
@@ -6930,7 +7013,13 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/VeriGu/sosp-paper211-ae",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/VeriGu/usenix-ae-linux",
+    "artifact_urls": [
+      "https://github.com/VeriGu/usenix-ae-linux",
+      "https://github.com/VeriGu/vct-qemu",
+      "https://github.com/VeriGu/sosp-paper211-ae-proof"
+    ],
+    "paper_url": "https://doi.org/10.1145/3477132.3483560",
     "github_url": "https://github.com/VeriGu/sosp-paper211-ae"
   },
   {
@@ -6945,6 +7034,7 @@
     ],
     "repository_url": "https://github.com/csl-iisc/iGUARD",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483545",
     "github_url": "https://github.com/csl-iisc/iGUARD"
   },
   {
@@ -6959,6 +7049,7 @@
     ],
     "repository_url": "https://github.com/microsoft/Forerunner/",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483564",
     "github_url": "https://github.com/microsoft/Forerunner/"
   },
   {
@@ -6973,6 +7064,7 @@
     ],
     "repository_url": "https://github.com/thustorage/ccnvme",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483577",
     "github_url": "https://github.com/thustorage/ccnvme"
   },
   {
@@ -6987,6 +7079,7 @@
     ],
     "repository_url": "https://github.com/casys-kaist/LineFS",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483565",
     "github_url": "https://github.com/casys-kaist/LineFS"
   },
   {
@@ -7000,7 +7093,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/maxdml/psp",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/maxdml/psp/blob/master/sosp_aec/aec.ipynb",
+    "paper_url": "https://doi.org/10.1145/3477132.3483571",
     "github_url": "https://github.com/maxdml/psp"
   },
   {
@@ -7014,7 +7108,8 @@
       "Reproduced"
     ],
     "repository_url": "https://bitbucket.org/aganesan4/skyros/",
-    "artifact_url": ""
+    "artifact_url": "https://zenodo.org/record/5520021",
+    "paper_url": "https://doi.org/10.1145/3477132.3483543"
   },
   {
     "conference": "SOSP",
@@ -7027,7 +7122,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/haochenpan/rabia/",
-    "artifact_url": "",
+    "artifact_url": "https://www.cloudlab.us/show-profile.php?uuid=1af34047-fb02-11eb-84f8-e4434b2381fc",
+    "paper_url": "https://doi.org/10.1145/3477132.3483582",
     "github_url": "https://github.com/haochenpan/rabia/"
   },
   {
@@ -7042,6 +7138,7 @@
     ],
     "repository_url": "https://github.com/ishtiyaque/Coeus_artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483586",
     "github_url": "https://github.com/ishtiyaque/Coeus_artifact"
   },
   {
@@ -7056,6 +7153,7 @@
     ],
     "repository_url": "https://github.com/jonggyup/FragPicker",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483593",
     "github_url": "https://github.com/jonggyup/FragPicker"
   },
   {
@@ -7070,6 +7168,7 @@
     ],
     "repository_url": "https://github.com/jnvm-project/jnvm",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483579",
     "github_url": "https://github.com/jnvm-project/jnvm"
   },
   {
@@ -7083,7 +7182,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/fsuri/SOSP21_artifact_eval",
-    "artifact_url": "",
+    "artifact_url": "https://www.cloudlab.us/p/morty/SOSP108",
+    "paper_url": "https://doi.org/10.1145/3477132.3483552",
     "github_url": "https://github.com/fsuri/SOSP21_artifact_eval"
   },
   {
@@ -7097,7 +7197,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/WiscADSL/uFS",
-    "artifact_url": "",
+    "artifact_url": "https://research.cs.wisc.edu/adsl/Software/uFS/",
+    "paper_url": "https://doi.org/10.1145/3477132.3483581",
     "github_url": "https://github.com/WiscADSL/uFS"
   },
   {
@@ -7111,7 +7212,8 @@
       "Reproduced"
     ],
     "repository_url": "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483550"
   },
   {
     "conference": "SOSP",
@@ -7124,7 +7226,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/huaicheng/IODA-SOSP21-AE",
-    "artifact_url": ""
+    "artifact_url": "https://asciinema.org/a/431726",
+    "paper_url": "https://doi.org/10.1145/3477132.3483573"
   },
   {
     "conference": "SOSP",
@@ -7138,6 +7241,7 @@
     ],
     "repository_url": "https://github.com/hku-systems/bidl",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483574",
     "github_url": "https://github.com/hku-systems/bidl"
   },
   {
@@ -7152,7 +7256,9 @@
     ],
     "repository_url": "https://github.com/sslab-gatech/Rudra-Artifacts",
     "artifact_url": "",
-    "github_url": "https://github.com/sslab-gatech/Rudra-Artifacts"
+    "paper_url": "https://doi.org/10.1145/3477132.3483570",
+    "github_url": "https://github.com/sslab-gatech/Rudra-Artifacts",
+    "award": true
   },
   {
     "conference": "SOSP",
@@ -7166,6 +7272,7 @@
     ],
     "repository_url": "https://github.com/shsym/mind",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483582",
     "github_url": "https://github.com/shsym/mind"
   },
   {
@@ -7180,6 +7287,7 @@
     ],
     "repository_url": "https://github.com/karannewatia/Mycelium",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483585",
     "github_url": "https://github.com/karannewatia/Mycelium"
   },
   {
@@ -7194,6 +7302,7 @@
     ],
     "repository_url": "https://github.com/stanford-futuredata/POP",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483588",
     "github_url": "https://github.com/stanford-futuredata/POP"
   },
   {
@@ -7208,6 +7317,7 @@
     ],
     "repository_url": "https://github.com/ucbrise/snoopy",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483562",
     "github_url": "https://github.com/ucbrise/snoopy"
   },
   {
@@ -7222,6 +7332,7 @@
     ],
     "repository_url": "https://github.com/rohankadekodi/WineFS",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483567",
     "github_url": "https://github.com/rohankadekodi/WineFS"
   },
   {
@@ -7235,7 +7346,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/uoft-felis/felis",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/uoft-felis/felis-controller",
+    "paper_url": "https://doi.org/10.1145/3477132.3483591",
     "github_url": "https://github.com/uoft-felis/felis"
   },
   {
@@ -7249,6 +7361,7 @@
     ],
     "repository_url": "https://github.com/digi-project/sosp21-artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483559",
     "github_url": "https://github.com/digi-project/sosp21-artifact"
   },
   {
@@ -7261,7 +7374,13 @@
       "Functional"
     ],
     "repository_url": "https://github.com/rcslab/aurora-12.1/",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/rcslab/aurora/",
+    "artifact_urls": [
+      "https://github.com/rcslab/aurora/",
+      "https://rcs.uwaterloo.ca/aurora/",
+      "https://github.com/rcslab/aurora-bench/"
+    ],
+    "paper_url": "https://doi.org/10.1145/3477132.3483563",
     "github_url": "https://github.com/rcslab/aurora-12.1/"
   },
   {
@@ -7275,6 +7394,7 @@
     ],
     "repository_url": "https://github.com/SunHao-0/healer",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483547",
     "github_url": "https://github.com/SunHao-0/healer"
   },
   {
@@ -7288,6 +7408,7 @@
     ],
     "repository_url": "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483575",
     "github_url": "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae"
   },
   {
@@ -7301,6 +7422,7 @@
     ],
     "repository_url": "https://github.com/rcstor/rcstor",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483558",
     "github_url": "https://github.com/rcstor/rcstor"
   },
   {
@@ -7314,6 +7436,7 @@
     ],
     "repository_url": "https://github.com/Raycoms/Kauri-Public",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483584",
     "github_url": "https://github.com/Raycoms/Kauri-Public"
   },
   {
@@ -7326,7 +7449,8 @@
       "Functional"
     ],
     "repository_url": "https://github.com/saramcallister/Kangaroo",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/saramcallister/CacheLib-1",
+    "paper_url": "https://doi.org/10.1145/3477132.3483568",
     "github_url": "https://github.com/saramcallister/Kangaroo"
   },
   {
@@ -7340,6 +7464,7 @@
     ],
     "repository_url": "https://github.com/cosmoss-vt/witcher",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483556",
     "github_url": "https://github.com/cosmoss-vt/witcher"
   },
   {
@@ -7353,6 +7478,7 @@
     ],
     "repository_url": "https://github.com/cosmoss-vt/pactree",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483589",
     "github_url": "https://github.com/cosmoss-vt/pactree"
   },
   {
@@ -7366,6 +7492,7 @@
     ],
     "repository_url": "https://github.com/824728350/Clara",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483583",
     "github_url": "https://github.com/824728350/Clara"
   },
   {
@@ -7379,6 +7506,7 @@
     ],
     "repository_url": "https://github.com/rssys/snowboard",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483549",
     "github_url": "https://github.com/rssys/snowboard"
   },
   {
@@ -7391,7 +7519,8 @@
       "Reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3477132.3483557"
   },
   {
     "conference": "SOSP",
@@ -7402,7 +7531,8 @@
       "Available"
     ],
     "repository_url": "https://github.com/jmhelt/tapir/tree/spanner",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/princeton-sns/gryff/tree/rs",
+    "paper_url": "https://doi.org/10.1145/3477132.3483566",
     "github_url": "https://github.com/jmhelt/tapir/tree/spanner"
   },
   {
@@ -7414,7 +7544,13 @@
       "Available"
     ],
     "repository_url": "https://github.com/demikernel/demikernel",
-    "artifact_url": "",
+    "artifact_url": "https://github.com/demikernel/echo",
+    "artifact_urls": [
+      "https://github.com/demikernel/echo",
+      "https://github.com/demikernel/demikernel/tree/osdi-legacy-code",
+      "https://www.cloudlab.us/p/Demeter/testing-pair/9"
+    ],
+    "paper_url": "https://doi.org/10.1145/3477132.3483569",
     "github_url": "https://github.com/demikernel/demikernel"
   },
   {
@@ -7429,6 +7565,7 @@
     ],
     "repository_url": "https://github.com/xlab-uiuc/acto/tree/sosp-ae",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613161",
     "github_url": "https://github.com/xlab-uiuc/acto/tree/sosp-ae"
   },
   {
@@ -7443,6 +7580,7 @@
     ],
     "repository_url": "https://github.com/iidsample/bagpipe_artifacts",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613142",
     "github_url": "https://github.com/iidsample/bagpipe_artifacts"
   },
   {
@@ -7456,7 +7594,12 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/deeptir18/cornflakes",
-    "artifact_url": "",
+    "artifact_url": "https://www.cloudlab.us/p/955539a31b0c7be330933414edd8d4af54f7dbec",
+    "artifact_urls": [
+      "https://www.cloudlab.us/p/955539a31b0c7be330933414edd8d4af54f7dbec",
+      "https://github.com/deeptir18/cornflakes-scripts"
+    ],
+    "paper_url": "https://doi.org/10.1145/3600006.3613137",
     "github_url": "https://github.com/deeptir18/cornflakes"
   },
   {
@@ -7471,6 +7614,7 @@
     ],
     "repository_url": "https://github.com/dmemsys/Ditto",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613144",
     "github_url": "https://github.com/dmemsys/Ditto"
   },
   {
@@ -7485,6 +7629,7 @@
     ],
     "repository_url": "https://github.com/tslilyai/edna/tree/artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613146",
     "github_url": "https://github.com/tslilyai/edna/tree/artifact"
   },
   {
@@ -7499,6 +7644,7 @@
     ],
     "repository_url": "https://github.com/sosp-ae-39/sosp-ae-astra",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613165",
     "github_url": "https://github.com/sosp-ae-39/sosp-ae-astra"
   },
   {
@@ -7513,6 +7659,7 @@
     ],
     "repository_url": "https://github.com/vmexit/trio-sosp23-ae",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613171",
     "github_url": "https://github.com/vmexit/trio-sosp23-ae"
   },
   {
@@ -7527,6 +7674,7 @@
     ],
     "repository_url": "https://github.com/madsys-dev/Falcon",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613141",
     "github_url": "https://github.com/madsys-dev/Falcon"
   },
   {
@@ -7541,6 +7689,7 @@
     ],
     "repository_url": "https://github.com/Thesys-lab/sosp23-s3fifo",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613147",
     "github_url": "https://github.com/Thesys-lab/sosp23-s3fifo"
   },
   {
@@ -7555,6 +7704,7 @@
     ],
     "repository_url": "https://github.com/zhuangwang93/SOSP-30_AE",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613145",
     "github_url": "https://github.com/zhuangwang93/SOSP-30_AE"
   },
   {
@@ -7569,6 +7719,7 @@
     ],
     "repository_url": "https://github.com/mit-pdos/grove-artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613172",
     "github_url": "https://github.com/mit-pdos/grove-artifact"
   },
   {
@@ -7583,6 +7734,7 @@
     ],
     "repository_url": "https://github.com/gpzlx1/gsampler-artifact-evaluation",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613168",
     "github_url": "https://github.com/gpzlx1/gsampler-artifact-evaluation"
   },
   {
@@ -7597,6 +7749,7 @@
     ],
     "repository_url": "https://github.com/pkusys/Halfmoon-bench",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613154",
     "github_url": "https://github.com/pkusys/Halfmoon-bench"
   },
   {
@@ -7611,6 +7764,7 @@
     ],
     "repository_url": "https://bitbucket.org/mira-sosp23/mira-ae",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613157",
     "github_url": "https://bitbucket.org/mira-sosp23/mira-ae"
   },
   {
@@ -7625,6 +7779,7 @@
     ],
     "repository_url": "https://github.com/SymbioticLab/oobleck",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613152",
     "github_url": "https://github.com/SymbioticLab/oobleck"
   },
   {
@@ -7639,6 +7794,7 @@
     ],
     "repository_url": "https://github.com/eniac/paella/tree/sosp23_artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613163",
     "github_url": "https://github.com/eniac/paella/tree/sosp23_artifact"
   },
   {
@@ -7653,6 +7809,7 @@
     ],
     "repository_url": "https://github.com/madsys-dev/sosp-paper19-ae",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613135",
     "github_url": "https://github.com/madsys-dev/sosp-paper19-ae"
   },
   {
@@ -7667,6 +7824,7 @@
     ],
     "repository_url": "https://github.com/microsoft/SparTA/tree/pit_artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613139",
     "github_url": "https://github.com/microsoft/SparTA/tree/pit_artifact"
   },
   {
@@ -7681,6 +7839,7 @@
     ],
     "repository_url": "https://github.com/ahenzinger/tiptoe",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613134",
     "github_url": "https://github.com/ahenzinger/tiptoe"
   },
   {
@@ -7695,6 +7854,7 @@
     ],
     "repository_url": "https://github.com/siasosp23/artifacts/tree/main",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613175",
     "github_url": "https://github.com/siasosp23/artifacts/tree/main"
   },
   {
@@ -7709,6 +7869,7 @@
     ],
     "repository_url": "https://github.com/rssys/snowcat",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613148",
     "github_url": "https://github.com/rssys/snowcat"
   },
   {
@@ -7723,6 +7884,7 @@
     ],
     "repository_url": "https://github.com/SPFresh/SPFresh",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613166",
     "github_url": "https://github.com/SPFresh/SPFresh"
   },
   {
@@ -7737,6 +7899,7 @@
     ],
     "repository_url": "https://github.com/columbia/turbo-artifact",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613174",
     "github_url": "https://github.com/columbia/turbo-artifact"
   },
   {
@@ -7751,6 +7914,7 @@
     ],
     "repository_url": "https://github.com/SJTU-IPADS/ugache-artifacts",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613169",
     "github_url": "https://github.com/SJTU-IPADS/ugache-artifacts"
   },
   {
@@ -7764,6 +7928,7 @@
     ],
     "repository_url": "https://github.com/m8/concord",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613136",
     "github_url": "https://github.com/m8/concord"
   },
   {
@@ -7777,6 +7942,7 @@
     ],
     "repository_url": "https://github.com/Antipode-SOSP23",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613176",
     "github_url": "https://github.com/Antipode-SOSP23"
   },
   {
@@ -7790,6 +7956,7 @@
     ],
     "repository_url": "https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613138",
     "github_url": "https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler"
   },
   {
@@ -7803,6 +7970,7 @@
     ],
     "repository_url": "https://github.com/cosmoss-jigu/memtis",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613167",
     "github_url": "https://github.com/cosmoss-jigu/memtis"
   },
   {
@@ -7816,6 +7984,7 @@
     ],
     "repository_url": "https://github.com/OrderLab/pBox",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613159",
     "github_url": "https://github.com/OrderLab/pBox"
   },
   {
@@ -7829,6 +7998,7 @@
     ],
     "repository_url": "https://github.com/dedis/quepaxa/",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613150",
     "github_url": "https://github.com/dedis/quepaxa/"
   },
   {
@@ -7842,6 +8012,7 @@
     ],
     "repository_url": "https://github.com/breidys2/RackBlox",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613170",
     "github_url": "https://github.com/breidys2/RackBlox"
   },
   {
@@ -7855,6 +8026,7 @@
     ],
     "repository_url": "https://github.com/efeslab/siloz",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613143",
     "github_url": "https://github.com/efeslab/siloz"
   },
   {
@@ -7868,6 +8040,7 @@
     ],
     "repository_url": "https://doi.org/10.5281/zenodo.8188346",
     "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613140",
     "github_url": "https://doi.org/10.5281/zenodo.8188346"
   },
   {
@@ -7880,7 +8053,8 @@
       "Reproduced"
     ],
     "repository_url": "",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3600006.3613164"
   },
   {
     "conference": "SOSP",
@@ -7893,7 +8067,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/rs3lab/KFlex",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695950"
   },
   {
     "conference": "SOSP",
@@ -7906,7 +8081,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/dslab-epfl/tpot",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695980"
   },
   {
     "conference": "SOSP",
@@ -7919,7 +8095,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/VirtualSoC/vsoc/tree/artifact",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695946"
   },
   {
     "conference": "SOSP",
@@ -7932,7 +8109,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/verus-lang/paper-sosp24-artifact/blob/main/site/guide.md",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695952"
   },
   {
     "conference": "SOSP",
@@ -7945,7 +8123,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/anishathalye/parfait-hsm",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695956"
   },
   {
     "conference": "SOSP",
@@ -7957,7 +8136,8 @@
       "Functional"
     ],
     "repository_url": "https://github.com/ubc-cirrus-lab/caribou",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695954"
   },
   {
     "conference": "SOSP",
@@ -7970,7 +8150,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/casys-kaist/ozz_artifact",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695944"
   },
   {
     "conference": "SOSP",
@@ -7983,7 +8164,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/ml-energy/zeus/tree/kronos",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695970"
   },
   {
     "conference": "SOSP",
@@ -7996,7 +8178,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/dmemsys/CHIME",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695959"
   },
   {
     "conference": "SOSP",
@@ -8009,7 +8192,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/columbia/cookiemonster",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695965"
   },
   {
     "conference": "SOSP",
@@ -8022,7 +8206,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/LoongServe/LoongServe",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695948"
   },
   {
     "conference": "SOSP",
@@ -8034,7 +8219,8 @@
       "Functional"
     ],
     "repository_url": "https://github.com/dassl-uiuc/LazyLog-Artifact",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695983"
   },
   {
     "conference": "SOSP",
@@ -8047,7 +8233,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/switch-container",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695967"
   },
   {
     "conference": "SOSP",
@@ -8058,7 +8245,8 @@
       "Available"
     ],
     "repository_url": "https://github.com/ChaseLab-PKU/BIZA",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695953"
   },
   {
     "conference": "SOSP",
@@ -8071,7 +8259,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/huzhisheng/Aceso",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695951"
   },
   {
     "conference": "SOSP",
@@ -8084,7 +8273,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/LPD-EPFL/swarm-artifacts",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695945"
   },
   {
     "conference": "SOSP",
@@ -8097,7 +8287,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/kungfu-team/tenplex/tree/sosp24-artifact",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.369597"
   },
   {
     "conference": "SOSP",
@@ -8110,7 +8301,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/neilgiri/autobahn-artifact",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695942"
   },
   {
     "conference": "SOSP",
@@ -8123,7 +8315,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/eth-easl/dirigent",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695966"
   },
   {
     "conference": "SOSP",
@@ -8136,7 +8329,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/yhtzd/skyloft-sosp24-ae",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695973"
   },
   {
     "conference": "SOSP",
@@ -8149,7 +8343,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/neolinsu/sosp24ae",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695976"
   },
   {
     "conference": "SOSP",
@@ -8162,7 +8357,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/microsoft/nnfusion",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695961"
   },
   {
     "conference": "SOSP",
@@ -8175,7 +8371,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/host-architecture/colloid",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695968"
   },
   {
     "conference": "SOSP",
@@ -8188,7 +8385,8 @@
       "Reproduced"
     ],
     "repository_url": "https://github.com/asprasad/treebeard/tree/silvanforge",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695958"
   },
   {
     "conference": "SOSP",
@@ -8199,7 +8397,8 @@
       "Available"
     ],
     "repository_url": "https://github.com/824728350/Zodiac/tree/master",
-    "artifact_url": ""
+    "artifact_url": "",
+    "paper_url": "https://doi.org/10.1145/3694715.3695974"
   },
   {
     "conference": "ACSAC",
@@ -12225,7 +12424,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.10117921"
+    "artifact_url": "https://doi.org/10.5281/zenodo.10117921",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "NDSS",
@@ -12426,7 +12626,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.10154551"
+    "artifact_url": "https://doi.org/10.5281/zenodo.10154551",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "NDSS",
@@ -12682,7 +12883,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.13712489"
+    "artifact_url": "https://doi.org/10.5281/zenodo.13712489",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "NDSS",
@@ -12908,7 +13110,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.14194517"
+    "artifact_url": "https://doi.org/10.5281/zenodo.14194517",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "NDSS",
@@ -13123,7 +13326,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.14253770"
+    "artifact_url": "https://doi.org/10.5281/zenodo.14253770",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "NDSS",
@@ -13659,7 +13863,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.16956543"
+    "artifact_url": "https://doi.org/10.5281/zenodo.16956543",
+    "award": "Distinguished Artifact Award \ud83c\udfc6"
   },
   {
     "conference": "NDSS",
@@ -14593,7 +14798,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.17428590"
+    "artifact_url": "https://doi.org/10.5281/zenodo.17428590",
+    "award": "Distinguished Artifact Award \ud83c\udfc6"
   },
   {
     "conference": "NDSS",
@@ -14694,7 +14900,8 @@
       "reproduced"
     ],
     "repository_url": "",
-    "artifact_url": "https://doi.org/10.5281/zenodo.17703144"
+    "artifact_url": "https://doi.org/10.5281/zenodo.17703144",
+    "award": "Distinguished Artifact Award \ud83c\udfc6"
   },
   {
     "conference": "NDSS",
@@ -23436,7 +23643,8 @@
     "repository_url": "",
     "artifact_url": "https://github.com/fkie-cad/amides/releases/tag/v1.0.0",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/uetz",
-    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24summerae-final1.pdf"
+    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24summerae-final1.pdf",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "USENIXSEC",
@@ -23818,7 +24026,8 @@
     "repository_url": "",
     "artifact_url": "https://github.com/vusec/safefetch-ae/releases/tag/v1.0",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/duta",
-    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24fallae-final20.pdf"
+    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24fallae-final20.pdf",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "USENIXSEC",
@@ -23966,7 +24175,8 @@
     "repository_url": "",
     "artifact_url": "https://github.com/RUB-NDS/Terrapin-Artifacts/tree/9907c80fa7e4184a29ceac352947ea51a49dce6a",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer",
-    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24fallae-final31.pdf"
+    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24fallae-final31.pdf",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "USENIXSEC",
@@ -25052,7 +25262,8 @@
     "repository_url": "",
     "artifact_url": "https://zenodo.org/records/12260307",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/deng",
-    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24winterae-final71.pdf"
+    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24winterae-final71.pdf",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "USENIXSEC",
@@ -25263,7 +25474,8 @@
     "repository_url": "",
     "artifact_url": "https://zenodo.org/records/13216329",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/de-pasquale",
-    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24winterae-final88.pdf"
+    "appendix_url": "https://secartifacts.github.io/usenixsec2024/appendix-files/sec24winterae-final88.pdf",
+    "award": "Distinguished Artifact Award"
   },
   {
     "conference": "USENIXSEC",
@@ -30289,10 +30501,7 @@
       "Badges: Available"
     ],
     "repository_url": "",
-    "artifact_url": [
-      "https://zenodo.org/records/15602764?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwZjYwZmI2LTY1MTctNDMxNS05NjQwLTFiZTgyYzRhMTU4ZiIsImRhdGEiOnt9LCJyYW5kb20iOiIyYWRhOTkyZjYyNzhhMmI1MDI1ZTAyZmNkMmYxYjFlMyJ9.YlMGX7NQqIAWIZXHeX8SRqofWh5oUgJAN-3iiN6j84OltOxZrOtHibmWbYgVM-Q3DlnAlrI84pUS38dGiDeNQA",
-      "https://zenodo.org/records/15602938?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjcyZWI3NWJlLWZlYjYtNGY5YS05Y2I0LWJhNWY4Y2QyM2E5OSIsImRhdGEiOnt9LCJyYW5kb20iOiJhMjAxMTM0MGEyM2FiMGNmYWY5NWFkYzJkMTE0ZTQ1YSJ9.pgnHdDeXprugF6M2cgv2_-68aSmDeCgmZCDXJ5xzZwZUznFAAadHqA0wPpDh2OOcFjPE7tJIRzUYtf1NVsv3fw"
-    ]
+    "artifact_url": ""
   },
   {
     "conference": "USENIXSEC",
