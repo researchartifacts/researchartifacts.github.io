@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checked_at": "2026-03-07 23:38:40 UTC",
+    "checked_at": "2026-03-13 17:04:53 UTC",
     "total_urls": 2336,
-    "accessible_urls": 2253,
-    "accessibility_pct": 96.4,
+    "accessible_urls": 2254,
+    "accessibility_pct": 96.5,
     "by_platform": {
       "Bitbucket": {
         "total": 9,
@@ -37,14 +37,14 @@
       },
       "other": {
         "total": 283,
-        "accessible": 242,
-        "pct": 85.5
+        "accessible": 243,
+        "pct": 85.9
       }
     },
     "by_area": {
       "security": {
         "total": 1799,
-        "accessible": 1741,
+        "accessible": 1742,
         "pct": 96.8
       },
       "systems": {
@@ -66,8 +66,8 @@
       },
       "2019": {
         "total": 24,
-        "accessible": 23,
-        "pct": 95.8
+        "accessible": 24,
+        "pct": 100.0
       },
       "2020": {
         "total": 132,
@@ -123,8 +123,8 @@
       "2019": {
         "security": {
           "total": 24,
-          "accessible": 23,
-          "pct": 95.8
+          "accessible": 24,
+          "pct": 100.0
         }
       },
       "2020": {
@@ -255,8 +255,8 @@
         },
         "other": {
           "total": 3,
-          "accessible": 2,
-          "pct": 66.7
+          "accessible": 3,
+          "pct": 100.0
         }
       },
       "2020": {
@@ -537,8 +537,8 @@
       },
       "WOOT": {
         "total": 46,
-        "accessible": 42,
-        "pct": 91.3
+        "accessible": 43,
+        "pct": 93.5
       }
     }
   },
@@ -23461,7 +23461,7 @@
       "url_key": "artifact_url",
       "url": "https://www.bamsoftware.com/hacks/zipbomb/",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "WOOT",

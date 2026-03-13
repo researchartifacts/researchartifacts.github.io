@@ -201,15 +201,13 @@ title: ""
         ? '<a href="' + escHtml(titleLink) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + escHtml(d.title) + '</a>'
         : escHtml(d.title);
 
-      // Line 2: Authors (clickable) with affiliations
+      // Line 2: Authors (clickable)
       var authorsArr = d.authors || [];
       var authorsHtml = authorsArr.map(function(a) {
         var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(a);
         return '<a href="' + profileUrl + '" style="color:#0066cc; text-decoration:none;">' + escHtml(a) + '</a>';
       }).join(', ');
-      var affArr = d.affiliations || [];
-      var affStr = affArr.length > 0 ? ' (' + escHtml(affArr.join(', ')) + ')' : '';
-      var authorsLine = authorsHtml ? authorsHtml + affStr : '';
+      var authorsLine = authorsHtml || '';
 
       // Line 3: Venue, Year, Badges
       var badges = (d.badges || []).map(function(b) {
@@ -219,14 +217,29 @@ title: ""
 
       // Line 4: Links
       var links = [];
-      if (d.doi_url) links.push('<a href="' + escHtml(d.doi_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Paper</a>');
-      if (d.repository_url) links.push('<a href="' + escHtml(d.repository_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Repository</a>');
-      if (d.artifact_url) links.push('<a href="' + escHtml(d.artifact_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Artifact</a>');
+      // Paper link: prefer doi_url (DOI), fall back to paper_url (conference link)
+      if (d.doi_url) {
+        links.push('<a href="' + escHtml(d.doi_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📄 Paper (DOI)</a>');
+      }
+      if (d.paper_url && d.paper_url !== d.doi_url) {
+        links.push('<a href="' + escHtml(d.paper_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📄 Paper</a>');
+      }
+      if (d.repository_url) {
+        var isGitHub = d.repository_url.indexOf('github.com') !== -1;
+        var repoLabel = isGitHub ? '💻 GitHub' : '💻 Repository';
+        links.push('<a href="' + escHtml(d.repository_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + repoLabel + '</a>');
+      }
+      // Show github_url only if different from repository_url
+      if (d.github_url && d.github_url !== d.repository_url) {
+        links.push('<a href="' + escHtml(d.github_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">💻 GitHub</a>');
+      }
+      if (d.artifact_url) links.push('<a href="' + escHtml(d.artifact_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📦 Artifact</a>');
       if (d.artifact_urls) {
         d.artifact_urls.forEach(function(u, i) {
           if (u) links.push('<a href="' + escHtml(u) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">Artifact #' + (i+1) + '</a>');
         });
       }
+      if (d.appendix_url) links.push('<a href="' + escHtml(d.appendix_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📋 Appendix</a>');
       var linksLine = links.length > 0 ? links.join(' &middot; ') : '';
 
       entry.innerHTML =
@@ -251,9 +264,13 @@ title: ""
   window.downloadResults = function() {
     var exportData = filtered.map(function(d) {
       var e = {title: d.title, conference: d.conference, category: d.category, year: d.year, badges: d.badges, authors: d.authors, affiliations: d.affiliations};
+      if (d.doi_url) e.doi_url = d.doi_url;
       if (d.repository_url) e.repository_url = d.repository_url;
       if (d.artifact_url) e.artifact_url = d.artifact_url;
       if (d.artifact_urls) e.artifact_urls = d.artifact_urls;
+      if (d.paper_url) e.paper_url = d.paper_url;
+      if (d.appendix_url) e.appendix_url = d.appendix_url;
+      if (d.github_url) e.github_url = d.github_url;
       return e;
     });
     var blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});
