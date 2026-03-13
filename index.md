@@ -217,11 +217,10 @@ title: ""
 
       // Line 4: Links
       var links = [];
-      // Paper link: prefer doi_url (DOI), fall back to paper_url (conference link)
+      // Paper link: prefer doi_url, fall back to paper_url
       if (d.doi_url) {
-        links.push('<a href="' + escHtml(d.doi_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📄 Paper (DOI)</a>');
-      }
-      if (d.paper_url && d.paper_url !== d.doi_url) {
+        links.push('<a href="' + escHtml(d.doi_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📄 Paper</a>');
+      } else if (d.paper_url) {
         links.push('<a href="' + escHtml(d.paper_url) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">📄 Paper</a>');
       }
       if (d.repository_url) {
