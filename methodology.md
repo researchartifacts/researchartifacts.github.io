@@ -92,7 +92,7 @@ We scrape artifact evaluation results from sysartifacts/secartifacts websites, e
 
 Repository statistics (GitHub stars/forks, Zenodo/Figshare downloads) are collected via their public APIs. Author names are matched to [DBLP](https://dblp.org) for disambiguation and total-publication counts. Author affiliations are enriched using DBLP person pages and [CSRankings](http://csrankings.org) faculty data.
 
-All scripts are in the [artifact_analysis](https://github.com/researchartifacts/artifact_analysis) repository.
+All scripts are in the [artifact_analysis](https://github.com/researchartifacts/artifact_analysis) repository. Full CLI reference, API documentation, and data model definitions are in the [pipeline documentation](https://researchartifacts.github.io/artifact_analysis/).
 
 ## Pipeline
 
