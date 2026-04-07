@@ -6034,7 +6034,7 @@
   {
     "name": "Wahid Uz Zaman",
     "display_name": "Wahid Uz Zaman",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 4,
     "chair_count": 0,
     "conferences": [
@@ -6844,7 +6844,7 @@
   {
     "name": "Abdullah Al Ishtiaq",
     "display_name": "Abdullah Al Ishtiaq",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 3,
     "chair_count": 0,
     "conferences": [
@@ -12286,6 +12286,32 @@
     "last_year": 2021
   },
   {
+    "name": "Dario Stabili",
+    "display_name": "Dario Stabili",
+    "affiliation": "University of Modena and Reggio Emilia",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "conferences": [
+      [
+        "NDSS",
+        2024,
+        "member"
+      ],
+      [
+        "VEHICLESEC",
+        2026,
+        "chair"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
     "name": "Henrique Fingler",
     "display_name": "Henrique Fingler",
     "affiliation": "Exostellar",
@@ -12360,6 +12386,32 @@
     },
     "first_year": 2025,
     "last_year": 2025
+  },
+  {
+    "name": "Taegyu Kim",
+    "display_name": "Taegyu Kim",
+    "affiliation": "University of Pennsylvania",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "conferences": [
+      [
+        "USENIXSEC",
+        2021,
+        "member"
+      ],
+      [
+        "VEHICLESEC",
+        2026,
+        "chair"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2026": 1
+    },
+    "first_year": 2021,
+    "last_year": 2026
   },
   {
     "name": "Tianyin Xu",
@@ -14355,7 +14407,7 @@
   {
     "name": "Edo Roth",
     "display_name": "Edo Roth",
-    "affiliation": "University of Pennsylvani",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
@@ -14584,7 +14636,7 @@
   {
     "name": "Florentin Rochet",
     "display_name": "Florentin Rochet",
-    "affiliation": "Université catholique de Louvain",
+    "affiliation": "Université Catholique de Louvain",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
@@ -14687,7 +14739,7 @@
   {
     "name": "Gaëtan Cassiers",
     "display_name": "Gaëtan Cassiers",
-    "affiliation": "UCLouvain",
+    "affiliation": "Université Catholique de Louvain",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
@@ -19981,7 +20033,7 @@
   {
     "name": "Shouxi Luo",
     "display_name": "Shouxi Luo",
-    "affiliation": "Southwest Jiaotong University",
+    "affiliation": "Shanghai Jiao Tong University",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
@@ -22366,7 +22418,7 @@
   {
     "name": "Yu-Jye Tung",
     "display_name": "Yu-Jye Tung",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
@@ -24954,7 +25006,7 @@
   {
     "name": "Ali Ranjbar",
     "display_name": "Ali Ranjbar",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -25454,7 +25506,7 @@
   {
     "name": "Andrea Misuraca",
     "display_name": "Andrea Misuraca",
-    "affiliation": "TU Munich",
+    "affiliation": "Technical University of Munich",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -26374,7 +26426,7 @@
   {
     "name": "Ata Fatahi",
     "display_name": "Ata Fatahi",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -27872,26 +27924,6 @@
     "last_year": 2026
   },
   {
-    "name": "Dario Stabili",
-    "display_name": "Dario Stabili",
-    "affiliation": "University of Bologna",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "NDSS",
-        2024,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2024": 1
-    },
-    "first_year": 2024,
-    "last_year": 2024
-  },
-  {
     "name": "David Beserra",
     "display_name": "David Beserra",
     "affiliation": "École Pour l'Informatique et les Techniques Avancées",
@@ -28234,7 +28266,7 @@
   {
     "name": "Dingji Li",
     "display_name": "Dingji Li",
-    "affiliation": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University",
+    "affiliation": "Shanghai Jiao Tong University",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -31754,7 +31786,7 @@
   {
     "name": "Jiahao Chen",
     "display_name": "Jiahao Chen",
-    "affiliation": "Shanghai Jiaotong University",
+    "affiliation": "Shanghai Jiao Tong University",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -32074,7 +32106,7 @@
   {
     "name": "Jing Zhang",
     "display_name": "Jing Zhang",
-    "affiliation": "IPADS, SJTU",
+    "affiliation": "Shanghai Jiao Tong University",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -36174,7 +36206,7 @@
   {
     "name": "Mingming Chen",
     "display_name": "Mingming Chen",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -37354,7 +37386,7 @@
   {
     "name": "Olivier Bronchain",
     "display_name": "Olivier Bronchain",
-    "affiliation": "UCLouvain, Belgium",
+    "affiliation": "Université Catholique de Louvain",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -38614,7 +38646,7 @@
   {
     "name": "Raj Kumar Pandey",
     "display_name": "Raj Kumar Pandey",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -40074,7 +40106,7 @@
   {
     "name": "Shan zhaowen",
     "display_name": "Shan zhaowen",
-    "affiliation": "SUN YAT-SEN UNIVERSITY",
+    "affiliation": "Sun Yat-sen University",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -41432,26 +41464,6 @@
     "last_year": 2023
   },
   {
-    "name": "Taegyu Kim",
-    "display_name": "Taegyu Kim",
-    "affiliation": "Purdue University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "USENIXSEC",
-        2021,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2021": 1
-    },
-    "first_year": 2021,
-    "last_year": 2021
-  },
-  {
     "name": "Taeung Yoon",
     "display_name": "Taeung Yoon",
     "affiliation": "University of Illinois Urbana-Champaign",
@@ -41914,7 +41926,7 @@
   {
     "name": "Tianchang Yang",
     "display_name": "Tianchang Yang",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -42874,7 +42886,7 @@
   {
     "name": "Vishnu Dasu",
     "display_name": "Vishnu Dasu",
-    "affiliation": "Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -42894,7 +42906,7 @@
   {
     "name": "Vladimir Podolskiy",
     "display_name": "Vladimir Podolskiy",
-    "affiliation": "Technical University Munich",
+    "affiliation": "Technical University of Munich",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -44334,7 +44346,7 @@
   {
     "name": "Yilu Dong",
     "display_name": "Yilu Dong",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -45954,7 +45966,7 @@
   {
     "name": "Ziheng Liu",
     "display_name": "Ziheng Liu",
-    "affiliation": "The Pennsylvania State University",
+    "affiliation": "University of Pennsylvania",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [

@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_members": 3343,
+    "total_members": 3345,
     "total_systems": 1699,
     "total_security": 1643,
     "total_countries": 59,
     "total_continents": 7,
-    "total_institutions": 435
+    "total_institutions": 429
   },
   "by_country": {
     "overall": [
       {
         "name": "United States",
-        "count": 1547
+        "count": 1548
       },
       {
         "name": "China",
-        "count": 290
+        "count": 291
       },
       {
         "name": "Germany",
-        "count": 154
+        "count": 153
       },
       {
         "name": "Hong Kong",
@@ -54,16 +54,16 @@
         "count": 45
       },
       {
+        "name": "Belgium",
+        "count": 38
+      },
+      {
         "name": "Italy",
         "count": 38
       },
       {
         "name": "Netherlands",
         "count": 37
-      },
-      {
-        "name": "Belgium",
-        "count": 36
       },
       {
         "name": "Spain",
@@ -130,15 +130,19 @@
         "count": 6
       },
       {
+        "name": "Poland",
+        "count": 6
+      },
+      {
         "name": "Ethiopia",
         "count": 6
       },
       {
-        "name": "Turkiye",
-        "count": 6
+        "name": "Israel",
+        "count": 5
       },
       {
-        "name": "Israel",
+        "name": "Turkiye",
         "count": 5
       },
       {
@@ -155,10 +159,6 @@
       },
       {
         "name": "Hungary",
-        "count": 4
-      },
-      {
-        "name": "Poland",
         "count": 4
       },
       {
@@ -253,7 +253,7 @@
       },
       {
         "name": "China",
-        "count": 204
+        "count": 205
       },
       {
         "name": "Hong Kong",
@@ -281,7 +281,7 @@
       },
       {
         "name": "Germany",
-        "count": 26
+        "count": 25
       },
       {
         "name": "Canada",
@@ -332,7 +332,7 @@
         "count": 5
       },
       {
-        "name": "Turkiye",
+        "name": "Poland",
         "count": 5
       },
       {
@@ -341,6 +341,10 @@
       },
       {
         "name": "Hungary",
+        "count": 4
+      },
+      {
+        "name": "Turkiye",
         "count": 4
       },
       {
@@ -357,10 +361,6 @@
       },
       {
         "name": "Sweden",
-        "count": 3
-      },
-      {
-        "name": "Poland",
         "count": 3
       },
       {
@@ -467,7 +467,7 @@
       },
       {
         "name": "Belgium",
-        "count": 34
+        "count": 36
       },
       {
         "name": "Netherlands",
@@ -627,15 +627,15 @@
     "overall": [
       {
         "name": "North America",
-        "count": 1607
+        "count": 1608
       },
       {
         "name": "Asia",
-        "count": 693
+        "count": 694
       },
       {
         "name": "Europe",
-        "count": 587
+        "count": 590
       },
       {
         "name": "Oceania",
@@ -647,7 +647,7 @@
       },
       {
         "name": "Unknown",
-        "count": 26
+        "count": 25
       },
       {
         "name": "South America",
@@ -661,11 +661,11 @@
       },
       {
         "name": "Asia",
-        "count": 416
+        "count": 417
       },
       {
         "name": "Europe",
-        "count": 218
+        "count": 219
       },
       {
         "name": "Africa",
@@ -673,7 +673,7 @@
       },
       {
         "name": "Unknown",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Oceania",
@@ -691,7 +691,7 @@
       },
       {
         "name": "Europe",
-        "count": 369
+        "count": 371
       },
       {
         "name": "Asia",
@@ -742,6 +742,10 @@
         "count": 53
       },
       {
+        "name": "institute of parallel and distributed systems, shanghai jiao tong university",
+        "count": 51
+      },
+      {
         "name": "University of Michigan - Ann Arbor",
         "count": 50
       },
@@ -752,10 +756,6 @@
       {
         "name": "The Hong Kong University of Science and Technology",
         "count": 48
-      },
-      {
-        "name": "institute of parallel and distributed systems, shanghai jiao tong university",
-        "count": 47
       },
       {
         "name": "computing and imaging institute - the university of utah",
@@ -784,6 +784,10 @@
       {
         "name": "imec-distrinet, ku leuven",
         "count": 33
+      },
+      {
+        "name": "West Chester University of Pennsylvania",
+        "count": 30
       },
       {
         "name": "Virginia Tech",
@@ -871,10 +875,6 @@
       },
       {
         "name": "University of California, Los Angeles",
-        "count": 18
-      },
-      {
-        "name": "Pennsylvania State University",
         "count": 18
       },
       {
@@ -1023,10 +1023,6 @@
       },
       {
         "name": "Royal Holloway University of London",
-        "count": 11
-      },
-      {
-        "name": "West Chester University of Pennsylvania",
         "count": 11
       },
       {
@@ -1294,6 +1290,10 @@
         "count": 5
       },
       {
+        "name": "Université Catholique de Louvain",
+        "count": 5
+      },
+      {
         "name": "Southeast University",
         "count": 5
       },
@@ -1339,6 +1339,10 @@
       },
       {
         "name": "University of Newcastle",
+        "count": 4
+      },
+      {
+        "name": "Technical University of Lublin",
         "count": 4
       },
       {
@@ -1630,10 +1634,6 @@
         "count": 2
       },
       {
-        "name": "Technical University of Lublin",
-        "count": 2
-      },
-      {
         "name": "Lynn University",
         "count": 2
       },
@@ -1738,10 +1738,6 @@
         "count": 2
       },
       {
-        "name": "Université Catholique de Louvain",
-        "count": 2
-      },
-      {
         "name": "Freie Universität Berlin",
         "count": 2
       },
@@ -1838,10 +1834,6 @@
         "count": 2
       },
       {
-        "name": "Southwest Jiaotong University",
-        "count": 2
-      },
-      {
         "name": "Kennesaw State University",
         "count": 2
       },
@@ -1902,15 +1894,7 @@
         "count": 1
       },
       {
-        "name": "tu munich",
-        "count": 1
-      },
-      {
         "name": "ics-forth",
-        "count": 1
-      },
-      {
-        "name": "Shanghai Jiaotong University",
         "count": 1
       },
       {
@@ -2091,10 +2075,6 @@
       },
       {
         "name": "Jumeira University",
-        "count": 1
-      },
-      {
-        "name": "Eskisehir Technical University",
         "count": 1
       },
       {
@@ -2438,10 +2418,6 @@
         "count": 1
       },
       {
-        "name": "Louvain School of Management",
-        "count": 1
-      },
-      {
         "name": "Westphalian University of Applied Sciences",
         "count": 1
       },
@@ -2468,12 +2444,12 @@
         "count": 48
       },
       {
-        "name": "University of Michigan - Ann Arbor",
+        "name": "institute of parallel and distributed systems, shanghai jiao tong university",
         "count": 44
       },
       {
-        "name": "institute of parallel and distributed systems, shanghai jiao tong university",
-        "count": 40
+        "name": "University of Michigan - Ann Arbor",
+        "count": 44
       },
       {
         "name": "University of Wisconsin - Madison",
@@ -2537,6 +2513,10 @@
       },
       {
         "name": "epfl",
+        "count": 18
+      },
+      {
+        "name": "West Chester University of Pennsylvania",
         "count": 18
       },
       {
@@ -2613,10 +2593,6 @@
       },
       {
         "name": "bytedance",
-        "count": 11
-      },
-      {
-        "name": "West Chester University of Pennsylvania",
         "count": 11
       },
       {
@@ -2713,10 +2689,6 @@
       },
       {
         "name": "Zhejiang University",
-        "count": 7
-      },
-      {
-        "name": "Pennsylvania State University",
         "count": 7
       },
       {
@@ -2845,6 +2817,10 @@
       },
       {
         "name": "University of Illinois Chicago",
+        "count": 4
+      },
+      {
+        "name": "Technical University of Lublin",
         "count": 4
       },
       {
@@ -3052,10 +3028,6 @@
         "count": 2
       },
       {
-        "name": "Technical University of Lublin",
-        "count": 2
-      },
-      {
         "name": "Lynn University",
         "count": 2
       },
@@ -3172,10 +3144,6 @@
         "count": 2
       },
       {
-        "name": "Southwest Jiaotong University",
-        "count": 2
-      },
-      {
         "name": "Kennesaw State University",
         "count": 2
       },
@@ -3232,10 +3200,6 @@
         "count": 1
       },
       {
-        "name": "tu munich",
-        "count": 1
-      },
-      {
         "name": "meta",
         "count": 1
       },
@@ -3245,10 +3209,6 @@
       },
       {
         "name": "Technische Universität Carolo-Wilhelmina zu Braunschweig",
-        "count": 1
-      },
-      {
-        "name": "Shanghai Jiaotong University",
         "count": 1
       },
       {
@@ -3485,10 +3445,6 @@
       },
       {
         "name": "Universität Innsbruck",
-        "count": 1
-      },
-      {
-        "name": "Eskisehir Technical University",
         "count": 1
       },
       {
@@ -3678,7 +3634,7 @@
         "count": 11
       },
       {
-        "name": "Pennsylvania State University",
+        "name": "West Chester University of Pennsylvania",
         "count": 11
       },
       {
@@ -3895,6 +3851,10 @@
       },
       {
         "name": "New York University, Abu Dhabi",
+        "count": 5
+      },
+      {
+        "name": "Université Catholique de Louvain",
         "count": 5
       },
       {
@@ -4147,10 +4107,6 @@
       },
       {
         "name": "Texas A&M University - Corpus Christi",
-        "count": 2
-      },
-      {
-        "name": "Université Catholique de Louvain",
         "count": 2
       },
       {
@@ -4742,10 +4698,6 @@
         "count": 1
       },
       {
-        "name": "Louvain School of Management",
-        "count": 1
-      },
-      {
         "name": "Westphalian University of Applied Sciences",
         "count": 1
       },
@@ -4808,7 +4760,7 @@
         "India": 1,
         "United Arab Emirates": 1,
         "Austria": 1,
-        "Turkiye": 1,
+        "Poland": 1,
         "South Korea": 2,
         "Luxembourg": 1,
         "Hong Kong": 5,
@@ -4829,15 +4781,15 @@
         "Hong Kong": 29,
         "India": 5,
         "France": 8,
-        "Germany": 21,
+        "Germany": 20,
         "Hungary": 2,
-        "Belgium": 4,
+        "Belgium": 6,
         "Japan": 6,
+        "Poland": 2,
         "Italy": 5,
         "Greece": 1,
         "Portugal": 1,
         "Brazil": 1,
-        "Poland": 1,
         "New Zealand": 1,
         "Canada": 4,
         "Rwanda": 1,
@@ -4855,7 +4807,7 @@
       },
       "2023": {
         "United States": 138,
-        "China": 22,
+        "China": 23,
         "United Kingdom": 16,
         "Italy": 7,
         "Sweden": 2,
@@ -4976,7 +4928,7 @@
         "Zimbabwe": 2
       },
       "2026": {
-        "United States": 256,
+        "United States": 257,
         "United Kingdom": 6,
         "Rwanda": 2,
         "Germany": 38,
@@ -5051,7 +5003,7 @@
         "India": 1,
         "United Arab Emirates": 1,
         "Austria": 1,
-        "Turkiye": 1,
+        "Poland": 1,
         "South Korea": 2,
         "Luxembourg": 1,
         "Hong Kong": 5,
@@ -5071,20 +5023,20 @@
         "Hong Kong": 28,
         "India": 4,
         "France": 2,
-        "Germany": 7,
+        "Germany": 6,
         "Hungary": 2,
         "Belgium": 1,
         "Japan": 3,
+        "Poland": 2,
         "Italy": 1,
         "Greece": 1,
         "Portugal": 1,
         "Brazil": 1,
-        "Poland": 1,
         "New Zealand": 1
       },
       "2023": {
         "United States": 79,
-        "China": 15,
+        "China": 16,
         "United Kingdom": 5,
         "Italy": 4,
         "Sweden": 1,
@@ -5235,7 +5187,7 @@
         "China": 4,
         "Luxembourg": 1,
         "Lebanon": 1,
-        "Belgium": 3,
+        "Belgium": 5,
         "South Korea": 1,
         "Australia": 2,
         "Hong Kong": 1,
@@ -5393,16 +5345,15 @@
         "Europe": 20
       },
       "2021": {
-        "Europe": 52,
+        "Europe": 53,
         "South America": 1,
         "North America": 150,
         "Asia": 43,
-        "Oceania": 3,
-        "Unknown": 1
+        "Oceania": 3
       },
       "2022": {
         "North America": 188,
-        "Europe": 93,
+        "Europe": 95,
         "Asia": 134,
         "Oceania": 5,
         "South America": 1,
@@ -5411,7 +5362,7 @@
       },
       "2023": {
         "North America": 143,
-        "Asia": 69,
+        "Asia": 70,
         "Europe": 84,
         "Africa": 6,
         "Unknown": 2,
@@ -5436,7 +5387,7 @@
         "Oceania": 17
       },
       "2026": {
-        "North America": 272,
+        "North America": 273,
         "Europe": 98,
         "Africa": 10,
         "Asia": 99,
@@ -5451,12 +5402,11 @@
         "Europe": 2
       },
       "2021": {
-        "Europe": 40,
+        "Europe": 41,
         "South America": 1,
         "North America": 121,
         "Asia": 36,
-        "Oceania": 2,
-        "Unknown": 1
+        "Oceania": 2
       },
       "2022": {
         "North America": 136,
@@ -5467,7 +5417,7 @@
       },
       "2023": {
         "North America": 80,
-        "Asia": 43,
+        "Asia": 44,
         "Europe": 28,
         "Africa": 2,
         "Unknown": 1
@@ -5507,7 +5457,7 @@
         "Oceania": 1
       },
       "2022": {
-        "Europe": 48,
+        "Europe": 50,
         "North America": 52,
         "Africa": 2,
         "Asia": 16,
@@ -5886,6 +5836,13 @@
       "conf_year": "usenixsec2026",
       "area": "security",
       "size": 226
+    },
+    {
+      "conference": "VEHICLESEC",
+      "year": 2026,
+      "conf_year": "vehiclesec2026",
+      "area": "unknown",
+      "size": 2
     },
     {
       "conference": "WOOT",
@@ -6277,11 +6234,6 @@
       "conference": "sosp2023",
       "name": "Anatole Lefort",
       "affiliation": "Telecom SudParis - Institut Polytechnique de Paris"
-    },
-    {
-      "conference": "sosp2023",
-      "name": "Jing Zhang",
-      "affiliation": "IPADS, SJTU"
     },
     {
       "conference": "sosp2023",
@@ -7089,6 +7041,11 @@
       "affiliation": "The University of Queensland and CSIRO's Data61"
     },
     {
+      "conference": "vehiclesec2026",
+      "name": "Dario Stabili",
+      "affiliation": "University of Modena and Reggio Emilia"
+    },
+    {
       "conference": "osdi2025",
       "name": "Cláudia Brito",
       "affiliation": "INESC TEC and University of Minho"
@@ -7420,11 +7377,6 @@
     },
     {
       "conference": "ches2022",
-      "name": "Gaëtan Cassiers",
-      "affiliation": "UCLouvain, Belgium"
-    },
-    {
-      "conference": "ches2022",
       "name": "James Howe",
       "affiliation": "PQShield, UK"
     },
@@ -7447,11 +7399,6 @@
       "conference": "ches2022",
       "name": "Norman Lahr",
       "affiliation": "Fraunhofer SIT, Darmstadt, Germany"
-    },
-    {
-      "conference": "ches2022",
-      "name": "Olivier Bronchain",
-      "affiliation": "UCLouvain, Belgium"
     },
     {
       "conference": "ches2022",

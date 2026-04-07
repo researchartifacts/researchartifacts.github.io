@@ -10,7 +10,7 @@
       "Cornell University": 1,
       "Huazhong University of Science and Technology": 2,
       "University of Fribourg": 1,
-      "Pennsylvania State University": 2,
+      "West Chester University of Pennsylvania": 3,
       "microsoft research": 1,
       "New York University": 4,
       "Purdue University": 4,
@@ -22,7 +22,6 @@
       "Boston University": 2,
       "epfl": 3,
       "University of Massachusetts at Amherst": 1,
-      "West Chester University of Pennsylvania": 1,
       "University of California, Berkeley": 1,
       "University of Chicago": 1,
       "google": 1,
@@ -124,7 +123,7 @@
       "Florida State University": 2,
       "Illinois Institute of Technology": 1,
       "Georgia Institute of Technology": 1,
-      "Eskisehir Technical University": 1,
+      "Technical University of Lublin": 1,
       "Boise State University": 1,
       "University of Southern California": 1,
       "University of Oregon": 1,
@@ -213,7 +212,7 @@
       "Carnegie Mellon University": 2,
       "University of California, Berkeley": 8,
       "University of California, Riverside": 6,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 17,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 18,
       "University of North Carolina at Charlotte": 6,
       "University of California, Santa Barbara": 6,
       "University of Oregon": 2,
@@ -269,7 +268,7 @@
       "New York University": 1,
       "imec-distrinet, ku leuven": 4,
       "Toyo University": 2,
-      "tu munich": 1,
+      "Technical University of Lublin": 2,
       "Singapore University of Technology and Design": 1,
       "sapienza university of rome": 2,
       "meta": 1,
@@ -277,14 +276,12 @@
       "ics-forth": 1,
       "Technische Universität Carolo-Wilhelmina zu Braunschweig": 1,
       "University of California, Santa Cruz": 2,
-      "Shanghai Jiaotong University": 1,
       "inesc-id & ist u. lisboa in Portugal": 1,
       "Keio University": 1,
       "Rice University": 1,
       "University of Tokyo": 1,
       "linkedin": 1,
       "Universidade Federal de Goiás": 1,
-      "Technical University of Lublin": 1,
       "Guangzhou College of South China University of Technology": 1,
       "Massey University": 1,
       "Lynn University": 1,
@@ -339,6 +336,7 @@
       "Baze University Abuja": 1,
       "Clemson University": 1,
       "Dokuz Eylül University": 1,
+      "Université Catholique de Louvain": 2,
       "Masaryk University": 1,
       "Open University of the Netherlands": 1,
       "Université de Picardie Jules-Verne": 1,
@@ -390,7 +388,7 @@
       "University of Cambridge": 1,
       "University of California, Riverside": 3,
       "University of California, Santa Barbara": 2,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 4,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 5,
       "University of Texas at Arlington": 5,
       "Damascus University": 1,
       "Princeton University": 2,
@@ -543,7 +541,7 @@
       "Indiana University - Bloomington": 4,
       "Nanyang Technological University": 3,
       "University of Iowa": 2,
-      "Pennsylvania State University": 2,
+      "West Chester University of Pennsylvania": 3,
       "The Hong Kong University of Science and Technology": 7,
       "Syracuse University": 3,
       "Emory University": 2,
@@ -587,7 +585,6 @@
       "Johannes-Gutenberg Universität Mainz": 1,
       "Indiana University": 1,
       "University of Texas at Arlington": 2,
-      "West Chester University of Pennsylvania": 1,
       "Washington State University at Vancouver": 1,
       "Iowa State University": 1,
       "Harbin Institute of Technology": 1,
@@ -672,7 +669,7 @@
       "Arizona State University": 1,
       "Tampere University of Technology": 3,
       "University of Bristol": 1,
-      "Louvain School of Management": 1,
+      "Université Catholique de Louvain": 1,
       "Westphalian University of Applied Sciences": 1,
       "Ruhr-Universität Bochum": 1,
       "Universitat Rovira I Virgili Tarragona": 1,
@@ -752,7 +749,7 @@
       "University of California, Santa Cruz": 4,
       "microsoft": 3,
       "Princeton University": 2,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 11,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 13,
       "National University of Singapore": 6,
       "Sardar Vallabhai Patel University of Agriculture Amd Technology": 2,
       "Northeastern University": 9,
@@ -820,7 +817,7 @@
       "University of Turin": 1,
       "Arak University of Technology": 4,
       "Louisiana State University": 4,
-      "Pennsylvania State University": 7,
+      "West Chester University of Pennsylvania": 7,
       "University of Waterloo": 1,
       "John Brown University": 4,
       "vrije universiteit amsterdam": 3,
@@ -897,7 +894,6 @@
       "University of North Carolina at Charlotte": 2,
       "University of Massachusetts at Amherst": 2,
       "university of chinese academy of sciences": 2,
-      "Southwest Jiaotong University": 2,
       "Kennesaw State University": 2,
       "institute of software, chinese academy of sciences": 2,
       "University of Texas at Dallas": 2,
@@ -955,9 +951,8 @@
       "univ. toulouse iii, irit": 1,
       "University of Colorado at Boulder": 1,
       "University of Central Missouri": 1,
-      "West Chester University of Pennsylvania": 1,
+      "West Chester University of Pennsylvania": 9,
       "inria": 1,
-      "Pennsylvania State University": 7,
       "microsoft research": 2,
       "Jiangsu University of Science and Technology": 1,
       "microsoft": 2,
@@ -1128,7 +1123,7 @@
       "Cornell University": 1,
       "Huazhong University of Science and Technology": 2,
       "University of Fribourg": 1,
-      "Pennsylvania State University": 2,
+      "West Chester University of Pennsylvania": 3,
       "microsoft research": 1,
       "New York University": 2,
       "Purdue University": 3,
@@ -1140,7 +1135,6 @@
       "Boston University": 1,
       "epfl": 1,
       "University of Massachusetts at Amherst": 1,
-      "West Chester University of Pennsylvania": 1,
       "University of California, Berkeley": 1,
       "University of Chicago": 1,
       "google": 1,
@@ -1219,7 +1213,7 @@
       "Florida State University": 2,
       "Illinois Institute of Technology": 1,
       "Georgia Institute of Technology": 1,
-      "Eskisehir Technical University": 1,
+      "Technical University of Lublin": 1,
       "Boise State University": 1,
       "University of Southern California": 1,
       "University of Oregon": 1,
@@ -1284,7 +1278,7 @@
       "Carnegie Mellon University": 2,
       "University of California, Berkeley": 7,
       "University of California, Riverside": 4,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 16,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 17,
       "University of North Carolina at Charlotte": 6,
       "University of California, Santa Barbara": 5,
       "University of Oregon": 2,
@@ -1340,7 +1334,7 @@
       "New York University": 1,
       "imec-distrinet, ku leuven": 1,
       "Toyo University": 1,
-      "tu munich": 1,
+      "Technical University of Lublin": 2,
       "Singapore University of Technology and Design": 1,
       "sapienza university of rome": 1,
       "meta": 1,
@@ -1348,14 +1342,12 @@
       "ics-forth": 1,
       "Technische Universität Carolo-Wilhelmina zu Braunschweig": 1,
       "University of California, Santa Cruz": 2,
-      "Shanghai Jiaotong University": 1,
       "inesc-id & ist u. lisboa in Portugal": 1,
       "Keio University": 1,
       "Rice University": 1,
       "University of Tokyo": 1,
       "linkedin": 1,
       "Universidade Federal de Goiás": 1,
-      "Technical University of Lublin": 1,
       "Guangzhou College of South China University of Technology": 1,
       "Massey University": 1,
       "Lynn University": 1,
@@ -1405,7 +1397,7 @@
       "University of Cambridge": 1,
       "University of California, Riverside": 2,
       "University of California, Santa Barbara": 1,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 4,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 5,
       "University of Texas at Arlington": 4,
       "Damascus University": 1,
       "Princeton University": 1,
@@ -1500,7 +1492,7 @@
       "Indiana University - Bloomington": 2,
       "Nanyang Technological University": 2,
       "University of Iowa": 2,
-      "Pennsylvania State University": 2,
+      "West Chester University of Pennsylvania": 3,
       "The Hong Kong University of Science and Technology": 2,
       "Syracuse University": 3,
       "Emory University": 2,
@@ -1544,7 +1536,6 @@
       "Johannes-Gutenberg Universität Mainz": 1,
       "Indiana University": 1,
       "University of Texas at Arlington": 1,
-      "West Chester University of Pennsylvania": 1,
       "Washington State University at Vancouver": 1,
       "Iowa State University": 1,
       "Harbin Institute of Technology": 1
@@ -1622,7 +1613,7 @@
       "University of California, Santa Cruz": 4,
       "microsoft": 3,
       "Princeton University": 1,
-      "institute of parallel and distributed systems, shanghai jiao tong university": 7,
+      "institute of parallel and distributed systems, shanghai jiao tong university": 9,
       "National University of Singapore": 3,
       "Sardar Vallabhai Patel University of Agriculture Amd Technology": 1,
       "Northeastern University": 3,
@@ -1653,7 +1644,6 @@
       "University of Massachusetts at Amherst": 2,
       "Southeast University": 2,
       "university of chinese academy of sciences": 2,
-      "Southwest Jiaotong University": 2,
       "John Brown University": 2,
       "North Carolina State University": 2,
       "Kennesaw State University": 2,
@@ -1665,7 +1655,7 @@
       "University of California, Davis": 2,
       "National University of Defense Technology": 4,
       "Renmin University of China": 2,
-      "Pennsylvania State University": 2,
+      "West Chester University of Pennsylvania": 2,
       "the ohio state university": 2,
       "The University of Texas at Austin": 3
     },
@@ -1713,9 +1703,8 @@
       "univ. toulouse iii, irit": 1,
       "University of Colorado at Boulder": 1,
       "University of Central Missouri": 1,
-      "West Chester University of Pennsylvania": 1,
+      "West Chester University of Pennsylvania": 2,
       "inria": 1,
-      "Pennsylvania State University": 1,
       "microsoft research": 1,
       "Jiangsu University of Science and Technology": 1,
       "microsoft": 1,
@@ -1898,6 +1887,7 @@
       "Nanyang Technological University": 1,
       "Royal Holloway University of London": 2,
       "Dokuz Eylül University": 1,
+      "Université Catholique de Louvain": 2,
       "Masaryk University": 1,
       "Open University of the Netherlands": 1,
       "Université de Picardie Jules-Verne": 1,
@@ -2127,7 +2117,7 @@
       "University of British Columbia": 1,
       "Tampere University of Technology": 3,
       "University of Bristol": 1,
-      "Louvain School of Management": 1,
+      "Université Catholique de Louvain": 1,
       "Westphalian University of Applied Sciences": 1,
       "Ruhr-Universität Bochum": 1,
       "Universitat Rovira I Virgili Tarragona": 1,
@@ -2218,7 +2208,7 @@
       "University of Turin": 1,
       "Arak University of Technology": 4,
       "Louisiana State University": 4,
-      "Pennsylvania State University": 5,
+      "West Chester University of Pennsylvania": 5,
       "University of Waterloo": 1,
       "John Brown University": 2,
       "vrije universiteit amsterdam": 3,
@@ -2303,7 +2293,7 @@
       "Sardar Vallabhai Patel University of Agriculture Amd Technology": 1
     },
     "2026": {
-      "Pennsylvania State University": 6,
+      "West Chester University of Pennsylvania": 6,
       "Kurume Institute of Technology": 4,
       "computing and imaging institute - the university of utah": 4,
       "imec-distrinet, ku leuven": 9,
@@ -2489,6 +2479,10 @@
           "count": 4
         },
         {
+          "name": "West Chester University of Pennsylvania",
+          "count": 3
+        },
+        {
           "name": "epfl",
           "count": 3
         },
@@ -2510,10 +2504,6 @@
         },
         {
           "name": "Huazhong University of Science and Technology",
-          "count": 2
-        },
-        {
-          "name": "Pennsylvania State University",
           "count": 2
         },
         {
@@ -2604,7 +2594,7 @@
       "institutions": [
         {
           "name": "institute of parallel and distributed systems, shanghai jiao tong university",
-          "count": 17
+          "count": 18
         },
         {
           "name": "The Hong Kong University of Science and Technology",
@@ -2716,15 +2706,15 @@
           "count": 5
         },
         {
+          "name": "institute of parallel and distributed systems, shanghai jiao tong university",
+          "count": 5
+        },
+        {
           "name": "University of Texas at Arlington",
           "count": 5
         },
         {
           "name": "The University of Texas at Austin",
-          "count": 5
-        },
-        {
-          "name": "vrije universiteit amsterdam",
           "count": 5
         }
       ]
@@ -2830,6 +2820,10 @@
           "count": 16
         },
         {
+          "name": "institute of parallel and distributed systems, shanghai jiao tong university",
+          "count": 13
+        },
+        {
           "name": "The Hong Kong University of Science and Technology",
           "count": 12
         },
@@ -2847,10 +2841,6 @@
         },
         {
           "name": "The Chinese University of Hong Kong",
-          "count": 11
-        },
-        {
-          "name": "institute of parallel and distributed systems, shanghai jiao tong university",
           "count": 11
         },
         {
@@ -2895,6 +2885,10 @@
           "count": 10
         },
         {
+          "name": "West Chester University of Pennsylvania",
+          "count": 9
+        },
+        {
           "name": "imec-distrinet, ku leuven",
           "count": 9
         },
@@ -2917,10 +2911,6 @@
         {
           "name": "Carnegie Mellon University",
           "count": 7
-        },
-        {
-          "name": "google",
-          "count": 7
         }
       ]
     }
@@ -2928,8 +2918,8 @@
   "unique_by_year": [
     {
       "year": 2020,
-      "total": 53,
-      "systems": 30,
+      "total": 52,
+      "systems": 29,
       "security": 29
     },
     {
@@ -2940,9 +2930,9 @@
     },
     {
       "year": 2022,
-      "total": 147,
-      "systems": 91,
-      "security": 84
+      "total": 146,
+      "systems": 89,
+      "security": 85
     },
     {
       "year": 2023,
@@ -2952,20 +2942,20 @@
     },
     {
       "year": 2024,
-      "total": 191,
-      "systems": 104,
+      "total": 190,
+      "systems": 103,
       "security": 134
     },
     {
       "year": 2025,
-      "total": 230,
-      "systems": 118,
+      "total": 229,
+      "systems": 117,
       "security": 165
     },
     {
       "year": 2026,
-      "total": 203,
-      "systems": 73,
+      "total": 202,
+      "systems": 72,
       "security": 163
     }
   ]

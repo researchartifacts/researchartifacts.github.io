@@ -1,22 +1,22 @@
-last_updated: '2026-03-20'
-total_members: 3343
+last_updated: '2026-04-07'
+total_members: 3345
 total_systems: 1699
 total_security: 1643
-total_conferences: 50
+total_conferences: 51
 total_countries: 59
 total_continents: 7
-total_institutions: 435
+total_institutions: 429
 recurring_members: 1919
 recurring_members_systems: 928
 recurring_members_security: 1065
-recurring_chairs: 67
+recurring_chairs: 69
 top_countries:
 - name: United States
-  count: 1547
+  count: 1548
 - name: China
-  count: 290
+  count: 291
 - name: Germany
-  count: 154
+  count: 153
 - name: Hong Kong
   count: 135
 - name: United Kingdom
@@ -33,19 +33,19 @@ top_countries:
   count: 51
 - name: Australia
   count: 45
+- name: Belgium
+  count: 38
 - name: Italy
   count: 38
 - name: Netherlands
   count: 37
-- name: Belgium
-  count: 36
 - name: Spain
   count: 33
 top_countries_systems:
 - name: United States
   count: 905
 - name: China
-  count: 204
+  count: 205
 - name: Hong Kong
   count: 86
 - name: United Kingdom
@@ -59,7 +59,7 @@ top_countries_systems:
 - name: Spain
   count: 28
 - name: Germany
-  count: 26
+  count: 25
 - name: Canada
   count: 20
 - name: Japan
@@ -90,7 +90,7 @@ top_countries_security:
 - name: Japan
   count: 36
 - name: Belgium
-  count: 34
+  count: 36
 - name: Netherlands
   count: 30
 - name: Switzerland
@@ -105,30 +105,30 @@ top_countries_security:
   count: 20
 top_continents:
 - name: North America
-  count: 1607
+  count: 1608
 - name: Asia
-  count: 693
+  count: 694
 - name: Europe
-  count: 587
+  count: 590
 - name: Oceania
   count: 46
 - name: Africa
   count: 32
 - name: Unknown
-  count: 26
+  count: 25
 - name: South America
   count: 6
 top_continents_systems:
 - name: North America
   count: 925
 - name: Asia
-  count: 416
+  count: 417
 - name: Europe
-  count: 218
+  count: 219
 - name: Africa
   count: 14
 - name: Unknown
-  count: 9
+  count: 8
 - name: Oceania
   count: 7
 - name: South America
@@ -137,7 +137,7 @@ top_continents_security:
 - name: North America
   count: 681
 - name: Europe
-  count: 369
+  count: 371
 - name: Asia
   count: 277
 - name: Oceania
@@ -161,14 +161,14 @@ top_institutions:
   count: 56
 - name: cispa helmholtz center for information security
   count: 53
+- name: institute of parallel and distributed systems, shanghai jiao tong university
+  count: 51
 - name: University of Michigan - Ann Arbor
   count: 50
 - name: National Tsinghua University
   count: 49
 - name: The Hong Kong University of Science and Technology
   count: 48
-- name: institute of parallel and distributed systems, shanghai jiao tong university
-  count: 47
 - name: computing and imaging institute - the university of utah
   count: 43
 - name: Carnegie Mellon University
@@ -183,21 +183,21 @@ top_institutions:
   count: 34
 - name: imec-distrinet, ku leuven
   count: 33
+- name: West Chester University of Pennsylvania
+  count: 30
 - name: Virginia Tech
   count: 29
 - name: eth zurich
-  count: 28
-- name: University of California, Riverside
   count: 28
 top_institutions_systems:
 - name: University of Illinois Urbana-Champaign
   count: 97
 - name: Purdue University
   count: 48
+- name: institute of parallel and distributed systems, shanghai jiao tong university
+  count: 44
 - name: University of Michigan - Ann Arbor
   count: 44
-- name: institute of parallel and distributed systems, shanghai jiao tong university
-  count: 40
 - name: University of Wisconsin - Madison
   count: 38
 - name: The Hong Kong University of Science and Technology
@@ -273,32 +273,32 @@ top_institutions_security:
   count: 13
 institution_timeline:
 - year: 2020
-  total: 53
-  systems: 30
+  total: 52
+  systems: 29
   security: 29
 - year: 2021
   total: 140
   systems: 116
   security: 40
 - year: 2022
-  total: 147
-  systems: 91
-  security: 84
+  total: 146
+  systems: 89
+  security: 85
 - year: 2023
   total: 138
   systems: 80
   security: 92
 - year: 2024
-  total: 191
-  systems: 104
+  total: 190
+  systems: 103
   security: 134
 - year: 2025
-  total: 230
-  systems: 118
+  total: 229
+  systems: 117
   security: 165
 - year: 2026
-  total: 203
-  systems: 73
+  total: 202
+  systems: 72
   security: 163
 committee_sizes:
 - conference: ATC
@@ -541,6 +541,11 @@ committee_sizes:
   conf_year: usenixsec2026
   area: security
   size: 226
+- conference: VEHICLESEC
+  year: 2026
+  conf_year: vehiclesec2026
+  area: unknown
+  size: 2
 - conference: WOOT
   year: 2024
   conf_year: woot2024
