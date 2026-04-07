@@ -1,16 +1,16 @@
-# ResearchArtifacts Website — Copilot Instructions
+# ReproDB Website — Copilot Instructions
 
 ## Auto-Generated Files — DO NOT EDIT
 
 The following files are regenerated monthly by the
-[artifact_analysis](https://github.com/researchartifacts/artifact_analysis) pipeline
+[reprodb-pipeline](https://github.com/reprodb/reprodb-pipeline) pipeline
 via GitHub Actions. Manual edits **will be overwritten**.
 
 - **`_data/*.yml`** (except `navigation.yml`) — statistics, rankings, repo stats
 - **`assets/data/*.json`** — machine-readable data exports
 - **`assets/charts/*.svg`** — pre-generated matplotlib visualizations
 
-To update these files, re-run the pipeline in artifact_analysis.
+To update these files, re-run the pipeline in reprodb-pipeline.
 
 ## Hand-Maintained Files
 
@@ -25,7 +25,7 @@ To update these files, re-run the pipeline in artifact_analysis.
 - Theme: **Minimal Mistakes v4.27** (remote_theme)
 - Markdown: Kramdown
 - **ALWAYS** use `{{ '/path/to/asset' | relative_url }}` for all internal links and
-  asset references. The site has `baseurl: "/researchartifacts.github.io"` set.
+  asset references. The site has `baseurl: "/reprodb.github.io"` set.
   Never hardcode absolute paths.
 - Test locally with `./serve.sh`.
 
@@ -53,5 +53,5 @@ When adding a new conference page, also add it to `_data/navigation.yml`.
 ## Data Schemas
 
 All JSON/YAML data structures are documented in
-[researchartifacts/data-schemas](https://github.com/researchartifacts/data-schemas).
+[reprodb/data-schemas](https://github.com/reprodb/data-schemas).
 If changing how templates consume data fields, verify against the schema definitions.
