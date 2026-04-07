@@ -46,17 +46,19 @@ html {
   display: none;
 }
 
-// Make #main and masthead use full viewport width with matching padding
-#main {
-  max-width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
+// Make #main and masthead use full viewport width with matching padding.
+// On wide screens (>1400px), add ~1/6 viewport padding on each side
+// so content occupies roughly 2/3 of the screen for readability.
+#main,
 .masthead__inner-wrap {
   max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
+
+  @media (min-width: 87.5em) {  // ~1400px
+    padding-left: calc(100vw / 6);
+    padding-right: calc(100vw / 6);
+  }
 }
 
 // Dropdown submenus for masthead navigation
