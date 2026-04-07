@@ -1,7 +1,8 @@
 ---
 title: "Systems: Artifact Authors"
 permalink: /systems/authors.html
-author_data_url: /assets/data/systems_authors.json
+author_data_url: /assets/data/systems_combined_rankings.json
+institution_data_url: /assets/data/systems_institution_rankings.json
 ---
 
 Authors ranked by number of evaluated artifacts at systems conferences ({{ site.data.summary.systems_conferences | join: ", " }}).

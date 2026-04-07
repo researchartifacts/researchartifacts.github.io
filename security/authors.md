@@ -1,7 +1,8 @@
 ---
 title: "Security: Artifact Authors"
 permalink: /security/authors.html
-author_data_url: /assets/data/security_authors.json
+author_data_url: /assets/data/security_combined_rankings.json
+institution_data_url: /assets/data/security_institution_rankings.json
 ---
 
 Authors ranked by number of evaluated artifacts at security conferences ({{ site.data.summary.security_conferences | join: ", " }}).
