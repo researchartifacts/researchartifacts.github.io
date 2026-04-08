@@ -79,9 +79,7 @@ The paper count is determined by matching author names to DBLP records and filte
 ### Artifact Rate (AR%)
 The percentage of an author's papers (at AE-active conferences) that have artifact badges:
 
-```
-AR% = (Artifacts / Total Papers) × 100
-```
+**AR%** = (Artifacts / Total Papers) × 100
 
 **Key point:** The denominator includes only papers from years when the venue had artifact evaluation. This ensures the rate reflects artifact adoption within the relevant time window, avoiding both over-inflation (counting only artifact papers) and under-inflation (counting all historical publications).
 
@@ -90,9 +88,7 @@ AR% = (Artifacts / Total Papers) × 100
 ### Reproducibility Rate (RR%)
 Among papers with artifacts, the percentage achieving the highest-tier badge (Reproduced or Reusable):
 
-```
-RR% = (Reproduced badges / Total artifacts) × 100
-```
+**RR%** = (Reproduced badges / Total artifacts) × 100
 
 This measures the depth of reproducibility beyond mere artifact availability.
 
@@ -100,9 +96,7 @@ This measures the depth of reproducibility beyond mere artifact availability.
 
 The A:E ratio characterizes the balance between artifact production and evaluation service:
 
-```
-A:E = Artifact Score / AE Score
-```
+**A:E** = Artifact Score / AE Score
 
 Where:
 - **Artifact Score** = sum of badge points (Available+1, Functional+1, Reproduced+1 per artifact)
@@ -160,10 +154,8 @@ All metrics are **summed across affiliated authors**:
 
 **Artifact Rate and Reproducibility Rate** are then computed from these aggregated totals:
 
-```
-Institution AR% = (Total artifacts / Total papers) × 100
-Institution RR% = (Total reproduced badges / Total artifacts) × 100
-```
+- **Institution AR%** = (Total artifacts / Total papers) × 100
+- **Institution RR%** = (Total reproduced badges / Total artifacts) × 100
 
 ### Cross-Area Aggregation
 
