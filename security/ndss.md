@@ -1,8 +1,8 @@
 ---
-title: "NDSS — Artifact Evaluation"
+title: "NDSS"
 permalink: /security/ndss.html
 conf_name: "NDSS"
-conf_display_name: "Network and Distributed System Security Symposium"
+conf_display_name: "NDSS"
 conf_category: "security"
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "FAST — Artifact Evaluation"
+title: "USENIX FAST"
 permalink: /systems/fast.html
 conf_name: "FAST"
-conf_display_name: "USENIX Conference on File and Storage Technologies"
+conf_display_name: "USENIX FAST"
 conf_category: "systems"
 ---
 
