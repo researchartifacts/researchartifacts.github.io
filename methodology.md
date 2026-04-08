@@ -202,7 +202,6 @@ See the [verification scripts and detailed results](https://github.com/reprodb/r
 - **[sysartifacts.github.io](https://sysartifacts.github.io)** — Systems conference artifact evaluation results ({{ site.data.summary.systems_conferences | join: ", " }})
 - **[secartifacts.github.io](https://secartifacts.github.io)** — Security conference artifact evaluation results ({{ site.data.summary.security_conferences | join: ", " }})
 - **[usenix.org](https://www.usenix.org)** — Badge information and AE committee data for USENIX conferences
-- **[ACM Digital Library](https://dl.acm.org)** — Artifact badge information for ACM-published conferences
 - **[DBLP](https://dblp.org)** — Author name matching, disambiguation, and total publication counts
 - **[Semantic Scholar](https://www.semanticscholar.org)** — Author affiliation enrichment and citation data
 - **[OpenAlex](https://openalex.org)** — Author affiliation enrichment
