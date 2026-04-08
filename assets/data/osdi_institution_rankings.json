@@ -920,6 +920,35 @@
     }
   },
   {
+    "affiliation": "Google",
+    "combined_score": 27,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 0.8,
+    "role": "Balanced",
+    "artifacts": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_rate": 80.0,
+    "num_authors": 5,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 1,
+      "2023": 0,
+      "2022": 1,
+      "2021": 4,
+      "2020": 1,
+      "2025": 2
+    }
+  },
+  {
     "affiliation": "University of Science and Technology of China",
     "combined_score": 27,
     "artifact_score": 18,
@@ -1030,35 +1059,6 @@
       "2022": 2,
       "2021": 3,
       "2020": 2
-    }
-  },
-  {
-    "affiliation": "Google",
-    "combined_score": 24,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.6,
-    "role": "Balanced",
-    "artifacts": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 100.0,
-    "num_authors": 4,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2024": 1,
-      "2023": 0,
-      "2022": 1,
-      "2021": 3,
-      "2020": 1,
-      "2025": 2
     }
   },
   {
@@ -3908,34 +3908,6 @@
   },
   {
     "affiliation": "Technion",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 50.0,
-    "num_authors": 1,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0
-    }
-  },
-  {
-    "affiliation": "Google Inc.",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

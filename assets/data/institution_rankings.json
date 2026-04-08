@@ -1428,6 +1428,46 @@
     }
   },
   {
+    "affiliation": "Google",
+    "combined_score": 141,
+    "artifact_score": 45,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 96,
+    "ae_ratio": 0.47,
+    "role": "Consumer",
+    "artifacts": 19,
+    "badges_functional": 15,
+    "badges_reproducible": 11,
+    "ae_memberships": 32,
+    "chair_count": 0,
+    "total_papers": 35,
+    "artifact_rate": 54.3,
+    "num_authors": 26,
+    "conferences": [
+      "ATC",
+      "CHES",
+      "EUROSYS",
+      "NDSS",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2024": 9,
+      "2025": 15,
+      "2023": 5,
+      "2022": 7,
+      "2021": 8,
+      "2020": 1,
+      "2026": 5,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "Princeton University",
     "combined_score": 140,
     "artifact_score": 116,
@@ -1819,46 +1859,6 @@
       "2021": 5,
       "2020": 2,
       "2026": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "Google",
-    "combined_score": 115,
-    "artifact_score": 19,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 96,
-    "ae_ratio": 0.2,
-    "role": "Consumer",
-    "artifacts": 9,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 32,
-    "chair_count": 0,
-    "total_papers": 18,
-    "artifact_rate": 50.0,
-    "num_authors": 20,
-    "conferences": [
-      "ATC",
-      "CHES",
-      "EUROSYS",
-      "NDSS",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2024": 8,
-      "2025": 14,
-      "2023": 2,
-      "2022": 6,
-      "2021": 4,
-      "2020": 1,
-      "2026": 5,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -12213,40 +12213,6 @@
     }
   },
   {
-    "affiliation": "Google Inc.",
-    "combined_score": 11,
-    "artifact_score": 11,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 3,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_rate": 40.0,
-    "num_authors": 3,
-    "conferences": [
-      "OSDI",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 1,
-      "2023": 1,
-      "2022": 1,
-      "2021": 1,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "The Institute of Computing Technology of the Chinese Academy of Sciences",
     "combined_score": 10,
     "artifact_score": 1,
@@ -12654,35 +12620,6 @@
       "2019": 0,
       "2018": 0,
       "2017": 0
-    }
-  },
-  {
-    "affiliation": "Google DeepMind",
-    "combined_score": 10,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 2,
-      "2022": 0,
-      "2021": 2,
-      "2020": 0
     }
   },
   {
@@ -18816,36 +18753,6 @@
       "2022": 0,
       "2021": 0,
       "2020": 1
-    }
-  },
-  {
-    "affiliation": "Google LLC",
-    "combined_score": 5,
-    "artifact_score": 5,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 66.7,
-    "num_authors": 1,
-    "conferences": [
-      "EUROSYS",
-      "SOSP"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0
     }
   },
   {

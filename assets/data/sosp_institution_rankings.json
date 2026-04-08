@@ -782,6 +782,33 @@
     }
   },
   {
+    "affiliation": "Google",
+    "combined_score": 16,
+    "artifact_score": 13,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 4.33,
+    "role": "Producer",
+    "artifacts": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 3,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_rate": 83.3,
+    "num_authors": 4,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 3,
+      "2022": 0,
+      "2021": 3
+    }
+  },
+  {
     "affiliation": "Virginia Tech",
     "combined_score": 16,
     "artifact_score": 4,
@@ -1233,33 +1260,6 @@
     "years": {
       "2021": 1,
       "2023": 2
-    }
-  },
-  {
-    "affiliation": "Google DeepMind",
-    "combined_score": 10,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 2,
-      "2022": 0,
-      "2021": 2
     }
   },
   {
@@ -3499,33 +3499,6 @@
     }
   },
   {
-    "affiliation": "Google LLC",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 50.0,
-    "num_authors": 1,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1
-    }
-  },
-  {
     "affiliation": "Department of Computer Science, Rice University",
     "combined_score": 3,
     "artifact_score": 3,
@@ -3992,30 +3965,6 @@
   },
   {
     "affiliation": "The Hang Seng University of Hong Kong",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2023": 1
-    }
-  },
-  {
-    "affiliation": "Google",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,

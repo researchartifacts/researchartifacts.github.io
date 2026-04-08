@@ -1162,6 +1162,42 @@
     }
   },
   {
+    "affiliation": "Google",
+    "combined_score": 74,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 60,
+    "ae_ratio": 0.23,
+    "role": "Consumer",
+    "artifacts": 7,
+    "badges_functional": 4,
+    "badges_reproducible": 3,
+    "ae_memberships": 20,
+    "chair_count": 0,
+    "total_papers": 20,
+    "artifact_rate": 35.0,
+    "num_authors": 13,
+    "conferences": [
+      "CHES",
+      "NDSS",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 3,
+      "2025": 9,
+      "2024": 7,
+      "2023": 2,
+      "2022": 6,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "IIT Bombay",
     "combined_score": 73,
     "artifact_score": 52,
@@ -1448,42 +1484,6 @@
       "2020": 1,
       "2019": 1,
       "2018": 1,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "Google",
-    "combined_score": 66,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 60,
-    "ae_ratio": 0.1,
-    "role": "Consumer",
-    "artifacts": 4,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 20,
-    "chair_count": 0,
-    "total_papers": 13,
-    "artifact_rate": 30.8,
-    "num_authors": 11,
-    "conferences": [
-      "CHES",
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 9,
-      "2024": 6,
-      "2023": 1,
-      "2022": 5,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
       "2017": 0
     }
   },
@@ -9879,39 +9879,6 @@
       "2022": 1,
       "2021": 0,
       "2020": 1,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "Google Inc.",
-    "combined_score": 8,
-    "artifact_score": 8,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 7,
-    "artifact_rate": 42.9,
-    "num_authors": 2,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 1,
-      "2023": 1,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
       "2019": 0,
       "2018": 0,
       "2017": 0

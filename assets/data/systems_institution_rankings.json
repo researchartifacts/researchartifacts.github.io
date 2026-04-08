@@ -1278,6 +1278,39 @@
     }
   },
   {
+    "affiliation": "Google",
+    "combined_score": 67,
+    "artifact_score": 31,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 36,
+    "ae_ratio": 0.86,
+    "role": "Balanced",
+    "artifacts": 12,
+    "badges_functional": 11,
+    "badges_reproducible": 8,
+    "ae_memberships": 12,
+    "chair_count": 0,
+    "total_papers": 15,
+    "artifact_rate": 80.0,
+    "num_authors": 13,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2024": 2,
+      "2025": 6,
+      "2023": 3,
+      "2022": 1,
+      "2021": 8,
+      "2020": 1,
+      "2026": 2
+    }
+  },
+  {
     "affiliation": "IIT Bombay",
     "combined_score": 65,
     "artifact_score": 53,
@@ -1634,39 +1667,6 @@
       "2020": 1,
       "2021": 2,
       "2022": 1,
-      "2026": 2
-    }
-  },
-  {
-    "affiliation": "Google",
-    "combined_score": 49,
-    "artifact_score": 13,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 36,
-    "ae_ratio": 0.36,
-    "role": "Consumer",
-    "artifacts": 5,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 12,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_rate": 100.0,
-    "num_authors": 9,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2024": 2,
-      "2025": 5,
-      "2023": 1,
-      "2022": 1,
-      "2021": 4,
-      "2020": 1,
       "2026": 2
     }
   },
@@ -5669,35 +5669,6 @@
     }
   },
   {
-    "affiliation": "Google DeepMind",
-    "combined_score": 10,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 2,
-      "2022": 0,
-      "2021": 2,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "Univ. of California - Davis",
     "combined_score": 10,
     "artifact_score": 10,
@@ -9629,36 +9600,6 @@
     }
   },
   {
-    "affiliation": "Google LLC",
-    "combined_score": 5,
-    "artifact_score": 5,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 66.7,
-    "num_authors": 1,
-    "conferences": [
-      "EUROSYS",
-      "SOSP"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "Télécom SudParis",
     "combined_score": 5,
     "artifact_score": 2,
@@ -10394,35 +10335,6 @@
       "2023": 0,
       "2022": 0,
       "2021": 0,
-      "2020": 0
-    }
-  },
-  {
-    "affiliation": "Google Inc.",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 33.3,
-    "num_authors": 1,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
       "2020": 0
     }
   },
