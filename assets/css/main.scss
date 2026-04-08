@@ -49,7 +49,7 @@ html {
 // Consistent padding for masthead and all content layouts.
 // On wide screens (>1400px), add ~1/6 viewport padding on each side
 // so content occupies roughly 2/3 of the screen for readability.
-// .initial-content wraps #main, so only pad the outer containers.
+// .initial-content wraps #main, so only pad the outer container.
 .initial-content,
 .masthead__inner-wrap {
   max-width: 100%;
@@ -60,6 +60,12 @@ html {
     padding-left: calc(100vw / 6);
     padding-right: calc(100vw / 6);
   }
+}
+
+// Reset #main padding — the theme sets padding-inline:1em which doubles
+// the indent since .initial-content already provides the outer padding.
+#main {
+  padding-inline: 0;
 }
 
 // Dropdown submenus for masthead navigation
