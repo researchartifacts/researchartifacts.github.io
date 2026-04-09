@@ -10,8 +10,6 @@ security_data_url: /assets/data/security_institution_rankings.json
 
 Institutions ranked by aggregate contributions of their researchers. Filter by conference area: all, systems, or security.
 
-**Note**: Affiliation data is sourced from artifact submissions, AE committee listings, [DBLP](https://dblp.org), and [CSRankings](http://csrankings.org). Researchers with unknown or missing institutions are excluded from this ranking.
-
 ---
 
 <div markdown="0">
