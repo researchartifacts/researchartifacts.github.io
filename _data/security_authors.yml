@@ -9916,7 +9916,7 @@
   author_id: 545
 - name: Christoph Krauß
   display_name: Christoph Krauß
-  affiliation: ''
+  affiliation: Darmstadt University of Applied Sciences, Germany
   artifact_score: 6
   artifacts: 3
   total: 3
@@ -11118,7 +11118,7 @@
   author_id: 1365
 - name: Audrey Dutcher
   display_name: Audrey Dutcher
-  affiliation: ''
+  affiliation: Arizona State University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -11148,7 +11148,7 @@
   author_id: 1368
 - name: Aurora Naska
   display_name: Aurora Naska
-  affiliation: ''
+  affiliation: Helmholtz Center for Information Security
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -11782,7 +11782,7 @@
   author_id: 1502
 - name: Eunsoo Kim
   display_name: Eunsoo Kim
-  affiliation: ''
+  affiliation: Sungkyunkwan University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -11813,7 +11813,7 @@
   author_id: 1489
 - name: Fangzhou Dong
   display_name: Fangzhou Dong
-  affiliation: ''
+  affiliation: Arizona State University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -12083,7 +12083,7 @@
   author_id: 1468
 - name: Hui Jun Tay
   display_name: Hui Jun Tay
-  affiliation: ''
+  affiliation: Arizona State University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -12354,7 +12354,7 @@
   author_id: 1637
 - name: Kai-Hsiang Chou
   display_name: Kai-Hsiang Chou
-  affiliation: ''
+  affiliation: National Taiwan University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13020,7 +13020,7 @@
   author_id: 7945
 - name: Piyush Kumar Sharma
   display_name: Piyush Kumar Sharma
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13140,7 +13140,7 @@
   author_id: 1509
 - name: René Raab
   display_name: René Raab
-  affiliation: ''
+  affiliation: Friedrich-Alexander-Universität Erlangen-Nürnberg
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13503,7 +13503,7 @@
   author_id: 1381
 - name: Sylvain Ruhault
   display_name: Sylvain Ruhault
-  affiliation: ''
+  affiliation: Agence Nationale de Sécurité du Médicament et des Produits de Santé
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13716,7 +13716,7 @@
   author_id: 502
 - name: Tong Wu
   display_name: Tong Wu
-  affiliation: ''
+  affiliation: Princeton University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13806,7 +13806,7 @@
   author_id: 1323
 - name: Vinod Yegneswaran
   display_name: Vinod Yegneswaran
-  affiliation: ''
+  affiliation: SRI International
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13928,7 +13928,7 @@
   author_id: 1588
 - name: Ye Zheng
   display_name: Ye Zheng
-  affiliation: ''
+  affiliation: Rochester Institute of Technology
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -13958,7 +13958,7 @@
   author_id: 1807
 - name: Yi-An Wang
   display_name: Yi-An Wang
-  affiliation: ''
+  affiliation: National Taiwan University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -16193,7 +16193,7 @@
   author_id: 1418
 - name: Alessio Merlo
   display_name: Alessio Merlo
-  affiliation: ''
+  affiliation: DIBRIS, University of Genoa, Italy
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -16377,7 +16377,7 @@
   author_id: 1158
 - name: Bumjin Im
   display_name: Bumjin Im
-  affiliation: ''
+  affiliation: Rice University, Houston, Texas
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -16500,7 +16500,7 @@
   author_id: 1110
 - name: Constantine Doumanidis
   display_name: Constantine Doumanidis
-  affiliation: ''
+  affiliation: New York University
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -16622,7 +16622,7 @@
   author_id: 1511
 - name: Emre Güler
   display_name: Emre Güler
-  affiliation: ''
+  affiliation: Ruhr-Universtität Bochum
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -16776,7 +16776,7 @@
   author_id: 1626
 - name: Ha Dao
   display_name: Ha Dao
-  affiliation: ''
+  affiliation: Max Planck Institute for Informatics
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -16806,7 +16806,7 @@
   author_id: 1788
 - name: Haehyun Cho
   display_name: Haehyun Cho
-  affiliation: ''
+  affiliation: Arizona State University
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17020,7 +17020,7 @@
   author_id: 7938
 - name: Jan Pennekamp
   display_name: Jan Pennekamp
-  affiliation: ''
+  affiliation: RWTH Aachen University, Germany
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17082,7 +17082,7 @@
   author_id: 7939
 - name: Jan Wichelmann
   display_name: Jan Wichelmann
-  affiliation: ''
+  affiliation: Universität zu Lübeck, Lübeck, Germany
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17388,7 +17388,7 @@
   author_id: 1687
 - name: Jinjin Wang
   display_name: Jinjin Wang
-  affiliation: ''
+  affiliation: University of Birmingham
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17449,7 +17449,7 @@
   author_id: 7950
 - name: Joseph Zhang
   display_name: Joseph Zhang
-  affiliation: ''
+  affiliation: Massachusetts Institute of Technology
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17695,7 +17695,7 @@
   author_id: 1211
 - name: Komail Dharsee
   display_name: Komail Dharsee
-  affiliation: ''
+  affiliation: University of Rochester, United States of America
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17726,7 +17726,7 @@
   author_id: 1168
 - name: Kristen Moore
   display_name: Kristen Moore
-  affiliation: ''
+  affiliation: CSIRO's Data61, Australia
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17848,7 +17848,7 @@
   author_id: 1338
 - name: Louis Hackländer
   display_name: Louis Hackländer
-  affiliation: ''
+  affiliation: Fraunhofer FKIE, Germany
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17879,7 +17879,7 @@
   author_id: 7934
 - name: Lucas Becker
   display_name: Lucas Becker
-  affiliation: ''
+  affiliation: TU Darmstadt
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -17940,7 +17940,7 @@
   author_id: 1551
 - name: Maarten H. Everts
   display_name: Maarten H. Everts
-  affiliation: ''
+  affiliation: University of Twente and TNO
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18124,7 +18124,7 @@
   author_id: 1343
 - name: Muhammad Adil Inam
   display_name: Muhammad Adil Inam
-  affiliation: ''
+  affiliation: University of Illinois at Urbana-Champaign, United States of America
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18155,7 +18155,7 @@
   author_id: 1171
 - name: Nian Xue
   display_name: Nian Xue
-  affiliation: ''
+  affiliation: New York University, United States of America
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18186,7 +18186,7 @@
   author_id: 1224
 - name: Nicholas Micallef
   display_name: Nicholas Micallef
-  affiliation: ''
+  affiliation: Swansea University
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18278,7 +18278,7 @@
   author_id: 1186
 - name: Patrick Zielinski
   display_name: Patrick Zielinski
-  affiliation: ''
+  affiliation: Stevens Institute of Technology,Hoboken,NJ,USA
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18339,7 +18339,7 @@
   author_id: 1337
 - name: Philipp Görz
   display_name: Philipp Görz
-  affiliation: ''
+  affiliation: Ruhr-Universität Bochum
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18493,7 +18493,7 @@
   author_id: 1231
 - name: Rafael Uetz
   display_name: Rafael Uetz
-  affiliation: ''
+  affiliation: Fraunhofer FKIE, Germany
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18524,7 +18524,7 @@
   author_id: 1140
 - name: Rahel A. Fainchtein
   display_name: Rahel A. Fainchtein
-  affiliation: ''
+  affiliation: Georgetown University, United States of America
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18555,7 +18555,7 @@
   author_id: 1189
 - name: Rasoul Akhavan Mahdavi
   display_name: Rasoul Akhavan Mahdavi
-  affiliation: ''
+  affiliation: University of Waterloo
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18586,7 +18586,7 @@
   author_id: 1227
 - name: Rouzbeh Behnia
   display_name: Rouzbeh Behnia
-  affiliation: ''
+  affiliation: University of South Florida
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18708,7 +18708,7 @@
   author_id: 1420
 - name: Sebastian Szyller
   display_name: Sebastian Szyller
-  affiliation: ''
+  affiliation: Aalto University
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18739,7 +18739,7 @@
   author_id: 1191
 - name: Shanghao Shi
   display_name: Shanghao Shi
-  affiliation: ''
+  affiliation: Virginia Polytechnic Institute and State University
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18831,7 +18831,7 @@
   author_id: 1197
 - name: Soumyakant Priyadarshan
   display_name: Soumyakant Priyadarshan
-  affiliation: ''
+  affiliation: Stony Brook University, USA
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -18953,7 +18953,7 @@
   author_id: 1363
 - name: Tim Blazytko
   display_name: Tim Blazytko
-  affiliation: ''
+  affiliation: Ruhr-Universität Bochum
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -19260,7 +19260,7 @@
   author_id: 1708
 - name: Yongqin Wang
   display_name: Yongqin Wang
-  affiliation: ''
+  affiliation: University of Southern California
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -20580,7 +20580,7 @@
   author_id: 1499
 - name: Akash Shah
   display_name: Akash Shah
-  affiliation: ''
+  affiliation: UCLA. Work done at Microsoft Research .
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -20945,7 +20945,7 @@
   author_id: 1081
 - name: Arthur Beckers
   display_name: Arthur Beckers
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -20976,7 +20976,8 @@
   author_id: 1288
 - name: Berk Gülmezoglu
   display_name: Berk Gülmezoglu
-  affiliation: ''
+  affiliation: Electrical and Computer Engineering, Iowa State University, United
+    States of America
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21036,7 +21037,7 @@
   author_id: 1170
 - name: Blaine Hoak
   display_name: Blaine Hoak
-  affiliation: ''
+  affiliation: The Pennsylvania State University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21310,7 +21311,7 @@
   author_id: 1490
 - name: Christian Plappert
   display_name: Christian Plappert
-  affiliation: ''
+  affiliation: Fraunhofer SIT | ATHENE, Germany
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21340,7 +21341,7 @@
   author_id: 1207
 - name: Christopher Patton
   display_name: Christopher Patton
-  affiliation: ''
+  affiliation: Cloudflare
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21370,7 +21371,7 @@
   author_id: 1772
 - name: Claudio Anliker
   display_name: Claudio Anliker
-  affiliation: ''
+  affiliation: ETH Zurich
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21582,7 +21583,8 @@
   author_id: 1260
 - name: Debopriya Roy Dipta
   display_name: Debopriya Roy Dipta
-  affiliation: ''
+  affiliation: Electrical and Computer Engineering, Iowa State University, United
+    States of America
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21672,7 +21674,7 @@
   author_id: 631
 - name: Dennis Jackson
   display_name: Dennis Jackson
-  affiliation: ''
+  affiliation: University of Oxford
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21763,7 +21765,7 @@
   author_id: 1440
 - name: Dominik Christian Maier
   display_name: Dominik Christian Maier
-  affiliation: ''
+  affiliation: Technische Universität Berlin
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21854,7 +21856,7 @@
   author_id: 1462
 - name: Dongwon Shin
   display_name: Dongwon Shin
-  affiliation: ''
+  affiliation: KAIST
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21885,7 +21887,7 @@
   author_id: 1090
 - name: Dustin Kern
   display_name: Dustin Kern
-  affiliation: ''
+  affiliation: Darmstadt University of Applied Sciences, Germany
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21916,7 +21918,7 @@
   author_id: 1206
 - name: Eric Gustafson
   display_name: Eric Gustafson
-  affiliation: ''
+  affiliation: University of California, Santa Barbara
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -21977,7 +21979,7 @@
   author_id: 1759
 - name: Ernest Kurniawan
   display_name: Ernest Kurniawan
-  affiliation: ''
+  affiliation: I2R, A*Star
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22129,7 +22131,7 @@
   author_id: 1682
 - name: Fangyu Zheng
   display_name: Fangyu Zheng
-  affiliation: ''
+  affiliation: University of Chinese Academy of Sciences,School of Cryptology,Beijing,China
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22401,7 +22403,7 @@
   author_id: 1113
 - name: Giovanni Cherubin
   display_name: Giovanni Cherubin
-  affiliation: ''
+  affiliation: Alan Turing Institute
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22494,7 +22496,7 @@
   author_id: 1222
 - name: Guoren Li
   display_name: Guoren Li
-  affiliation: ''
+  affiliation: University of California, Riverside, USA
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22525,7 +22527,7 @@
   author_id: 1134
 - name: Guy Amit
   display_name: Guy Amit
-  affiliation: ''
+  affiliation: Ben-Gurion University of the Negev
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22556,7 +22558,7 @@
   author_id: 1372
 - name: Gwendal Patat
   display_name: Gwendal Patat
-  affiliation: ''
+  affiliation: Univ Rennes, CNRS, IRISA
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22768,7 +22770,7 @@
   author_id: 1574
 - name: Hannah Davis
   display_name: Hannah Davis
-  affiliation: ''
+  affiliation: Seagate Technology
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -22858,7 +22860,7 @@
   author_id: 416
 - name: Haohuang Wen
   display_name: Haohuang Wen
-  affiliation: ''
+  affiliation: The Ohio State University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23011,7 +23013,7 @@
   author_id: 1436
 - name: Huixing Deng
   display_name: Huixing Deng
-  affiliation: ''
+  affiliation: Clemson University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23042,7 +23044,7 @@
   author_id: 1226
 - name: Igibek Koishybayev
   display_name: Igibek Koishybayev
-  affiliation: ''
+  affiliation: North Carolina State University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23314,7 +23316,7 @@
   author_id: 1667
 - name: Jin-Dong Dong
   display_name: Jin-Dong Dong
-  affiliation: ''
+  affiliation: Carnegie Mellon University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23559,7 +23561,7 @@
   author_id: 1199
 - name: Juan Carlos Carrillo
   display_name: Juan Carlos Carrillo
-  affiliation: ''
+  affiliation: VRAIN, Universitat Politècnica de València, Spain
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23651,7 +23653,7 @@
   author_id: 1302
 - name: Kazunari Tozawa
   display_name: Kazunari Tozawa
-  affiliation: ''
+  affiliation: The University of Tokyo
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23926,7 +23928,7 @@
   author_id: 1289
 - name: Licheng Luo
   display_name: Licheng Luo
-  affiliation: ''
+  affiliation: University of Illinois Urbana-Champaign
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -23987,7 +23989,7 @@
   author_id: 1723
 - name: Mahmoud Ammar
   display_name: Mahmoud Ammar
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24049,7 +24051,7 @@
   author_id: 1715
 - name: Margaret Pierce
   display_name: Margaret Pierce
-  affiliation: ''
+  affiliation: University of North Carolina at Chapel Hill
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24170,7 +24172,7 @@
   author_id: 1433
 - name: Matthew Gregoire
   display_name: Matthew Gregoire
-  affiliation: ''
+  affiliation: University of North Carolina at Chapel Hill
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24262,7 +24264,7 @@
   author_id: 1111
 - name: Michal Król
   display_name: Michal Król
-  affiliation: ''
+  affiliation: City, University of London , United Kingdom .
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24324,7 +24326,7 @@
   author_id: 1314
 - name: Milad Nasr
   display_name: Milad Nasr
-  affiliation: ''
+  affiliation: 'University of Massachusetts Amherst, E-mail: {milad, vshejwalkar'
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24508,7 +24510,7 @@
   author_id: 1706
 - name: Mohsen Ahmadvand
   display_name: Mohsen Ahmadvand
-  affiliation: ''
+  affiliation: Technical University of Munich, Munich, Germany
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24600,7 +24602,7 @@
   author_id: 1568
 - name: Nirajan Koirala
   display_name: Nirajan Koirala
-  affiliation: ''
+  affiliation: University of Notre Dame
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24660,7 +24662,7 @@
   author_id: 1345
 - name: Nishat Koti
   display_name: Nishat Koti
-  affiliation: ''
+  affiliation: Aztec Labs
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24690,7 +24692,8 @@
   author_id: 1778
 - name: Noah Spahn
   display_name: Noah Spahn
-  affiliation: ''
+  affiliation: Department of Computer Science, University of California, Santa Barbara,
+    USA
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24781,7 +24784,7 @@
   author_id: 465
 - name: Phakpoom Chinprutthiwong
   display_name: Phakpoom Chinprutthiwong
-  affiliation: ''
+  affiliation: Texas A&amp;M University, United States of America
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24873,7 +24876,7 @@
   author_id: 7946
 - name: Pithayuth Charnsethikul
   display_name: Pithayuth Charnsethikul
-  affiliation: ''
+  affiliation: University of Southern California Information Sciences Institute
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -24903,7 +24906,7 @@
   author_id: 1754
 - name: Pratik Sarkar
   display_name: Pratik Sarkar
-  affiliation: ''
+  affiliation: Supra Research
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25086,7 +25089,7 @@
   author_id: 1736
 - name: Raymond Muller
   display_name: Raymond Muller
-  affiliation: ''
+  affiliation: Purdue University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25329,7 +25332,7 @@
   author_id: 1415
 - name: Ruotong Yu
   display_name: Ruotong Yu
-  affiliation: ''
+  affiliation: University of Utah
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25391,7 +25394,7 @@
   author_id: 1505
 - name: Ryan M. Gerdes
   display_name: Ryan M. Gerdes
-  affiliation: ''
+  affiliation: Virginia Tech
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25422,7 +25425,7 @@
   author_id: 1118
 - name: Ryan Sheatsley
   display_name: Ryan Sheatsley
-  affiliation: ''
+  affiliation: The Pennsylvania State University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25514,7 +25517,7 @@
   author_id: 1474
 - name: Samuele Doria
   display_name: Samuele Doria
-  affiliation: ''
+  affiliation: University of Padua,Department of Mathematics,Padua,Italy
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25666,7 +25669,7 @@
   author_id: 1621
 - name: Sebastian Banescu
   display_name: Sebastian Banescu
-  affiliation: ''
+  affiliation: Technical University of Munich, Munich, Germany
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25847,7 +25850,8 @@
   author_id: 1704
 - name: Silvia Sebastián
   display_name: Silvia Sebastián
-  affiliation: ''
+  affiliation: IMDEA Software Institute, Spain and Universidad Politécnica de Madrid,
+    Spain
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25877,7 +25881,7 @@
   author_id: 7937
 - name: Simon P. Chung
   display_name: Simon P. Chung
-  affiliation: ''
+  affiliation: Georgia Institute of Technology
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -25970,7 +25974,7 @@
   author_id: 1522
 - name: Stefano Longari
   display_name: Stefano Longari
-  affiliation: ''
+  affiliation: Politecnico di Milano
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26032,7 +26036,7 @@
   author_id: 1103
 - name: Syed Mahbub Hafiz
   display_name: Syed Mahbub Hafiz
-  affiliation: ''
+  affiliation: LG (United States)
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26155,7 +26159,7 @@
   author_id: 1546
 - name: Tavish Vaidya
   display_name: Tavish Vaidya
-  affiliation: ''
+  affiliation: Georgetown University
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26215,7 +26219,7 @@
   author_id: 1530
 - name: Tom van Goethem
   display_name: Tom van Goethem
-  affiliation: ''
+  affiliation: imec-DistriNet, KU Leuven
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26307,7 +26311,7 @@
   author_id: 1472
 - name: Varsha Bhat Kukkala
   display_name: Varsha Bhat Kukkala
-  affiliation: ''
+  affiliation: IIT Tirupati
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26367,7 +26371,7 @@
   author_id: 1194
 - name: Vishnu Asutosh Dasu
   display_name: Vishnu Asutosh Dasu
-  affiliation: ''
+  affiliation: University of Warwick
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26398,7 +26402,7 @@
   author_id: 1277
 - name: Vivek Nair
   display_name: Vivek Nair
-  affiliation: ''
+  affiliation: UC Berkeley
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26612,7 +26616,7 @@
   author_id: 1703
 - name: Xiaochen Zou
   display_name: Xiaochen Zou
-  affiliation: ''
+  affiliation: University of California, Riverside, USA
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26854,7 +26858,7 @@
   author_id: 1719
 - name: Yan Pang
   display_name: Yan Pang
-  affiliation: ''
+  affiliation: University of Virginia
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -26884,7 +26888,7 @@
   author_id: 1841
 - name: Yanick Fratantonio
   display_name: Yanick Fratantonio
-  affiliation: ''
+  affiliation: EURECOM
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -27005,7 +27009,7 @@
   author_id: 1544
 - name: Yu Qu
   display_name: Yu Qu
-  affiliation: ''
+  affiliation: University of California, Riverside
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -27097,7 +27101,8 @@
   author_id: 1725
 - name: Yuan Ma
   display_name: Yuan Ma
-  affiliation: ''
+  affiliation: Institute of Information Engineering, CAS,Key Laboratory of Cyberspace
+    Security Defense,Beijing,China
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -27248,7 +27253,7 @@
   author_id: 1694
 - name: Zekun Shen
   display_name: Zekun Shen
-  affiliation: ''
+  affiliation: New York University, USA
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -28675,7 +28680,7 @@
   author_id: 522
 - name: Adam Oest
   display_name: Adam Oest
-  affiliation: ''
+  affiliation: PayPal, USA
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -28828,7 +28833,7 @@
   author_id: 1201
 - name: Alvise Rabitti
   display_name: Alvise Rabitti
-  affiliation: ''
+  affiliation: Ca' Foscari University of Venice
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -28919,7 +28924,7 @@
   author_id: 1785
 - name: Andrew D. Zonenberg
   display_name: Andrew D. Zonenberg
-  affiliation: ''
+  affiliation: Camber Collective (United States)
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -28949,7 +28954,7 @@
   author_id: 1733
 - name: Anis Zouaoui
   display_name: Anis Zouaoui
-  affiliation: ''
+  affiliation: Cyber Defense Agency (United States)
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -28979,7 +28984,7 @@
   author_id: 1632
 - name: Anna Crowder
   display_name: Anna Crowder
-  affiliation: ''
+  affiliation: University of Florida
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29163,7 +29168,7 @@
   author_id: 1410
 - name: Bao Gia Doan
   display_name: Bao Gia Doan
-  affiliation: ''
+  affiliation: University of Adelaide,Australia
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29193,7 +29198,7 @@
   author_id: 1106
 - name: Baoxiang Jiang
   display_name: Baoxiang Jiang
-  affiliation: ''
+  affiliation: Xi'an Jiaotong University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29223,7 +29228,9 @@
   author_id: 1628
 - name: Bin Yuan
   display_name: Bin Yuan
-  affiliation: ''
+  affiliation: School of Cyber Science and Engineering, Huazhong University of Science
+    and Technology, China and Shenzhen Huazhong University of Science and Technology
+    Research Institute, China
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29346,7 +29353,7 @@
   author_id: 7935
 - name: Chenglu Jin
   display_name: Chenglu Jin
-  affiliation: ''
+  affiliation: Centrum Wiskunde &amp; Informatica,The Netherlands
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29468,7 +29475,7 @@
   author_id: 1599
 - name: Dan Ristea
   display_name: Dan Ristea
-  affiliation: ''
+  affiliation: UCL
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29560,7 +29567,7 @@
   author_id: 1218
 - name: Daniel J. Dubois
   display_name: Daniel J. Dubois
-  affiliation: ''
+  affiliation: Northeastern University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29590,7 +29597,7 @@
   author_id: 1746
 - name: Daniel Olszewski
   display_name: Daniel Olszewski
-  affiliation: ''
+  affiliation: University of Florida
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29865,7 +29872,7 @@
   author_id: 1665
 - name: Felicitas Hetzelt
   display_name: Felicitas Hetzelt
-  affiliation: ''
+  affiliation: TU Berlin, Germany
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29896,7 +29903,7 @@
   author_id: 1138
 - name: Feng He
   display_name: Feng He
-  affiliation: ''
+  affiliation: Fudan university, China
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -29927,7 +29934,7 @@
   author_id: 1188
 - name: Giulio Lovisotto
   display_name: Giulio Lovisotto
-  affiliation: ''
+  affiliation: University of Oxford, United Kingdom
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30018,7 +30025,7 @@
   author_id: 1317
 - name: Hossein Fereidooni
   display_name: Hossein Fereidooni
-  affiliation: ''
+  affiliation: KOBIL GmbH, Germany
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30139,7 +30146,7 @@
   author_id: 1619
 - name: James Mattei
   display_name: James Mattei
-  affiliation: ''
+  affiliation: Computer Science, Tufts University, United States of America
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30261,7 +30268,7 @@
   author_id: 1139
 - name: Jean-Pierre Smith
   display_name: Jean-Pierre Smith
-  affiliation: ''
+  affiliation: ETH Zurich
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30322,7 +30329,7 @@
   author_id: 1676
 - name: Jochen Schäfer
   display_name: Jochen Schäfer
-  affiliation: ''
+  affiliation: University of Mannheim,Mannheim,Germany
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30414,7 +30421,7 @@
   author_id: 1327
 - name: Kazuki Nomoto
   display_name: Kazuki Nomoto
-  affiliation: ''
+  affiliation: Waseda University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30505,7 +30512,8 @@
   author_id: 1824
 - name: Leila Delshadtehrani
   display_name: Leila Delshadtehrani
-  affiliation: ''
+  affiliation: Department of Electrical and Computer Engineering, Boston University,
+    United States of America
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30566,7 +30574,7 @@
   author_id: 1623
 - name: Manuel Karl
   display_name: Manuel Karl
-  affiliation: ''
+  affiliation: TU Braunschweig
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30597,7 +30605,7 @@
   author_id: 1734
 - name: Marcel Fourné
   display_name: Marcel Fourné
-  affiliation: ''
+  affiliation: Paderborn University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30628,7 +30636,7 @@
   author_id: 7948
 - name: Marcell Szakály
   display_name: Marcell Szakály
-  affiliation: ''
+  affiliation: University of Oxford,United Kingdom
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -30841,7 +30849,7 @@
   author_id: 1800
 - name: Nour El Madhoun
   display_name: Nour El Madhoun
-  affiliation: ''
+  affiliation: Laboratoire d’Électronique, Informatique et Image
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31024,7 +31032,7 @@
   author_id: 1126
 - name: Radu State
   display_name: Radu State
-  affiliation: ''
+  affiliation: SnT, University of Luxembourg, Luxembourg, Luxembourg
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31175,7 +31183,7 @@
   author_id: 1561
 - name: Romain Cayre
   display_name: Romain Cayre
-  affiliation: ''
+  affiliation: Sophia-Antipolis,EURECOM,Biot,France
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31267,7 +31275,8 @@
   author_id: 1411
 - name: Sadullah Canakci
   display_name: Sadullah Canakci
-  affiliation: ''
+  affiliation: Department of Electrical and Computer Engineering, Boston University,
+    USA
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31298,7 +31307,7 @@
   author_id: 1131
 - name: Samira Briongos
   display_name: Samira Briongos
-  affiliation: ''
+  affiliation: NEC Laboratories Europe, Germany
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31360,7 +31369,7 @@
   author_id: 1219
 - name: Shachee Mishra
   display_name: Shachee Mishra
-  affiliation: ''
+  affiliation: Stony Brook University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31483,7 +31492,7 @@
   author_id: 1514
 - name: Sohaib ul Hassan
   display_name: Sohaib ul Hassan
-  affiliation: ''
+  affiliation: Tampere University of Technology, Tampere, Finland
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31665,7 +31674,7 @@
   author_id: 1470
 - name: Tatsuya Mori
   display_name: Tatsuya Mori
-  affiliation: ''
+  affiliation: Waseda University/NICT/RIKEN AIP
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31696,7 +31705,7 @@
   author_id: 1697
 - name: Thomas Humphries
   display_name: Thomas Humphries
-  affiliation: ''
+  affiliation: University of Waterloo
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31817,7 +31826,8 @@
   author_id: 1618
 - name: Tobias Urban
   display_name: Tobias Urban
-  affiliation: ''
+  affiliation: Institute for Internet Security; Westphalian University of Applied
+    Sciences
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -31847,7 +31857,7 @@
   author_id: 1801
 - name: Tristan Bilot
   display_name: Tristan Bilot
-  affiliation: ''
+  affiliation: Cyber Defense Agency (United States)
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -32030,7 +32040,7 @@
   author_id: 1093
 - name: Xinwen Hou
   display_name: Xinwen Hou
-  affiliation: ''
+  affiliation: Institute of Automation,, Chinese Academy of Sciences, China
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -32091,7 +32101,7 @@
   author_id: 1714
 - name: Xun Chen
   display_name: Xun Chen
-  affiliation: ''
+  affiliation: Samsung Research America, USA
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -32183,7 +32193,7 @@
   author_id: 1677
 - name: Yoshimichi Nakatsuka
   display_name: Yoshimichi Nakatsuka
-  affiliation: ''
+  affiliation: University of California
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -32214,7 +32224,7 @@
   author_id: 1192
 - name: Youzhe Heng
   display_name: Youzhe Heng
-  affiliation: ''
+  affiliation: University of Mannheim,Mannheim,Germany
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -32245,7 +32255,7 @@
   author_id: 1088
 - name: Yunsi Fei
   display_name: Yunsi Fei
-  affiliation: ''
+  affiliation: Northeastern University , Boston , MA
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -44427,7 +44437,9 @@
   author_id: 4767
 - name: Jiacheng Shi
   display_name: Jiacheng Shi
-  affiliation: ''
+  affiliation: Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao
+    Tong University, Engineering Research Center for Domain-specific Operating Systems,
+    Ministry of Education, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -52952,7 +52964,7 @@
   author_id: 4983
 - name: Nicolas Küchler
   display_name: Nicolas Küchler
-  affiliation: ''
+  affiliation: ETH Zurich
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -67506,7 +67518,7 @@
   author_id: 1267
 - name: Andrew Park
   display_name: Andrew Park
-  affiliation: ''
+  affiliation: Carnegie Mellon University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67537,7 +67549,7 @@
   author_id: 1607
 - name: Annapurna Valiveti
   display_name: Annapurna Valiveti
-  affiliation: ''
+  affiliation: International Institute of Information Technology Bangalore
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67597,7 +67609,7 @@
   author_id: 1291
 - name: Apostolos Pyrgelis
   display_name: Apostolos Pyrgelis
-  affiliation: ''
+  affiliation: EPFL
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67657,7 +67669,7 @@
   author_id: 1790
 - name: Aymen Boudguiga
   display_name: Aymen Boudguiga
-  affiliation: ''
+  affiliation: CEA List, Université Paris-Saclay, France
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67688,7 +67700,7 @@
   author_id: 1309
 - name: Barbara Gigerl
   display_name: Barbara Gigerl
-  affiliation: ''
+  affiliation: Graz University of Technology
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67718,7 +67730,7 @@
   author_id: 1265
 - name: Benedikt Gierlichs
   display_name: Benedikt Gierlichs
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67748,7 +67760,7 @@
   author_id: 1255
 - name: Benjamin Altpeter
   display_name: Benjamin Altpeter
-  affiliation: ''
+  affiliation: Datenanfragen.de e. V.
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67839,7 +67851,7 @@
   author_id: 1740
 - name: Bow-Yaw Wang
   display_name: Bow-Yaw Wang
-  affiliation: ''
+  affiliation: Academia Sinica
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67869,7 +67881,7 @@
   author_id: 1282
 - name: Brian Tang
   display_name: Brian Tang
-  affiliation: ''
+  affiliation: University of Wisconsin–Madison
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67900,7 +67912,7 @@
   author_id: 1662
 - name: Brian Udugama
   display_name: Brian Udugama
-  affiliation: ''
+  affiliation: UNSW Sydney
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67930,7 +67942,7 @@
   author_id: 1283
 - name: Bryant Gipson
   display_name: Bryant Gipson
-  affiliation: ''
+  affiliation: Google
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -67990,7 +68002,7 @@
   author_id: 1641
 - name: Changjiang Li
   display_name: Changjiang Li
-  affiliation: ''
+  affiliation: Stony Brook
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68050,7 +68062,7 @@
   author_id: 1473
 - name: Chelsea Komlo
   display_name: Chelsea Komlo
-  affiliation: ''
+  affiliation: University of Waterloo, Zcash Foundation
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68294,7 +68306,7 @@
   author_id: 1261
 - name: Damien Desfontaines
   display_name: Damien Desfontaines
-  affiliation: ''
+  affiliation: Tumult Labs
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68354,7 +68366,7 @@
   author_id: 1792
 - name: Daniel Smullen
   display_name: Daniel Smullen
-  affiliation: ''
+  affiliation: CableLabs
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68414,7 +68426,7 @@
   author_id: 1581
 - name: Darshana Jayasinghe
   display_name: Darshana Jayasinghe
-  affiliation: ''
+  affiliation: UNSW Sydney
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68505,7 +68517,7 @@
   author_id: 1434
 - name: Davide Frey
   display_name: Davide Frey
-  affiliation: ''
+  affiliation: Univ Rennes, Inria, CNRS, IRISA
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68565,7 +68577,7 @@
   author_id: 1263
 - name: Dilip Kumar S. V.
   display_name: Dilip Kumar S. V.
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68595,7 +68607,7 @@
   author_id: 1252
 - name: Donghang Lu
   display_name: Donghang Lu
-  affiliation: ''
+  affiliation: Purdue University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68625,7 +68637,7 @@
   author_id: 1767
 - name: Duc Bui
   display_name: Duc Bui
-  affiliation: ''
+  affiliation: University of Michigan
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68686,7 +68698,7 @@
   author_id: 7952
 - name: Enrico Bacis
   display_name: Enrico Bacis
-  affiliation: ''
+  affiliation: Google
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68839,7 +68851,7 @@
   author_id: 1674
 - name: Florent Bernard
   display_name: Florent Bernard
-  affiliation: ''
+  affiliation: Université Jean Monnet
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68899,7 +68911,7 @@
   author_id: 1773
 - name: Gabrielle Beck
   display_name: Gabrielle Beck
-  affiliation: ''
+  affiliation: Johns Hopkins University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -68930,7 +68942,7 @@
   author_id: 1432
 - name: Gregor Seiler
   display_name: Gregor Seiler
-  affiliation: ''
+  affiliation: IBM Research - Zurich
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69020,7 +69032,7 @@
   author_id: 1388
 - name: Hanno Becker
   display_name: Hanno Becker
-  affiliation: ''
+  affiliation: Amazon (United Kingdom)
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69110,7 +69122,7 @@
   author_id: 1608
 - name: Hassaan Saadat
   display_name: Hassaan Saadat
-  affiliation: ''
+  affiliation: UNSW Sydney
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69140,7 +69152,7 @@
   author_id: 1285
 - name: Hayim Shaul
   display_name: Hayim Shaul
-  affiliation: ''
+  affiliation: IBM Research
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69230,7 +69242,7 @@
   author_id: 1717
 - name: Jan Richter-Brockmann
   display_name: Jan Richter-Brockmann
-  affiliation: ''
+  affiliation: Ruhr University Bochum
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69260,7 +69272,7 @@
   author_id: 1256
 - name: Janus Varmarken
   display_name: Janus Varmarken
-  affiliation: ''
+  affiliation: University of California, Irvine
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69321,7 +69333,7 @@
   author_id: 1729
 - name: Jeffrey Knockel
   display_name: Jeffrey Knockel
-  affiliation: ''
+  affiliation: Citizen Lab / Bowdoin College
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69351,7 +69363,7 @@
   author_id: 1811
 - name: Jiahui Hu
   display_name: Jiahui Hu
-  affiliation: ''
+  affiliation: Zhejiang University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69471,7 +69483,7 @@
   author_id: 1278
 - name: Joe Champeau
   display_name: Joe Champeau
-  affiliation: ''
+  affiliation: Wesleyan University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69532,7 +69544,7 @@
   author_id: 1307
 - name: Johannes Mono
   display_name: Johannes Mono
-  affiliation: ''
+  affiliation: Ruhr University Bochum
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69592,7 +69604,7 @@
   author_id: 7964
 - name: Josep Balasch
   display_name: Josep Balasch
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69622,7 +69634,7 @@
   author_id: 1254
 - name: Juan Ramón Troncoso-Pastoriza
   display_name: Juan Ramón Troncoso-Pastoriza
-  affiliation: ''
+  affiliation: Tune Insight
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69652,7 +69664,7 @@
   author_id: 7961
 - name: Julia B. Kieserman
   display_name: Julia B. Kieserman
-  affiliation: ''
+  affiliation: New York University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69682,7 +69694,7 @@
   author_id: 1789
 - name: Kanav Gupta
   display_name: Kanav Gupta
-  affiliation: ''
+  affiliation: University of Maryland, College Park
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69743,7 +69755,7 @@
   author_id: 1664
 - name: Karine Heydemann
   display_name: Karine Heydemann
-  affiliation: ''
+  affiliation: Thales (France)
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69773,7 +69785,7 @@
   author_id: 1264
 - name: Koki Hamada
   display_name: Koki Hamada
-  affiliation: ''
+  affiliation: NTT
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69833,7 +69845,7 @@
   author_id: 1523
 - name: Lennart Oldenburg
   display_name: Lennart Oldenburg
-  affiliation: ''
+  affiliation: COSIC, KU Leuven
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69863,7 +69875,7 @@
   author_id: 1766
 - name: Limin Yang
   display_name: Limin Yang
-  affiliation: ''
+  affiliation: University of Illinois Urbana-Champaign
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69893,7 +69905,7 @@
   author_id: 1428
 - name: Ludovic Barman
   display_name: Ludovic Barman
-  affiliation: ''
+  affiliation: EPFL
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -69923,7 +69935,7 @@
   author_id: 1744
 - name: Lukas Helminger
   display_name: Lukas Helminger
-  affiliation: ''
+  affiliation: Graz University of Technology / KnowCenter GmbH, Austria
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70014,7 +70026,7 @@
   author_id: 1377
 - name: Marc Rivinius
   display_name: Marc Rivinius
-  affiliation: ''
+  affiliation: University of Stuttgart
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70134,7 +70146,8 @@
   author_id: 1301
 - name: Milan Stute
   display_name: Milan Stute
-  affiliation: ''
+  affiliation: Secure Mobile Networking Lab , Technical University of Darmstadt ,
+    Germany
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70407,7 +70420,7 @@
   author_id: 1571
 - name: Nate Mathews
   display_name: Nate Mathews
-  affiliation: ''
+  affiliation: Rochester Institute of Technology
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70437,7 +70450,7 @@
   author_id: 1742
 - name: Nathalie Bochard
   display_name: Nathalie Bochard
-  affiliation: ''
+  affiliation: Université Jean Monnet
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70618,7 +70631,7 @@
   author_id: 1585
 - name: Pascal Reisert
   display_name: Pascal Reisert
-  affiliation: ''
+  affiliation: University of Stuttgart
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70678,7 +70691,7 @@
   author_id: 1657
 - name: Phillipp Schoppmann
   display_name: Phillipp Schoppmann
-  affiliation: ''
+  affiliation: Google
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70739,7 +70752,7 @@
   author_id: 6285
 - name: Qianmei Wu
   display_name: Qianmei Wu
-  affiliation: ''
+  affiliation: Zhejiang University of Science and Technology
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70860,7 +70873,7 @@
   author_id: 1258
 - name: Renaud Sirdey
   display_name: Renaud Sirdey
-  affiliation: ''
+  affiliation: CEA List, Université Paris-Saclay, France
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -70891,7 +70904,7 @@
   author_id: 1310
 - name: Roman Walch
   display_name: Roman Walch
-  affiliation: ''
+  affiliation: Graz University of Technology / Know-Center GmbH, Austria
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71015,7 +71028,7 @@
   author_id: 1597
 - name: Se Eun Oh
   display_name: Se Eun Oh
-  affiliation: ''
+  affiliation: Ewha Womans University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71105,7 +71118,7 @@
   author_id: 1782
 - name: Seny Kamara
   display_name: Seny Kamara
-  affiliation: ''
+  affiliation: MongoDB & Brown University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71167,7 +71180,7 @@
   author_id: 1128
 - name: Shaojun Wei
   display_name: Shaojun Wei
-  affiliation: ''
+  affiliation: Tsinghua University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71197,7 +71210,7 @@
   author_id: 1259
 - name: Siemen Dhooghe
   display_name: Siemen Dhooghe
-  affiliation: ''
+  affiliation: KU Leuven
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71257,7 +71270,7 @@
   author_id: 1776
 - name: Simon Hanisch
   display_name: Simon Hanisch
-  affiliation: ''
+  affiliation: Technical University Dresden
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71469,7 +71482,7 @@
   author_id: 1292
 - name: Suyoung Lee
   display_name: Suyoung Lee
-  affiliation: ''
+  affiliation: KAIST
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71530,7 +71543,7 @@
   author_id: 1376
 - name: Takao Murakami
   display_name: Takao Murakami
-  affiliation: ''
+  affiliation: AIST
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71560,7 +71573,7 @@
   author_id: 1768
 - name: Takuma Hatano
   display_name: Takuma Hatano
-  affiliation: ''
+  affiliation: NSSOL
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71590,7 +71603,7 @@
   author_id: 1770
 - name: Tarik Moataz
   display_name: Tarik Moataz
-  affiliation: ''
+  affiliation: MongoDB
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71621,7 +71634,7 @@
   author_id: 1606
 - name: Thales B. Paiva
   display_name: Thales B. Paiva
-  affiliation: ''
+  affiliation: Fundo Brasil
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71651,7 +71664,7 @@
   author_id: 1303
 - name: Theodor Schnitzler
   display_name: Theodor Schnitzler
-  affiliation: ''
+  affiliation: Ruhr-Universität Bochum
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71772,7 +71785,7 @@
   author_id: 1660
 - name: Tobias Lauinger
   display_name: Tobias Lauinger
-  affiliation: ''
+  affiliation: New York University
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -71802,7 +71815,8 @@
   author_id: 1791
 - name: Tom Biselli
   display_name: Tom Biselli
-  affiliation: ''
+  affiliation: Science and Technology for Peace and Security (PEASEC), Technical University
+    of Darmstadt
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -72075,7 +72089,7 @@
   author_id: 1739
 - name: Xiaomu Shi
   display_name: Xiaomu Shi
-  affiliation: ''
+  affiliation: Chinese Academy of Sciences
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -72136,7 +72150,7 @@
   author_id: 1673
 - name: Yihui Yan
   display_name: Yihui Yan
-  affiliation: ''
+  affiliation: ShanghaiTech University,School of Information Science and Technology,Shanghai,China
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -87261,7 +87275,7 @@
   author_id: 5158
 - name: Marcus Peinado
   display_name: Marcus Peinado
-  affiliation: ''
+  affiliation: Microsoft Research, USA
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -95903,7 +95917,7 @@
   author_id: 6370
 - name: Sijun Tan
   display_name: Sijun Tan
-  affiliation: ''
+  affiliation: University of California, Berkeley, USA
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -108839,7 +108853,7 @@
   author_id: 4711
 - name: Ashish Panwar
   display_name: Ashish Panwar
-  affiliation: ''
+  affiliation: Microsoft Research
   artifact_score: 1
   artifacts: 1
   total: 1
@@ -113640,7 +113654,7 @@
   author_id: 6965
 - name: Chuqi Zhang
   display_name: Chuqi Zhang
-  affiliation: ''
+  affiliation: National University of Singapore
   artifact_score: 1
   artifacts: 1
   total: 1
@@ -121710,7 +121724,7 @@
   author_id: 5624
 - name: Haonan Wu
   display_name: Haonan Wu
-  affiliation: ''
+  affiliation: Shanghai Jiao Tong University, Shanghai, China
   artifact_score: 1
   artifacts: 1
   total: 1
@@ -137071,7 +137085,8 @@
   author_id: 5485
 - name: Mohamed Alzayat
   display_name: Mohamed Alzayat
-  affiliation: ''
+  affiliation: Max Planck Institute for Software Systems (MPI-SWS), Saarbruecken,
+    Germany
   artifact_score: 1
   artifacts: 1
   total: 1
@@ -158495,7 +158510,7 @@
   author_id: 3354
 - name: Zhe Liu
   display_name: Zhe Liu
-  affiliation: ''
+  affiliation: Zhejiang Lab
   artifact_score: 1
   artifacts: 1
   total: 1

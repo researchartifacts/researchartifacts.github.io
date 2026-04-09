@@ -5792,7 +5792,7 @@
   author_id: 791
 - name: Christina Giannoula
   display_name: Christina Giannoula
-  affiliation: ''
+  affiliation: University of Toronto, Vector, Institute, CentML
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -5818,7 +5818,7 @@
   author_id: 938
 - name: Clément Burgelin
   display_name: Clément Burgelin
-  affiliation: ''
+  affiliation: École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, CH
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -5978,7 +5978,7 @@
   author_id: 893
 - name: David Detweiler
   display_name: David Detweiler
-  affiliation: ''
+  affiliation: University of California, Irvine, USA
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -6137,7 +6137,7 @@
   author_id: 835
 - name: Fan Yu
   display_name: Fan Yu
-  affiliation: ''
+  affiliation: Huawei Technologies Co. Ltd
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -6426,7 +6426,7 @@
   author_id: 515
 - name: Hugo Sadok
   display_name: Hugo Sadok
-  affiliation: ''
+  affiliation: Carnegie Mellon University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -6505,7 +6505,7 @@
   author_id: 954
 - name: Inho Cho
   display_name: Inho Cho
-  affiliation: ''
+  affiliation: MIT CSAIL, Cambridge, United States of America
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -6929,7 +6929,7 @@
   author_id: 379
 - name: Jinwoo Jeong
   display_name: Jinwoo Jeong
-  affiliation: ''
+  affiliation: Ajou University, Suwon, Republic of Korea
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7062,7 +7062,7 @@
   author_id: 873
 - name: Junru Li
   display_name: Junru Li
-  affiliation: ''
+  affiliation: Tsinghua University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7141,7 +7141,7 @@
   author_id: 1875
 - name: Jörg Thalheim
   display_name: Jörg Thalheim
-  affiliation: ''
+  affiliation: Technical University of Munich
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7193,7 +7193,7 @@
   author_id: 1879
 - name: Kaihao Ma
   display_name: Kaihao Ma
-  affiliation: ''
+  affiliation: The Chinese University of Hong Kong
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7541,7 +7541,7 @@
   author_id: 1041
 - name: Michael Gasch
   display_name: Michael Gasch
-  affiliation: ''
+  affiliation: Kitware (United States)
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7620,7 +7620,7 @@
   author_id: 475
 - name: Midhul Vuppalapati
   display_name: Midhul Vuppalapati
-  affiliation: ''
+  affiliation: Cornell University, Ithaca, NY, US
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7754,7 +7754,7 @@
   author_id: 996
 - name: Nirav Atre
   display_name: Nirav Atre
-  affiliation: ''
+  affiliation: Carnegie Mellon University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -7780,7 +7780,7 @@
   author_id: 1872
 - name: Noman Bashir
   display_name: Noman Bashir
-  affiliation: ''
+  affiliation: Massachusetts Institute of Technology, USA
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -8073,7 +8073,7 @@
   author_id: 493
 - name: Saurabh Jha
   display_name: Saurabh Jha
-  affiliation: ''
+  affiliation: University of Illinois Urbana-Champaign
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -8181,7 +8181,7 @@
   author_id: 406
 - name: Shizhi Tang
   display_name: Shizhi Tang
-  affiliation: ''
+  affiliation: Tsinghua University
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -8634,7 +8634,7 @@
   author_id: 833
 - name: Wei Cui
   display_name: Wei Cui
-  affiliation: ''
+  affiliation: Microsoft Research (United Kingdom)
   artifact_score: 6
   artifacts: 2
   total: 2
@@ -10021,7 +10021,7 @@
   author_id: 870
 - name: Brian Kroth
   display_name: Brian Kroth
-  affiliation: ''
+  affiliation: Microsoft Gray Systems Lab, Madison, Wisconsin, USA
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -10394,7 +10394,7 @@
   author_id: 959
 - name: Guanyu Feng
   display_name: Guanyu Feng
-  affiliation: ''
+  affiliation: Zhipu AI, Beijing, China
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -10502,7 +10502,7 @@
   author_id: 907
 - name: Haoliang Wang
   display_name: Haoliang Wang
-  affiliation: ''
+  affiliation: Adobe Research, San Jose, CA, USA
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -10583,7 +10583,9 @@
   author_id: 466
 - name: Jianyu Niu
   display_name: Jianyu Niu
-  affiliation: ''
+  affiliation: Southern University of Science and Technology and Research Institute
+    of Trustworthy Autonomous Systems and Department of Computer Science and Engineering
+    of SUSTech
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -10797,7 +10799,7 @@
   author_id: 256
 - name: Marcel Wagenländer
   display_name: Marcel Wagenländer
-  affiliation: ''
+  affiliation: Imperial College London, London, United Kingdom
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -10957,7 +10959,7 @@
   author_id: 968
 - name: Nipun Kwatra
   display_name: Nipun Kwatra
-  affiliation: ''
+  affiliation: Microsoft Research, Bangalore, India
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -11090,7 +11092,7 @@
   author_id: 978
 - name: Ramachandran Ramjee
   display_name: Ramachandran Ramjee
-  affiliation: ''
+  affiliation: Microsoft Research, Bangalore, India
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -11143,7 +11145,8 @@
   author_id: 891
 - name: Roger Waleffe
   display_name: Roger Waleffe
-  affiliation: ''
+  affiliation: University of Wisconsin-Madison, Madison, Wisconsin, United States
+    of America
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -11677,7 +11680,7 @@
   author_id: 756
 - name: Youshan Miao
   display_name: Youshan Miao
-  affiliation: ''
+  affiliation: Microsoft Research
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -11731,7 +11734,7 @@
   author_id: 460
 - name: Yuanwei Wang
   display_name: Yuanwei Wang
-  affiliation: ''
+  affiliation: Tsinghua University, Beijing, China
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -11839,7 +11842,7 @@
   author_id: 767
 - name: Ziming Miao
   display_name: Ziming Miao
-  affiliation: ''
+  affiliation: Microsoft Research
   artifact_score: 5
   artifacts: 2
   total: 2
@@ -12109,7 +12112,8 @@
   author_id: 1843
 - name: Costin Lupu
   display_name: Costin Lupu
-  affiliation: ''
+  affiliation: Computer Science and Engineering Department, University POLITEHNICA
+    of Bucharest, Bucharest, Romania
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -12294,7 +12298,7 @@
   author_id: 811
 - name: Gauthier Voron
   display_name: Gauthier Voron
-  affiliation: ''
+  affiliation: EPFL, Lausanne, Switzerland
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -12639,7 +12643,7 @@
   author_id: 957
 - name: Junsu Im
   display_name: Junsu Im
-  affiliation: ''
+  affiliation: POSTECH, Republic of Korea
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -12931,7 +12935,7 @@
   author_id: 814
 - name: Nanqinqin Li
   display_name: Nanqinqin Li
-  affiliation: ''
+  affiliation: University of Chicago
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -13038,7 +13042,8 @@
   author_id: 448
 - name: Razvan Deaconescu
   display_name: Razvan Deaconescu
-  affiliation: ''
+  affiliation: Computer Science and Engineering Department, University POLITEHNICA
+    of Bucharest, Bucharest, Romania
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -13382,7 +13387,7 @@
   author_id: 813
 - name: Yaodong Han
   display_name: Yaodong Han
-  affiliation: ''
+  affiliation: Huazhong University of Science and Technology, China
   artifact_score: 4
   artifacts: 2
   total: 2
@@ -13568,7 +13573,7 @@
   author_id: 1863
 - name: Amar Phanishayee
   display_name: Amar Phanishayee
-  affiliation: ''
+  affiliation: Microsoft Research (United Kingdom)
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -13913,7 +13918,7 @@
   author_id: 846
 - name: Shai Bergman
   display_name: Shai Bergman
-  affiliation: ''
+  affiliation: Technion – Israel Institute of Technology
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -13966,7 +13971,7 @@
   author_id: 862
 - name: Sultan Mahmud Sajal
   display_name: Sultan Mahmud Sajal
-  affiliation: ''
+  affiliation: The Pennsylvania State University
   artifact_score: 3
   artifacts: 2
   total: 2
@@ -14205,7 +14210,7 @@
   author_id: 2191
 - name: Aasheesh Kolli
   display_name: Aasheesh Kolli
-  affiliation: ''
+  affiliation: Google
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -14491,7 +14496,7 @@
   author_id: 7743
 - name: Aditya K. Kamath
   display_name: Aditya K. Kamath
-  affiliation: ''
+  affiliation: Indian Institute of Science, Bengaluru, India
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -15323,7 +15328,7 @@
   author_id: 7527
 - name: Ammar Askar
   display_name: Ammar Askar
-  affiliation: ''
+  affiliation: Georgia Institute of Technology
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -15973,7 +15978,7 @@
   author_id: 2356
 - name: Antonio Paolillo
   display_name: Antonio Paolillo
-  affiliation: ''
+  affiliation: Huawei Dresden Research Center, Germany
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -16337,7 +16342,7 @@
   author_id: 2238
 - name: Ashish Panwar
   display_name: Ashish Panwar
-  affiliation: ''
+  affiliation: Microsoft Research
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -18209,7 +18214,7 @@
   author_id: 2805
 - name: Chen Shan
   display_name: Chen Shan
-  affiliation: ''
+  affiliation: Blockchain Platform Division, Ant Group, Hangzhou, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -18365,7 +18370,8 @@
   author_id: 7784
 - name: Chengpo Yan
   display_name: Chengpo Yan
-  affiliation: ''
+  affiliation: Department of Computer Science, University of Wisconsin-Madison, Madison,
+    WI, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -19093,7 +19099,8 @@
   author_id: 2009
 - name: Daiyaan Arfeen
   display_name: Daiyaan Arfeen
-  affiliation: ''
+  affiliation: Computer Science Department, Carnegie Mellon University, Pittsburgh,
+    PA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -20809,7 +20816,7 @@
   author_id: 7894
 - name: Fan Du
   display_name: Fan Du
-  affiliation: ''
+  affiliation: Intel, Beijing, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -21434,7 +21441,7 @@
   author_id: 2664
 - name: Fuxi Deng
   display_name: Fuxi Deng
-  affiliation: ''
+  affiliation: Blockchain Platform Division, Ant Group, Hangzhou, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -22578,7 +22585,7 @@
   author_id: 7849
 - name: Hannah Gross
   display_name: Hannah Gross
-  affiliation: ''
+  affiliation: Brown University, Providence, Rhode Island, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -22864,7 +22871,7 @@
   author_id: 2661
 - name: Haochen Pan
   display_name: Haochen Pan
-  affiliation: ''
+  affiliation: University of Chicago, Chicago, IL, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -22942,7 +22949,7 @@
   author_id: 7865
 - name: Haonan Wu
   display_name: Haonan Wu
-  affiliation: ''
+  affiliation: Shanghai Jiao Tong University, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -23228,7 +23235,7 @@
   author_id: 2967
 - name: Harshad Shirwadkar
   display_name: Harshad Shirwadkar
-  affiliation: ''
+  affiliation: Google
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -23332,7 +23339,7 @@
   author_id: 7892
 - name: Hengyu Liang
   display_name: Hengyu Liang
-  affiliation: ''
+  affiliation: University of Science and Technology of China, Hefei, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -23696,7 +23703,7 @@
   author_id: 1942
 - name: Huiqiang Jiang
   display_name: Huiqiang Jiang
-  affiliation: ''
+  affiliation: Microsoft Research, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -24086,7 +24093,7 @@
   author_id: 2812
 - name: Irene Zhang
   display_name: Irene Zhang
-  affiliation: ''
+  affiliation: Microsoft Research, Redmond, United States of America
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -24346,7 +24353,7 @@
   author_id: 3130
 - name: Jaeseong Im
   display_name: Jaeseong Im
-  affiliation: ''
+  affiliation: KAIST
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -24814,7 +24821,7 @@
   author_id: 2156
 - name: Jesse Tuglu
   display_name: Jesse Tuglu
-  affiliation: ''
+  affiliation: University of Michigan, Ann Arbor, MI, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -24866,7 +24873,9 @@
   author_id: 7409
 - name: Jiacheng Shi
   display_name: Jiacheng Shi
-  affiliation: ''
+  affiliation: Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao
+    Tong University, Engineering Research Center for Domain-specific Operating Systems,
+    Ministry of Education, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -25673,7 +25682,7 @@
   author_id: 2414
 - name: Jinqi Hua
   display_name: Jinqi Hua
-  affiliation: ''
+  affiliation: Tsinghua University, Beijing, -Select-, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -26453,7 +26462,7 @@
   author_id: 7841
 - name: Jun Yi
   display_name: Jun Yi
-  affiliation: ''
+  affiliation: University of Nevada, Reno
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -26583,7 +26592,7 @@
   author_id: 7541
 - name: Jungwon Lim
   display_name: Jungwon Lim
-  affiliation: ''
+  affiliation: Georgia Institute of Technology
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -27181,7 +27190,7 @@
   author_id: 512
 - name: Kelvin K. W. Ng
   display_name: Kelvin K. W. Ng
-  affiliation: ''
+  affiliation: University of Pennsylvania, Philadelphia, Pennsylvania, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -27857,7 +27866,7 @@
   author_id: 7423
 - name: Laboni Sarker
   display_name: Laboni Sarker
-  affiliation: ''
+  affiliation: University of California, Santa Barbara
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -28169,7 +28178,7 @@
   author_id: 7823
 - name: Leping Wang
   display_name: Leping Wang
-  affiliation: ''
+  affiliation: Tsinghua University, Beijing, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -28403,7 +28412,7 @@
   author_id: 2972
 - name: Lillian Tsai
   display_name: Lillian Tsai
-  affiliation: ''
+  affiliation: CSAIL, MIT, Cambridge, Massachusetts, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -29599,7 +29608,7 @@
   author_id: 2
 - name: Mattan Erez
   display_name: Mattan Erez
-  affiliation: ''
+  affiliation: The University of Texas at Austin
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -30483,7 +30492,7 @@
   author_id: 3007
 - name: Minjie Wang
   display_name: Minjie Wang
-  affiliation: ''
+  affiliation: AWS Shanghai AI Lab, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -30691,7 +30700,8 @@
   author_id: 7805
 - name: Mohamed Alzayat
   display_name: Mohamed Alzayat
-  affiliation: ''
+  affiliation: Max Planck Institute for Software Systems (MPI-SWS), Saarbruecken,
+    Germany
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -31237,7 +31247,7 @@
   author_id: 2043
 - name: Neo Zhou
   display_name: Neo Zhou
-  affiliation: ''
+  affiliation: Boston College, Boston, MA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -31341,7 +31351,7 @@
   author_id: 7384
 - name: Nicolas Küchler
   display_name: Nicolas Küchler
-  affiliation: ''
+  affiliation: ETH Zurich
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -31471,7 +31481,7 @@
   author_id: 7822
 - name: Ning Ding
   display_name: Ning Ding
-  affiliation: ''
+  affiliation: Alibaba Group, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -32486,7 +32496,7 @@
   author_id: 2752
 - name: Pratiksha Thaker
   display_name: Pratiksha Thaker
-  affiliation: ''
+  affiliation: Carnegie Mellon University, Pittsburgh, PA, United States of America
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -32954,7 +32964,7 @@
   author_id: 2101
 - name: Quan Zhou
   display_name: Quan Zhou
-  affiliation: ''
+  affiliation: University of Science and Technology of China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -33631,7 +33641,7 @@
   author_id: 2122
 - name: Rohan Kadekodi
   display_name: Rohan Kadekodi
-  affiliation: ''
+  affiliation: University of Texas at Austin
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -34541,7 +34551,7 @@
   author_id: 7821
 - name: Sanjari Srivastava
   display_name: Sanjari Srivastava
-  affiliation: ''
+  affiliation: Stanford University, Stanford, CA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -34593,7 +34603,8 @@
   author_id: 969
 - name: Saurabh Agarwal
   display_name: Saurabh Agarwal
-  affiliation: ''
+  affiliation: Department of Computer Science, University of Wisconsin-Madison, Madison,
+    WI, United States of America
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -35165,7 +35176,7 @@
   author_id: 2637
 - name: Sheng Qi
   display_name: Sheng Qi
-  affiliation: ''
+  affiliation: Peking University, Beijing, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -35451,7 +35462,7 @@
   author_id: 850
 - name: Shengyun Liu
   display_name: Shengyun Liu
-  affiliation: ''
+  affiliation: Shanghai Jiao Tong University, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -35685,7 +35696,7 @@
   author_id: 3188
 - name: Shouxu Lin
   display_name: Shouxu Lin
-  affiliation: ''
+  affiliation: Cornell University, Ithaca, NY, United States of America
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -35711,7 +35722,7 @@
   author_id: 1927
 - name: Shreya Ravi
   display_name: Shreya Ravi
-  affiliation: ''
+  affiliation: Stanford University, Stanford, CA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -36179,7 +36190,7 @@
   author_id: 7514
 - name: Sijun Tan
   display_name: Sijun Tan
-  affiliation: ''
+  affiliation: University of California, Berkeley, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -36647,7 +36658,7 @@
   author_id: 2660
 - name: Soujanya Ponnapalli
   display_name: Soujanya Ponnapalli
-  affiliation: ''
+  affiliation: University of Texas at Austin
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -37739,7 +37750,7 @@
   author_id: 2549
 - name: Tianjing Xu
   display_name: Tianjing Xu
-  affiliation: ''
+  affiliation: Blockchain Platform Division, Ant Group, Hangzhou, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -37817,7 +37828,7 @@
   author_id: 2463
 - name: Tianshu Wang
   display_name: Tianshu Wang
-  affiliation: ''
+  affiliation: Duke University, Durham, NC, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -37843,7 +37854,7 @@
   author_id: 1978
 - name: Tim Stamler
   display_name: Tim Stamler
-  affiliation: ''
+  affiliation: The University of Texas at Austin
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -38207,7 +38218,7 @@
   author_id: 7976
 - name: Upamanyu Sharma
   display_name: Upamanyu Sharma
-  affiliation: ''
+  affiliation: CSAIL, MIT, Cambridge, MA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -38233,7 +38244,7 @@
   author_id: 1881
 - name: Utsav Sethi
   display_name: Utsav Sethi
-  affiliation: ''
+  affiliation: University of Chicago
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -39117,7 +39128,7 @@
   author_id: 2806
 - name: Wentao Zhang
   display_name: Wentao Zhang
-  affiliation: ''
+  affiliation: University of Illinois at Urbana-Champaign, Champaign, Illinois, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -39377,7 +39388,7 @@
   author_id: 2540
 - name: Woosuk Kwon
   display_name: Woosuk Kwon
-  affiliation: ''
+  affiliation: UC Berkeley, Berkeley, United States of America
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -39689,7 +39700,7 @@
   author_id: 3159
 - name: Xiaofeng Yan
   display_name: Xiaofeng Yan
-  affiliation: ''
+  affiliation: Blockchain Platform Division, Ant Group, Hangzhou, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -40131,7 +40142,7 @@
   author_id: 2493
 - name: Xiong Zheng
   display_name: Xiong Zheng
-  affiliation: ''
+  affiliation: Google, Inc., Kirkland, WA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -41146,7 +41157,7 @@
   author_id: 3051
 - name: Yicheng Shen
   display_name: Yicheng Shen
-  affiliation: ''
+  affiliation: Boston College, Boston, MA, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -41692,7 +41703,7 @@
   author_id: 836
 - name: Yiwen Zhang
   display_name: Yiwen Zhang
-  affiliation: ''
+  affiliation: Shanghai Jiao Tong University, Shanghai, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -41952,7 +41963,7 @@
   author_id: 2988
 - name: Youhui Bai
   display_name: Youhui Bai
-  affiliation: ''
+  affiliation: University of Science and Technology of China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -42030,7 +42041,7 @@
   author_id: 2618
 - name: Youngsuk Kim
   display_name: Youngsuk Kim
-  affiliation: ''
+  affiliation: Georgia Institute of Technology
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -42524,7 +42535,8 @@
   author_id: 7727
 - name: Yuming Xu
   display_name: Yuming Xu
-  affiliation: ''
+  affiliation: University of Science and Technology of China &amp; Microsoft Research,
+    Hefei, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -43279,7 +43291,7 @@
   author_id: 2976
 - name: Zhe Liu
   display_name: Zhe Liu
-  affiliation: ''
+  affiliation: Zhejiang Lab
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -43617,7 +43629,7 @@
   author_id: 7852
 - name: Zhenning Yang
   display_name: Zhenning Yang
-  affiliation: ''
+  affiliation: University of Michigan, Ann Arbor, MI, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -43747,7 +43759,7 @@
   author_id: 3247
 - name: Zhicheng Ji
   display_name: Zhicheng Ji
-  affiliation: ''
+  affiliation: Tsinghua University, Beijing, China
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -43955,7 +43967,7 @@
   author_id: 3143
 - name: Zhiyuan Guo
   display_name: Zhiyuan Guo
-  affiliation: ''
+  affiliation: University of California San Diego, San Diego, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -44189,7 +44201,7 @@
   author_id: 7519
 - name: Zijian He
   display_name: Zijian He
-  affiliation: ''
+  affiliation: University of California San Diego, San Diego, USA
   artifact_score: 3
   artifacts: 1
   total: 1
@@ -44554,7 +44566,7 @@
   author_id: 2968
 - name: Antonios Katsarakis
   display_name: Antonios Katsarakis
-  affiliation: ''
+  affiliation: University of Edinburgh
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -44685,7 +44697,7 @@
   author_id: 981
 - name: Sangeetha Seshadri
   display_name: Sangeetha Seshadri
-  affiliation: ''
+  affiliation: IBM Research - Almaden, San Jose, California, USA
   artifact_score: 2
   artifacts: 2
   total: 2
@@ -44920,7 +44932,7 @@
   author_id: 2032
 - name: Ajay Paddayuru Shreepathi
   display_name: Ajay Paddayuru Shreepathi
-  affiliation: ''
+  affiliation: Stony Brook University
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -45726,7 +45738,8 @@
   author_id: 2184
 - name: Bharat Sukhwani
   display_name: Bharat Sukhwani
-  affiliation: ''
+  affiliation: IBM T. J. Watson Research Center, Yorktown Heights, United States of
+    America
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -46662,7 +46675,7 @@
   author_id: 3058
 - name: Chuqi Zhang
   display_name: Chuqi Zhang
-  affiliation: ''
+  affiliation: National University of Singapore
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -46766,7 +46779,8 @@
   author_id: 2030
 - name: Cristina Basescu
   display_name: Cristina Basescu
-  affiliation: ''
+  affiliation: DEDIS, Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Vaud,
+    Switzerland
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -47364,7 +47378,7 @@
   author_id: 2788
 - name: Emil Tsalapatis
   display_name: Emil Tsalapatis
-  affiliation: ''
+  affiliation: RCS Lab, University of Waterloo, Waterloo, Canada
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -49965,7 +49979,7 @@
   author_id: 7984
 - name: João Ferreira Loff
   display_name: João Ferreira Loff
-  affiliation: ''
+  affiliation: INESC-ID, Lisbon, Portugal
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -50329,7 +50343,10 @@
   author_id: 2597
 - name: Ke Yang
   display_name: Ke Yang
-  affiliation: ''
+  affiliation: Department of Computer Science and Technology, Beijing National Research
+    Center for Information Science and Technology (BNRist), Tsinghua University, China,
+    Qatar Computing Research Institute, Hamad Bin Khalifa University and Beijing HaiZhi
+    XingTu Technology Co., Ltd.
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -51473,7 +51490,7 @@
   author_id: 2227
 - name: Marcus Peinado
   display_name: Marcus Peinado
-  affiliation: ''
+  affiliation: Microsoft Research, USA
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -52201,7 +52218,7 @@
   author_id: 7732
 - name: Musa Unal
   display_name: Musa Unal
-  affiliation: ''
+  affiliation: EPFL, Lausanne, Switzerland
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -52591,7 +52608,8 @@
   author_id: 2507
 - name: Pasindu Tennage
   display_name: Pasindu Tennage
-  affiliation: ''
+  affiliation: DEDIS, Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Vaud,
+    Switzerland
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -53579,7 +53597,7 @@
   author_id: 2783
 - name: Ryan Hancock
   display_name: Ryan Hancock
-  affiliation: ''
+  affiliation: RCS Lab, University of Waterloo, Waterloo, Canada
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -53813,7 +53831,7 @@
   author_id: 2644
 - name: Sameh W. Asaad
   display_name: Sameh W. Asaad
-  affiliation: ''
+  affiliation: IBM T. J. Watson Research Center, Yorktown Heights, USA
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -54099,7 +54117,7 @@
   author_id: 2001
 - name: Saravanan Thirumuruganathan
   display_name: Saravanan Thirumuruganathan
-  affiliation: ''
+  affiliation: Qatar Computing Research Institute, Hamad Bin Khalifa University
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -54723,7 +54741,7 @@
   author_id: 2580
 - name: Stefan Saroiu
   display_name: Stefan Saroiu
-  affiliation: ''
+  affiliation: Microsoft, Redmond, Washington, United States
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -54957,7 +54975,7 @@
   author_id: 3290
 - name: Sunny Wadkar
   display_name: Sunny Wadkar
-  affiliation: ''
+  affiliation: Virginia Tech
   artifact_score: 2
   artifacts: 1
   total: 1
@@ -55451,7 +55469,7 @@
   author_id: 2508
 - name: Vaastav Anand
   display_name: Vaastav Anand
-  affiliation: ''
+  affiliation: Max Planck Institute for Software Systems, Saarbruecken, Germany
   artifact_score: 2
   artifacts: 1
   total: 1

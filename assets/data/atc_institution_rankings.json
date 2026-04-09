@@ -1,26 +1,26 @@
 [
   {
     "affiliation": "University of Illinois Urbana-Champaign",
-    "combined_score": 134,
-    "artifact_score": 23,
+    "combined_score": 137,
+    "artifact_score": 26,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 111,
-    "ae_ratio": 0.21,
+    "ae_ratio": 0.23,
     "role": "Consumer",
-    "artifacts": 8,
-    "badges_functional": 8,
-    "badges_reproducible": 7,
+    "artifacts": 9,
+    "badges_functional": 9,
+    "badges_reproducible": 8,
     "ae_memberships": 37,
     "chair_count": 0,
-    "total_papers": 9,
-    "artifact_rate": 88.9,
-    "num_authors": 39,
+    "total_papers": 10,
+    "artifact_rate": 90.0,
+    "num_authors": 40,
     "conferences": [
       "ATC"
     ],
     "years": {
-      "2024": 19,
+      "2024": 20,
       "2023": 3,
       "2022": 5,
       "2025": 18
@@ -55,28 +55,28 @@
   },
   {
     "affiliation": "Tsinghua University",
-    "combined_score": 72,
-    "artifact_score": 63,
+    "combined_score": 75,
+    "artifact_score": 66,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 9,
-    "ae_ratio": 7.0,
+    "ae_ratio": 7.33,
     "role": "Producer",
-    "artifacts": 21,
-    "badges_functional": 21,
-    "badges_reproducible": 21,
+    "artifacts": 22,
+    "badges_functional": 22,
+    "badges_reproducible": 22,
     "ae_memberships": 3,
     "chair_count": 0,
-    "total_papers": 25,
-    "artifact_rate": 84.0,
-    "num_authors": 16,
+    "total_papers": 26,
+    "artifact_rate": 84.6,
+    "num_authors": 17,
     "conferences": [
       "ATC"
     ],
     "years": {
       "2024": 8,
       "2023": 4,
-      "2022": 9,
+      "2022": 10,
       "2025": 2
     }
   },
@@ -745,6 +745,33 @@
     }
   },
   {
+    "affiliation": "University of Chicago",
+    "combined_score": 18,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 0.2,
+    "role": "Consumer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 6,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 3,
+      "2023": 0,
+      "2022": 2,
+      "2025": 1
+    }
+  },
+  {
     "affiliation": "Virginia Tech",
     "combined_score": 18,
     "artifact_score": 6,
@@ -1002,32 +1029,6 @@
       "2023": 0,
       "2022": 3,
       "2025": 2
-    }
-  },
-  {
-    "affiliation": "University of Chicago",
-    "combined_score": 15,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 5,
-    "conferences": [
-      "ATC"
-    ],
-    "years": {
-      "2022": 1,
-      "2024": 3,
-      "2025": 1
     }
   },
   {
@@ -2970,6 +2971,32 @@
     }
   },
   {
+    "affiliation": "Technion – Israel Institute of Technology",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 2,
+    "badges_functional": 1,
+    "badges_reproducible": 0,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 1,
+      "2022": 1
+    }
+  },
+  {
     "affiliation": "Tel Aviv University",
     "combined_score": 3,
     "artifact_score": 3,
@@ -3256,6 +3283,32 @@
     }
   },
   {
+    "affiliation": "Adobe Research",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 1,
+      "2023": 0,
+      "2022": 0
+    }
+  },
+  {
     "affiliation": "University of Hong Kong",
     "combined_score": 3,
     "artifact_score": 3,
@@ -3283,6 +3336,32 @@
   },
   {
     "affiliation": "UESTC",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 0,
+      "2022": 1
+    }
+  },
+  {
+    "affiliation": "Ajou University",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

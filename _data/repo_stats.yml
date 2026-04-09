@@ -1,15 +1,15 @@
 overall:
   github_repos: 1272
-  total_stars: 124910
-  total_forks: 15991
+  total_stars: 124912
+  total_forks: 15992
   max_stars: 14344
   max_forks: 1855
-  zenodo_repos: 843
-  total_views: 203900
-  total_downloads: 118093
+  zenodo_repos: 852
+  total_views: 205332
+  total_downloads: 182231
   avg_stars: 98.2
   avg_forks: 12.6
-  last_updated: 2026-04-09 17:27:11 UTC
+  last_updated: 2026-04-09 19:42:38 UTC
 by_conference:
 - name: ACSAC
   github_repos: 158
@@ -312,8 +312,8 @@ by_conference:
   top_repos: []
 - name: OSDI
   github_repos: 137
-  total_stars: 55187
-  total_forks: 6977
+  total_stars: 55188
+  total_forks: 6978
   avg_stars: 402.8
   avg_forks: 50.9
   max_stars: 14344
@@ -333,19 +333,19 @@ by_conference:
     avg_forks: 9.5
   - year: 2022
     github_repos: 31
-    stars: 22576
+    stars: 22578
     forks: 2916
     avg_stars: 728.3
     avg_forks: 94.1
   - year: 2023
     github_repos: 25
     stars: 1741
-    forks: 274
+    forks: 275
     avg_stars: 69.6
     avg_forks: 11.0
   - year: 2024
     github_repos: 29
-    stars: 2121
+    stars: 2120
     forks: 245
     avg_stars: 73.1
     avg_forks: 8.4
@@ -518,7 +518,7 @@ by_conference:
     description: Privacy browser extension for opting out from web tracking via GPC
     language: JavaScript
     name: privacy-tech-lab/gpc-optmeowt
-    pushed_at: '2026-04-08T23:27:37Z'
+    pushed_at: '2026-04-09T19:01:10Z'
 - name: SOSP
   github_repos: 86
   total_stars: 5253
@@ -793,18 +793,18 @@ by_conference:
     pushed_at: '2026-04-06T23:36:01Z'
 - name: WOOT
   github_repos: 23
-  total_stars: 13570
+  total_stars: 13571
   total_forks: 1145
   avg_stars: 590.0
   avg_forks: 49.8
-  max_stars: 12340
+  max_stars: 12341
   max_forks: 993
   years:
   - year: 2019
     github_repos: 4
-    stars: 12717
+    stars: 12718
     forks: 1044
-    avg_stars: 3179.2
+    avg_stars: 3179.5
     avg_forks: 261.0
   - year: 2021
     github_repos: 1
@@ -842,7 +842,7 @@ by_conference:
     conference: WOOT
     year: 2019
     area: security
-    stars: 12340
+    stars: 12341
     forks: 993
     description: 'Universal Radio Hacker: Investigate Wireless Protocols Like A Boss'
     language: Python
@@ -913,11 +913,11 @@ by_year:
   max_forks: 160
 - year: 2019
   github_repos: 19
-  total_stars: 13211
+  total_stars: 13212
   total_forks: 1168
-  avg_stars: 695.3
+  avg_stars: 695.4
   avg_forks: 61.5
-  max_stars: 12340
+  max_stars: 12341
   max_forks: 993
 - year: 2020
   github_repos: 91
@@ -937,7 +937,7 @@ by_year:
   max_forks: 640
 - year: 2022
   github_repos: 258
-  total_stars: 34339
+  total_stars: 34341
   total_forks: 4776
   avg_stars: 133.1
   avg_forks: 18.5
@@ -946,14 +946,14 @@ by_year:
 - year: 2023
   github_repos: 270
   total_stars: 11203
-  total_forks: 1989
+  total_forks: 1990
   avg_stars: 41.5
   avg_forks: 7.4
   max_stars: 1653
   max_forks: 268
 - year: 2024
   github_repos: 316
-  total_stars: 8085
+  total_stars: 8084
   total_forks: 1104
   avg_stars: 25.6
   avg_forks: 3.5
