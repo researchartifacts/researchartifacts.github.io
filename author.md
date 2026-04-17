@@ -98,12 +98,16 @@ layout: default
   var HISTORY_URL = '{{ "/assets/data/ranking_history.json" | relative_url }}';
   var ARTIFACTS_URL = '{{ "/assets/data/artifacts.json" | relative_url }}';
   var PAPERS_URL = '{{ "/assets/data/papers.json" | relative_url }}';
+  var AVAILABILITY_URL = '{{ "/assets/data/artifact_availability.json" | relative_url }}';
   var allProfiles = [];
   var profileMap = {};
   var citedArtifactsMap = {};
   var artifactUrlMap = {};
   var paperIndex = {};  // paper_id -> paper object
   var rankHistory = [];
+  var urlAccessible = {};  // url -> boolean
+  var availabilityLoaded = false;
+  var availabilityCheckedAt = '';
   var chart = null;
   var historyChart = null;
 
@@ -180,6 +184,7 @@ layout: default
         var normT = pp.title.replace(/\.+$/, '');
         var ppUrl = artifactUrlMap[normT] || '';
         var titleCell = ppUrl ? '<a href="' + escHtml(ppUrl) + '" target="_blank" rel="noopener">' + escHtml(pp.title) + '</a>' : escHtml(pp.title);
+        titleCell += availabilityTag(ppUrl);
         rows += '<tr><td>' + (i+1) + '</td><td>' + titleCell + '</td><td>' +
           escHtml(pp.conference) + '</td><td>' + (pp.year||'') + '</td><td>' +
           badgeHtml(pp.badges) + '</td></tr>';
@@ -481,13 +486,24 @@ layout: default
     }
   });
 
+  function availabilityTag(url) {
+    if (!availabilityLoaded || !url) return '';
+    var normalUrl = url.replace(/\/+$/, '');
+    if (urlAccessible[normalUrl] === false) {
+      var tip = 'This URL may be unavailable (last checked ' + (availabilityCheckedAt || 'recently') + ')';
+      return ' <span title="' + escHtml(tip) + '" style="cursor:help; font-size:0.8em; color:#b26a00; background:#fff8e1; padding:1px 5px; border-radius:3px; border:1px solid #ffe0b2;">\u26a0 may be unavailable</span>';
+    }
+    return '';
+  }
+
   // --- Load data & init ---
   Promise.all([
     fetch(DATA_URL).then(function(r) { return r.json(); }),
     fetch(CITED_ARTIFACTS_URL).then(function(r) { return r.json(); }).catch(function() { return {}; }),
     fetch(HISTORY_URL).then(function(r) { return r.json(); }).catch(function() { return []; }),
     fetch(ARTIFACTS_URL).then(function(r) { return r.json(); }).catch(function() { return []; }),
-    fetch(PAPERS_URL).then(function(r) { return r.json(); }).catch(function() { return []; })
+    fetch(PAPERS_URL).then(function(r) { return r.json(); }).catch(function() { return []; }),
+    fetch(AVAILABILITY_URL).then(function(r) { return r.json(); }).catch(function() { return {records:[]}; })
   ]).then(function(results) {
       var data = results[0];
       citedArtifactsMap = results[1] || {};
@@ -511,6 +527,18 @@ layout: default
       for (var pi = 0; pi < papersList.length; pi++) {
         paperIndex[papersList[pi].id] = papersList[pi];
       }
+
+      // Build URL accessibility map
+      var avail = results[5] || {};
+      availabilityCheckedAt = (avail.summary && avail.summary.checked_at) ? avail.summary.checked_at.replace(/ UTC$/, '') : '';
+      (avail.records || []).forEach(function(rec) {
+        var u = (rec.url || '').replace(/\/+$/, '');
+        if (u) {
+          if (rec.accessible === false) urlAccessible[u] = false;
+          else if (urlAccessible[u] === undefined) urlAccessible[u] = true;
+        }
+      });
+      availabilityLoaded = true;
 
       allProfiles = data;
       profileMap = {};

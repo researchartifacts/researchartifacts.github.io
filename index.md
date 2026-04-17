@@ -57,6 +57,9 @@ title: ""
   var sortField = 'year';
   var sortAsc = false;
   var baseUrl = '{{ "" | relative_url }}';
+  var urlAccessible = {};  // url -> boolean
+  var availabilityLoaded = false;
+  var availabilityCheckedAt = '';
 
   function escHtml(s) {
     var d = document.createElement('div');
@@ -100,7 +103,10 @@ title: ""
   }
 
   function doSearch() {
-    var query = normalizeText(document.getElementById('searchBox').value.trim());
+    var raw = document.getElementById('searchBox').value.trim();
+    var onlyUnavail = raw.indexOf('#unavailable') !== -1;
+    var cleaned = raw.replace(/#unavailable/g, '').trim();
+    var query = normalizeText(cleaned);
     var yearVal = document.getElementById('yearFilter').value;
     var venueVal = document.getElementById('venueFilter').value;
     var areaVal = document.getElementById('areaFilter').value;
@@ -110,6 +116,13 @@ title: ""
       if (yearVal && String(d.year) !== yearVal) return false;
       if (venueVal && d.conference !== venueVal) return false;
       if (areaVal && d.category !== areaVal) return false;
+      if (onlyUnavail) {
+        var artUrls = d.artifact_urls || [];
+        var hasUnavail = artUrls.some(function(u) {
+          return u && urlAccessible[u.replace(/\/+$/, '')] === false;
+        });
+        if (!hasUnavail) return false;
+      }
       if (terms.length === 0) return true;
       return terms.every(function(t) { return d._search.indexOf(t) !== -1; });
     });
@@ -230,14 +243,16 @@ title: ""
       if (artUrlList.length === 1) {
         var isGH = artUrlList[0].indexOf('github.com') !== -1;
         var lbl = isGH ? '💻 GitHub' : '📦 Artifact';
-        links.push('<a href="' + escHtml(artUrlList[0]) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + lbl + '</a>');
+        var avail1 = availabilityTag(artUrlList[0]);
+        links.push('<a href="' + escHtml(artUrlList[0]) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + lbl + '</a>' + avail1);
       } else {
         artUrlList.forEach(function(u, i) {
           if (u) {
             var isGH = u.indexOf('github.com') !== -1;
             var lbl = isGH ? '💻 GitHub' : '📦 Artifact';
             if (artUrlList.length > 1) lbl += ' #' + (i+1);
-            links.push('<a href="' + escHtml(u) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + lbl + '</a>');
+            var availN = availabilityTag(u);
+            links.push('<a href="' + escHtml(u) + '" target="_blank" rel="noopener" style="color:#0066cc; text-decoration:none;">' + lbl + '</a>' + availN);
           }
         });
       }
@@ -281,7 +296,35 @@ title: ""
     URL.revokeObjectURL(a.href);
   };
 
+  function availabilityTag(url) {
+    if (!availabilityLoaded || !url) return '';
+    var normalUrl = url.replace(/\/+$/, '');
+    if (urlAccessible[normalUrl] === false) {
+      var tip = 'This URL may be unavailable (last checked ' + (availabilityCheckedAt || 'recently') + ')';
+      return ' <span title="' + escHtml(tip) + '" style="cursor:help; font-size:0.8em; color:#b26a00; background:#fff8e1; padding:1px 5px; border-radius:3px; border:1px solid #ffe0b2;">⚠ may be unavailable</span>';
+    }
+    return '';
+  }
+
   // Load data
+  var availPromise = fetch('{{ "/assets/data/artifact_availability.json" | relative_url }}')
+    .then(function(r) { return r.json(); })
+    .then(function(avail) {
+      availabilityCheckedAt = (avail.summary && avail.summary.checked_at) ? avail.summary.checked_at.replace(/ UTC$/, '') : '';
+      (avail.records || []).forEach(function(rec) {
+        var u = (rec.url || '').replace(/\/+$/, '');
+        if (u) {
+          // Only mark as inaccessible if explicitly false (conservative)
+          if (rec.accessible === false) urlAccessible[u] = false;
+          else if (urlAccessible[u] === undefined) urlAccessible[u] = true;
+        }
+      });
+      availabilityLoaded = true;
+      // Re-render if search results are already showing
+      if (filtered.length > 0) renderResults();
+    })
+    .catch(function() { /* availability data not critical */ });
+
   fetch('{{ "/assets/data/search_data.json" | relative_url }}')
     .then(function(r) { return r.json(); })
     .then(function(data) {
