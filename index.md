@@ -34,6 +34,7 @@ title: ""
   </div>
   <div id="searchStatus" style="margin-top:8px; font-size:0.9em; color:#666; display:inline;">Loading artifact data…</div>
   <button id="downloadBtn" onclick="downloadResults()" style="display:none; margin-left:10px; padding:4px 14px; border:1px solid #ccc; border-radius:4px; background:#fff; cursor:pointer; font-size:0.9em; vertical-align:middle;">⬇ Download JSON</button>
+  <button id="shareBtn" onclick="shareSearch()" style="display:none; margin-left:6px; padding:4px 14px; border:1px solid #ccc; border-radius:4px; background:#fff; cursor:pointer; font-size:0.9em; vertical-align:middle;">🔗 Share</button>
 </div>
 
 <div id="sort-controls" style="margin-top:1em; margin-bottom:8px; display:none; font-size:0.9em; color:#555;">
@@ -152,6 +153,7 @@ title: ""
 
     currentPage = 1;
     doSort();
+    updateUrl();
     renderResults();
   }
 
@@ -295,6 +297,7 @@ title: ""
     sortCtrl.style.display = 'block';
     status.textContent = filtered.length + ' result' + (filtered.length !== 1 ? 's' : '') + ' found';
     document.getElementById('downloadBtn').style.display = filtered.length > 0 ? 'inline-block' : 'none';
+    document.getElementById('shareBtn').style.display = filtered.length > 0 ? 'inline-block' : 'none';
     pagination.style.display = maxPage > 1 ? 'block' : 'none';
     document.getElementById('pageInfo').textContent = 'Page ' + currentPage + ' of ' + maxPage;
     document.getElementById('prevBtn').disabled = currentPage <= 1;
@@ -317,6 +320,34 @@ title: ""
     a.download = 'artifacts_search_results.json';
     a.click();
     URL.revokeObjectURL(a.href);
+  };
+
+  function updateUrl() {
+    var params = new URLSearchParams();
+    var q = document.getElementById('searchBox').value.trim();
+    var year = document.getElementById('yearFilter').value;
+    var venue = document.getElementById('venueFilter').value;
+    var area = document.getElementById('areaFilter').value;
+    if (q) params.set('q', q);
+    if (year) params.set('year', year);
+    if (venue) params.set('venue', venue);
+    if (area) params.set('area', area);
+    var qs = params.toString();
+    var newUrl = window.location.pathname + (qs ? '?' + qs : '');
+    history.replaceState(null, '', newUrl);
+  }
+
+  window.shareSearch = function() {
+    var url = window.location.href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function() {
+        var btn = document.getElementById('shareBtn');
+        btn.textContent = '✓ Copied!';
+        setTimeout(function() { btn.textContent = '🔗 Share'; }, 1500);
+      });
+    } else {
+      prompt('Copy this URL to share:', url);
+    }
   };
 
   function availabilityTag(url) {
@@ -368,18 +399,24 @@ title: ""
 
       // Check URL params for pre-filled search
       var params = new URLSearchParams(window.location.search);
+      var hasParam = false;
       if (params.get('q')) {
         document.getElementById('searchBox').value = params.get('q');
-        doSearch();
+        hasParam = true;
       }
       if (params.get('venue')) {
         document.getElementById('venueFilter').value = params.get('venue');
-        doSearch();
+        hasParam = true;
       }
       if (params.get('year')) {
         document.getElementById('yearFilter').value = params.get('year');
-        doSearch();
+        hasParam = true;
       }
+      if (params.get('area')) {
+        document.getElementById('areaFilter').value = params.get('area');
+        hasParam = true;
+      }
+      if (hasParam) doSearch();
     })
     .catch(function(err) {
       document.getElementById('searchStatus').textContent = 'Error loading artifact data.';
