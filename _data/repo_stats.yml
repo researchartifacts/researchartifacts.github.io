@@ -1,24 +1,24 @@
 overall:
-  github_repos: 1270
-  total_stars: 124897
-  total_forks: 15990
-  max_stars: 14344
-  max_forks: 1855
-  zenodo_repos: 784
-  total_views: 176729
-  total_downloads: 166920
-  avg_stars: 98.3
-  avg_forks: 12.6
-  last_updated: 2026-04-10 19:07:12 UTC
+  github_repos: 1277
+  total_stars: 125065
+  total_forks: 16026
+  max_stars: 14347
+  max_forks: 1854
+  zenodo_repos: 830
+  total_views: 206678
+  total_downloads: 179590
+  avg_stars: 97.9
+  avg_forks: 12.5
+  last_updated: 2026-04-19 13:18:57 UTC
 by_conference:
 - name: ACSAC
   github_repos: 158
-  total_stars: 3006
-  total_forks: 730
+  total_stars: 3009
+  total_forks: 731
   avg_stars: 19.0
   avg_forks: 4.6
   max_stars: 566
-  max_forks: 160
+  max_forks: 161
   years:
   - year: 2017
     github_repos: 5
@@ -29,9 +29,9 @@ by_conference:
   - year: 2018
     github_repos: 13
     stars: 806
-    forks: 217
+    forks: 218
     avg_stars: 62.0
-    avg_forks: 16.7
+    avg_forks: 16.8
   - year: 2019
     github_repos: 15
     stars: 494
@@ -40,9 +40,9 @@ by_conference:
     avg_forks: 8.3
   - year: 2020
     github_repos: 18
-    stars: 932
-    forks: 242
-    avg_stars: 51.8
+    stars: 934
+    forks: 241
+    avg_stars: 51.9
     avg_forks: 13.4
   - year: 2021
     github_repos: 16
@@ -53,12 +53,12 @@ by_conference:
   - year: 2022
     github_repos: 33
     stars: 245
-    forks: 49
+    forks: 50
     avg_stars: 7.4
     avg_forks: 1.5
   - year: 2023
     github_repos: 27
-    stars: 151
+    stars: 152
     forks: 28
     avg_stars: 5.6
     avg_forks: 1.0
@@ -75,7 +75,7 @@ by_conference:
     year: 2018
     area: security
     stars: 566
-    forks: 160
+    forks: 161
     description: 'MAIAN: automatic tool for finding trace vulnerabilities in Ethereum
       smart contracts'
     language: Python
@@ -86,7 +86,7 @@ by_conference:
     conference: ACSAC
     year: 2020
     area: security
-    stars: 485
+    stars: 486
     forks: 118
     description: AVClass malware labeling tool
     language: Python
@@ -97,13 +97,13 @@ by_conference:
     conference: ACSAC
     year: 2020
     area: security
-    stars: 274
-    forks: 78
+    stars: 275
+    forks: 77
     description: Teaclave TrustZone SDK enables safe, functional, and ergonomic development
       of trustlets.
     language: Rust
     name: apache/teaclave-trustzone-sdk
-    pushed_at: '2026-04-10T11:27:34Z'
+    pushed_at: '2026-04-17T17:32:29Z'
   - title: 'Opening Pandora''s Box through ATFuzzer: Dynamic Analysis of AT Interface
       for Android Smartphones'
     url: https://github.com/Imtiazkarimik23/ATFuzzer
@@ -130,63 +130,63 @@ by_conference:
     pushed_at: '2025-08-16T09:08:03Z'
 - name: ATC
   github_repos: 108
-  total_stars: 4807
-  total_forks: 826
+  total_stars: 4811
+  total_forks: 830
   avg_stars: 44.5
-  avg_forks: 7.6
-  max_stars: 1654
-  max_forks: 196
+  avg_forks: 7.7
+  max_stars: 1653
+  max_forks: 195
   years:
   - year: 2022
     github_repos: 37
-    stars: 908
+    stars: 907
     forks: 186
     avg_stars: 24.5
     avg_forks: 5.0
   - year: 2023
     github_repos: 35
-    stars: 3121
-    forks: 556
+    stars: 3123
+    forks: 559
     avg_stars: 89.2
-    avg_forks: 15.9
+    avg_forks: 16.0
   - year: 2024
     github_repos: 36
-    stars: 778
-    forks: 84
-    avg_stars: 21.6
-    avg_forks: 2.3
+    stars: 781
+    forks: 85
+    avg_stars: 21.7
+    avg_forks: 2.4
   top_repos:
   - title: 'Portunus: Re-imagining Access Control in Distributed Systems'
     url: https://github.com/cloudflare/circl/tree/main/abe/cpabe/tkn20
     conference: ATC
     year: 2023
     area: systems
-    stars: 1654
-    forks: 196
+    stars: 1653
+    forks: 195
     description: 'CIRCL: Cloudflare Interoperable Reusable Cryptographic Library'
     language: Go
     name: cloudflare/circl
-    pushed_at: '2026-04-02T15:46:48Z'
+    pushed_at: '2026-04-18T01:41:44Z'
   - title: 'SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving
       Machine Learning'
     url: https://github.com/secretflow/spu/tree/atc23_ae
     conference: ATC
     year: 2023
     area: systems
-    stars: 322
-    forks: 141
+    stars: 323
+    forks: 143
     description: SPU (Secure Processing Unit) aims to be a provable, measurable secure
       computation device, which provides computation abi
     language: C++
     name: secretflow/spu
-    pushed_at: '2026-04-10T10:03:46Z'
+    pushed_at: '2026-04-16T10:04:24Z'
   - title: 'Quant-LLM: Accelerating the Serving of Large Language Models via FP6-Centric
       Algorithm-System Co-Design on Modern GPUs'
     url: https://github.com/usyd-fsalab/fp6_llm/
     conference: ATC
     year: 2024
     area: systems
-    stars: 277
+    stars: 280
     forks: 24
     description: An efficient GPU support for LLM inference with x-bit quantization
       (e.g. FP6,FP5).
@@ -198,7 +198,7 @@ by_conference:
     conference: ATC
     year: 2022
     area: systems
-    stars: 272
+    stars: 271
     forks: 50
     description: Easy Parallel Library (EPL) is a general and efficient deep learning
       framework for distributed model training.
@@ -218,38 +218,38 @@ by_conference:
     pushed_at: '2023-05-08T17:06:49Z'
 - name: EUROSYS
   github_repos: 76
-  total_stars: 3044
-  total_forks: 524
-  avg_stars: 40.1
+  total_stars: 3053
+  total_forks: 527
+  avg_stars: 40.2
   avg_forks: 6.9
-  max_stars: 594
+  max_stars: 595
   max_forks: 51
   years:
   - year: 2021
     github_repos: 21
-    stars: 1005
+    stars: 1006
     forks: 147
     avg_stars: 47.9
     avg_forks: 7.0
   - year: 2022
     github_repos: 32
-    stars: 1614
-    forks: 294
-    avg_stars: 50.4
+    stars: 1615
+    forks: 293
+    avg_stars: 50.5
     avg_forks: 9.2
   - year: 2025
     github_repos: 23
-    stars: 425
-    forks: 83
-    avg_stars: 18.5
-    avg_forks: 3.6
+    stars: 432
+    forks: 87
+    avg_stars: 18.8
+    avg_forks: 3.8
   top_repos:
   - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
     url: https://github.com/andromeda/pash
     conference: EUROSYS
     year: 2021
     area: systems
-    stars: 594
+    stars: 595
     forks: 49
     description: 'PaSh: Light-touch Data-Parallel Shell Processing'
     language: Shell
@@ -272,7 +272,7 @@ by_conference:
     year: 2022
     area: systems
     stars: 251
-    forks: 29
+    forks: 28
     description: ''
     language: Python
     name: microsoft/varuna
@@ -294,8 +294,8 @@ by_conference:
     conference: EUROSYS
     year: 2025
     area: systems
-    stars: 173
-    forks: 28
+    stars: 178
+    forks: 31
     description: ''
     language: Python
     name: YaoJiayi/CacheBlend
@@ -312,18 +312,18 @@ by_conference:
   top_repos: []
 - name: OSDI
   github_repos: 137
-  total_stars: 55192
-  total_forks: 6977
-  avg_stars: 402.9
-  avg_forks: 50.9
-  max_stars: 14344
-  max_forks: 1855
+  total_stars: 55223
+  total_forks: 6982
+  avg_stars: 403.1
+  avg_forks: 51.0
+  max_stars: 14347
+  max_forks: 1854
   years:
   - year: 2020
     github_repos: 34
-    stars: 27949
+    stars: 27961
     forks: 3371
-    avg_stars: 822.0
+    avg_stars: 822.4
     avg_forks: 99.1
   - year: 2021
     github_repos: 18
@@ -333,30 +333,30 @@ by_conference:
     avg_forks: 9.5
   - year: 2022
     github_repos: 31
-    stars: 22578
-    forks: 2915
-    avg_stars: 728.3
-    avg_forks: 94.0
+    stars: 22589
+    forks: 2916
+    avg_stars: 728.7
+    avg_forks: 94.1
   - year: 2023
     github_repos: 25
-    stars: 1741
+    stars: 1743
     forks: 275
-    avg_stars: 69.6
+    avg_stars: 69.7
     avg_forks: 11.0
   - year: 2024
     github_repos: 29
-    stars: 2123
-    forks: 245
-    avg_stars: 73.2
-    avg_forks: 8.4
+    stars: 2129
+    forks: 249
+    avg_stars: 73.4
+    avg_forks: 8.6
   top_repos:
   - title: 'Retiarii: A Deep Learning Exploratory-Training Framework'
     url: https://github.com/microsoft/nni/tree/retiarii_artifact
     conference: OSDI
     year: 2020
     area: systems
-    stars: 14344
-    forks: 1855
+    stars: 14347
+    forks: 1854
     description: An open source AutoML toolkit for automate machine learning lifecycle,
       including feature engineering, neural architectur
     language: Python
@@ -367,8 +367,8 @@ by_conference:
     conference: OSDI
     year: 2022
     area: systems
-    stars: 14344
-    forks: 1855
+    stars: 14347
+    forks: 1854
     description: An open source AutoML toolkit for automate machine learning lifecycle,
       including feature engineering, neural architectur
     language: Python
@@ -380,8 +380,8 @@ by_conference:
     conference: OSDI
     year: 2020
     area: systems
-    stars: 3715
-    forks: 493
+    stars: 3714
+    forks: 492
     description: A high performance and generic framework for distributed DNN training
     language: Python
     name: bytedance/byteps
@@ -392,7 +392,7 @@ by_conference:
     year: 2020
     area: systems
     stars: 3534
-    forks: 290
+    forks: 292
     description: Hummingbird compiles trained ML models into tensor computation for
       faster inference.
     language: Python
@@ -404,62 +404,62 @@ by_conference:
     conference: OSDI
     year: 2022
     area: systems
-    stars: 3186
-    forks: 361
+    stars: 3187
+    forks: 362
     description: Training and serving large-scale neural networks with auto parallelization.
     language: Python
     name: alpa-projects/alpa
     pushed_at: '2023-12-09T16:26:31Z'
 - name: PETS
   github_repos: 294
-  total_stars: 21908
-  total_forks: 2074
-  avg_stars: 74.5
+  total_stars: 21959
+  total_forks: 2078
+  avg_stars: 74.7
   avg_forks: 7.1
-  max_stars: 12842
+  max_stars: 12872
   max_forks: 640
   years:
   - year: 2020
     github_repos: 15
-    stars: 3479
-    forks: 463
-    avg_stars: 231.9
-    avg_forks: 30.9
+    stars: 3486
+    forks: 466
+    avg_stars: 232.4
+    avg_forks: 31.1
   - year: 2021
     github_repos: 21
-    stars: 13092
-    forks: 723
-    avg_stars: 623.4
+    stars: 13122
+    forks: 722
+    avg_stars: 624.9
     avg_forks: 34.4
   - year: 2022
     github_repos: 34
-    stars: 3889
-    forks: 587
-    avg_stars: 114.4
-    avg_forks: 17.3
+    stars: 3894
+    forks: 590
+    avg_stars: 114.5
+    avg_forks: 17.4
   - year: 2023
     github_repos: 39
-    stars: 556
+    stars: 558
     forks: 112
     avg_stars: 14.3
     avg_forks: 2.9
   - year: 2024
     github_repos: 59
-    stars: 418
-    forks: 91
+    stars: 420
+    forks: 90
     avg_stars: 7.1
     avg_forks: 1.5
   - year: 2025
     github_repos: 91
-    stars: 441
+    stars: 444
     forks: 93
-    avg_stars: 4.8
+    avg_stars: 4.9
     avg_forks: 1.0
   - year: 2026
     github_repos: 35
-    stars: 33
+    stars: 35
     forks: 5
-    avg_stars: 0.9
+    avg_stars: 1.0
     avg_forks: 0.1
   top_repos:
   - title: Who Can Find My Devices? Security and Privacy of Apple's Crowd-Sourced
@@ -468,7 +468,7 @@ by_conference:
     conference: PETS
     year: 2021
     area: security
-    stars: 12842
+    stars: 12872
     forks: 640
     description: "Build your own 'AirTags' \U0001F3F7 today! Framework for tracking\
       \ personal Bluetooth devices via Apple's massive Find My network."
@@ -480,23 +480,23 @@ by_conference:
     conference: PETS
     year: 2020
     area: security
-    stars: 3302
-    forks: 414
+    stars: 3307
+    forks: 417
     description: Google's differential privacy libraries.
     language: Go
     name: google/differential-privacy
-    pushed_at: '2026-04-10T13:31:31Z'
+    pushed_at: '2026-04-16T13:53:53Z'
   - title: Differentially private partition selection
     url: https://github.com/google/differential-privacy/blob/main/common_docs/partition_selection.md
     conference: PETS
     year: 2022
     area: security
-    stars: 3302
-    forks: 414
+    stars: 3307
+    forks: 417
     description: Google's differential privacy libraries.
     language: Go
     name: google/differential-privacy
-    pushed_at: '2026-04-10T13:31:31Z'
+    pushed_at: '2026-04-16T13:53:53Z'
   - title: 'LLAMA: A Low Latency Math Library for Secure Inference'
     url: https://github.com/mpc-msri/EzPC/tree/master/FSS
     conference: PETS
@@ -513,39 +513,39 @@ by_conference:
     conference: PETS
     year: 2023
     area: security
-    stars: 221
+    stars: 223
     forks: 34
     description: Privacy browser extension for opting out from web tracking via GPC
     language: JavaScript
     name: privacy-tech-lab/gpc-optmeowt
-    pushed_at: '2026-04-10T11:51:55Z'
+    pushed_at: '2026-04-16T23:44:20Z'
 - name: SOSP
   github_repos: 86
-  total_stars: 5253
-  total_forks: 894
-  avg_stars: 61.1
+  total_stars: 5264
+  total_forks: 892
+  avg_stars: 61.2
   avg_forks: 10.4
-  max_stars: 1216
-  max_forks: 167
+  max_stars: 1217
+  max_forks: 166
   years:
   - year: 2021
     github_repos: 34
-    stars: 2246
+    stars: 2251
     forks: 389
-    avg_stars: 66.1
+    avg_stars: 66.2
     avg_forks: 11.4
   - year: 2023
     github_repos: 28
-    stars: 1144
-    forks: 208
+    stars: 1145
+    forks: 207
     avg_stars: 40.9
     avg_forks: 7.4
   - year: 2024
     github_repos: 24
-    stars: 1863
-    forks: 297
-    avg_stars: 77.6
-    avg_forks: 12.4
+    stars: 1868
+    forks: 296
+    avg_stars: 77.8
+    avg_forks: 12.3
   top_repos:
   - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
       Systems
@@ -553,7 +553,7 @@ by_conference:
     conference: SOSP
     year: 2021
     area: systems
-    stars: 1216
+    stars: 1217
     forks: 144
     description: Kernel-Bypass LibOS Architecture
     language: Rust
@@ -565,8 +565,8 @@ by_conference:
     conference: SOSP
     year: 2024
     area: systems
-    stars: 999
-    forks: 167
+    stars: 1001
+    forks: 166
     description: 'A flexible and efficient deep neural network (DNN) compiler that
       generates high-performance executable from a DNN model '
     language: C++
@@ -577,7 +577,7 @@ by_conference:
     conference: SOSP
     year: 2024
     area: systems
-    stars: 349
+    stars: 350
     forks: 43
     description: Measure and optimize the energy consumption of your AI applications!
     language: Python
@@ -588,7 +588,7 @@ by_conference:
     conference: SOSP
     year: 2021
     area: systems
-    stars: 287
+    stars: 288
     forks: 49
     description: Kernel fuzzer inspired by Syzkaller.
     language: Rust
@@ -600,18 +600,18 @@ by_conference:
     conference: SOSP
     year: 2023
     area: systems
-    stars: 166
-    forks: 13
+    stars: 167
+    forks: 12
     description: ''
     language: Python
     name: microsoft/SparTA
     pushed_at: '2024-07-22T05:39:43Z'
 - name: SYSTEX
-  github_repos: 11
-  total_stars: 55
-  total_forks: 12
-  avg_stars: 5.0
-  avg_forks: 1.1
+  github_repos: 17
+  total_stars: 60
+  total_forks: 14
+  avg_stars: 3.5
+  avg_forks: 0.8
   max_stars: 27
   max_forks: 6
   years:
@@ -627,6 +627,12 @@ by_conference:
     forks: 1
     avg_stars: 2.2
     avg_forks: 0.2
+  - year: 2026
+    github_repos: 6
+    stars: 5
+    forks: 2
+    avg_stars: 0.8
+    avg_forks: 0.3
   top_repos:
   - title: 'SNPGuard: Remote Attestation of SEV-SNP VMs Using Open Source Tools'
     url: https://github.com/SNPGuard/snp-guard/tree/v0.1.3
@@ -688,44 +694,44 @@ by_conference:
     name: dnet-tee/wait-a-cycle
     pushed_at: '2025-06-17T15:55:24Z'
 - name: USENIXSEC
-  github_repos: 377
-  total_stars: 18059
-  total_forks: 2807
-  avg_stars: 47.9
-  avg_forks: 7.4
+  github_repos: 378
+  total_stars: 18085
+  total_forks: 2824
+  avg_stars: 47.8
+  avg_forks: 7.5
   max_stars: 1392
-  max_forks: 269
+  max_forks: 271
   years:
   - year: 2020
     github_repos: 24
-    stars: 3795
-    forks: 640
-    avg_stars: 158.1
-    avg_forks: 26.7
+    stars: 3796
+    forks: 642
+    avg_stars: 158.2
+    avg_forks: 26.8
   - year: 2021
     github_repos: 25
-    stars: 2045
-    forks: 280
-    avg_stars: 81.8
+    stars: 2048
+    forks: 281
+    avg_stars: 81.9
     avg_forks: 11.2
   - year: 2022
     github_repos: 88
-    stars: 5084
+    stars: 5089
     forks: 733
     avg_stars: 57.8
     avg_forks: 8.3
   - year: 2023
-    github_repos: 113
-    stars: 4471
-    forks: 805
-    avg_stars: 39.6
+    github_repos: 115
+    stars: 4494
+    forks: 813
+    avg_stars: 39.1
     avg_forks: 7.1
   - year: 2024
-    github_repos: 125
-    stars: 2660
-    forks: 349
-    avg_stars: 21.3
-    avg_forks: 2.8
+    github_repos: 124
+    stars: 2654
+    forks: 355
+    avg_stars: 21.4
+    avg_forks: 2.9
   - year: 2025
     github_repos: 2
     stars: 4
@@ -739,7 +745,7 @@ by_conference:
     year: 2020
     area: security
     stars: 1392
-    forks: 269
+    forks: 271
     description: A high-performance tool for blockchain science and exploration
     language: C++
     name: citp/BlockSci
@@ -749,7 +755,7 @@ by_conference:
     conference: USENIXSEC
     year: 2023
     area: security
-    stars: 1280
+    stars: 1281
     forks: 268
     description: 'Trojan Source: Invisible Vulnerabilities'
     language: SCSS
@@ -773,7 +779,7 @@ by_conference:
     conference: USENIXSEC
     year: 2021
     area: security
-    stars: 832
+    stars: 833
     forks: 34
     description: An open source implementation of Apple's Wi-Fi Password Sharing protocol
       in Python.
@@ -785,27 +791,27 @@ by_conference:
     conference: USENIXSEC
     year: 2020
     area: security
-    stars: 744
+    stars: 745
     forks: 66
     description: A fast and accurate disassembler
     language: C++
     name: GrammaTech/ddisasm
-    pushed_at: '2026-04-09T22:47:05Z'
+    pushed_at: '2026-04-17T20:51:01Z'
 - name: WOOT
   github_repos: 23
-  total_stars: 13573
-  total_forks: 1146
-  avg_stars: 590.1
-  avg_forks: 49.8
-  max_stars: 12342
-  max_forks: 994
+  total_stars: 13601
+  total_forks: 1148
+  avg_stars: 591.3
+  avg_forks: 49.9
+  max_stars: 12364
+  max_forks: 996
   years:
   - year: 2019
     github_repos: 4
-    stars: 12719
-    forks: 1045
-    avg_stars: 3179.8
-    avg_forks: 261.2
+    stars: 12741
+    forks: 1047
+    avg_stars: 3185.2
+    avg_forks: 261.8
   - year: 2021
     github_repos: 1
     stars: 19
@@ -826,15 +832,15 @@ by_conference:
     avg_forks: 1.0
   - year: 2024
     github_repos: 6
-    stars: 95
+    stars: 96
     forks: 16
-    avg_stars: 15.8
+    avg_stars: 16.0
     avg_forks: 2.7
   - year: 2025
     github_repos: 8
-    stars: 713
+    stars: 718
     forks: 73
-    avg_stars: 89.1
+    avg_stars: 89.8
     avg_forks: 9.1
   top_repos:
   - title: Automatic Wireless Protocol Reverse Engineering
@@ -842,8 +848,8 @@ by_conference:
     conference: WOOT
     year: 2019
     area: security
-    stars: 12342
-    forks: 994
+    stars: 12364
+    forks: 996
     description: 'Universal Radio Hacker: Investigate Wireless Protocols Like A Boss'
     language: Python
     name: jopohl/urh
@@ -854,7 +860,7 @@ by_conference:
     conference: WOOT
     year: 2025
     area: security
-    stars: 677
+    stars: 681
     forks: 70
     description: ' BlueToolkit is an extensible Bluetooth Classic vulnerability testing
       framework that helps uncover new and old vulnerabi'
@@ -906,72 +912,72 @@ by_year:
 - year: 2018
   github_repos: 13
   total_stars: 806
-  total_forks: 217
+  total_forks: 218
   avg_stars: 62.0
-  avg_forks: 16.7
+  avg_forks: 16.8
   max_stars: 566
-  max_forks: 160
+  max_forks: 161
 - year: 2019
   github_repos: 19
-  total_stars: 13213
-  total_forks: 1169
-  avg_stars: 695.4
-  avg_forks: 61.5
-  max_stars: 12342
-  max_forks: 994
+  total_stars: 13235
+  total_forks: 1171
+  avg_stars: 696.6
+  avg_forks: 61.6
+  max_stars: 12364
+  max_forks: 996
 - year: 2020
   github_repos: 91
-  total_stars: 36155
-  total_forks: 4716
-  avg_stars: 397.3
-  avg_forks: 51.8
-  max_stars: 14344
-  max_forks: 1855
+  total_stars: 36177
+  total_forks: 4720
+  avg_stars: 397.5
+  avg_forks: 51.9
+  max_stars: 14347
+  max_forks: 1854
 - year: 2021
   github_repos: 136
-  total_stars: 19430
+  total_stars: 19469
   total_forks: 1750
-  avg_stars: 142.9
+  avg_stars: 143.2
   avg_forks: 12.9
-  max_stars: 12842
+  max_stars: 12872
   max_forks: 640
 - year: 2022
   github_repos: 258
-  total_stars: 34342
-  total_forks: 4775
-  avg_stars: 133.1
+  total_stars: 34363
+  total_forks: 4779
+  avg_stars: 133.2
   avg_forks: 18.5
-  max_stars: 14344
-  max_forks: 1855
+  max_stars: 14347
+  max_forks: 1854
 - year: 2023
-  github_repos: 268
-  total_stars: 11187
-  total_forks: 1985
-  avg_stars: 41.7
+  github_repos: 270
+  total_stars: 11218
+  total_forks: 1995
+  avg_stars: 41.5
   avg_forks: 7.4
-  max_stars: 1654
+  max_stars: 1653
   max_forks: 268
 - year: 2024
-  github_repos: 316
-  total_stars: 8089
-  total_forks: 1104
-  avg_stars: 25.6
+  github_repos: 315
+  total_stars: 8100
+  total_forks: 1113
+  avg_stars: 25.7
   avg_forks: 3.5
-  max_stars: 999
-  max_forks: 167
+  max_stars: 1001
+  max_forks: 166
 - year: 2025
   github_repos: 129
-  total_stars: 1594
-  total_forks: 250
-  avg_stars: 12.4
-  avg_forks: 1.9
-  max_stars: 677
+  total_stars: 1609
+  total_forks: 254
+  avg_stars: 12.5
+  avg_forks: 2.0
+  max_stars: 681
   max_forks: 70
 - year: 2026
-  github_repos: 35
-  total_stars: 33
-  total_forks: 5
-  avg_stars: 0.9
-  avg_forks: 0.1
+  github_repos: 41
+  total_stars: 40
+  total_forks: 7
+  avg_stars: 1.0
+  avg_forks: 0.2
   max_stars: 8
   max_forks: 2

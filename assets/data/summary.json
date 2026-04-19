@@ -1,8 +1,8 @@
 {
-  "total_artifacts": 2652,
+  "total_artifacts": 2660,
   "total_conferences": 12,
   "systems_artifacts": 645,
-  "security_artifacts": 2007,
+  "security_artifacts": 2015,
   "conferences_list": [
     "ACSAC",
     "ATC",
@@ -34,5 +34,5 @@
     "WOOT"
   ],
   "year_range": "2017-2026",
-  "last_updated": "2026-04-10 18:35:51 UTC"
+  "last_updated": "2026-04-19 12:58:22 UTC"
 }

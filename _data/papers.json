@@ -171,34 +171,6 @@
     "has_artifact": true
   },
   {
-    "title": "XSched: Preemptive Scheduling for Diverse XPUs",
-    "normalized_title": "xsched preemptive scheduling for diverse xpus",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 13,
-    "has_artifact": true
-  },
-  {
-    "title": "BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching",
-    "normalized_title": "blitzscale fast and live large model autoscaling with o1 host caching",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "artifact_citations": 0,
-    "id": 14,
-    "has_artifact": true
-  },
-  {
     "title": "Encrypted Databases Made Secure Yet Maintainable",
     "normalized_title": "encrypted databases made secure yet maintainable",
     "conference": "OSDI",
@@ -278,17 +250,6 @@
     "artifact_citations": 0,
     "has_artifact": false,
     "id": 20
-  },
-  {
-    "title": "os rendering service made parallel with outoforder execution and inorder commit",
-    "normalized_title": "os rendering service made parallel with outoforder execution and inorder commit",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 21
   },
   {
     "title": "cpc flexible secure and efficient cvm maintenance with confidential procedure calls",
@@ -1712,21 +1673,6 @@
     "has_artifact": true
   },
   {
-    "title": "Tintin: A Unified Hardware Performance Profiling Infrastructure to Uncover and Manage Uncertainty",
-    "normalized_title": "tintin a unified hardware performance profiling infrastructure to uncover and manage uncertainty",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 134,
-    "has_artifact": true
-  },
-  {
     "title": "isolategpt an execution isolation architecture for llmbased agentic systems",
     "normalized_title": "isolategpt an execution isolation architecture for llmbased agentic systems",
     "conference": "NDSS",
@@ -2188,28 +2134,6 @@
     "artifact_citations": 0,
     "id": 169,
     "has_artifact": true
-  },
-  {
-    "title": "waferllm large language model inference at wafer scale",
-    "normalized_title": "waferllm large language model inference at wafer scale",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 170
-  },
-  {
-    "title": "pipethreader softwaredefined pipelining for efficient dnn execution",
-    "normalized_title": "pipethreader softwaredefined pipelining for efficient dnn execution",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 171
   },
   {
     "title": "nnscaler constraintguided parallelization plan generation for deep learning training",
@@ -4339,19 +4263,15 @@
     "has_artifact": true
   },
   {
-    "title": "PolyStore: Exploiting Combined Capabilities of Heterogeneous Storage",
+    "title": "polystore exploiting combined capabilities of heterogeneous storage",
     "normalized_title": "polystore exploiting combined capabilities of heterogeneous storage",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 346,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 346
   },
   {
     "title": "NrOS: Effective Replication and Sharing in an Operating System",
@@ -4717,34 +4637,26 @@
     "has_artifact": true
   },
   {
-    "title": "TeRM: Extending RDMA-Attached Memory with SSD",
+    "title": "term extending rdmaattached memory with ssd",
     "normalized_title": "term extending rdmaattached memory with ssd",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 373,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 373
   },
   {
-    "title": "ShiftLock: Mitigate One-sided RDMA Lock Contention via Handover",
+    "title": "shiftlock mitigate onesided rdma lock contention via handover",
     "normalized_title": "shiftlock mitigate onesided rdma lock contention via handover",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 374,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 374
   },
   {
     "title": "Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes",
@@ -4759,20 +4671,6 @@
     ],
     "artifact_citations": 0,
     "id": 375,
-    "has_artifact": true
-  },
-  {
-    "title": "Stripeless Data Placement for Erasure-Coded In-Memory Storage",
-    "normalized_title": "stripeless data placement for erasurecoded inmemory storage",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 376,
     "has_artifact": true
   },
   {
@@ -6292,21 +6190,6 @@
     "has_artifact": true
   },
   {
-    "title": "EMT: An OS Framework for New Memory Translation Architectures",
-    "normalized_title": "emt an os framework for new memory translation architectures",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 501,
-    "has_artifact": true
-  },
-  {
     "title": "Relational Debugging - Pinpointing Root Causes of Performance Problems",
     "normalized_title": "relational debugging pinpointing root causes of performance problems",
     "conference": "OSDI",
@@ -6532,32 +6415,6 @@
     "artifact_citations": 0,
     "id": 519,
     "has_artifact": true
-  },
-  {
-    "title": "Scalio: Scaling up DPU-based JBOF Key-value Store with NVMe-oF Target Offload",
-    "normalized_title": "scalio scaling up dpubased jbof keyvalue store with nvmeof target offload",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 520,
-    "has_artifact": true
-  },
-  {
-    "title": "fork in the road reflections and optimizations for cold start latency in production serverless systems",
-    "normalized_title": "fork in the road reflections and optimizations for cold start latency in production serverless systems",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 521
   },
   {
     "title": "noctua towards automated and practical finegrained consistency analysis",
@@ -7330,21 +7187,6 @@
     "has_artifact": true
   },
   {
-    "title": "Compass: Encrypted Semantic Search with High Accuracy",
-    "normalized_title": "compass encrypted semantic search with high accuracy",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 587,
-    "has_artifact": true
-  },
-  {
     "title": "muse secure inference resilient to malicious clients",
     "normalized_title": "muse secure inference resilient to malicious clients",
     "conference": "USENIXSEC",
@@ -7542,21 +7384,6 @@
     ],
     "artifact_citations": 0,
     "id": 603,
-    "has_artifact": true
-  },
-  {
-    "title": "Basilisk: Using Provenance Invariants to Automate Proofs of Undecidable Protocols",
-    "normalized_title": "basilisk using provenance invariants to automate proofs of undecidable protocols",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 604,
     "has_artifact": true
   },
   {
@@ -8727,21 +8554,6 @@
     "has_artifact": true
   },
   {
-    "title": "PoWER Never Corrupts: Tool-Agnostic Verification of Crash Consistency and Corruption Detection",
-    "normalized_title": "power never corrupts toolagnostic verification of crash consistency and corruption detection",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 700,
-    "has_artifact": true
-  },
-  {
     "title": "Efficiently Mitigating Transient Execution Attacks using the Unmapped Speculation Contract",
     "normalized_title": "efficiently mitigating transient execution attacks using the unmapped speculation contract",
     "conference": "OSDI",
@@ -9035,17 +8847,6 @@
     "id": 723
   },
   {
-    "title": "principles and methodologies for serial performance optimization",
-    "normalized_title": "principles and methodologies for serial performance optimization",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 724
-  },
-  {
     "title": "sense enhancing microarchitectural awareness for tees via subscriptionbased notification",
     "normalized_title": "sense enhancing microarchitectural awareness for tees via subscriptionbased notification",
     "conference": "NDSS",
@@ -9146,21 +8947,6 @@
     ],
     "artifact_citations": 0,
     "id": 733,
-    "has_artifact": true
-  },
-  {
-    "title": "Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD",
-    "normalized_title": "achieving lowlatency graphbased vector search via aligning bestfirst search algorithm with ssd",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 734,
     "has_artifact": true
   },
   {
@@ -10012,18 +9798,15 @@
     "has_artifact": true
   },
   {
-    "title": "AegonKV: A High Bandwidth, Low Tail Latency, and Low Storage Cost KV-Separated LSM Store with SmartSSD-based GC Offloading",
+    "title": "aegonkv a high bandwidth low tail latency and low storage cost kvseparated lsm store with smartssdbased gc offloading",
     "normalized_title": "aegonkv a high bandwidth low tail latency and low storage cost kvseparated lsm store with smartssdbased gc offloading",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 803,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 803
   },
   {
     "title": "Precise and Effective Gadget Chain Mining through Deserialization Guided Call Graph Construction",
@@ -12975,20 +12758,6 @@
     "has_artifact": true
   },
   {
-    "title": "Quake: Adaptive Indexing for Vector Search",
-    "normalized_title": "quake adaptive indexing for vector search",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 1042,
-    "has_artifact": true
-  },
-  {
     "title": "blox a modular toolkit for deep learning schedulers",
     "normalized_title": "blox a modular toolkit for deep learning schedulers",
     "conference": "EUROSYS",
@@ -13615,19 +13384,15 @@
     "has_artifact": true
   },
   {
-    "title": "Baleen: ML Admission & Prefetching for Flash Caches",
+    "title": "baleen ml admission prefetching for flash caches",
     "normalized_title": "baleen ml admission prefetching for flash caches",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1093,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1093
   },
   {
     "title": "Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning",
@@ -13658,17 +13423,6 @@
     "artifact_citations": 0,
     "id": 1095,
     "has_artifact": true
-  },
-  {
-    "title": "okapi decoupling data striping and redundancy grouping in cluster file systems",
-    "normalized_title": "okapi decoupling data striping and redundancy grouping in cluster file systems",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 1096
   },
   {
     "title": "fairywren a sustainable cache for emerging writereaderase flash interfaces",
@@ -13900,17 +13654,6 @@
     "has_artifact": true
   },
   {
-    "title": "mako speculative distributed transactions with georeplication",
-    "normalized_title": "mako speculative distributed transactions with georeplication",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 1115
-  },
-  {
     "title": "oryx private detection of cycles in federated graphs",
     "normalized_title": "oryx private detection of cycles in federated graphs",
     "conference": "PETS",
@@ -14016,36 +13759,6 @@
     ],
     "artifact_citations": 0,
     "id": 1123,
-    "has_artifact": true
-  },
-  {
-    "title": "KPerfIR: Towards a Open and Compiler-centric Ecosystem for GPU Kernel Performance Tooling on Modern AI Workloads",
-    "normalized_title": "kperfir towards a open and compilercentric ecosystem for gpu kernel performance tooling on modern ai workloads",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1124,
-    "has_artifact": true
-  },
-  {
-    "title": "WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training",
-    "normalized_title": "wlbllm workloadbalanced 4d parallelism for large language model training",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1125,
     "has_artifact": true
   },
   {
@@ -16490,18 +16203,15 @@
     "has_artifact": true
   },
   {
-    "title": "OmniCache: Collaborative Caching for Near-storage Accelerators",
+    "title": "omnicache collaborative caching for nearstorage accelerators",
     "normalized_title": "omnicache collaborative caching for nearstorage accelerators",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1328,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1328
   },
   {
     "title": "CrossFS: A Cross-layered Direct-Access File System",
@@ -16601,35 +16311,6 @@
     ],
     "artifact_citations": 0,
     "id": 1336,
-    "has_artifact": true
-  },
-  {
-    "title": "Deriving Semantic Checkers from Tests to Detect Silent Failures in Production Distributed Systems",
-    "normalized_title": "deriving semantic checkers from tests to detect silent failures in production distributed systems",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 1337,
-    "has_artifact": true
-  },
-  {
-    "title": "Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks",
-    "normalized_title": "training with confidence catching silent errors in deep learning training with automated proactive checks",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1338,
     "has_artifact": true
   },
   {
@@ -16801,21 +16482,6 @@
     "has_artifact": true
   },
   {
-    "title": "Mirage: A Multi-Level Superoptimizer for Tensor Programs",
-    "normalized_title": "mirage a multilevel superoptimizer for tensor programs",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1353,
-    "has_artifact": true
-  },
-  {
     "title": "EINNET: Optimizing Tensor Programs with Derivation-Based Transformations",
     "normalized_title": "einnet optimizing tensor programs with derivationbased transformations",
     "conference": "OSDI",
@@ -16918,21 +16584,6 @@
     "has_artifact": true
   },
   {
-    "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
-    "normalized_title": "nanoflow towards optimal large language model serving throughput",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1362,
-    "has_artifact": true
-  },
-  {
     "title": "gadgetmeter quantitatively and accurately gauging the exploitability of speculative gadgets",
     "normalized_title": "gadgetmeter quantitatively and accurately gauging the exploitability of speculative gadgets",
     "conference": "NDSS",
@@ -16978,21 +16629,6 @@
     ],
     "artifact_citations": 0,
     "id": 1366,
-    "has_artifact": true
-  },
-  {
-    "title": "Kamino: Efficient VM Allocation at Scale with Latency-Driven Cache-Aware Scheduling",
-    "normalized_title": "kamino efficient vm allocation at scale with latencydriven cacheaware scheduling",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1367,
     "has_artifact": true
   },
   {
@@ -17369,21 +17005,6 @@
     "has_artifact": true
   },
   {
-    "title": "Low End-to-End Latency atop a Speculative Shared Log with Fix-Ante Ordering",
-    "normalized_title": "low endtoend latency atop a speculative shared log with fixante ordering",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1397,
-    "has_artifact": true
-  },
-  {
     "title": "From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees",
     "normalized_title": "from wisckey to bourbon a learned index for logstructured merge trees",
     "conference": "OSDI",
@@ -17425,33 +17046,26 @@
     "has_artifact": true
   },
   {
-    "title": "Symbiosis: The Art of Application and Kernel Cache Cooperation",
+    "title": "symbiosis the art of application and kernel cache cooperation",
     "normalized_title": "symbiosis the art of application and kernel cache cooperation",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1401,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1401
   },
   {
-    "title": "Cloudscape: A Study of Storage Services in Modern Cloud Architectures",
+    "title": "cloudscape a study of storage services in modern cloud architectures",
     "normalized_title": "cloudscape a study of storage services in modern cloud architectures",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1402,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1402
   },
   {
     "title": "fast transparent filesystem microkernel recovery with ananke",
@@ -17804,34 +17418,15 @@
     "has_artifact": true
   },
   {
-    "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+    "title": "dont maintain twice its alright merged metadata management in deduplication file system with gogetafs",
     "normalized_title": "dont maintain twice its alright merged metadata management in deduplication file system with gogetafs",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1430,
-    "has_artifact": true
-  },
-  {
-    "title": "Fast and Synchronous Crash Consistency with Metadata Write-Once File System",
-    "normalized_title": "fast and synchronous crash consistency with metadata writeonce file system",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1431,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1430
   },
   {
     "title": "Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer",
@@ -20376,21 +19971,6 @@
     "has_artifact": true
   },
   {
-    "title": "KRR: Efficient and Scalable Kernel Record Replay",
-    "normalized_title": "krr efficient and scalable kernel record replay",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1640,
-    "has_artifact": true
-  },
-  {
     "title": "alwayson recording framework for serverless computations opportunities and challenges",
     "normalized_title": "alwayson recording framework for serverless computations opportunities and challenges",
     "conference": "EUROSYS",
@@ -20473,21 +20053,6 @@
     "has_artifact": true
   },
   {
-    "title": "Tigon: A Distributed Database for a CXL Pod",
-    "normalized_title": "tigon a distributed database for a cxl pod",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1648,
-    "has_artifact": true
-  },
-  {
     "title": "chipmunk investigating crashconsistency in persistentmemory file systems",
     "normalized_title": "chipmunk investigating crashconsistency in persistentmemory file systems",
     "conference": "EUROSYS",
@@ -20563,21 +20128,6 @@
     ],
     "artifact_citations": 0,
     "id": 1654,
-    "has_artifact": true
-  },
-  {
-    "title": "Picsou: Enabling Replicated State Machines to Communicate Efficiently",
-    "normalized_title": "picsou enabling replicated state machines to communicate efficiently",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 1655,
     "has_artifact": true
   },
   {
@@ -20686,20 +20236,6 @@
     ],
     "artifact_citations": 0,
     "id": 1664,
-    "has_artifact": true
-  },
-  {
-    "title": "Quantum Virtual Machines",
-    "normalized_title": "quantum virtual machines",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 1665,
     "has_artifact": true
   },
   {
@@ -21264,18 +20800,15 @@
     "has_artifact": true
   },
   {
-    "title": "MIDAS: Minimizing Write Amplification in Log-Structured Systems through Adaptive Group Number and Size Configuration",
+    "title": "midas minimizing write amplification in logstructured systems through adaptive group number and size configuration",
     "normalized_title": "midas minimizing write amplification in logstructured systems through adaptive group number and size configuration",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1711,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1711
   },
   {
     "title": "Modernizing File System through In-Storage Indexing",
@@ -21375,17 +20908,15 @@
     "has_artifact": true
   },
   {
-    "title": "Rethinking the Request-to-IO Transformation Process of File Systems for Full Utilization of High-Bandwidth SSDs",
+    "title": "rethinking the requesttoio transformation process of file systems for full utilization of highbandwidth ssds",
     "normalized_title": "rethinking the requesttoio transformation process of file systems for full utilization of highbandwidth ssds",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 1719,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 1719
   },
   {
     "title": "loopdelta embedding localityaware opportunistic delta compression in inline deduplication for highly efficient data reduction",
@@ -21463,19 +20994,6 @@
     ],
     "artifact_citations": 0,
     "id": 1725,
-    "has_artifact": true
-  },
-  {
-    "title": "QOS: Quantum Operating System",
-    "normalized_title": "qos quantum operating system",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "artifact_citations": 0,
-    "id": 1726,
     "has_artifact": true
   },
   {
@@ -24982,19 +24500,6 @@
     "id": 2013
   },
   {
-    "title": "MettEagle: Costs and Benefits of Implementing Containers on Microkernels",
-    "normalized_title": "metteagle costs and benefits of implementing containers on microkernels",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "artifact_citations": 0,
-    "id": 2014,
-    "has_artifact": true
-  },
-  {
     "title": "an nvm performance study towards whole system persistence on server platforms",
     "normalized_title": "an nvm performance study towards whole system persistence on server platforms",
     "conference": "SOSP",
@@ -25017,30 +24522,15 @@
     "id": 2016
   },
   {
-    "title": "MinFlow: High-performance and Cost-efficient Data Passing for I/O-intensive Stateful Serverless Analytics",
+    "title": "minflow highperformance and costefficient data passing for iointensive stateful serverless analytics",
     "normalized_title": "minflow highperformance and costefficient data passing for iointensive stateful serverless analytics",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2017,
-    "has_artifact": true
-  },
-  {
-    "title": "FineMem: Breaking the Allocation Overhead vs. Memory Waste Dilemma in Fine-Grained Disaggregated Memory Management",
-    "normalized_title": "finemem breaking the allocation overhead vs memory waste dilemma in finegrained disaggregated memory management",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "artifact_citations": 0,
-    "id": 2018,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2017
   },
   {
     "title": "Ensō: A Streaming Interface for NIC-Application Communication",
@@ -25143,20 +24633,6 @@
     "has_artifact": true
   },
   {
-    "title": "Weave: Efficient and Expressive Oblivious Analytics at Scale",
-    "normalized_title": "weave efficient and expressive oblivious analytics at scale",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 2027,
-    "has_artifact": true
-  },
-  {
     "title": "trinity a fast compressed multiattribute data store",
     "normalized_title": "trinity a fast compressed multiattribute data store",
     "conference": "EUROSYS",
@@ -25229,19 +24705,15 @@
     "has_artifact": true
   },
   {
-    "title": "Silhouette: Leveraging Consistency Mechanisms to Detect Bugs in Persistent Memory-Based File Systems",
+    "title": "silhouette leveraging consistency mechanisms to detect bugs in persistent memorybased file systems",
     "normalized_title": "silhouette leveraging consistency mechanisms to detect bugs in persistent memorybased file systems",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2034,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2034
   },
   {
     "title": "Massively Parallel Multi-Versioned Transaction Processing",
@@ -25283,17 +24755,15 @@
     "has_artifact": true
   },
   {
-    "title": "Oasis: An Out-of-core Approximate Graph System via All-Distances Sketches",
+    "title": "oasis an outofcore approximate graph system via alldistances sketches",
     "normalized_title": "oasis an outofcore approximate graph system via alldistances sketches",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2038,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2038
   },
   {
     "title": "SEPH: Scalable, Efficient, and Predictable Hashing on Persistent Memory",
@@ -25353,17 +24823,6 @@
     "artifact_citations": 0,
     "has_artifact": false,
     "id": 2043
-  },
-  {
-    "title": "zen empowering distributed training with sparsitydriven data synchronization",
-    "normalized_title": "zen empowering distributed training with sparsitydriven data synchronization",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 2044
   },
   {
     "title": "Hey Hey, My My, Skewness Is Here to Stay: Challenges and Opportunities in Cloud Block Store Traffic",
@@ -25528,17 +24987,6 @@
     "has_artifact": true
   },
   {
-    "title": "to pri or not to pri thats the question",
-    "normalized_title": "to pri or not to pri thats the question",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 2057
-  },
-  {
     "title": "understanding silent data corruptions in a large production cpu population",
     "normalized_title": "understanding silent data corruptions in a large production cpu population",
     "conference": "SOSP",
@@ -25561,18 +25009,15 @@
     "id": 2059
   },
   {
-    "title": "The Design and Implementation of a Capacity-Variant Storage System",
+    "title": "the design and implementation of a capacityvariant storage system",
     "normalized_title": "the design and implementation of a capacityvariant storage system",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2060,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2060
   },
   {
     "title": "WiseGraph: Optimizing GNN with Joint Workload Partition of Graph and Operations",
@@ -25650,20 +25095,6 @@
     ],
     "artifact_citations": 0,
     "id": 2066,
-    "has_artifact": true
-  },
-  {
-    "title": "Understanding Stragglers in Large Model Training Using What-if Analysis",
-    "normalized_title": "understanding stragglers in large model training using whatif analysis",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 2067,
     "has_artifact": true
   },
   {
@@ -26094,21 +25525,6 @@
     ],
     "artifact_citations": 0,
     "id": 2104,
-    "has_artifact": true
-  },
-  {
-    "title": "Extending Applications Safely and Efficiently",
-    "normalized_title": "extending applications safely and efficiently",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 2105,
     "has_artifact": true
   },
   {
@@ -32386,21 +31802,6 @@
     "id": 2626
   },
   {
-    "title": "Paralegal: Practical Static Analysis for Privacy Bugs",
-    "normalized_title": "paralegal practical static analysis for privacy bugs",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 2627,
-    "has_artifact": true
-  },
-  {
     "title": "a stakeholderbased framework to highlight tensions when implementing privacy features",
     "normalized_title": "a stakeholderbased framework to highlight tensions when implementing privacy features",
     "conference": "USENIXSEC",
@@ -32844,20 +32245,6 @@
     ],
     "artifact_citations": 0,
     "id": 2665,
-    "has_artifact": true
-  },
-  {
-    "title": "Building Bridges: Safe Interactions with Foreign Languages through Omniglot",
-    "normalized_title": "building bridges safe interactions with foreign languages through omniglot",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 2666,
     "has_artifact": true
   },
   {
@@ -33369,32 +32756,26 @@
     "has_artifact": true
   },
   {
-    "title": "ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage",
+    "title": "elect enabling erasure coding tiering for lsmtreebased storage",
     "normalized_title": "elect enabling erasure coding tiering for lsmtreebased storage",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2710,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2710
   },
   {
-    "title": "Revisiting Network Coding for Warm Blob Storage",
+    "title": "revisiting network coding for warm blob storage",
     "normalized_title": "revisiting network coding for warm blob storage",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2711,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2711
   },
   {
     "title": "SOWalker: An I/O-Optimized Out-of-Core Graph Processing System for Second-Order Random Walks",
@@ -33605,19 +32986,15 @@
     "id": 2728
   },
   {
-    "title": "Physical vs. Logical Indexing with IDEA: Inverted Deduplication-Aware Index",
+    "title": "physical vs logical indexing with idea inverted deduplicationaware index",
     "normalized_title": "physical vs logical indexing with idea inverted deduplicationaware index",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2729,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2729
   },
   {
     "title": "HyperAlloc: Efficient VM Memory De/Inflation via Hypervisor-Shared Page-Frame Allocators",
@@ -33846,17 +33223,15 @@
     "has_artifact": true
   },
   {
-    "title": "GPHash: An Efficient Hash Index for GPU with Byte-Granularity Persistent Memory",
+    "title": "gphash an efficient hash index for gpu with bytegranularity persistent memory",
     "normalized_title": "gphash an efficient hash index for gpu with bytegranularity persistent memory",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2747,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2747
   },
   {
     "title": "motor enabling multiversioning for distributed transactions on disaggregated memory",
@@ -34271,18 +33646,15 @@
     "has_artifact": true
   },
   {
-    "title": "Kosmo: Efficient Online Miss Ratio Curve Generation for Eviction Policy Evaluation",
+    "title": "kosmo efficient online miss ratio curve generation for eviction policy evaluation",
     "normalized_title": "kosmo efficient online miss ratio curve generation for eviction policy evaluation",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2782,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2782
   },
   {
     "title": "bladerunner stream processing at scale for a live view of backend data mutations at the edge",
@@ -35012,34 +34384,26 @@
     "has_artifact": true
   },
   {
-    "title": "D2FS: Device-Driven Filesystem Garbage Collection",
+    "title": "d2fs devicedriven filesystem garbage collection",
     "normalized_title": "d2fs devicedriven filesystem garbage collection",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2844,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2844
   },
   {
-    "title": "OPIMQ: Order Preserving IO stack for Multi-Queue Block Device",
+    "title": "opimq order preserving io stack for multiqueue block device",
     "normalized_title": "opimq order preserving io stack for multiqueue block device",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 2845,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 2845
   },
   {
     "title": "djfs directorygranularity filesystem journaling for cmmh ssds",
@@ -35347,19 +34711,6 @@
     ],
     "artifact_citations": 0,
     "id": 2869,
-    "has_artifact": true
-  },
-  {
-    "title": "Enabling Efficient GPU Communication over Multiple NICs with FuseLink",
-    "normalized_title": "enabling efficient gpu communication over multiple nics with fuselink",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "artifact_citations": 0,
-    "id": 2870,
     "has_artifact": true
   },
   {
@@ -41585,17 +40936,6 @@
     "has_artifact": true
   },
   {
-    "title": "söze one network telemetry is all you need for perflow weighted bandwidth allocation at scale",
-    "normalized_title": "söze one network telemetry is all you need for perflow weighted bandwidth allocation at scale",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 3393
-  },
-  {
     "title": "poseidon efficient robust and practical datacenter cc via deployable int",
     "normalized_title": "poseidon efficient robust and practical datacenter cc via deployable int",
     "conference": "NSDI",
@@ -42934,17 +42274,15 @@
     "has_artifact": true
   },
   {
-    "title": "Combining Buffered I/O and Direct I/O in Distributed File Systems",
+    "title": "combining buffered io and direct io in distributed file systems",
     "normalized_title": "combining buffered io and direct io in distributed file systems",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3507,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3507
   },
   {
     "title": "LMFF: efficient and scalable layered materials force field on heterogeneous many-core processors",
@@ -43384,18 +42722,15 @@
     "id": 3542
   },
   {
-    "title": "3L-Cache: Low Overhead and Precise Learning-based Eviction Policy for Caches",
+    "title": "3lcache low overhead and precise learningbased eviction policy for caches",
     "normalized_title": "3lcache low overhead and precise learningbased eviction policy for caches",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3543,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3543
   },
   {
     "title": "cubicring enabling onehop failure detection and recovery for distributed inmemory storage systems",
@@ -44383,17 +43718,6 @@
     "has_artifact": true
   },
   {
-    "title": "disentangling the dual role of nic receive rings",
-    "normalized_title": "disentangling the dual role of nic receive rings",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 3625
-  },
-  {
     "title": "prefix siphoning exploiting lsmtree range filters for information disclosure",
     "normalized_title": "prefix siphoning exploiting lsmtree range filters for information disclosure",
     "conference": "ATC",
@@ -45115,19 +44439,15 @@
     "has_artifact": true
   },
   {
-    "title": "LeapGNN: Accelerating Distributed GNN Training Leveraging Feature-Centric Model Migration",
+    "title": "leapgnn accelerating distributed gnn training leveraging featurecentric model migration",
     "normalized_title": "leapgnn accelerating distributed gnn training leveraging featurecentric model migration",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3686,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3686
   },
   {
     "title": "impress an importanceinformed multitier prefix kv storage system for large language model inference",
@@ -45189,19 +44509,15 @@
     "id": 3691
   },
   {
-    "title": "We Ain't Afraid of No File Fragmentation: Causes and Prevention of Its Performance Impact on Modern Flash SSDs",
+    "title": "we aint afraid of no file fragmentation causes and prevention of its performance impact on modern flash ssds",
     "normalized_title": "we aint afraid of no file fragmentation causes and prevention of its performance impact on modern flash ssds",
     "conference": "FAST",
     "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3692,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3692
   },
   {
     "title": "Exploit both SMART Attributes and NAND Flash Wear Characteristics to Effectively Forecast SSD-based Storage Failures in Clusters",
@@ -45294,18 +44610,15 @@
     "has_artifact": true
   },
   {
-    "title": "HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems",
+    "title": "hidpu a dpuoriented hybrid indexing scheme for disaggregated storage systems",
     "normalized_title": "hidpu a dpuoriented hybrid indexing scheme for disaggregated storage systems",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3700,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3700
   },
   {
     "title": "zkcross a novel architecture for crosschain privacypreserving auditing",
@@ -46140,20 +45453,6 @@
     "artifact_citations": 0,
     "has_artifact": false,
     "id": 3771
-  },
-  {
-    "title": "Decouple and Decompose: Scaling Resource Allocation with DeDe",
-    "normalized_title": "decouple and decompose scaling resource allocation with dede",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 3772,
-    "has_artifact": true
   },
   {
     "title": "preventing network bottlenecks accelerating datacenter services with hotspotaware placement for compute and storage",
@@ -47493,20 +46792,6 @@
     "has_artifact": true
   },
   {
-    "title": "Decentralized, Epoch-based F2FS Journaling with Fine-grained Crash Recovery",
-    "normalized_title": "decentralized epochbased f2fs journaling with finegrained crash recovery",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 3885,
-    "has_artifact": true
-  },
-  {
     "title": "hasis a hardwareassisted singleindex store for hybrid transactional and analytical processing",
     "normalized_title": "hasis a hardwareassisted singleindex store for hybrid transactional and analytical processing",
     "conference": "FAST",
@@ -47518,19 +46803,15 @@
     "id": 3886
   },
   {
-    "title": "VectorCDC: Accelerating Data Deduplication with Vector Instructions",
+    "title": "vectorcdc accelerating data deduplication with vector instructions",
     "normalized_title": "vectorcdc accelerating data deduplication with vector instructions",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3887,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3887
   },
   {
     "title": "Toward a Generic Fault Tolerance Technique for Partial Network Partitioning",
@@ -47592,18 +46873,15 @@
     "id": 3892
   },
   {
-    "title": "Selective On-Device Execution of Data-Dependent Read I/Os",
+    "title": "selective ondevice execution of datadependent read ios",
     "normalized_title": "selective ondevice execution of datadependent read ios",
     "conference": "FAST",
     "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
+    "category": "",
+    "badges": [],
     "artifact_citations": 0,
-    "id": 3893,
-    "has_artifact": true
+    "has_artifact": false,
+    "id": 3893
   },
   {
     "title": "efficient useafterfree prevention with opportunistic pagelevel sweeping",
@@ -54342,17 +53620,6 @@
     "id": 4463
   },
   {
-    "title": "deterministic client enforcing determinism on untrusted machine code",
-    "normalized_title": "deterministic client enforcing determinism on untrusted machine code",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4464
-  },
-  {
     "title": "sidekick innetwork assistance for secure endtoend transport protocols",
     "normalized_title": "sidekick innetwork assistance for secure endtoend transport protocols",
     "conference": "NSDI",
@@ -59474,159 +58741,6 @@
     "artifact_citations": 0,
     "has_artifact": false,
     "id": 4900
-  },
-  {
-    "title": "COLE: A Column-based Learned Storage for Blockchain Systems",
-    "normalized_title": "cole a columnbased learned storage for blockchain systems",
-    "conference": "FAST",
-    "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 4901,
-    "has_artifact": true
-  },
-  {
-    "title": "I/O Passthru: Upstreaming a flexible and efficient I/O Path in Linux",
-    "normalized_title": "io passthru upstreaming a flexible and efficient io path in linux",
-    "conference": "FAST",
-    "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 4902,
-    "has_artifact": true
-  },
-  {
-    "title": "towards efficient flash caches with emerging nvme flexible data placement ssds",
-    "normalized_title": "towards efficient flash caches with emerging nvme flexible data placement ssds",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4903
-  },
-  {
-    "title": "RFUSE: Modernizing Userspace Filesystem Framework through Scalable Kernel-Userspace Communication",
-    "normalized_title": "rfuse modernizing userspace filesystem framework through scalable kerneluserspace communication",
-    "conference": "FAST",
-    "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 4904,
-    "has_artifact": true
-  },
-  {
-    "title": "Metis: File System Model Checking via Versatile Input and State Exploration",
-    "normalized_title": "metis file system model checking via versatile input and state exploration",
-    "conference": "FAST",
-    "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 4905,
-    "has_artifact": true
-  },
-  {
-    "title": "In-Memory Key-Value Store Live Migration with NetMigrate",
-    "normalized_title": "inmemory keyvalue store live migration with netmigrate",
-    "conference": "FAST",
-    "year": 2024,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 4906,
-    "has_artifact": true
-  },
-  {
-    "title": "arya arbitrary graph pattern mining with decompositionbased sampling",
-    "normalized_title": "arya arbitrary graph pattern mining with decompositionbased sampling",
-    "conference": "NSDI",
-    "year": 2023,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4907
-  },
-  {
-    "title": "snatch online streaming analytics at the network edge",
-    "normalized_title": "snatch online streaming analytics at the network edge",
-    "conference": "EUROSYS",
-    "year": 2024,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4908
-  },
-  {
-    "title": "octosketch enabling realtime continuous network monitoring over multiple cores",
-    "normalized_title": "octosketch enabling realtime continuous network monitoring over multiple cores",
-    "conference": "NSDI",
-    "year": 2024,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4909
-  },
-  {
-    "title": "heterosketch coordinating networkwide monitoring in heterogeneous and dynamic networks",
-    "normalized_title": "heterosketch coordinating networkwide monitoring in heterogeneous and dynamic networks",
-    "conference": "NSDI",
-    "year": 2022,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4910
-  },
-  {
-    "title": "a research status of 3d printing of different metal forms",
-    "normalized_title": "a research status of 3d printing of different metal forms",
-    "conference": "ATC",
-    "year": 2022,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 4911
-  },
-  {
-    "title": "Boosting File Systems Elegantly: A Transparent NVM Write-ahead Log for Disk File Systems",
-    "normalized_title": "boosting file systems elegantly a transparent nvm writeahead log for disk file systems",
-    "conference": "FAST",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 4912,
-    "has_artifact": true
   },
   {
     "title": "Phase Modulation Side Channels: Jittery JTAG for On-Chip Voltage Measurements",
@@ -67834,302 +66948,6 @@
     "id": 5624
   },
   {
-    "title": "Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization",
-    "normalized_title": "bayesian code diffusion for efficient automatic deep learning program optimization",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 5625,
-    "has_artifact": true
-  },
-  {
-    "title": "QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach",
-    "normalized_title": "qimengxpiler transcompiling tensor programs for deep learning systems with a neuralsymbolic approach",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "artifact_citations": 0,
-    "id": 5626,
-    "has_artifact": true
-  },
-  {
-    "title": "archer adaptive memory compression with pageassociationrule awareness for highspeed response of mobile devices",
-    "normalized_title": "archer adaptive memory compression with pageassociationrule awareness for highspeed response of mobile devices",
-    "conference": "FAST",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5627
-  },
-  {
-    "title": "Neutrino: Fine-grained GPU Kernel Profiling via Programmable Probing",
-    "normalized_title": "neutrino finegrained gpu kernel profiling via programmable probing",
-    "conference": "OSDI",
-    "year": 2025,
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "artifact_citations": 0,
-    "id": 5628,
-    "has_artifact": true
-  },
-  {
-    "title": "vecare statistical acoustic sensing for automotive incabin monitoring",
-    "normalized_title": "vecare statistical acoustic sensing for automotive incabin monitoring",
-    "conference": "NSDI",
-    "year": 2023,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5629
-  },
-  {
-    "title": "slnet a spectrogram learning neural network for deep wireless sensing",
-    "normalized_title": "slnet a spectrogram learning neural network for deep wireless sensing",
-    "conference": "NSDI",
-    "year": 2023,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5630
-  },
-  {
-    "title": "autoarts taxonomy insights and tools for root cause labelling of incidents in microsoft azure",
-    "normalized_title": "autoarts taxonomy insights and tools for root cause labelling of incidents in microsoft azure",
-    "conference": "ATC",
-    "year": 2023,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5631
-  },
-  {
-    "title": "decaf detecting and characterizing ad fraud in mobile apps",
-    "normalized_title": "decaf detecting and characterizing ad fraud in mobile apps",
-    "conference": "NSDI",
-    "year": 2014,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5632
-  },
-  {
-    "title": "energyaware server provisioning and load dispatching for connectionintensive internet services",
-    "normalized_title": "energyaware server provisioning and load dispatching for connectionintensive internet services",
-    "conference": "NSDI",
-    "year": 2008,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5633
-  },
-  {
-    "title": "availability of multiobject operations awarded best paper",
-    "normalized_title": "availability of multiobject operations awarded best paper",
-    "conference": "NSDI",
-    "year": 2006,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5634
-  },
-  {
-    "title": "subtleties in tolerating correlated failures in widearea storage systems",
-    "normalized_title": "subtleties in tolerating correlated failures in widearea storage systems",
-    "conference": "NSDI",
-    "year": 2006,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5635
-  },
-  {
-    "title": "making dynamic page coalescing effective on virtualized clouds",
-    "normalized_title": "making dynamic page coalescing effective on virtualized clouds",
-    "conference": "EUROSYS",
-    "year": 2023,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5636
-  },
-  {
-    "title": "optimizing task scheduling in cloud vms with accurate vcpu abstraction",
-    "normalized_title": "optimizing task scheduling in cloud vms with accurate vcpu abstraction",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5637
-  },
-  {
-    "title": "one protocol to rule them all wireless networkonchip using deep reinforcement learning",
-    "normalized_title": "one protocol to rule them all wireless networkonchip using deep reinforcement learning",
-    "conference": "NSDI",
-    "year": 2021,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5638
-  },
-  {
-    "title": "robust and immediate resource reclamation with m3",
-    "normalized_title": "robust and immediate resource reclamation with m3",
-    "conference": "SOSP",
-    "year": 2024,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5639
-  },
-  {
-    "title": "tierless programming and reasoning for softwaredefined networks",
-    "normalized_title": "tierless programming and reasoning for softwaredefined networks",
-    "conference": "NSDI",
-    "year": 2014,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5640
-  },
-  {
-    "title": "autothrottle a practical bilevel approach to resource management for slotargeted microservices",
-    "normalized_title": "autothrottle a practical bilevel approach to resource management for slotargeted microservices",
-    "conference": "NSDI",
-    "year": 2024,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5641
-  },
-  {
-    "title": "efficient directconnect topologies for collective communications",
-    "normalized_title": "efficient directconnect topologies for collective communications",
-    "conference": "NSDI",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5642
-  },
-  {
-    "title": "stable and practical as relationship inference with problink",
-    "normalized_title": "stable and practical as relationship inference with problink",
-    "conference": "NSDI",
-    "year": 2019,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5643
-  },
-  {
-    "title": "curator selfmanaging storage for enterprise clusters",
-    "normalized_title": "curator selfmanaging storage for enterprise clusters",
-    "conference": "NSDI",
-    "year": 2017,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5644
-  },
-  {
-    "title": "speeding up web page loads with shandian",
-    "normalized_title": "speeding up web page loads with shandian",
-    "conference": "NSDI",
-    "year": 2016,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5645
-  },
-  {
-    "title": "how speedy is spdy",
-    "normalized_title": "how speedy is spdy",
-    "conference": "NSDI",
-    "year": 2014,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5646
-  },
-  {
-    "title": "demystifying page load performance with wprof",
-    "normalized_title": "demystifying page load performance with wprof",
-    "conference": "NSDI",
-    "year": 2013,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5647
-  },
-  {
-    "title": "contracts practical contribution incentives for p2p live streaming",
-    "normalized_title": "contracts practical contribution incentives for p2p live streaming",
-    "conference": "NSDI",
-    "year": 2010,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5648
-  },
-  {
-    "title": "studying spamming botnets using botlab",
-    "normalized_title": "studying spamming botnets using botlab",
-    "conference": "NSDI",
-    "year": 2009,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5649
-  },
-  {
-    "title": "fork a dual congestion control loop for small and large flows in datacenters",
-    "normalized_title": "fork a dual congestion control loop for small and large flows in datacenters",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "category": "",
-    "badges": [],
-    "artifact_citations": 0,
-    "has_artifact": false,
-    "id": 5650
-  },
-  {
     "title": "LVMT: An Efficient Authenticated Storage for Blockchain",
     "normalized_title": "lvmt an efficient authenticated storage for blockchain",
     "conference": "OSDI",
@@ -68397,5 +67215,3503 @@
     "artifact_citations": 0,
     "has_artifact": false,
     "id": 5673
+  },
+  {
+    "title": "solidattention lowlatency ssdbased serving on memoryconstrained pcs",
+    "normalized_title": "solidattention lowlatency ssdbased serving on memoryconstrained pcs",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5674
+  },
+  {
+    "title": "sharpen the spec cut the code a case for generative file system with sysspec",
+    "normalized_title": "sharpen the spec cut the code a case for generative file system with sysspec",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5675
+  },
+  {
+    "title": "range as a key is the key fast and compact cloud block store index with rask",
+    "normalized_title": "range as a key is the key fast and compact cloud block store index with rask",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5676
+  },
+  {
+    "title": "htmfs strong consistency comes for free with hardware transactional memory in persistent memory file systems",
+    "normalized_title": "htmfs strong consistency comes for free with hardware transactional memory in persistent memory file systems",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5677
+  },
+  {
+    "title": "mt2 memory bandwidth regulation on hybrid nvmdram platforms",
+    "normalized_title": "mt2 memory bandwidth regulation on hybrid nvmdram platforms",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5678
+  },
+  {
+    "title": "efficient and available inmemory kvstore with hybrid erasure coding and replication",
+    "normalized_title": "efficient and available inmemory kvstore with hybrid erasure coding and replication",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5679
+  },
+  {
+    "title": "mitigating sync amplification for copyonwrite virtual disk",
+    "normalized_title": "mitigating sync amplification for copyonwrite virtual disk",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5680
+  },
+  {
+    "title": "dupefs leaking data over the network with filesystem deduplication side channels",
+    "normalized_title": "dupefs leaking data over the network with filesystem deduplication side channels",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5681
+  },
+  {
+    "title": "rethinking file mapping for persistent memory",
+    "normalized_title": "rethinking file mapping for persistent memory",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5682
+  },
+  {
+    "title": "distcache provable load balancing for largescale storage systems with distributed caching",
+    "normalized_title": "distcache provable load balancing for largescale storage systems with distributed caching",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5683
+  },
+  {
+    "title": "tenet memory safe and fault tolerant persistent transactional memory",
+    "normalized_title": "tenet memory safe and fault tolerant persistent transactional memory",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5684
+  },
+  {
+    "title": "lockfree collaboration support for cloud storage services with operation inference and transformation",
+    "normalized_title": "lockfree collaboration support for cloud storage services with operation inference and transformation",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5685
+  },
+  {
+    "title": "towards webbased delta synchronization for cloud storage services",
+    "normalized_title": "towards webbased delta synchronization for cloud storage services",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5686
+  },
+  {
+    "title": "roart rangequery optimized persistent art",
+    "normalized_title": "roart rangequery optimized persistent art",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5687
+  },
+  {
+    "title": "xerxes extensive exploration of scalable hardware systems with cxlbased simulation framework",
+    "normalized_title": "xerxes extensive exploration of scalable hardware systems with cxlbased simulation framework",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5688
+  },
+  {
+    "title": "high velocity kernel file systems with bento",
+    "normalized_title": "high velocity kernel file systems with bento",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5689
+  },
+  {
+    "title": "shroud ensuring private access to largescale data in the data center",
+    "normalized_title": "shroud ensuring private access to largescale data in the data center",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5690
+  },
+  {
+    "title": "costefficient archive cloud storage with tape design and deployment",
+    "normalized_title": "costefficient archive cloud storage with tape design and deployment",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5691
+  },
+  {
+    "title": "mlsdisk trusted block storage for tees based on layered secure logging",
+    "normalized_title": "mlsdisk trusted block storage for tees based on layered secure logging",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5692
+  },
+  {
+    "title": "parasync exploiting finegrained parallelism for efficient file synchronization",
+    "normalized_title": "parasync exploiting finegrained parallelism for efficient file synchronization",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5693
+  },
+  {
+    "title": "gpu checkpointrestore made fast and lightweight",
+    "normalized_title": "gpu checkpointrestore made fast and lightweight",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5694
+  },
+  {
+    "title": "rosenbridge a framework for enabling express io paths across the virtualization boundary",
+    "normalized_title": "rosenbridge a framework for enabling express io paths across the virtualization boundary",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5695
+  },
+  {
+    "title": "discardbased garbage collection for distributed logstructured storage systems in bytedance",
+    "normalized_title": "discardbased garbage collection for distributed logstructured storage systems in bytedance",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5696
+  },
+  {
+    "title": "skysync accelerating file synchronization with collaborative delta generation",
+    "normalized_title": "skysync accelerating file synchronization with collaborative delta generation",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5697
+  },
+  {
+    "title": "patronus highperformance and protective remote memory",
+    "normalized_title": "patronus highperformance and protective remote memory",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5698
+  },
+  {
+    "title": "λio a unified io stack for computational storage",
+    "normalized_title": "λio a unified io stack for computational storage",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5699
+  },
+  {
+    "title": "perseus a failslow detection framework for cloud storage systems",
+    "normalized_title": "perseus a failslow detection framework for cloud storage systems",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5700
+  },
+  {
+    "title": "fisc a largescale cloudnativeoriented file system",
+    "normalized_title": "fisc a largescale cloudnativeoriented file system",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5701
+  },
+  {
+    "title": "more than capacity performanceoriented evolution of pangu in alibaba",
+    "normalized_title": "more than capacity performanceoriented evolution of pangu in alibaba",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5702
+  },
+  {
+    "title": "citron distributed range lock management with onesided rdma",
+    "normalized_title": "citron distributed range lock management with onesided rdma",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5703
+  },
+  {
+    "title": "infinifs an efficient metadata service for largescale distributed filesystems",
+    "normalized_title": "infinifs an efficient metadata service for largescale distributed filesystems",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5704
+  },
+  {
+    "title": "concordia distributed shared memory with innetwork cache coherence",
+    "normalized_title": "concordia distributed shared memory with innetwork cache coherence",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5705
+  },
+  {
+    "title": "scalable persistent memory file system with kerneluserspace collaboration",
+    "normalized_title": "scalable persistent memory file system with kerneluserspace collaboration",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5706
+  },
+  {
+    "title": "reconfs a reconstructable file system on flash storage",
+    "normalized_title": "reconfs a reconstructable file system on flash storage",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5707
+  },
+  {
+    "title": "extending the lifetime of flashbased storage through reducing write amplification from file systems",
+    "normalized_title": "extending the lifetime of flashbased storage through reducing write amplification from file systems",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5708
+  },
+  {
+    "title": "cacheslide unlocking cross positionaware kv cache reuse for accelerating llm serving",
+    "normalized_title": "cacheslide unlocking cross positionaware kv cache reuse for accelerating llm serving",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5709
+  },
+  {
+    "title": "toward strong usable access control for shared distributed data",
+    "normalized_title": "toward strong usable access control for shared distributed data",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5710
+  },
+  {
+    "title": "zzfs a hybrid device and cloud file system for spontaneous users",
+    "normalized_title": "zzfs a hybrid device and cloud file system for spontaneous users",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5711
+  },
+  {
+    "title": "consistent and durable data structures for nonvolatile byteaddressable memory",
+    "normalized_title": "consistent and durable data structures for nonvolatile byteaddressable memory",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5712
+  },
+  {
+    "title": "fast cloud storage for ai jobs via grouped io api with transparent readwrite optimizations",
+    "normalized_title": "fast cloud storage for ai jobs via grouped io api with transparent readwrite optimizations",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5713
+  },
+  {
+    "title": "cluster storage systems gotta have heart improving storage efficiency by exploiting diskreliability heterogeneity",
+    "normalized_title": "cluster storage systems gotta have heart improving storage efficiency by exploiting diskreliability heterogeneity",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5714
+  },
+  {
+    "title": "springfs bridging agility and performance in elastic distributed storage",
+    "normalized_title": "springfs bridging agility and performance in elastic distributed storage",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5715
+  },
+  {
+    "title": "perspective semantic data management for the home",
+    "normalized_title": "perspective semantic data management for the home",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5716
+  },
+  {
+    "title": "measurement and analysis of tcp throughput collapse in clusterbased storage systems",
+    "normalized_title": "measurement and analysis of tcp throughput collapse in clusterbased storage systems",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5717
+  },
+  {
+    "title": "using utility to provision storage systems",
+    "normalized_title": "using utility to provision storage systems",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5718
+  },
+  {
+    "title": "argon performance insulation for shared storage servers",
+    "normalized_title": "argon performance insulation for shared storage servers",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5719
+  },
+  {
+    "title": "trace parallel trace replay with approximate causal events",
+    "normalized_title": "trace parallel trace replay with approximate causal events",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5720
+  },
+  {
+    "title": "on multidimensional data and modern disks",
+    "normalized_title": "on multidimensional data and modern disks",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5721
+  },
+  {
+    "title": "ursa minor versatile clusterbased storage",
+    "normalized_title": "ursa minor versatile clusterbased storage",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5722
+  },
+  {
+    "title": "memsbased storage devices and standard disk interfaces a square peg in a round hole",
+    "normalized_title": "memsbased storage devices and standard disk interfaces a square peg in a round hole",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5723
+  },
+  {
+    "title": "a framework for building unobtrusive disk maintenance applications awarded best student paper",
+    "normalized_title": "a framework for building unobtrusive disk maintenance applications awarded best student paper",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5724
+  },
+  {
+    "title": "diamond a storage architecture for early discard in interactive search",
+    "normalized_title": "diamond a storage architecture for early discard in interactive search",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5725
+  },
+  {
+    "title": "atropos a disk array volume manager for orchestrated use of disks",
+    "normalized_title": "atropos a disk array volume manager for orchestrated use of disks",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5726
+  },
+  {
+    "title": "metadata efficiency in versioning file systems",
+    "normalized_title": "metadata efficiency in versioning file systems",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5727
+  },
+  {
+    "title": "timingaccurate storage emulation",
+    "normalized_title": "timingaccurate storage emulation",
+    "conference": "FAST",
+    "year": 2002,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5728
+  },
+  {
+    "title": "freeblock scheduling outside of disk firmware",
+    "normalized_title": "freeblock scheduling outside of disk firmware",
+    "conference": "FAST",
+    "year": 2002,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5729
+  },
+  {
+    "title": "trackaligned extents matching access patterns to disk drive characteristics",
+    "normalized_title": "trackaligned extents matching access patterns to disk drive characteristics",
+    "conference": "FAST",
+    "year": 2002,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5730
+  },
+  {
+    "title": "hydra resilient and highly available remote memory",
+    "normalized_title": "hydra resilient and highly available remote memory",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5731
+  },
+  {
+    "title": "odinann direct insert for consistently stable performance in billionscale graphbased vector search",
+    "normalized_title": "odinann direct insert for consistently stable performance in billionscale graphbased vector search",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5732
+  },
+  {
+    "title": "cjfs concurrent journaling for better scalability",
+    "normalized_title": "cjfs concurrent journaling for better scalability",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5733
+  },
+  {
+    "title": "sfs random write considered harmful in solid state drives",
+    "normalized_title": "sfs random write considered harmful in solid state drives",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5734
+  },
+  {
+    "title": "revitalizing the forgotten onchip dma to expedite data movement in nvmbased storage systems",
+    "normalized_title": "revitalizing the forgotten onchip dma to expedite data movement in nvmbased storage systems",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5735
+  },
+  {
+    "title": "spandb a fast costeffective lsmtree based kv store on hybrid storage",
+    "normalized_title": "spandb a fast costeffective lsmtree based kv store on hybrid storage",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5736
+  },
+  {
+    "title": "rolex a scalable rdmaoriented learned keyvalue store for disaggregated memory systems",
+    "normalized_title": "rolex a scalable rdmaoriented learned keyvalue store for disaggregated memory systems",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5737
+  },
+  {
+    "title": "fusee a fully memorydisaggregated keyvalue store",
+    "normalized_title": "fusee a fully memorydisaggregated keyvalue store",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5738
+  },
+  {
+    "title": "ford fast onesided rdmabased distributed transactions for disaggregated persistent memory",
+    "normalized_title": "ford fast onesided rdmabased distributed transactions for disaggregated persistent memory",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5739
+  },
+  {
+    "title": "ctfs replacing file indexing with hardware memory translation through contiguous file allocation for persistent memory",
+    "normalized_title": "ctfs replacing file indexing with hardware memory translation through contiguous file allocation for persistent memory",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5740
+  },
+  {
+    "title": "strong and efficient consistency with consistencyaware durability",
+    "normalized_title": "strong and efficient consistency with consistencyaware durability",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5741
+  },
+  {
+    "title": "protocolaware recovery for consensusbased storage",
+    "normalized_title": "protocolaware recovery for consensusbased storage",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5742
+  },
+  {
+    "title": "redundancy does not imply fault tolerance analysis of distributed storage reactions to single errors and corruptions",
+    "normalized_title": "redundancy does not imply fault tolerance analysis of distributed storage reactions to single errors and corruptions",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5743
+  },
+  {
+    "title": "the storage hierarchy is not a hierarchy optimizing caching on modern storage devices with orthus",
+    "normalized_title": "the storage hierarchy is not a hierarchy optimizing caching on modern storage devices with orthus",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5744
+  },
+  {
+    "title": "application crash consistency and performance with ccfs",
+    "normalized_title": "application crash consistency and performance with ccfs",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5745
+  },
+  {
+    "title": "dmtree towards efficient tree indexing on disaggregated memory via computeside collaborative design",
+    "normalized_title": "dmtree towards efficient tree indexing on disaggregated memory via computeside collaborative design",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5746
+  },
+  {
+    "title": "glcache grouplevel learning for efficient and highperformance caching",
+    "normalized_title": "glcache grouplevel learning for efficient and highperformance caching",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5747
+  },
+  {
+    "title": "shredder gpuaccelerated incremental storage and computation",
+    "normalized_title": "shredder gpuaccelerated incremental storage and computation",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5748
+  },
+  {
+    "title": "cachecentric multiresource allocation for storage services",
+    "normalized_title": "cachecentric multiresource allocation for storage services",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5749
+  },
+  {
+    "title": "getting the most out of your storage hierarchy with mirroroptimized storage tiering",
+    "normalized_title": "getting the most out of your storage hierarchy with mirroroptimized storage tiering",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5750
+  },
+  {
+    "title": "madfs perfile virtualization for userspace persistent memory filesystems",
+    "normalized_title": "madfs perfile virtualization for userspace persistent memory filesystems",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5751
+  },
+  {
+    "title": "nyxcache flexible and efficient multitenant persistent memory caching",
+    "normalized_title": "nyxcache flexible and efficient multitenant persistent memory caching",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5752
+  },
+  {
+    "title": "read as needed building wiser a flashoptimized search engine",
+    "normalized_title": "read as needed building wiser a flashoptimized search engine",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5753
+  },
+  {
+    "title": "designing a true directaccess file system with devfs",
+    "normalized_title": "designing a true directaccess file system with devfs",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5754
+  },
+  {
+    "title": "slacker fast distribution with lazy docker containers",
+    "normalized_title": "slacker fast distribution with lazy docker containers",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5755
+  },
+  {
+    "title": "wisckey separating keys from values in ssdconscious storage",
+    "normalized_title": "wisckey separating keys from values in ssdconscious storage",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5756
+  },
+  {
+    "title": "anvil advanced virtualization for modern nonvolatile memory devices",
+    "normalized_title": "anvil advanced virtualization for modern nonvolatile memory devices",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5757
+  },
+  {
+    "title": "reducing file system tail latencies with chopper",
+    "normalized_title": "reducing file system tail latencies with chopper",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5758
+  },
+  {
+    "title": "analysis of hdfs under hbase a facebook messages case study",
+    "normalized_title": "analysis of hdfs under hbase a facebook messages case study",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5759
+  },
+  {
+    "title": "viewbox integrating local file systems with cloud storage services",
+    "normalized_title": "viewbox integrating local file systems with cloud storage services",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5760
+  },
+  {
+    "title": "a study of linux file system evolution",
+    "normalized_title": "a study of linux file system evolution",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5761
+  },
+  {
+    "title": "ffsck the fast file system checker",
+    "normalized_title": "ffsck the fast file system checker",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5762
+  },
+  {
+    "title": "hardfs hardening hdfs with selective and lightweight versioning",
+    "normalized_title": "hardfs hardening hdfs with selective and lightweight versioning",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5763
+  },
+  {
+    "title": "getting real lessons in transitioning research simulations into hardware systems",
+    "normalized_title": "getting real lessons in transitioning research simulations into hardware systems",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5764
+  },
+  {
+    "title": "warming up storagelevel caches with bonfire",
+    "normalized_title": "warming up storagelevel caches with bonfire",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5765
+  },
+  {
+    "title": "deindirection for flashbased ssds with nameless writes",
+    "normalized_title": "deindirection for flashbased ssds with nameless writes",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5766
+  },
+  {
+    "title": "consistency without ordering",
+    "normalized_title": "consistency without ordering",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5767
+  },
+  {
+    "title": "making the common case the only case with anticipatory memory allocation",
+    "normalized_title": "making the common case the only case with anticipatory memory allocation",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5768
+  },
+  {
+    "title": "emulating goliath storage systems with david",
+    "normalized_title": "emulating goliath storage systems with david",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5769
+  },
+  {
+    "title": "membrane operating system support for restartable file systems",
+    "normalized_title": "membrane operating system support for restartable file systems",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5770
+  },
+  {
+    "title": "endtoend data integrity for file systems a zfs case study",
+    "normalized_title": "endtoend data integrity for file systems a zfs case study",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5771
+  },
+  {
+    "title": "generating realistic impressions for filesystem benchmarking",
+    "normalized_title": "generating realistic impressions for filesystem benchmarking",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5772
+  },
+  {
+    "title": "parity lost and parity regained",
+    "normalized_title": "parity lost and parity regained",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5773
+  },
+  {
+    "title": "an analysis of data corruption in the storage stack",
+    "normalized_title": "an analysis of data corruption in the storage stack",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5774
+  },
+  {
+    "title": "eio error handling is occasionally correct",
+    "normalized_title": "eio error handling is occasionally correct",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5775
+  },
+  {
+    "title": "a logic of file systems",
+    "normalized_title": "a logic of file systems",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5776
+  },
+  {
+    "title": "databaseaware semanticallysmart storage",
+    "normalized_title": "databaseaware semanticallysmart storage",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5777
+  },
+  {
+    "title": "journalguided resynchronization for software raid",
+    "normalized_title": "journalguided resynchronization for software raid",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5778
+  },
+  {
+    "title": "improving storage system availability with dgraid awarded best student paper",
+    "normalized_title": "improving storage system availability with dgraid awarded best student paper",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5779
+  },
+  {
+    "title": "semanticallysmart disk systems",
+    "normalized_title": "semanticallysmart disk systems",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5780
+  },
+  {
+    "title": "storageaware caching revisiting caching for heterogeneous storage systems",
+    "normalized_title": "storageaware caching revisiting caching for heterogeneous storage systems",
+    "conference": "FAST",
+    "year": 2002,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5781
+  },
+  {
+    "title": "25 years of storage research and education a retrospective",
+    "normalized_title": "25 years of storage research and education a retrospective",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5782
+  },
+  {
+    "title": "towards condensed and efficient readonly file system via sortenhanced compression",
+    "normalized_title": "towards condensed and efficient readonly file system via sortenhanced compression",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5783
+  },
+  {
+    "title": "the dilemma between deduplication and locality can both be achieved",
+    "normalized_title": "the dilemma between deduplication and locality can both be achieved",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5784
+  },
+  {
+    "title": "finesse finegrained feature locality based fast resemblance detection for postdeduplication delta compression",
+    "normalized_title": "finesse finegrained feature locality based fast resemblance detection for postdeduplication delta compression",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5785
+  },
+  {
+    "title": "design tradeoffs for data deduplication performance in backup workloads",
+    "normalized_title": "design tradeoffs for data deduplication performance in backup workloads",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5786
+  },
+  {
+    "title": "dogi data placement with oracleguided insights for logstructured systems",
+    "normalized_title": "dogi data placement with oracleguided insights for logstructured systems",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5787
+  },
+  {
+    "title": "integrated hostssd mapping table management for improving user experience of smartphones",
+    "normalized_title": "integrated hostssd mapping table management for improving user experience of smartphones",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5788
+  },
+  {
+    "title": "deepsketch a new machine learningbased reference search technique for postdeduplication delta compression",
+    "normalized_title": "deepsketch a new machine learningbased reference search technique for postdeduplication delta compression",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5789
+  },
+  {
+    "title": "fully automatic stream management for multistreamed ssds using program contexts",
+    "normalized_title": "fully automatic stream management for multistreamed ssds using program contexts",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5790
+  },
+  {
+    "title": "rflush rethink the flush",
+    "normalized_title": "rflush rethink the flush",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5791
+  },
+  {
+    "title": "applicationmanaged flash",
+    "normalized_title": "applicationmanaged flash",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5792
+  },
+  {
+    "title": "lifetime improvement of nand flashbased storage systems using dynamic program and erase scaling",
+    "normalized_title": "lifetime improvement of nand flashbased storage systems using dynamic program and erase scaling",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5793
+  },
+  {
+    "title": "lifetime management of flashbased ssds using recoveryaware dynamic throttling",
+    "normalized_title": "lifetime management of flashbased ssds using recoveryaware dynamic throttling",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5794
+  },
+  {
+    "title": "here there and everywhere the past the present and the future of local storage in cloud",
+    "normalized_title": "here there and everywhere the past the present and the future of local storage in cloud",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5795
+  },
+  {
+    "title": "how soon is now preloading images for virtual disks with thinkahead",
+    "normalized_title": "how soon is now preloading images for virtual disks with thinkahead",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5796
+  },
+  {
+    "title": "smrstore a storage engine for cloud object storage on hmsmr drives",
+    "normalized_title": "smrstore a storage engine for cloud object storage on hmsmr drives",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5797
+  },
+  {
+    "title": "automatic applicationaware io forwarding resource allocation",
+    "normalized_title": "automatic applicationaware io forwarding resource allocation",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5798
+  },
+  {
+    "title": "rearchitecting buffered io in the era of highbandwidth ssds",
+    "normalized_title": "rearchitecting buffered io in the era of highbandwidth ssds",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5799
+  },
+  {
+    "title": "remapssd safely and efficiently exploiting ssd address remapping to eliminate duplicate writes",
+    "normalized_title": "remapssd safely and efficiently exploiting ssd address remapping to eliminate duplicate writes",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5800
+  },
+  {
+    "title": "bcw buffercontrolled writes to hdds for ssdhdd hybrid storage server",
+    "normalized_title": "bcw buffercontrolled writes to hdds for ssdhdd hybrid storage server",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5801
+  },
+  {
+    "title": "workout io workload outsourcing for boosting raid reconstruction performance",
+    "normalized_title": "workout io workload outsourcing for boosting raid reconstruction performance",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5802
+  },
+  {
+    "title": "pro a popularitybased multithreaded reconstruction optimization for raidstructured storage systems",
+    "normalized_title": "pro a popularitybased multithreaded reconstruction optimization for raidstructured storage systems",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5803
+  },
+  {
+    "title": "ucache a customizable unikernelbased io cache",
+    "normalized_title": "ucache a customizable unikernelbased io cache",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5804
+  },
+  {
+    "title": "speicher securing lsmbased keyvalue stores using shielded execution",
+    "normalized_title": "speicher securing lsmbased keyvalue stores using shielded execution",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5805
+  },
+  {
+    "title": "unsafe at any copy name collisions from mixing case sensitivities",
+    "normalized_title": "unsafe at any copy name collisions from mixing case sensitivities",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5806
+  },
+  {
+    "title": "vxa a virtual architecture for durable compressed archives",
+    "normalized_title": "vxa a virtual architecture for durable compressed archives",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5807
+  },
+  {
+    "title": "fusionfs fusing io operations using ciscops in firmware file systems",
+    "normalized_title": "fusionfs fusing io operations using ciscops in firmware file systems",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5808
+  },
+  {
+    "title": "pfsck accelerating file system checking and repair for modern storage",
+    "normalized_title": "pfsck accelerating file system checking and repair for modern storage",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5809
+  },
+  {
+    "title": "paio general portable io optimizations with minor application modifications",
+    "normalized_title": "paio general portable io optimizations with minor application modifications",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5810
+  },
+  {
+    "title": "checkfreq frequent finegrained dnn checkpointing",
+    "normalized_title": "checkfreq frequent finegrained dnn checkpointing",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5811
+  },
+  {
+    "title": "spiffy enabling filesystem aware storage applications",
+    "normalized_title": "spiffy enabling filesystem aware storage applications",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5812
+  },
+  {
+    "title": "checking the integrity of transactional mechanisms",
+    "normalized_title": "checking the integrity of transactional mechanisms",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5813
+  },
+  {
+    "title": "recon verifying file system consistency at runtime",
+    "normalized_title": "recon verifying file system consistency at runtime",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5814
+  },
+  {
+    "title": "facebooks tectonic filesystem efficiency from exascale",
+    "normalized_title": "facebooks tectonic filesystem efficiency from exascale",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5815
+  },
+  {
+    "title": "ripq advanced photo caching on flash for facebook",
+    "normalized_title": "ripq advanced photo caching on flash for facebook",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5816
+  },
+  {
+    "title": "practicably boosting the processing performance of bfslike algorithms on semiexternal graph system via ioefficient graph ordering",
+    "normalized_title": "practicably boosting the processing performance of bfslike algorithms on semiexternal graph system via ioefficient graph ordering",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5817
+  },
+  {
+    "title": "scalable parallel flash firmware for manycore architectures",
+    "normalized_title": "scalable parallel flash firmware for manycore architectures",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5818
+  },
+  {
+    "title": "unioning of the buffer cache and journaling layers with nonvolatile memory",
+    "normalized_title": "unioning of the buffer cache and journaling layers with nonvolatile memory",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5819
+  },
+  {
+    "title": "preparation meets opportunity enhancing data preprocessing for ml training with seneca",
+    "normalized_title": "preparation meets opportunity enhancing data preprocessing for ml training with seneca",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5820
+  },
+  {
+    "title": "design tradeoffs for ssd reliability",
+    "normalized_title": "design tradeoffs for ssd reliability",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5821
+  },
+  {
+    "title": "scc cluster storage provisioning informed by application characteristics and slas",
+    "normalized_title": "scc cluster storage provisioning informed by application characteristics and slas",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5822
+  },
+  {
+    "title": "flashblox achieving both performance isolation and uniform lifetime for virtualized ssds",
+    "normalized_title": "flashblox achieving both performance isolation and uniform lifetime for virtualized ssds",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5823
+  },
+  {
+    "title": "tiered fault tolerance for longterm integrity",
+    "normalized_title": "tiered fault tolerance for longterm integrity",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5824
+  },
+  {
+    "title": "enabling the archival storage of signed documents",
+    "normalized_title": "enabling the archival storage of signed documents",
+    "conference": "FAST",
+    "year": 2002,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5825
+  },
+  {
+    "title": "scalecheck a singlemachine approach for discovering scalability bugs in large distributed systems",
+    "normalized_title": "scalecheck a singlemachine approach for discovering scalability bugs in large distributed systems",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5826
+  },
+  {
+    "title": "practical design considerations for wide locally recoverable codes lrcs",
+    "normalized_title": "practical design considerations for wide locally recoverable codes lrcs",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5827
+  },
+  {
+    "title": "infinicache exploiting ephemeral serverless functions to build a costeffective memory cache",
+    "normalized_title": "infinicache exploiting ephemeral serverless functions to build a costeffective memory cache",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5828
+  },
+  {
+    "title": "depart replica decoupling for distributed keyvalue storage",
+    "normalized_title": "depart replica decoupling for distributed keyvalue storage",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5829
+  },
+  {
+    "title": "endurable transient inconsistency in byteaddressable persistent btree",
+    "normalized_title": "endurable transient inconsistency in byteaddressable persistent btree",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5830
+  },
+  {
+    "title": "resolving journaling of journal anomaly in android io multiversion btree with lazy split",
+    "normalized_title": "resolving journaling of journal anomaly in android io multiversion btree with lazy split",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5831
+  },
+  {
+    "title": "instalytics cluster filesystem codesign for bigdata analytics",
+    "normalized_title": "instalytics cluster filesystem codesign for bigdata analytics",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5832
+  },
+  {
+    "title": "access characteristic guided read and write cost regulation for performance improvement on flash memory",
+    "normalized_title": "access characteristic guided read and write cost regulation for performance improvement on flash memory",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5833
+  },
+  {
+    "title": "hardwaresoftware coprogrammable framework for computational ssds to accelerate deep learning service on largescale graphs",
+    "normalized_title": "hardwaresoftware coprogrammable framework for computational ssds to accelerate deep learning service on largescale graphs",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5834
+  },
+  {
+    "title": "dcstore eliminating noisy neighbor containers using deterministic io performance and resource isolation",
+    "normalized_title": "dcstore eliminating noisy neighbor containers using deterministic io performance and resource isolation",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5835
+  },
+  {
+    "title": "pen design and evaluation of partialerase for 3d nandbased high density ssds",
+    "normalized_title": "pen design and evaluation of partialerase for 3d nandbased high density ssds",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5836
+  },
+  {
+    "title": "making disk failure predictions smarter",
+    "normalized_title": "making disk failure predictions smarter",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5837
+  },
+  {
+    "title": "uncovering access reuse and sharing characteristics of iointensive files on largescale production hpc systems",
+    "normalized_title": "uncovering access reuse and sharing characteristics of iointensive files on largescale production hpc systems",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5838
+  },
+  {
+    "title": "gift a coupon based throttleandreward mechanism for fair and efficient io bandwidth management on parallel storage systems",
+    "normalized_title": "gift a coupon based throttleandreward mechanism for fair and efficient io bandwidth management on parallel storage systems",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5839
+  },
+  {
+    "title": "active flash towards energyefficient insitu data analytics on extremescale machines",
+    "normalized_title": "active flash towards energyefficient insitu data analytics on extremescale machines",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5840
+  },
+  {
+    "title": "pararc embracing subpacketization for repair parallelization in msrcoded storage",
+    "normalized_title": "pararc embracing subpacketization for repair parallelization in msrcoded storage",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5841
+  },
+  {
+    "title": "uksm swift memory deduplication via hierarchical and adaptive memory region distilling",
+    "normalized_title": "uksm swift memory deduplication via hierarchical and adaptive memory region distilling",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5842
+  },
+  {
+    "title": "graphene finegrained io management for graph computing",
+    "normalized_title": "graphene finegrained io management for graph computing",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5843
+  },
+  {
+    "title": "hadafs a file system bridging the local and shared burst buffer for exascale supercomputers",
+    "normalized_title": "hadafs a file system bridging the local and shared burst buffer for exascale supercomputers",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5844
+  },
+  {
+    "title": "adoc automatically harmonizing dataflow between components in logstructured keyvalue stores for improved performance",
+    "normalized_title": "adoc automatically harmonizing dataflow between components in logstructured keyvalue stores for improved performance",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5845
+  },
+  {
+    "title": "writeoptimized dynamic hashing for persistent memory",
+    "normalized_title": "writeoptimized dynamic hashing for persistent memory",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5846
+  },
+  {
+    "title": "slmdb singlelevel keyvalue store with persistent memory",
+    "normalized_title": "slmdb singlelevel keyvalue store with persistent memory",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5847
+  },
+  {
+    "title": "dedupsearch twophase deduplication aware keyword search",
+    "normalized_title": "dedupsearch twophase deduplication aware keyword search",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5848
+  },
+  {
+    "title": "the logic of physical garbage collection in deduplicating storage",
+    "normalized_title": "the logic of physical garbage collection in deduplicating storage",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5849
+  },
+  {
+    "title": "using hints to improve inline blocklayer deduplication",
+    "normalized_title": "using hints to improve inline blocklayer deduplication",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5850
+  },
+  {
+    "title": "migratory compression coarsegrained data reordering to improve compressibility",
+    "normalized_title": "migratory compression coarsegrained data reordering to improve compressibility",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5851
+  },
+  {
+    "title": "memory efficient sanitization of a deduplicated storage system",
+    "normalized_title": "memory efficient sanitization of a deduplicated storage system",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5852
+  },
+  {
+    "title": "characteristics of backup workloads in production systems",
+    "normalized_title": "characteristics of backup workloads in production systems",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5853
+  },
+  {
+    "title": "wan optimized replication of backup datasets using streaminformed delta compression",
+    "normalized_title": "wan optimized replication of backup datasets using streaminformed delta compression",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5854
+  },
+  {
+    "title": "tradeoffs in scalable data routing for deduplication clusters",
+    "normalized_title": "tradeoffs in scalable data routing for deduplication clusters",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5855
+  },
+  {
+    "title": "mapx controlled data migration in the expansion of decentralized objectbased storage systems",
+    "normalized_title": "mapx controlled data migration in the expansion of decentralized objectbased storage systems",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5856
+  },
+  {
+    "title": "failslow at scale evidence of hardware performance faults in large production systems",
+    "normalized_title": "failslow at scale evidence of hardware performance faults in large production systems",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5857
+  },
+  {
+    "title": "the case of femu cheap accurate scalable and extensible flash emulator",
+    "normalized_title": "the case of femu cheap accurate scalable and extensible flash emulator",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5858
+  },
+  {
+    "title": "tinytail flash nearperfect elimination of garbage collection tail latencies in nand ssds",
+    "normalized_title": "tinytail flash nearperfect elimination of garbage collection tail latencies in nand ssds",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5859
+  },
+  {
+    "title": "the tail at store a revelation from millions of hours of disk and ssd deployments",
+    "normalized_title": "the tail at store a revelation from millions of hours of disk and ssd deployments",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5860
+  },
+  {
+    "title": "unicom a universally highperformant io completion mechanism for modern computer systems",
+    "normalized_title": "unicom a universally highperformant io completion mechanism for modern computer systems",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5861
+  },
+  {
+    "title": "characterizing and emulating fdp ssds with warp",
+    "normalized_title": "characterizing and emulating fdp ssds with warp",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5862
+  },
+  {
+    "title": "cylon fast and accurate fullsystem emulation of cxlssds",
+    "normalized_title": "cylon fast and accurate fullsystem emulation of cxlssds",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5863
+  },
+  {
+    "title": "on stacking a persistent memory file system on legacy file systems",
+    "normalized_title": "on stacking a persistent memory file system on legacy file systems",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5864
+  },
+  {
+    "title": "a logstructured merge treeaware message authentication scheme for persistent keyvalue stores",
+    "normalized_title": "a logstructured merge treeaware message authentication scheme for persistent keyvalue stores",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5865
+  },
+  {
+    "title": "wort write optimal radix tree for persistent memory storage systems",
+    "normalized_title": "wort write optimal radix tree for persistent memory storage systems",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5866
+  },
+  {
+    "title": "towards slo complying ssds through ops isolation",
+    "normalized_title": "towards slo complying ssds through ops isolation",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5867
+  },
+  {
+    "title": "caching less for better performance balancing cache size and update cost of flash memory cache in hybrid storage systems",
+    "normalized_title": "caching less for better performance balancing cache size and update cost of flash memory cache in hybrid storage systems",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5868
+  },
+  {
+    "title": "a community cache with complete information",
+    "normalized_title": "a community cache with complete information",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5869
+  },
+  {
+    "title": "bidaw enhancing keyvalue caching for interactive llm serving via bidirectional computationstorage awareness",
+    "normalized_title": "bidaw enhancing keyvalue caching for interactive llm serving via bidirectional computationstorage awareness",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5870
+  },
+  {
+    "title": "drboost boosting degraded read performance in msrcoded storage clusters",
+    "normalized_title": "drboost boosting degraded read performance in msrcoded storage clusters",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5871
+  },
+  {
+    "title": "aurogon taming aborts in all phases for distributed inmemory transactions",
+    "normalized_title": "aurogon taming aborts in all phases for distributed inmemory transactions",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5872
+  },
+  {
+    "title": "fusionraid achieving consistent low latency for commodity ssd arrays",
+    "normalized_title": "fusionraid achieving consistent low latency for commodity ssd arrays",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5873
+  },
+  {
+    "title": "on the feasibility of parserbased log compression in largescale cloud systems",
+    "normalized_title": "on the feasibility of parserbased log compression in largescale cloud systems",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5874
+  },
+  {
+    "title": "raid deterministic and balanced data distribution for large disk enclosures",
+    "normalized_title": "raid deterministic and balanced data distribution for large disk enclosures",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5875
+  },
+  {
+    "title": "fastscale accelerate raid scaling by minimizing data migration",
+    "normalized_title": "fastscale accelerate raid scaling by minimizing data migration",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5876
+  },
+  {
+    "title": "evolution of development priorities in keyvalue stores serving largescale applications the rocksdb experience",
+    "normalized_title": "evolution of development priorities in keyvalue stores serving largescale applications the rocksdb experience",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5877
+  },
+  {
+    "title": "understanding customer problem troubleshooting from storage system logs",
+    "normalized_title": "understanding customer problem troubleshooting from storage system logs",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5878
+  },
+  {
+    "title": "are disks the dominant contributor for storage failures a comprehensive study of storage subsystem failure characteristics",
+    "normalized_title": "are disks the dominant contributor for storage failures a comprehensive study of storage subsystem failure characteristics",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5879
+  },
+  {
+    "title": "cminer mining block correlations in storage systems",
+    "normalized_title": "cminer mining block correlations in storage systems",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5880
+  },
+  {
+    "title": "evaluating phase change memory for enterprise storage systems a study of caching and tiering approaches",
+    "normalized_title": "evaluating phase change memory for enterprise storage systems a study of caching and tiering approaches",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5881
+  },
+  {
+    "title": "a systematic approach to system state restoration during storage controller microrecovery",
+    "normalized_title": "a systematic approach to system state restoration during storage controller microrecovery",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5882
+  },
+  {
+    "title": "enhancing storage system availability on multicore architectures with recoveryconscious scheduling",
+    "normalized_title": "enhancing storage system availability on multicore architectures with recoveryconscious scheduling",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5883
+  },
+  {
+    "title": "an empirical guide to the behavior and use of scalable persistent memory",
+    "normalized_title": "an empirical guide to the behavior and use of scalable persistent memory",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5884
+  },
+  {
+    "title": "ziggurat a tiered file system for nonvolatile main memories and disks",
+    "normalized_title": "ziggurat a tiered file system for nonvolatile main memories and disks",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5885
+  },
+  {
+    "title": "orion a distributed file system for nonvolatile main memory and rdmacapable networks",
+    "normalized_title": "orion a distributed file system for nonvolatile main memory and rdmacapable networks",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5886
+  },
+  {
+    "title": "nova a logstructured file system for hybrid volatilenonvolatile main memories",
+    "normalized_title": "nova a logstructured file system for hybrid volatilenonvolatile main memories",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5887
+  },
+  {
+    "title": "on the energy overhead of mobile storage systems",
+    "normalized_title": "on the energy overhead of mobile storage systems",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5888
+  },
+  {
+    "title": "dc express shortest latency protocol for reading phase change memory over pci express",
+    "normalized_title": "dc express shortest latency protocol for reading phase change memory over pci express",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5889
+  },
+  {
+    "title": "the bleak future of nand flash memory",
+    "normalized_title": "the bleak future of nand flash memory",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5890
+  },
+  {
+    "title": "reliably erasing data from flashbased solid state drives",
+    "normalized_title": "reliably erasing data from flashbased solid state drives",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5891
+  },
+  {
+    "title": "leveraging value locality in optimizing nand flashbased ssds",
+    "normalized_title": "leveraging value locality in optimizing nand flashbased ssds",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5892
+  },
+  {
+    "title": "efficient intraoperating system protection against harmful dmas",
+    "normalized_title": "efficient intraoperating system protection against harmful dmas",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5893
+  },
+  {
+    "title": "stash in a flash",
+    "normalized_title": "stash in a flash",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5894
+  },
+  {
+    "title": "portably solving file tocttou races with hardness amplification",
+    "normalized_title": "portably solving file tocttou races with hardness amplification",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5895
+  },
+  {
+    "title": "how to copy files",
+    "normalized_title": "how to copy files",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5896
+  },
+  {
+    "title": "the full path to fullpath indexing",
+    "normalized_title": "the full path to fullpath indexing",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5897
+  },
+  {
+    "title": "file systems fated for senescence nonsense says science",
+    "normalized_title": "file systems fated for senescence nonsense says science",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5898
+  },
+  {
+    "title": "optimizing every operation in a writeoptimized file system",
+    "normalized_title": "optimizing every operation in a writeoptimized file system",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5899
+  },
+  {
+    "title": "betrfs a rightoptimized writeoptimized file system",
+    "normalized_title": "betrfs a rightoptimized writeoptimized file system",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5900
+  },
+  {
+    "title": "polarstore highperformance data compression for largescale cloudnative databases",
+    "normalized_title": "polarstore highperformance data compression for largescale cloudnative databases",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5901
+  },
+  {
+    "title": "blocklevel security for networkattached disks",
+    "normalized_title": "blocklevel security for networkattached disks",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5902
+  },
+  {
+    "title": "less is more for ioefficient repairs in erasurecoded storage",
+    "normalized_title": "less is more for ioefficient repairs in erasurecoded storage",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5903
+  },
+  {
+    "title": "holistic and automated task scheduling for distributed lsmtreebased storage",
+    "normalized_title": "holistic and automated task scheduling for distributed lsmtreebased storage",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5904
+  },
+  {
+    "title": "separating data via block invalidation time inference for write amplification reduction in logstructured storage",
+    "normalized_title": "separating data via block invalidation time inference for write amplification reduction in logstructured storage",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5905
+  },
+  {
+    "title": "an indepth study of correlated failures in production ssdbased data centers",
+    "normalized_title": "an indepth study of correlated failures in production ssdbased data centers",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5906
+  },
+  {
+    "title": "exploiting combined locality for widestripe erasure coding in distributed storage",
+    "normalized_title": "exploiting combined locality for widestripe erasure coding in distributed storage",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5907
+  },
+  {
+    "title": "openec toward unified and configurable erasure coding management in distributed storage systems",
+    "normalized_title": "openec toward unified and configurable erasure coding management in distributed storage systems",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5908
+  },
+  {
+    "title": "parity logging with reserved space towards efficient updates and recovery in erasurecoded clustered storage",
+    "normalized_title": "parity logging with reserved space towards efficient updates and recovery in erasurecoded clustered storage",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5909
+  },
+  {
+    "title": "stair codes a general family of erasure codes for tolerating device and sector failures in practical storage systems",
+    "normalized_title": "stair codes a general family of erasure codes for tolerating device and sector failures in practical storage systems",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5910
+  },
+  {
+    "title": "nccloud applying network coding for the storage repair in a cloudofclouds",
+    "normalized_title": "nccloud applying network coding for the storage repair in a cloudofclouds",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5911
+  },
+  {
+    "title": "d2fq devicedirect fair queueing for nvme ssds",
+    "normalized_title": "d2fq devicedirect fair queueing for nvme ssds",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5912
+  },
+  {
+    "title": "enlightening the io path a holistic approach for application performance",
+    "normalized_title": "enlightening the io path a holistic approach for application performance",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5913
+  },
+  {
+    "title": "a cleanslate look at disk scrubbing",
+    "normalized_title": "a cleanslate look at disk scrubbing",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5914
+  },
+  {
+    "title": "fast application launch on personal computingcommunication devices",
+    "normalized_title": "fast application launch on personal computingcommunication devices",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5915
+  },
+  {
+    "title": "fast quick application launch on solidstate drives",
+    "normalized_title": "fast quick application launch on solidstate drives",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5916
+  },
+  {
+    "title": "having your cake and eating it too jointly optimal erasure codes for io storage and networkbandwidth",
+    "normalized_title": "having your cake and eating it too jointly optimal erasure codes for io storage and networkbandwidth",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5917
+  },
+  {
+    "title": "geardb a gcfree keyvalue store on hmsmr drives with gear compaction",
+    "normalized_title": "geardb a gcfree keyvalue store on hmsmr drives with gear compaction",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5918
+  },
+  {
+    "title": "software wear management for persistent memories",
+    "normalized_title": "software wear management for persistent memories",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5919
+  },
+  {
+    "title": "automatic identification of application io signatures from noisy serverside traces",
+    "normalized_title": "automatic identification of application io signatures from noisy serverside traces",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5920
+  },
+  {
+    "title": "uncovering bugs in distributed storage systems during testing not in production",
+    "normalized_title": "uncovering bugs in distributed storage systems during testing not in production",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5921
+  },
+  {
+    "title": "characterizing modeling and benchmarking rocksdb keyvalue workloads at facebook",
+    "normalized_title": "characterizing modeling and benchmarking rocksdb keyvalue workloads at facebook",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5922
+  },
+  {
+    "title": "sliding lookback window assisted data chunk rewriting for improving deduplication restore performance",
+    "normalized_title": "sliding lookback window assisted data chunk rewriting for improving deduplication restore performance",
+    "conference": "FAST",
+    "year": 2019,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5923
+  },
+  {
+    "title": "alacc accelerating restore performance of data deduplication systems using adaptive lookahead window assisted chunk caching",
+    "normalized_title": "alacc accelerating restore performance of data deduplication systems using adaptive lookahead window assisted chunk caching",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5924
+  },
+  {
+    "title": "a fiveyear study of filesystem metadata",
+    "normalized_title": "a fiveyear study of filesystem metadata",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5925
+  },
+  {
+    "title": "scale and concurrency of giga file system directories with millions of files",
+    "normalized_title": "scale and concurrency of giga file system directories with millions of files",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5926
+  },
+  {
+    "title": "scalable performance of the panasas parallel file system",
+    "normalized_title": "scalable performance of the panasas parallel file system",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5927
+  },
+  {
+    "title": "disk failures in the real world what does an mttf of 1 000 000 hours mean to you",
+    "normalized_title": "disk failures in the real world what does an mttf of 1 000 000 hours mean to you",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5928
+  },
+  {
+    "title": "scaling file service up and out",
+    "normalized_title": "scaling file service up and out",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5929
+  },
+  {
+    "title": "flashgraph processing billionnode graphs on an array of commodity ssds",
+    "normalized_title": "flashgraph processing billionnode graphs on an array of commodity ssds",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5930
+  },
+  {
+    "title": "craid online raid upgrades using dynamic hot data reorganization",
+    "normalized_title": "craid online raid upgrades using dynamic hot data reorganization",
+    "conference": "FAST",
+    "year": 2014,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5931
+  },
+  {
+    "title": "the devil is in the details implementing flash page reuse with wom codes",
+    "normalized_title": "the devil is in the details implementing flash page reuse with wom codes",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5932
+  },
+  {
+    "title": "analysis of the ecmwf storage landscape",
+    "normalized_title": "analysis of the ecmwf storage landscape",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5933
+  },
+  {
+    "title": "file recipe compression in data deduplication systems",
+    "normalized_title": "file recipe compression in data deduplication systems",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5934
+  },
+  {
+    "title": "nvtree reducing consistency cost for nvmbased single level systems",
+    "normalized_title": "nvtree reducing consistency cost for nvmbased single level systems",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5935
+  },
+  {
+    "title": "mqsim a framework for enabling realistic studies of modern multiqueue ssd devices",
+    "normalized_title": "mqsim a framework for enabling realistic studies of modern multiqueue ssd devices",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5936
+  },
+  {
+    "title": "hopsfs scaling hierarchical file system metadata using newsql databases",
+    "normalized_title": "hopsfs scaling hierarchical file system metadata using newsql databases",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5937
+  },
+  {
+    "title": "matrix methods for lost data reconstruction in erasure codes",
+    "normalized_title": "matrix methods for lost data reconstruction in erasure codes",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5938
+  },
+  {
+    "title": "a performance comparison of nfs and iscsi for ipnetworked storage",
+    "normalized_title": "a performance comparison of nfs and iscsi for ipnetworked storage",
+    "conference": "FAST",
+    "year": 2004,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5939
+  },
+  {
+    "title": "shade enable fundamental cacheability for distributed deep learning training",
+    "normalized_title": "shade enable fundamental cacheability for distributed deep learning training",
+    "conference": "FAST",
+    "year": 2023,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5940
+  },
+  {
+    "title": "improving docker registry design based on production workload analysis",
+    "normalized_title": "improving docker registry design based on production workload analysis",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5941
+  },
+  {
+    "title": "cnsbench a cloud native storage benchmark",
+    "normalized_title": "cnsbench a cloud native storage benchmark",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5942
+  },
+  {
+    "title": "rethinking erasure codes for cloud file systems minimizing io for recovery and degraded reads",
+    "normalized_title": "rethinking erasure codes for cloud file systems minimizing io for recovery and degraded reads",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5943
+  },
+  {
+    "title": "canfs a congestionaware network file system",
+    "normalized_title": "canfs a congestionaware network file system",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5944
+  },
+  {
+    "title": "awol an adaptive write optimizations layer",
+    "normalized_title": "awol an adaptive write optimizations layer",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5945
+  },
+  {
+    "title": "design and implementation of verifiable audit trails for a versioning file system",
+    "normalized_title": "design and implementation of verifiable audit trails for a versioning file system",
+    "conference": "FAST",
+    "year": 2007,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5946
+  },
+  {
+    "title": "secure deletion for a versioning file system",
+    "normalized_title": "secure deletion for a versioning file system",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5947
+  },
+  {
+    "title": "archtm architectureaware high performance transaction for persistent memory",
+    "normalized_title": "archtm architectureaware high performance transaction for persistent memory",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5948
+  },
+  {
+    "title": "remix efficient range query for lsmtrees",
+    "normalized_title": "remix efficient range query for lsmtrees",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5949
+  },
+  {
+    "title": "evolving ext4 for shingled disks",
+    "normalized_title": "evolving ext4 for shingled disks",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5950
+  },
+  {
+    "title": "skylighta window on shingled disk operation",
+    "normalized_title": "skylighta window on shingled disk operation",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5951
+  },
+  {
+    "title": "write endurance in flash drives measurements and analysis",
+    "normalized_title": "write endurance in flash drives measurements and analysis",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5952
+  },
+  {
+    "title": "a scheduling framework that makes any disk schedulers nonworkconserving solely based on request characteristics",
+    "normalized_title": "a scheduling framework that makes any disk schedulers nonworkconserving solely based on request characteristics",
+    "conference": "FAST",
+    "year": 2011,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5953
+  },
+  {
+    "title": "dulo an effective buffer cache management scheme to exploit both temporal and spatial localities",
+    "normalized_title": "dulo an effective buffer cache management scheme to exploit both temporal and spatial localities",
+    "conference": "FAST",
+    "year": 2005,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5954
+  },
+  {
+    "title": "bluesky a cloudbacked file system for the enterprise",
+    "normalized_title": "bluesky a cloudbacked file system for the enterprise",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5955
+  },
+  {
+    "title": "cumulus filesystem backup to the cloud",
+    "normalized_title": "cumulus filesystem backup to the cloud",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5956
+  },
+  {
+    "title": "quiver an informed storage cache for deep learning",
+    "normalized_title": "quiver an informed storage cache for deep learning",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5957
+  },
+  {
+    "title": "exf2fs transaction support in logstructured filesystem",
+    "normalized_title": "exf2fs transaction support in logstructured filesystem",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5958
+  },
+  {
+    "title": "scalexfs getting scalability of xfs back on the ring",
+    "normalized_title": "scalexfs getting scalability of xfs back on the ring",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5959
+  },
+  {
+    "title": "barrierenabled io stack for flash storage",
+    "normalized_title": "barrierenabled io stack for flash storage",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5960
+  },
+  {
+    "title": "cachesifter sifting cache files for boosted mobile performance and lifetime",
+    "normalized_title": "cachesifter sifting cache files for boosted mobile performance and lifetime",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5961
+  },
+  {
+    "title": "lightnvm the linux openchannel ssd subsystem",
+    "normalized_title": "lightnvm the linux openchannel ssd subsystem",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5962
+  },
+  {
+    "title": "fpgaaccelerated compactions for lsmbased keyvalue store",
+    "normalized_title": "fpgaaccelerated compactions for lsmbased keyvalue store",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5963
+  },
+  {
+    "title": "reducing ssd read latency via nand flash program and erase suspension",
+    "normalized_title": "reducing ssd read latency via nand flash program and erase suspension",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5964
+  },
+  {
+    "title": "scaleswap a scalable os swap system for allflash swap arrays",
+    "normalized_title": "scaleswap a scalable os swap system for allflash swap arrays",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5965
+  },
+  {
+    "title": "highperformance transaction processing in journaling file systems",
+    "normalized_title": "highperformance transaction processing in journaling file systems",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5966
+  },
+  {
+    "title": "accelerating model loading in llm inference by programmable page cache",
+    "normalized_title": "accelerating model loading in llm inference by programmable page cache",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5967
+  },
+  {
+    "title": "minuet rethinking concurrency control in storage area networks",
+    "normalized_title": "minuet rethinking concurrency control in storage area networks",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5968
+  },
+  {
+    "title": "isotope transactional isolation for block storage",
+    "normalized_title": "isotope transactional isolation for block storage",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5969
+  },
+  {
+    "title": "gecko contentionoblivious disk arrays for cloud storage",
+    "normalized_title": "gecko contentionoblivious disk arrays for cloud storage",
+    "conference": "FAST",
+    "year": 2013,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5970
+  },
+  {
+    "title": "smoke and mirrors reflecting files at a geographically remote location without loss of performance",
+    "normalized_title": "smoke and mirrors reflecting files at a geographically remote location without loss of performance",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5971
+  },
+  {
+    "title": "pond the oceanstore prototype",
+    "normalized_title": "pond the oceanstore prototype",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5972
+  },
+  {
+    "title": "fstream managing flash streams in the file system",
+    "normalized_title": "fstream managing flash streams in the file system",
+    "conference": "FAST",
+    "year": 2018,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5973
+  },
+  {
+    "title": "f2fs a new file system for flash storage",
+    "normalized_title": "f2fs a new file system for flash storage",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5974
+  },
+  {
+    "title": "understanding performance implications of nested file systems in a virtualized environment",
+    "normalized_title": "understanding performance implications of nested file systems in a virtualized environment",
+    "conference": "FAST",
+    "year": 2012,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5975
+  },
+  {
+    "title": "towards tamperevident storage on patterned media",
+    "normalized_title": "towards tamperevident storage on patterned media",
+    "conference": "FAST",
+    "year": 2008,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5976
+  },
+  {
+    "title": "provenance for the cloud",
+    "normalized_title": "provenance for the cloud",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5977
+  },
+  {
+    "title": "tracking back references in a writeanywhere file system",
+    "normalized_title": "tracking back references in a writeanywhere file system",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5978
+  },
+  {
+    "title": "passive nfs tracing of email and research workloads",
+    "normalized_title": "passive nfs tracing of email and research workloads",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5979
+  },
+  {
+    "title": "making the most out of directaccess network attached storage",
+    "normalized_title": "making the most out of directaccess network attached storage",
+    "conference": "FAST",
+    "year": 2003,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5980
+  },
+  {
+    "title": "adacheck an adaptive checkpointing system for efficient llm training with redundancy utilization",
+    "normalized_title": "adacheck an adaptive checkpointing system for efficient llm training with redundancy utilization",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5981
+  },
+  {
+    "title": "removing doublelogging with passive data persistence in lsmtree based relational databases",
+    "normalized_title": "removing doublelogging with passive data persistence in lsmtree based relational databases",
+    "conference": "FAST",
+    "year": 2022,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5982
+  },
+  {
+    "title": "hotring a hotspotaware inmemory keyvalue store",
+    "normalized_title": "hotring a hotspotaware inmemory keyvalue store",
+    "conference": "FAST",
+    "year": 2020,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5983
+  },
+  {
+    "title": "understanding latent sector errors and how to protect against them",
+    "normalized_title": "understanding latent sector errors and how to protect against them",
+    "conference": "FAST",
+    "year": 2010,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5984
+  },
+  {
+    "title": "spht scalable persistent hardware transactions",
+    "normalized_title": "spht scalable persistent hardware transactions",
+    "conference": "FAST",
+    "year": 2021,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5985
+  },
+  {
+    "title": "how much can data compressibility help to improve nand flash memory lifetime",
+    "normalized_title": "how much can data compressibility help to improve nand flash memory lifetime",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5986
+  },
+  {
+    "title": "lockify understanding linux distributed lock management overheads in shared storage",
+    "normalized_title": "lockify understanding linux distributed lock management overheads in shared storage",
+    "conference": "FAST",
+    "year": 2026,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5987
+  },
+  {
+    "title": "btrdb optimizing storage system design for timeseries processing",
+    "normalized_title": "btrdb optimizing storage system design for timeseries processing",
+    "conference": "FAST",
+    "year": 2016,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5988
+  },
+  {
+    "title": "shrd improving spatial locality in flash storage accesses by sequentializing in host and randomizing in device",
+    "normalized_title": "shrd improving spatial locality in flash storage accesses by sequentializing in host and randomizing in device",
+    "conference": "FAST",
+    "year": 2017,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5989
+  },
+  {
+    "title": "efficient mrc construction with shards",
+    "normalized_title": "efficient mrc construction with shards",
+    "conference": "FAST",
+    "year": 2015,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5990
+  },
+  {
+    "title": "parda proportional allocation of resources for distributed storage access",
+    "normalized_title": "parda proportional allocation of resources for distributed storage access",
+    "conference": "FAST",
+    "year": 2009,
+    "category": "",
+    "badges": [],
+    "artifact_citations": 0,
+    "has_artifact": false,
+    "id": 5991
   }
 ]

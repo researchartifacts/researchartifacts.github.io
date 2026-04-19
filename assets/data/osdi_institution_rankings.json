@@ -376,6 +376,35 @@
     }
   },
   {
+    "affiliation": "Stanford University",
+    "combined_score": 45,
+    "artifact_score": 30,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 2.0,
+    "role": "Balanced",
+    "artifacts": 10,
+    "badges_functional": 10,
+    "badges_reproducible": 10,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 12,
+    "artifact_rate": 83.3,
+    "num_authors": 13,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 7,
+      "2023": 2,
+      "2022": 0,
+      "2021": 1,
+      "2020": 3,
+      "2025": 2
+    }
+  },
+  {
     "affiliation": "Univ. of California - Berkeley",
     "combined_score": 43,
     "artifact_score": 43,
@@ -545,35 +574,6 @@
       "2023": 1,
       "2021": 2,
       "2020": 2
-    }
-  },
-  {
-    "affiliation": "Stanford University",
-    "combined_score": 36,
-    "artifact_score": 21,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 1.4,
-    "role": "Balanced",
-    "artifacts": 7,
-    "badges_functional": 7,
-    "badges_reproducible": 7,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 9,
-    "artifact_rate": 77.8,
-    "num_authors": 10,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2024": 4,
-      "2023": 2,
-      "2022": 0,
-      "2021": 1,
-      "2020": 3,
-      "2025": 2
     }
   },
   {
@@ -774,34 +774,6 @@
       "2021": 2,
       "2020": 5,
       "2025": 1
-    }
-  },
-  {
-    "affiliation": "IISc Bangalore",
-    "combined_score": 29,
-    "artifact_score": 29,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 10,
-    "badges_functional": 10,
-    "badges_reproducible": 10,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 15,
-    "artifact_rate": 66.7,
-    "num_authors": 6,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2024": 1,
-      "2023": 5,
-      "2022": 1,
-      "2021": 0,
-      "2020": 3
     }
   },
   {
@@ -1059,6 +1031,34 @@
       "2023": 0,
       "2022": 2,
       "2021": 3,
+      "2020": 2
+    }
+  },
+  {
+    "affiliation": "IISc Bangalore",
+    "combined_score": 24,
+    "artifact_score": 24,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 8,
+    "badges_functional": 8,
+    "badges_reproducible": 8,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 13,
+    "artifact_rate": 61.5,
+    "num_authors": 5,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 1,
+      "2023": 4,
+      "2022": 1,
+      "2021": 0,
       "2020": 2
     }
   },
@@ -2769,6 +2769,34 @@
     }
   },
   {
+    "affiliation": "Sapienza University of Rome",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 2,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 1,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "MBZUAI",
     "combined_score": 6,
     "artifact_score": 6,
@@ -3182,6 +3210,34 @@
       "2022": 0,
       "2021": 0,
       "2020": 0
+    }
+  },
+  {
+    "affiliation": "National Taiwan University",
+    "combined_score": 5,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 1
     }
   },
   {
@@ -3850,34 +3906,6 @@
   },
   {
     "affiliation": "NEC Laboratories Europe",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 1
-    }
-  },
-  {
-    "affiliation": "Sapienza University of Rome",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

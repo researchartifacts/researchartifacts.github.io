@@ -20621,6 +20621,110 @@
     ]
   },
   {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "Epsilon: A Bring-Your-Own-Data Research Platform with Trusted Verification",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://github.com/Epsilon-Data/epsilon"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "StepOverflow: PMC Overflows on AMD SEV",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://github.com/UzL-ITS/StepOverflow"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "CACTEE: Confidential Asset Certification using Trusted Execution Environments",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://github.com/Nokia-Bell-Labs/confidential-asset-certification-using-tees"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "AI Agents Need Both Hardware-Backed Security and Application-Level Guardrails",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://codeberg.org/BarryShichenHu/Secure_AI_Agent/src/tag/artifact-evaluation"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "Control-Flow Balancing for Texas Instruments IPE",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://github.com/martonbognar/ipe-balancing"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "Breaking Isolation: Last-level Cache Side-Channel Attacks on AWS Nitro Enclaves",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://codeberg.org/monder/LLCEnclave.git"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "Optimizing Launch Latency for Confidential VMs with Device Passthrough in the Linux KVM Hypervisor",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/ntu-ssl/start-up-optimization"
+    ]
+  },
+  {
+    "conference": "SYSTEX",
+    "category": "security",
+    "year": 2026,
+    "title": "Keystone with Linux PREEMPT_RT: Real-Time Enclaves on RISC-V?",
+    "badges": [
+      "Available",
+      "Reusable"
+    ],
+    "artifact_urls": [
+      "https://github.com/ReSP-Lab/2026-systex-keystone-rt-linux/tree/artifact-submission-version"
+    ]
+  },
+  {
     "conference": "USENIXSEC",
     "category": "security",
     "year": 2020,

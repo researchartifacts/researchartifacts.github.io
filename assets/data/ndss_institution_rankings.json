@@ -3271,6 +3271,32 @@
     }
   },
   {
+    "affiliation": "UNIST",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 0
+    }
+  },
+  {
     "affiliation": "Beijing University of Technology",
     "combined_score": 3,
     "artifact_score": 3,

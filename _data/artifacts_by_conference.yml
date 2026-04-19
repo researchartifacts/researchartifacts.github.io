@@ -285,7 +285,7 @@
     year: 2024
 - category: security
   name: SYSTEX
-  total_artifacts: 12
+  total_artifacts: 20
   venue_type: workshop
   years:
   - available: 7
@@ -300,6 +300,12 @@
     reusable: 5
     total: 5
     year: 2025
+  - available: 8
+    functional: 1
+    reproducible: 7
+    reusable: 7
+    total: 8
+    year: 2026
 - category: security
   name: USENIXSEC
   total_artifacts: 1010
