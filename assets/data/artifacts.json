@@ -13190,6 +13190,216 @@
     ]
   },
   {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a33/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a34/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a35/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "A Fast Heuristic for Mapping Boolean Circuits to Functional Bootstrapping",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a36/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "ABE Cubed: Advanced Benchmarking Extensions for ABE Squared",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a37/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "pracy: A Practical Compiler for Attribute-Based Encryption in Python",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a38/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a39/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "ECTester: Reverse-engineering side-channel countermeasures of ECC implementations",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a40/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "HADES: Automated Hardware Design Exploration for Cryptographic Primitives",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a41/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Fault Attacks on ECC Signature Verification",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a42/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Generation of Fast Finite Field Arithmetic for Cortex-M4 with ECDH and SQIsign Applications Artifacts Functional",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a43/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Fault Injection Evaluation with Statistical Analysis - How to Deal with Nearly Fabricated Large Circuits",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a44/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Let us walk on the 3-isogeny graph: efficient, fast, and simple",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a45/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Sharing the Mask: TFHE Bootstrapping on Packed Messages",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a46/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Constant-Cycle Hardware Private Circuits",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a47/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Avengers assemble! Supervised learning meets lattice reduction --- A single power trace attack against CRYSTALS-Kyber key generation",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a48/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a49/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "Faster amortized bootstrapping using the incomplete NTT for free",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a50/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "A New Perspective on Key Switching for BGV-like Schemes",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a51/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "BASTION: A Framework for Secure Third-Party IP Integration in NoC-based SoC Platforms",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a54/"
+    ]
+  },
+  {
+    "conference": "CHES",
+    "category": "security",
+    "year": 2025,
+    "title": "mid-pSquare: Leveraging the Strong Side-Channel Security of Prime-Field Masking in Software",
+    "badges": [],
+    "artifact_urls": [
+      "https://artifacts.iacr.org/tches/2025/a55/"
+    ]
+  },
+  {
     "conference": "NDSS",
     "category": "security",
     "year": 2024,
