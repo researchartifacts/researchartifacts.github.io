@@ -1,6 +1,7 @@
 repository: 'reprodb/reprodb.github.io'
-url: "https://reprodb.github.io"
-baseurl: ""
+# url and baseurl are auto-detected by github-pages gem from the Pages API.
+# Do NOT set them here — they differ between org (reprodb.github.io/) and
+# forks (e.g. vahldiek.github.io/reprodb.github.io/).
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
