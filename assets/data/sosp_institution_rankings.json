@@ -55,27 +55,27 @@
   },
   {
     "affiliation": "University of Michigan",
-    "combined_score": 60,
+    "combined_score": 57,
     "artifact_score": 42,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 2.33,
+    "ae_score": 15,
+    "ae_ratio": 2.8,
     "role": "Producer",
     "artifacts": 15,
     "badges_functional": 14,
     "badges_reproducible": 13,
-    "ae_memberships": 6,
+    "ae_memberships": 5,
     "chair_count": 0,
     "total_papers": 15,
     "artifact_rate": 100.0,
-    "num_authors": 17,
+    "num_authors": 16,
     "conferences": [
       "SOSP"
     ],
     "years": {
       "2024": 6,
-      "2023": 10,
+      "2023": 9,
       "2022": 0,
       "2021": 5
     }
@@ -326,33 +326,6 @@
     }
   },
   {
-    "affiliation": "Cornell University",
-    "combined_score": 36,
-    "artifact_score": 27,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 3.0,
-    "role": "Producer",
-    "artifacts": 9,
-    "badges_functional": 9,
-    "badges_reproducible": 9,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_rate": 90.0,
-    "num_authors": 9,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 4,
-      "2023": 4,
-      "2022": 0,
-      "2021": 4
-    }
-  },
-  {
     "affiliation": "Univ. of California - Berkeley",
     "combined_score": 35,
     "artifact_score": 35,
@@ -431,6 +404,33 @@
       "2023": 9,
       "2022": 0,
       "2021": 3
+    }
+  },
+  {
+    "affiliation": "Cornell University",
+    "combined_score": 33,
+    "artifact_score": 27,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 4.5,
+    "role": "Producer",
+    "artifacts": 9,
+    "badges_functional": 9,
+    "badges_reproducible": 9,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 10,
+    "artifact_rate": 90.0,
+    "num_authors": 8,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2024": 4,
+      "2023": 3,
+      "2022": 0,
+      "2021": 4
     }
   },
   {
@@ -917,33 +917,6 @@
     }
   },
   {
-    "affiliation": "Virginia Tech",
-    "combined_score": 16,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 0,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 5,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 5
-    }
-  },
-  {
     "affiliation": "Univ. of California - Irvine",
     "combined_score": 15,
     "artifact_score": 7,
@@ -1025,6 +998,33 @@
     }
   },
   {
+    "affiliation": "University of California, Los Angeles",
+    "combined_score": 15,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.25,
+    "role": "Consumer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 5,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 5,
+      "2022": 0,
+      "2021": 0
+    }
+  },
+  {
     "affiliation": "Harvard University",
     "combined_score": 14,
     "artifact_score": 11,
@@ -1049,6 +1049,33 @@
       "2023": 3,
       "2022": 0,
       "2021": 2
+    }
+  },
+  {
+    "affiliation": "Virginia Tech",
+    "combined_score": 13,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.44,
+    "role": "Consumer",
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 0,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 4,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 5
     }
   },
   {
@@ -1101,33 +1128,6 @@
     "years": {
       "2024": 3,
       "2023": 1,
-      "2022": 0,
-      "2021": 0
-    }
-  },
-  {
-    "affiliation": "University of California, Los Angeles",
-    "combined_score": 12,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 4,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 4,
       "2022": 0,
       "2021": 0
     }
@@ -3563,7 +3563,7 @@
     }
   },
   {
-    "affiliation": "Zhengzhou University",
+    "affiliation": "Xiamen University",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -4379,6 +4379,30 @@
     }
   },
   {
+    "affiliation": "University Michigan",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2023": 1
+    }
+  },
+  {
     "affiliation": "Boston University",
     "combined_score": 3,
     "artifact_score": 0,
@@ -4400,6 +4424,30 @@
     ],
     "years": {
       "2021": 1
+    }
+  },
+  {
+    "affiliation": "Cornell / MIT",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2023": 1
     }
   },
   {

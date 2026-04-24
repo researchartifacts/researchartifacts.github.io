@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checked_at": "2026-04-09 20:40:07 UTC",
-    "total_urls": 2479,
-    "accessible_urls": 2398,
-    "accessibility_pct": 96.7,
+    "checked_at": "2026-04-24 12:05:57 UTC",
+    "total_urls": 2508,
+    "accessible_urls": 2399,
+    "accessibility_pct": 95.7,
     "by_platform": {
       "Bitbucket": {
         "total": 9,
@@ -17,13 +17,13 @@
       },
       "Figshare": {
         "total": 37,
-        "accessible": 37,
-        "pct": 100.0
+        "accessible": 36,
+        "pct": 97.3
       },
       "GitHub": {
-        "total": 1238,
-        "accessible": 1204,
-        "pct": 97.3
+        "total": 1244,
+        "accessible": 1209,
+        "pct": 97.2
       },
       "GitLab": {
         "total": 13,
@@ -32,20 +32,20 @@
       },
       "Zenodo": {
         "total": 882,
-        "accessible": 873,
-        "pct": 99.0
+        "accessible": 849,
+        "pct": 96.3
       },
       "other": {
-        "total": 286,
-        "accessible": 249,
-        "pct": 87.1
+        "total": 309,
+        "accessible": 270,
+        "pct": 87.4
       }
     },
     "by_area": {
       "security": {
-        "total": 1954,
-        "accessible": 1897,
-        "pct": 97.1
+        "total": 1983,
+        "accessible": 1898,
+        "pct": 95.7
       },
       "systems": {
         "total": 525,
@@ -76,8 +76,8 @@
       },
       "2021": {
         "total": 144,
-        "accessible": 140,
-        "pct": 97.2
+        "accessible": 138,
+        "pct": 95.8
       },
       "2022": {
         "total": 376,
@@ -91,18 +91,18 @@
       },
       "2024": {
         "total": 479,
-        "accessible": 454,
-        "pct": 94.8
+        "accessible": 453,
+        "pct": 94.6
       },
       "2025": {
-        "total": 632,
-        "accessible": 627,
-        "pct": 99.2
+        "total": 653,
+        "accessible": 633,
+        "pct": 96.9
       },
       "2026": {
-        "total": 300,
-        "accessible": 297,
-        "pct": 99.0
+        "total": 308,
+        "accessible": 295,
+        "pct": 95.8
       }
     },
     "by_year_area": {
@@ -142,8 +142,8 @@
       "2021": {
         "security": {
           "total": 97,
-          "accessible": 94,
-          "pct": 96.9
+          "accessible": 92,
+          "pct": 94.8
         },
         "systems": {
           "total": 47,
@@ -178,8 +178,8 @@
       "2024": {
         "security": {
           "total": 341,
-          "accessible": 322,
-          "pct": 94.4
+          "accessible": 321,
+          "pct": 94.1
         },
         "systems": {
           "total": 138,
@@ -189,9 +189,9 @@
       },
       "2025": {
         "security": {
-          "total": 588,
-          "accessible": 584,
-          "pct": 99.3
+          "total": 609,
+          "accessible": 590,
+          "pct": 96.9
         },
         "systems": {
           "total": 44,
@@ -201,9 +201,9 @@
       },
       "2026": {
         "security": {
-          "total": 300,
-          "accessible": 297,
-          "pct": 99.0
+          "total": 308,
+          "accessible": 295,
+          "pct": 95.8
         }
       }
     },
@@ -309,8 +309,8 @@
         },
         "other": {
           "total": 36,
-          "accessible": 34,
-          "pct": 94.4
+          "accessible": 32,
+          "pct": 88.9
         }
       },
       "2022": {
@@ -405,8 +405,8 @@
         },
         "GitHub": {
           "total": 318,
-          "accessible": 310,
-          "pct": 97.5
+          "accessible": 309,
+          "pct": 97.2
         },
         "GitLab": {
           "total": 3,
@@ -432,8 +432,8 @@
         },
         "Figshare": {
           "total": 15,
-          "accessible": 15,
-          "pct": 100.0
+          "accessible": 14,
+          "pct": 93.3
         },
         "GitHub": {
           "total": 132,
@@ -447,12 +447,12 @@
         },
         "Zenodo": {
           "total": 435,
-          "accessible": 431,
-          "pct": 99.1
+          "accessible": 417,
+          "pct": 95.9
         },
         "other": {
-          "total": 45,
-          "accessible": 45,
+          "total": 66,
+          "accessible": 66,
           "pct": 100.0
         }
       },
@@ -468,18 +468,18 @@
           "pct": 100.0
         },
         "GitHub": {
-          "total": 35,
-          "accessible": 35,
+          "total": 41,
+          "accessible": 41,
           "pct": 100.0
         },
         "Zenodo": {
           "total": 246,
-          "accessible": 243,
-          "pct": 98.8
+          "accessible": 233,
+          "pct": 94.7
         },
         "other": {
-          "total": 7,
-          "accessible": 7,
+          "total": 9,
+          "accessible": 9,
           "pct": 100.0
         }
       }
@@ -487,8 +487,8 @@
     "by_conference": {
       "ACSAC": {
         "total": 233,
-        "accessible": 196,
-        "pct": 84.1
+        "accessible": 195,
+        "pct": 83.7
       },
       "ATC": {
         "total": 135,
@@ -496,8 +496,8 @@
         "pct": 92.6
       },
       "CHES": {
-        "total": 124,
-        "accessible": 124,
+        "total": 145,
+        "accessible": 145,
         "pct": 100.0
       },
       "EUROSYS": {
@@ -507,8 +507,8 @@
       },
       "NDSS": {
         "total": 209,
-        "accessible": 208,
-        "pct": 99.5
+        "accessible": 206,
+        "pct": 98.6
       },
       "OSDI": {
         "total": 173,
@@ -517,8 +517,8 @@
       },
       "PETS": {
         "total": 360,
-        "accessible": 352,
-        "pct": 97.8
+        "accessible": 351,
+        "pct": 97.5
       },
       "SOSP": {
         "total": 25,
@@ -526,14 +526,14 @@
         "pct": 100.0
       },
       "SYSTEX": {
-        "total": 12,
-        "accessible": 12,
+        "total": 20,
+        "accessible": 20,
         "pct": 100.0
       },
       "USENIXSEC": {
         "total": 970,
-        "accessible": 962,
-        "pct": 99.2
+        "accessible": 938,
+        "pct": 96.7
       },
       "WOOT": {
         "total": 46,
@@ -6601,7 +6601,7 @@
       "url_key": "artifact_url",
       "url": "https://commandergabble.info/",
       "platform": "other",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "ACSAC",
@@ -9364,6 +9364,216 @@
       "accessible": true
     },
     {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a33/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a34/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Entropy extractor based high-throughput post-processings for True Random Number Generators",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a35/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "A Fast Heuristic for Mapping Boolean Circuits to Functional Bootstrapping",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a36/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "ABE Cubed: Advanced Benchmarking Extensions for ABE Squared",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a37/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "pracy: A Practical Compiler for Attribute-Based Encryption in Python",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a38/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a39/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "ECTester: Reverse-engineering side-channel countermeasures of ECC implementations",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a40/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "HADES: Automated Hardware Design Exploration for Cryptographic Primitives",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a41/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Fault Attacks on ECC Signature Verification",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a42/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Generation of Fast Finite Field Arithmetic for Cortex-M4 with ECDH and SQIsign Applications Artifacts Functional",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a43/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Fault Injection Evaluation with Statistical Analysis - How to Deal with Nearly Fabricated Large Circuits",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a44/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Let us walk on the 3-isogeny graph: efficient, fast, and simple",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a45/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Sharing the Mask: TFHE Bootstrapping on Packed Messages",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a46/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Constant-Cycle Hardware Private Circuits",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a47/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Avengers assemble! Supervised learning meets lattice reduction --- A single power trace attack against CRYSTALS-Kyber key generation",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a48/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a49/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "Faster amortized bootstrapping using the incomplete NTT for free",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a50/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "A New Perspective on Key Switching for BGV-like Schemes",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a51/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "BASTION: A Framework for Secure Third-Party IP Integration in NoC-based SoC Platforms",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a54/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "area": "security",
+      "title": "mid-pSquare: Leveraging the Strong Side-Channel Security of Prime-Field Masking in Software",
+      "url_key": "artifact_url",
+      "url": "https://artifacts.iacr.org/tches/2025/a55/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
       "conference": "NDSS",
       "year": 2024,
       "area": "security",
@@ -11051,7 +11261,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17881774",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11341,7 +11551,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17873466",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11911,7 +12121,7 @@
       "url_key": "artifact_url",
       "url": "https://homepage.np-tokumei.net/publication/publication_2021_popets",
       "platform": "other",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "PETS",
@@ -15170,6 +15380,86 @@
       "title": "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels",
       "url_key": "artifact_url",
       "url": "https://github.com/dnet-tee/wait-a-cycle/tree/systex25-artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "Epsilon: A Bring-Your-Own-Data Research Platform with Trusted Verification",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Epsilon-Data/epsilon",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "StepOverflow: PMC Overflows on AMD SEV",
+      "url_key": "artifact_url",
+      "url": "https://github.com/UzL-ITS/StepOverflow",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "CACTEE: Confidential Asset Certification using Trusted Execution Environments",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Nokia-Bell-Labs/confidential-asset-certification-using-tees",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "AI Agents Need Both Hardware-Backed Security and Application-Level Guardrails",
+      "url_key": "artifact_url",
+      "url": "https://codeberg.org/BarryShichenHu/Secure_AI_Agent/src/tag/artifact-evaluation",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "Control-Flow Balancing for Texas Instruments IPE",
+      "url_key": "artifact_url",
+      "url": "https://github.com/martonbognar/ipe-balancing",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "Breaking Isolation: Last-level Cache Side-Channel Attacks on AWS Nitro Enclaves",
+      "url_key": "artifact_url",
+      "url": "https://codeberg.org/monder/LLCEnclave.git",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "Optimizing Launch Latency for Confidential VMs with Device Passthrough in the Linux KVM Hypervisor",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ntu-ssl/start-up-optimization",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "area": "security",
+      "title": "Keystone with Linux PREEMPT_RT: Real-Time Enclaves on RISC-V?",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ReSP-Lab/2026-systex-keystone-rt-linux/tree/artifact-submission-version",
       "platform": "GitHub",
       "accessible": true
     },
@@ -19241,7 +19531,7 @@
       "url_key": "artifact_url",
       "url": "https://github.com/polyxss/bxss/tree/4f5f2d1db0480c84f20206066ccf09afd937a307",
       "platform": "GitHub",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -20361,7 +20651,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14726326",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -20381,7 +20671,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14709768",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -20721,7 +21011,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14725233",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21531,7 +21821,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14735800",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21631,7 +21921,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14711220",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21881,7 +22171,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15582959",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21921,7 +22211,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15526863",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21961,7 +22251,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15533203",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21971,7 +22261,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15551650",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -22241,7 +22531,7 @@
       "url_key": "artifact_url",
       "url": "https://figshare.com/articles/software/Unsafe_Scene_Detection/28260395",
       "platform": "Figshare",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -22611,7 +22901,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15611391",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -22621,7 +22911,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15605318",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -22881,7 +23171,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15605465",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23041,7 +23331,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15610905",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23261,7 +23551,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15612259",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23471,7 +23761,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17823671",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23491,7 +23781,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17855525",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23521,7 +23811,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17875176",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23891,7 +24181,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17886098",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24091,7 +24381,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17965902",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24391,7 +24681,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17959962",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24471,7 +24761,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17976648",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24561,7 +24851,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17968678",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
