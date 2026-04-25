@@ -1,15 +1,15 @@
 overall:
-  github_repos: 1411
-  total_stars: 128140
-  total_forks: 16616
+  github_repos: 1420
+  total_stars: 128355
+  total_forks: 16639
   max_stars: 14348
   max_forks: 1854
   zenodo_repos: 868
   total_views: 229253
   total_downloads: 193547
-  avg_stars: 90.8
-  avg_forks: 11.8
-  last_updated: 2026-04-24 21:13:37 UTC
+  avg_stars: 90.4
+  avg_forks: 11.7
+  last_updated: 2026-04-25 20:48:42 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -317,11 +317,11 @@ by_conference:
   years: []
   top_repos: []
 - name: OSDI
-  github_repos: 141
-  total_stars: 55429
-  total_forks: 7008
-  avg_stars: 393.1
-  avg_forks: 49.7
+  github_repos: 142
+  total_stars: 55476
+  total_forks: 7014
+  avg_stars: 390.7
+  avg_forks: 49.4
   max_stars: 14348
   max_forks: 1854
   years:
@@ -350,11 +350,11 @@ by_conference:
     avg_stars: 69.8
     avg_forks: 11.0
   - year: 2024
-    github_repos: 33
-    stars: 2325
-    forks: 273
-    avg_stars: 70.5
-    avg_forks: 8.3
+    github_repos: 34
+    stars: 2372
+    forks: 279
+    avg_stars: 69.8
+    avg_forks: 8.2
   top_repos:
   - title: 'Retiarii: A Deep Learning Exploratory-Training Framework'
     url: https://github.com/microsoft/nni/tree/retiarii_artifact
@@ -705,11 +705,11 @@ by_conference:
     name: dnet-tee/wait-a-cycle
     pushed_at: '2025-06-17T15:55:24Z'
 - name: USENIXSEC
-  github_repos: 442
-  total_stars: 19448
-  total_forks: 2964
-  avg_stars: 44.0
-  avg_forks: 6.7
+  github_repos: 450
+  total_stars: 19616
+  total_forks: 2981
+  avg_stars: 43.6
+  avg_forks: 6.6
   max_stars: 1392
   max_forks: 271
   years:
@@ -738,9 +738,9 @@ by_conference:
     avg_stars: 39.1
     avg_forks: 7.1
   - year: 2024
-    github_repos: 188
-    stars: 4007
-    forks: 492
+    github_repos: 196
+    stars: 4175
+    forks: 509
     avg_stars: 21.3
     avg_forks: 2.6
   - year: 2025
@@ -971,9 +971,9 @@ by_year:
   max_stars: 1654
   max_forks: 268
 - year: 2024
-  github_repos: 383
-  total_stars: 9653
-  total_forks: 1276
+  github_repos: 392
+  total_stars: 9868
+  total_forks: 1299
   avg_stars: 25.2
   avg_forks: 3.3
   max_stars: 1000

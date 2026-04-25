@@ -73,8 +73,8 @@
   {
     "name": "Amit Samanta",
     "display_name": "Amit Samanta",
-    "affiliation": "University of Utah",
-    "total_memberships": 8,
+    "affiliation": "The University of Utah",
+    "total_memberships": 9,
     "chair_count": 0,
     "conferences": [
       [
@@ -116,6 +116,11 @@
         "WOOT",
         2025,
         "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
       ]
     ],
     "area": "both",
@@ -123,9 +128,69 @@
       "2023": 1,
       "2024": 3,
       "2025": 2,
-      "2026": 2
+      "2026": 3
     },
     "first_year": 2023,
+    "last_year": 2026
+  },
+  {
+    "name": "Paul L. R. Olivier",
+    "display_name": "Paul L. R. Olivier",
+    "affiliation": "LAAS-CNRS",
+    "total_memberships": 8,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "ACSAC",
+        2019,
+        "member"
+      ],
+      [
+        "ACSAC",
+        2020,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2022,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2025,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2026,
+        "member"
+      ],
+      [
+        "WOOT",
+        2024,
+        "member"
+      ],
+      [
+        "WOOT",
+        2025,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2020": 1,
+      "2022": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 2
+    },
+    "first_year": 2019,
     "last_year": 2026
   },
   {
@@ -182,61 +247,6 @@
       "2026": 1
     },
     "first_year": 2020,
-    "last_year": 2026
-  },
-  {
-    "name": "Paul OLIVIER",
-    "display_name": "Paul OLIVIER",
-    "affiliation": "LAAS-CNRS",
-    "total_memberships": 7,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "ACSAC",
-        2019,
-        "member"
-      ],
-      [
-        "ACSAC",
-        2020,
-        "member"
-      ],
-      [
-        "USENIXSEC",
-        2022,
-        "member"
-      ],
-      [
-        "USENIXSEC",
-        2025,
-        "member"
-      ],
-      [
-        "USENIXSEC",
-        2026,
-        "member"
-      ],
-      [
-        "WOOT",
-        2024,
-        "member"
-      ],
-      [
-        "WOOT",
-        2025,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2019": 1,
-      "2020": 1,
-      "2022": 1,
-      "2024": 1,
-      "2025": 2,
-      "2026": 1
-    },
-    "first_year": 2019,
     "last_year": 2026
   },
   {
@@ -2510,6 +2520,43 @@
     },
     "first_year": 2023,
     "last_year": 2024
+  },
+  {
+    "name": "Muhammad Ibrahim",
+    "display_name": "Muhammad Ibrahim",
+    "affiliation": "Georgia Institute of Technology",
+    "total_memberships": 4,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "NDSS",
+        2026,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2025,
+        "member"
+      ],
+      [
+        "WOOT",
+        2023,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "both",
+    "years": {
+      "2023": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2023,
+    "last_year": 2026
   },
   {
     "name": "Ningyu He",
@@ -5263,38 +5310,6 @@
     "last_year": 2025
   },
   {
-    "name": "Muhammad Ibrahim",
-    "display_name": "Muhammad Ibrahim",
-    "affiliation": "Georgia Institute of Technology",
-    "total_memberships": 3,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "NDSS",
-        2026,
-        "member"
-      ],
-      [
-        "USENIXSEC",
-        2025,
-        "member"
-      ],
-      [
-        "WOOT",
-        2023,
-        "member"
-      ]
-    ],
-    "area": "both",
-    "years": {
-      "2023": 1,
-      "2025": 1,
-      "2026": 1
-    },
-    "first_year": 2023,
-    "last_year": 2026
-  },
-  {
     "name": "Nick Mathewson",
     "display_name": "Nick Mathewson",
     "affiliation": "The Tor Project",
@@ -6056,6 +6071,37 @@
     "last_year": 2023
   },
   {
+    "name": "Xiang Li",
+    "display_name": "Xiang Li",
+    "affiliation": "Nankai University",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "USENIXSEC",
+        2025,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2026,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "both",
+    "years": {
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2025,
+    "last_year": 2026
+  },
+  {
     "name": "Xin Zhang",
     "display_name": "Xin Zhang",
     "affiliation": "Peking University",
@@ -6299,7 +6345,7 @@
         "member"
       ]
     ],
-    "area": "security",
+    "area": "both",
     "years": {
       "2025": 1,
       "2026": 2
@@ -7628,6 +7674,32 @@
     "last_year": 2026
   },
   {
+    "name": "Eduard Vlad",
+    "display_name": "Eduard Vlad",
+    "affiliation": "EPFL",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2025,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026
+  },
+  {
     "name": "Eleonora Losiouk",
     "display_name": "Eleonora Losiouk",
     "affiliation": "University of Padua",
@@ -8637,6 +8709,31 @@
     "last_year": 2026
   },
   {
+    "name": "Jared Chandler",
+    "display_name": "Jared Chandler",
+    "affiliation": "Dartmouth College",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "NDSS",
+        2026,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 2
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Jayakrishna Menon Vadayath",
     "display_name": "Jayakrishna Menon Vadayath",
     "affiliation": "Arizona State University",
@@ -9174,6 +9271,32 @@
     },
     "first_year": 2021,
     "last_year": 2022
+  },
+  {
+    "name": "Khosro Moeini",
+    "display_name": "Khosro Moeini",
+    "affiliation": "Boston University",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2025,
+        "member"
+      ],
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Kunal Mukherjee",
@@ -11441,32 +11564,6 @@
       [
         "USENIXSEC",
         2025,
-        "member"
-      ]
-    ],
-    "area": "both",
-    "years": {
-      "2025": 1,
-      "2026": 1
-    },
-    "first_year": 2025,
-    "last_year": 2026
-  },
-  {
-    "name": "Xiang Li",
-    "display_name": "Xiang Li",
-    "affiliation": "George Mason University",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "USENIXSEC",
-        2025,
-        "member"
-      ],
-      [
-        "USENIXSEC",
-        2026,
         "member"
       ]
     ],
@@ -16091,26 +16188,6 @@
     "last_year": 2022
   },
   {
-    "name": "Eduard Vlad",
-    "display_name": "Eduard Vlad",
-    "affiliation": "RWTH Aachen University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "WOOT",
-        2025,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
     "name": "Eduardo Blazquez",
     "display_name": "Eduardo Blazquez",
     "affiliation": "Universidad Carlos III de Madrid",
@@ -17069,6 +17146,26 @@
     },
     "first_year": 2025,
     "last_year": 2025
+  },
+  {
+    "name": "Gabriele Digregorio",
+    "display_name": "Gabriele Digregorio",
+    "affiliation": "Politecnico di Milano",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
   },
   {
     "name": "Georg Land",
@@ -18771,26 +18868,6 @@
     "last_year": 2021
   },
   {
-    "name": "Jared Chandler",
-    "display_name": "Jared Chandler",
-    "affiliation": "Dartmouth College",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "NDSS",
-        2026,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2026": 1
-    },
-    "first_year": 2026,
-    "last_year": 2026
-  },
-  {
     "name": "Jason Carter",
     "display_name": "Jason Carter",
     "affiliation": "Oak Ridge National Laboratory",
@@ -18869,6 +18946,26 @@
     },
     "first_year": 2019,
     "last_year": 2019
+  },
+  {
+    "name": "Jennifer Miller",
+    "display_name": "Jennifer Miller",
+    "affiliation": "Arizona State University",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
   },
   {
     "name": "Jesus Diaz Vico",
@@ -20439,26 +20536,6 @@
     "conferences": [
       [
         "USENIXSEC",
-        2025,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
-    "name": "Khosro Moeini",
-    "display_name": "Khosro Moeini",
-    "affiliation": "Boston University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "WOOT",
         2025,
         "member"
       ]
@@ -22071,6 +22148,26 @@
     "last_year": 2023
   },
   {
+    "name": "Matthias Frielingsdorf",
+    "display_name": "Matthias Frielingsdorf",
+    "affiliation": "iVerify",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Matthias J. Kannwischer",
     "display_name": "Matthias J. Kannwischer",
     "affiliation": "Academia Sinica",
@@ -22299,6 +22396,26 @@
     "conferences": [
       [
         "PETS",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
+    "name": "Md Hasan Shahriar",
+    "display_name": "Md Hasan Shahriar",
+    "affiliation": "Virginia Tech",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
         2026,
         "member"
       ]
@@ -23231,6 +23348,26 @@
     "last_year": 2026
   },
   {
+    "name": "Muhammad Hammad Bashir",
+    "display_name": "Muhammad Hammad Bashir",
+    "affiliation": "University of Pennsylvania",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Muhammad Hammad Mazhar",
     "display_name": "Muhammad Hammad Mazhar",
     "affiliation": "University of Northern Colorado",
@@ -23363,7 +23500,7 @@
         "member"
       ]
     ],
-    "area": "security",
+    "area": "both",
     "years": {
       "2026": 1
     },
@@ -24691,6 +24828,26 @@
     "last_year": 2017
   },
   {
+    "name": "Priyanka Bose",
+    "display_name": "Priyanka Bose",
+    "affiliation": "Palo Alto Networks",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Qais Tasali",
     "display_name": "Qais Tasali",
     "affiliation": "Kansas State University",
@@ -25691,6 +25848,26 @@
     "last_year": 2026
   },
   {
+    "name": "Sagor Sikdar",
+    "display_name": "Sagor Sikdar",
+    "affiliation": "University of Pennsylvania",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Salvatore Galano",
     "display_name": "Salvatore Galano",
     "affiliation": "Ermes Cyber Security Sp",
@@ -26191,6 +26368,26 @@
     "last_year": 2026
   },
   {
+    "name": "Seth Jenkins",
+    "display_name": "Seth Jenkins",
+    "affiliation": "Google",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Seungju Lee",
     "display_name": "Seungju Lee",
     "affiliation": "Princeton University",
@@ -26559,6 +26756,26 @@
     "conferences": [
       [
         "USENIXSEC",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
+    "name": "Shevek",
+    "display_name": "Shevek",
+    "affiliation": "",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "WOOT",
         2026,
         "member"
       ]
@@ -29253,7 +29470,7 @@
   {
     "name": "Yibo Huang",
     "display_name": "Yibo Huang",
-    "affiliation": "University of Texas at Austin",
+    "affiliation": "University of Michigan",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -30323,7 +30540,7 @@
         "member"
       ]
     ],
-    "area": "security",
+    "area": "both",
     "years": {
       "2026": 1
     },

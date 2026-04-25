@@ -930,36 +930,6 @@
     }
   },
   {
-    "affiliation": "George Mason University",
-    "combined_score": 53,
-    "artifact_score": 38,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 2.53,
-    "role": "Producer",
-    "artifacts": 14,
-    "badges_functional": 13,
-    "badges_reproducible": 11,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 31,
-    "artifact_rate": 45.2,
-    "num_authors": 9,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 13,
-      "2024": 1,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "Johns Hopkins University",
     "combined_score": 52,
     "artifact_score": 37,
@@ -1046,6 +1016,36 @@
       "2023": 5,
       "2022": 2,
       "2021": 1,
+      "2020": 0
+    }
+  },
+  {
+    "affiliation": "George Mason University",
+    "combined_score": 47,
+    "artifact_score": 38,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 4.22,
+    "role": "Producer",
+    "artifacts": 14,
+    "badges_functional": 13,
+    "badges_reproducible": 11,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 31,
+    "artifact_rate": 45.2,
+    "num_authors": 8,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 12,
+      "2024": 1,
+      "2023": 0,
+      "2022": 1,
+      "2021": 0,
       "2020": 0
     }
   },
@@ -1590,36 +1590,6 @@
     }
   },
   {
-    "affiliation": "University of Utah",
-    "combined_score": 36,
-    "artifact_score": 15,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 21,
-    "ae_ratio": 0.71,
-    "role": "Balanced",
-    "artifacts": 5,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 7,
-    "chair_count": 0,
-    "total_papers": 6,
-    "artifact_rate": 83.3,
-    "num_authors": 7,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 1,
-      "2024": 4,
-      "2023": 1,
-      "2022": 3,
-      "2021": 1,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "University of Michigan",
     "combined_score": 36,
     "artifact_score": 18,
@@ -1916,6 +1886,36 @@
       "2023": 0,
       "2022": 1,
       "2021": 0,
+      "2020": 0
+    }
+  },
+  {
+    "affiliation": "University of Utah",
+    "combined_score": 30,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifacts": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_rate": 83.3,
+    "num_authors": 6,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2024": 3,
+      "2023": 1,
+      "2022": 3,
+      "2021": 1,
       "2020": 0
     }
   },
@@ -3447,6 +3447,36 @@
     }
   },
   {
+    "affiliation": "Nankai University",
+    "combined_score": 17,
+    "artifact_score": 2,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 0.13,
+    "role": "Consumer",
+    "artifacts": 2,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 10,
+    "artifact_rate": 20.0,
+    "num_authors": 3,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 3,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
+      "2021": 0,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "Indiana University",
     "combined_score": 17,
     "artifact_score": 11,
@@ -4789,36 +4819,6 @@
       "2022": 1,
       "2021": 0,
       "2020": 0
-    }
-  },
-  {
-    "affiliation": "Nankai University",
-    "combined_score": 11,
-    "artifact_score": 2,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.22,
-    "role": "Consumer",
-    "artifacts": 2,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_rate": 20.0,
-    "num_authors": 2,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 2,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 1
     }
   },
   {
@@ -6962,6 +6962,31 @@
       "2022": 0,
       "2021": 0,
       "2020": 0
+    }
+  },
+  {
+    "affiliation": "The University of Utah",
+    "combined_score": 6,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2024": 1,
+      "2026": 1
     }
   },
   {

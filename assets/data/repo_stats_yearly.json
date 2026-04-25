@@ -194,7 +194,7 @@
   {
     "year": 2024,
     "all": {
-      "repos": 383,
+      "repos": 392,
       "avg_stars": 25.2,
       "avg_forks": 3.3,
       "min_stars": 3.5,
@@ -203,8 +203,8 @@
       "max_forks": 12.4
     },
     "systems": {
-      "repos": 93,
-      "avg_stars": 53.5,
+      "repos": 94,
+      "avg_stars": 53.4,
       "avg_forks": 7.1,
       "min_stars": 21.7,
       "max_stars": 77.9,
@@ -212,8 +212,8 @@
       "max_forks": 12.4
     },
     "security": {
-      "repos": 290,
-      "avg_stars": 16.1,
+      "repos": 298,
+      "avg_stars": 16.3,
       "avg_forks": 2.1,
       "min_stars": 3.5,
       "max_stars": 21.3,
