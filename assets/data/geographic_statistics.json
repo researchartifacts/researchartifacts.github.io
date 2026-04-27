@@ -4,7 +4,7 @@
     "AU": {
       "continent": "Oceania",
       "num_institutions": 9,
-      "num_authors": 19,
+      "author_count": 19,
       "num_artifacts": 36,
       "num_papers": 93,
       "papers_with_artifacts": 60,
@@ -27,7 +27,7 @@
     "BE": {
       "continent": "Europe",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 1,
       "num_papers": 0,
       "papers_with_artifacts": 0,
@@ -50,7 +50,7 @@
     "BR": {
       "continent": "South America",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 0,
       "num_papers": 0,
       "papers_with_artifacts": 0,
@@ -73,7 +73,7 @@
     "CA": {
       "continent": "North America",
       "num_institutions": 3,
-      "num_authors": 27,
+      "author_count": 27,
       "num_artifacts": 65,
       "num_papers": 185,
       "papers_with_artifacts": 44,
@@ -96,7 +96,7 @@
     "CH": {
       "continent": "Europe",
       "num_institutions": 5,
-      "num_authors": 50,
+      "author_count": 50,
       "num_artifacts": 164,
       "num_papers": 507,
       "papers_with_artifacts": 145,
@@ -119,7 +119,7 @@
     "CN": {
       "continent": "Asia",
       "num_institutions": 36,
-      "num_authors": 235,
+      "author_count": 235,
       "num_artifacts": 427,
       "num_papers": 1276,
       "papers_with_artifacts": 746,
@@ -142,7 +142,7 @@
     "DE": {
       "continent": "Europe",
       "num_institutions": 15,
-      "num_authors": 35,
+      "author_count": 35,
       "num_artifacts": 82,
       "num_papers": 268,
       "papers_with_artifacts": 136,
@@ -165,7 +165,7 @@
     "DK": {
       "continent": "Europe",
       "num_institutions": 2,
-      "num_authors": 3,
+      "author_count": 3,
       "num_artifacts": 4,
       "num_papers": 4,
       "papers_with_artifacts": 4,
@@ -188,7 +188,7 @@
     "ES": {
       "continent": "Europe",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 0,
       "num_papers": 0,
       "papers_with_artifacts": 0,
@@ -211,7 +211,7 @@
     "FR": {
       "continent": "Europe",
       "num_institutions": 9,
-      "num_authors": 12,
+      "author_count": 12,
       "num_artifacts": 16,
       "num_papers": 49,
       "papers_with_artifacts": 23,
@@ -234,7 +234,7 @@
     "GB": {
       "continent": "Europe",
       "num_institutions": 11,
-      "num_authors": 43,
+      "author_count": 43,
       "num_artifacts": 52,
       "num_papers": 205,
       "papers_with_artifacts": 92,
@@ -257,7 +257,7 @@
     "HK": {
       "continent": "Asia",
       "num_institutions": 7,
-      "num_authors": 70,
+      "author_count": 70,
       "num_artifacts": 91,
       "num_papers": 272,
       "papers_with_artifacts": 90,
@@ -280,7 +280,7 @@
     "IL": {
       "continent": "Asia",
       "num_institutions": 1,
-      "num_authors": 4,
+      "author_count": 4,
       "num_artifacts": 7,
       "num_papers": 26,
       "papers_with_artifacts": 6,
@@ -303,7 +303,7 @@
     "IN": {
       "continent": "Asia",
       "num_institutions": 7,
-      "num_authors": 16,
+      "author_count": 16,
       "num_artifacts": 12,
       "num_papers": 23,
       "papers_with_artifacts": 9,
@@ -326,7 +326,7 @@
     "JP": {
       "continent": "Asia",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 1,
       "num_papers": 1,
       "papers_with_artifacts": 1,
@@ -349,7 +349,7 @@
     "KR": {
       "continent": "Asia",
       "num_institutions": 4,
-      "num_authors": 15,
+      "author_count": 15,
       "num_artifacts": 16,
       "num_papers": 73,
       "papers_with_artifacts": 48,
@@ -372,7 +372,7 @@
     "MX": {
       "continent": "North America",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 1,
       "num_papers": 4,
       "papers_with_artifacts": 1,
@@ -395,7 +395,7 @@
     "NL": {
       "continent": "Europe",
       "num_institutions": 2,
-      "num_authors": 12,
+      "author_count": 12,
       "num_artifacts": 45,
       "num_papers": 155,
       "papers_with_artifacts": 47,
@@ -418,7 +418,7 @@
     "NO": {
       "continent": "Europe",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 0,
       "num_papers": 0,
       "papers_with_artifacts": 0,
@@ -441,7 +441,7 @@
     "PL": {
       "continent": "Europe",
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 1,
       "num_papers": 0,
       "papers_with_artifacts": 0,
@@ -464,7 +464,7 @@
     "SE": {
       "continent": "Europe",
       "num_institutions": 4,
-      "num_authors": 7,
+      "author_count": 7,
       "num_artifacts": 8,
       "num_papers": 32,
       "papers_with_artifacts": 11,
@@ -487,7 +487,7 @@
     "SG": {
       "continent": "Asia",
       "num_institutions": 3,
-      "num_authors": 25,
+      "author_count": 25,
       "num_artifacts": 42,
       "num_papers": 106,
       "papers_with_artifacts": 41,
@@ -510,7 +510,7 @@
     "TW": {
       "continent": "Asia",
       "num_institutions": 2,
-      "num_authors": 3,
+      "author_count": 3,
       "num_artifacts": 6,
       "num_papers": 8,
       "papers_with_artifacts": 6,
@@ -533,7 +533,7 @@
     "US": {
       "continent": "North America",
       "num_institutions": 88,
-      "num_authors": 620,
+      "author_count": 620,
       "num_artifacts": 1024,
       "num_papers": 4427,
       "papers_with_artifacts": 1630,
@@ -558,7 +558,7 @@
     "Asia": {
       "num_countries": 8,
       "num_institutions": 61,
-      "num_authors": 369,
+      "author_count": 369,
       "num_artifacts": 602,
       "num_papers": 1785,
       "papers_with_artifacts": 969,
@@ -581,7 +581,7 @@
     "Europe": {
       "num_countries": 11,
       "num_institutions": 52,
-      "num_authors": 166,
+      "author_count": 166,
       "num_artifacts": 373,
       "num_papers": 1220,
       "papers_with_artifacts": 526,
@@ -604,7 +604,7 @@
     "North America": {
       "num_countries": 3,
       "num_institutions": 92,
-      "num_authors": 648,
+      "author_count": 648,
       "num_artifacts": 1090,
       "num_papers": 4616,
       "papers_with_artifacts": 1675,
@@ -627,7 +627,7 @@
     "Oceania": {
       "num_countries": 1,
       "num_institutions": 9,
-      "num_authors": 19,
+      "author_count": 19,
       "num_artifacts": 36,
       "num_papers": 93,
       "papers_with_artifacts": 60,
@@ -650,7 +650,7 @@
     "South America": {
       "num_countries": 1,
       "num_institutions": 1,
-      "num_authors": 1,
+      "author_count": 1,
       "num_artifacts": 0,
       "num_papers": 0,
       "papers_with_artifacts": 0,
