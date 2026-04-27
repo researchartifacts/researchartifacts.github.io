@@ -592,6 +592,35 @@
     }
   },
   {
+    "affiliation": "Columbia University",
+    "combined_score": 44,
+    "artifact_score": 26,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 1.44,
+    "role": "Balanced",
+    "artifacts": 10,
+    "badges_functional": 9,
+    "badges_reproducible": 8,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 15,
+    "artifact_rate": 66.7,
+    "num_authors": 10,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2025": 4,
+      "2024": 2,
+      "2023": 1,
+      "2022": 7,
+      "2021": 1,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "Univ. of California - Berkeley",
     "combined_score": 43,
     "artifact_score": 43,
@@ -734,35 +763,6 @@
       "2023": 6,
       "2022": 2,
       "2021": 3,
-      "2020": 1
-    }
-  },
-  {
-    "affiliation": "Columbia University",
-    "combined_score": 38,
-    "artifact_score": 20,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 1.11,
-    "role": "Balanced",
-    "artifacts": 8,
-    "badges_functional": 7,
-    "badges_reproducible": 6,
-    "ae_memberships": 6,
-    "chair_count": 0,
-    "total_papers": 13,
-    "artifact_rate": 61.5,
-    "num_authors": 9,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 4,
-      "2024": 2,
-      "2023": 1,
-      "2022": 5,
-      "2021": 1,
       "2020": 1
     }
   },
@@ -1743,35 +1743,6 @@
     }
   },
   {
-    "affiliation": "Rutgers University",
-    "combined_score": 15,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.67,
-    "role": "Balanced",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 3,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 2,
-      "2023": 0,
-      "2022": 2,
-      "2021": 0,
-      "2020": 0
-    }
-  },
-  {
     "affiliation": "INESC-ID and Instituto Superior Técnico",
     "combined_score": 15,
     "artifact_score": 0,
@@ -2450,6 +2421,31 @@
     "years": {
       "2025": 1,
       "2026": 2
+    }
+  },
+  {
+    "affiliation": "Rutgers University",
+    "combined_score": 9,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 2,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2024": 2,
+      "2025": 1
     }
   },
   {

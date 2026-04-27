@@ -921,6 +921,45 @@
     }
   },
   {
+    "affiliation": "Columbia University",
+    "combined_score": 202,
+    "artifact_score": 109,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 93,
+    "ae_ratio": 1.17,
+    "role": "Balanced",
+    "artifacts": 44,
+    "badges_functional": 37,
+    "badges_reproducible": 34,
+    "ae_memberships": 31,
+    "chair_count": 0,
+    "total_papers": 78,
+    "artifact_rate": 56.4,
+    "num_authors": 31,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "NDSS",
+      "OSDI",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2025": 16,
+      "2024": 15,
+      "2023": 11,
+      "2022": 14,
+      "2021": 11,
+      "2020": 1,
+      "2019": 1,
+      "2026": 6,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "KU Leuven",
     "combined_score": 200,
     "artifact_score": 105,
@@ -1079,45 +1118,6 @@
       "2026": 2,
       "2018": 0,
       "2017": 1
-    }
-  },
-  {
-    "affiliation": "Columbia University",
-    "combined_score": 190,
-    "artifact_score": 103,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 87,
-    "ae_ratio": 1.18,
-    "role": "Balanced",
-    "artifacts": 42,
-    "badges_functional": 35,
-    "badges_reproducible": 32,
-    "ae_memberships": 29,
-    "chair_count": 0,
-    "total_papers": 74,
-    "artifact_rate": 56.8,
-    "num_authors": 30,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "NDSS",
-      "OSDI",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2025": 15,
-      "2024": 15,
-      "2023": 11,
-      "2022": 12,
-      "2021": 11,
-      "2020": 1,
-      "2019": 1,
-      "2026": 5,
-      "2018": 0,
-      "2017": 0
     }
   },
   {
@@ -2921,46 +2921,6 @@
     }
   },
   {
-    "affiliation": "Rutgers University",
-    "combined_score": 91,
-    "artifact_score": 20,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 71,
-    "ae_ratio": 0.28,
-    "role": "Consumer",
-    "artifacts": 7,
-    "badges_functional": 7,
-    "badges_reproducible": 6,
-    "ae_memberships": 23,
-    "chair_count": 1,
-    "total_papers": 13,
-    "artifact_rate": 53.8,
-    "num_authors": 16,
-    "conferences": [
-      "ACSAC",
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2024": 4,
-      "2025": 11,
-      "2026": 2,
-      "2023": 2,
-      "2022": 4,
-      "2021": 2,
-      "2020": 4,
-      "2019": 1,
-      "2018": 0,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "University of British Columbia",
     "combined_score": 90,
     "artifact_score": 57,
@@ -3499,6 +3459,46 @@
       "2021": 0,
       "2020": 0,
       "2019": 0,
+      "2018": 0,
+      "2017": 0
+    }
+  },
+  {
+    "affiliation": "Rutgers University",
+    "combined_score": 79,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 65,
+    "ae_ratio": 0.22,
+    "role": "Consumer",
+    "artifacts": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 4,
+    "ae_memberships": 21,
+    "chair_count": 1,
+    "total_papers": 9,
+    "artifact_rate": 55.6,
+    "num_authors": 15,
+    "conferences": [
+      "ACSAC",
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2024": 4,
+      "2025": 10,
+      "2026": 1,
+      "2023": 2,
+      "2022": 2,
+      "2021": 2,
+      "2020": 4,
+      "2019": 1,
       "2018": 0,
       "2017": 0
     }

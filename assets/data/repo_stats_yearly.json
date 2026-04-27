@@ -45,12 +45,12 @@
     "year": 2019,
     "all": {
       "repos": 38,
-      "avg_stars": 385.3,
+      "avg_stars": 385.5,
       "avg_forks": 41.4,
       "min_stars": 32.9,
-      "max_stars": 3185.8,
+      "max_stars": 3188.2,
       "min_forks": 8.3,
-      "max_forks": 261.8
+      "max_forks": 262.0
     },
     "systems": {
       "repos": 19,
@@ -63,70 +63,70 @@
     },
     "security": {
       "repos": 19,
-      "avg_stars": 696.7,
+      "avg_stars": 697.2,
       "avg_forks": 61.7,
       "min_stars": 32.9,
-      "max_stars": 3185.8,
+      "max_stars": 3188.2,
       "min_forks": 8.3,
-      "max_forks": 261.8
+      "max_forks": 262.0
     }
   },
   {
     "year": 2020,
     "all": {
       "repos": 91,
-      "avg_stars": 397.7,
+      "avg_stars": 397.8,
       "avg_forks": 51.9,
       "min_stars": 51.9,
-      "max_stars": 822.6,
+      "max_stars": 822.8,
       "min_forks": 13.4,
       "max_forks": 99.2
     },
     "systems": {
       "repos": 34,
-      "avg_stars": 822.6,
+      "avg_stars": 822.8,
       "avg_forks": 99.2,
-      "min_stars": 822.6,
-      "max_stars": 822.6,
+      "min_stars": 822.8,
+      "max_stars": 822.8,
       "min_forks": 99.2,
       "max_forks": 99.2
     },
     "security": {
       "repos": 57,
-      "avg_stars": 144.2,
-      "avg_forks": 23.7,
+      "avg_stars": 144.3,
+      "avg_forks": 23.8,
       "min_stars": 51.9,
-      "max_stars": 232.5,
+      "max_stars": 232.6,
       "min_forks": 13.4,
-      "max_forks": 31.2
+      "max_forks": 31.3
     }
   },
   {
     "year": 2021,
     "all": {
       "repos": 136,
-      "avg_stars": 143.3,
+      "avg_stars": 143.4,
       "avg_forks": 12.9,
       "min_stars": 13.9,
-      "max_stars": 625.4,
+      "max_stars": 625.9,
       "min_forks": 0.0,
       "max_forks": 34.4
     },
     "systems": {
       "repos": 73,
-      "avg_stars": 55.6,
+      "avg_stars": 55.7,
       "avg_forks": 9.7,
       "min_stars": 44.6,
-      "max_stars": 66.2,
-      "min_forks": 7.0,
+      "max_stars": 66.3,
+      "min_forks": 7.1,
       "max_forks": 11.5
     },
     "security": {
       "repos": 63,
-      "avg_stars": 244.8,
+      "avg_stars": 245.0,
       "avg_forks": 16.5,
       "min_stars": 13.9,
-      "max_stars": 625.4,
+      "max_stars": 625.9,
       "min_forks": 0.0,
       "max_forks": 34.4
     }
@@ -135,21 +135,21 @@
     "year": 2022,
     "all": {
       "repos": 258,
-      "avg_stars": 133.2,
+      "avg_stars": 133.3,
       "avg_forks": 18.6,
       "min_stars": 7.4,
-      "max_stars": 728.7,
+      "max_stars": 728.8,
       "min_forks": 1.5,
-      "max_forks": 94.1
+      "max_forks": 94.2
     },
     "systems": {
       "repos": 100,
-      "avg_stars": 251.1,
+      "avg_stars": 251.2,
       "avg_forks": 34.0,
-      "min_stars": 24.5,
-      "max_stars": 728.7,
+      "min_stars": 24.6,
+      "max_stars": 728.8,
       "min_forks": 5.1,
-      "max_forks": 94.1
+      "max_forks": 94.2
     },
     "security": {
       "repos": 158,
@@ -158,7 +158,7 @@
       "min_stars": 7.4,
       "max_stars": 114.6,
       "min_forks": 1.5,
-      "max_forks": 17.4
+      "max_forks": 17.5
     }
   },
   {
@@ -168,7 +168,7 @@
       "avg_stars": 41.6,
       "avg_forks": 7.4,
       "min_stars": 3.0,
-      "max_stars": 89.3,
+      "max_stars": 89.2,
       "min_forks": 1.0,
       "max_forks": 16.0
     },
@@ -177,7 +177,7 @@
       "avg_stars": 68.4,
       "avg_forks": 11.8,
       "min_stars": 41.0,
-      "max_stars": 89.3,
+      "max_stars": 89.2,
       "min_forks": 7.4,
       "max_forks": 16.0
     },
@@ -194,31 +194,31 @@
   {
     "year": 2024,
     "all": {
-      "repos": 392,
-      "avg_stars": 25.2,
-      "avg_forks": 3.3,
+      "repos": 316,
+      "avg_stars": 25.9,
+      "avg_forks": 3.6,
       "min_stars": 3.5,
       "max_stars": 77.9,
       "min_forks": 0.4,
       "max_forks": 12.4
     },
     "systems": {
-      "repos": 94,
-      "avg_stars": 53.4,
+      "repos": 90,
+      "avg_stars": 53.8,
       "avg_forks": 7.1,
-      "min_stars": 21.7,
+      "min_stars": 21.8,
       "max_stars": 77.9,
       "min_forks": 2.4,
       "max_forks": 12.4
     },
     "security": {
-      "repos": 298,
-      "avg_stars": 16.3,
-      "avg_forks": 2.1,
+      "repos": 226,
+      "avg_stars": 14.8,
+      "avg_forks": 2.2,
       "min_stars": 3.5,
-      "max_stars": 21.3,
+      "max_stars": 21.5,
       "min_forks": 0.4,
-      "max_forks": 2.7
+      "max_forks": 2.9
     }
   },
   {
@@ -228,25 +228,25 @@
       "avg_stars": 9.6,
       "avg_forks": 1.5,
       "min_stars": 1.7,
-      "max_stars": 89.9,
+      "max_stars": 90.1,
       "min_forks": 0.0,
       "max_forks": 9.1
     },
     "systems": {
       "repos": 23,
-      "avg_stars": 18.4,
+      "avg_stars": 18.5,
       "avg_forks": 3.8,
-      "min_stars": 18.4,
-      "max_stars": 18.4,
+      "min_stars": 18.5,
+      "max_stars": 18.5,
       "min_forks": 3.8,
       "max_forks": 3.8
     },
     "security": {
       "repos": 153,
-      "avg_stars": 8.2,
+      "avg_stars": 8.3,
       "avg_forks": 1.2,
       "min_stars": 1.7,
-      "max_stars": 89.9,
+      "max_stars": 90.1,
       "min_forks": 0.0,
       "max_forks": 9.1
     }

@@ -537,21 +537,21 @@
   },
   {
     "affiliation": "Columbia University",
-    "combined_score": 150,
-    "artifact_score": 81,
+    "combined_score": 162,
+    "artifact_score": 87,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 69,
-    "ae_ratio": 1.17,
+    "ae_score": 75,
+    "ae_ratio": 1.16,
     "role": "Balanced",
-    "artifacts": 31,
-    "badges_functional": 28,
-    "badges_reproducible": 25,
-    "ae_memberships": 23,
+    "artifacts": 33,
+    "badges_functional": 30,
+    "badges_reproducible": 27,
+    "ae_memberships": 25,
     "chair_count": 0,
-    "total_papers": 54,
-    "artifact_rate": 57.4,
-    "num_authors": 24,
+    "total_papers": 58,
+    "artifact_rate": 56.9,
+    "num_authors": 25,
     "conferences": [
       "ATC",
       "EUROSYS",
@@ -560,14 +560,14 @@
       "SOSP"
     ],
     "years": {
-      "2025": 11,
+      "2025": 12,
       "2024": 12,
       "2023": 9,
-      "2022": 9,
+      "2022": 11,
       "2021": 8,
       "2020": 1,
       "2019": 1,
-      "2026": 3
+      "2026": 4
     }
   },
   {
@@ -1749,41 +1749,6 @@
     }
   },
   {
-    "affiliation": "Rutgers University",
-    "combined_score": 70,
-    "artifact_score": 17,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 53,
-    "ae_ratio": 0.32,
-    "role": "Consumer",
-    "artifacts": 6,
-    "badges_functional": 6,
-    "badges_reproducible": 5,
-    "ae_memberships": 17,
-    "chair_count": 1,
-    "total_papers": 12,
-    "artifact_rate": 50.0,
-    "num_authors": 10,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2024": 4,
-      "2025": 10,
-      "2026": 2,
-      "2023": 2,
-      "2022": 2,
-      "2021": 2,
-      "2020": 1,
-      "2019": 0
-    }
-  },
-  {
     "affiliation": "University of Massachusetts Amherst",
     "combined_score": 69,
     "artifact_score": 6,
@@ -1953,6 +1918,41 @@
       "2020": 1,
       "2019": 0,
       "2026": 1
+    }
+  },
+  {
+    "affiliation": "Rutgers University",
+    "combined_score": 58,
+    "artifact_score": 11,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 47,
+    "ae_ratio": 0.23,
+    "role": "Consumer",
+    "artifacts": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 3,
+    "ae_memberships": 15,
+    "chair_count": 1,
+    "total_papers": 8,
+    "artifact_rate": 50.0,
+    "num_authors": 9,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2024": 4,
+      "2025": 9,
+      "2026": 1,
+      "2023": 2,
+      "2022": 0,
+      "2021": 2,
+      "2020": 1,
+      "2019": 0
     }
   },
   {
