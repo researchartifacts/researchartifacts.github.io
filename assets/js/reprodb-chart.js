@@ -43,8 +43,8 @@
   function T() { return isDark() ? DARK : LIGHT; }
 
   var SVG_NS = 'http://www.w3.org/2000/svg';
-  var DEFAULT_W = 600;
-  var DEFAULT_H = 320;
+  var DEFAULT_W = 900;
+  var DEFAULT_H = 420;
   var FONT = '11px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif';
   var TITLE_FONT = 'bold 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif';
 

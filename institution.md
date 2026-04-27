@@ -25,7 +25,7 @@ layout: default
 .badge-available { background:#3498db; }
 .badge-functional { background:#27ae60; }
 .badge-reproducible, .badge-reproduced, .badge-reusable { background:#8e44ad; }
-.chart-container { max-width:700px; margin:16px 0; }
+.chart-container { max-width:1050px; margin:16px 0; }
 #inst-loading { color:#888; font-style:italic; }
 .pag-controls { margin:8px 0; font-size:0.9em; }
 .pag-controls button { padding:2px 8px; font-size:0.9em; }
@@ -52,7 +52,7 @@ layout: default
 
   <div id="inst-history-section" style="display:none;">
     <h3>Ranking History</h3>
-    <div class="chart-container"><canvas id="instHistoryChart" height="220"></canvas></div>
+    <div class="chart-container"><canvas id="instHistoryChart" height="290"></canvas></div>
   </div>
 
   <div id="inst-contributors-section" style="display:none;">

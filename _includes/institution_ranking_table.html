@@ -92,11 +92,11 @@
     {label:'AS',               key:'artifact_score',    type:'num',   tip:'Artifact score: sum of all artifact badges'},
     {label:'AES',              key:'ae_score',          type:'num',   tip:'AE service score: sum of committee service'},
     {label:'A:E',              key:'ae_ratio',          type:'num',   tip:'Artifact:Evaluation ratio (artifact_score/ae_score)'},
-    {label:'R',                key:'author_count',       type:'num',   tip:'Researchers'},
+    {label:'R',                key:'num_authors',       type:'num',   tip:'Researchers'},
     {label:'Ar',               key:'artifacts',         type:'num',   tip:'Total artifacts'},
     {label:'P',                key:'total_papers',      type:'num',   tip:'Total papers'},
-    {label:'AR%',              key:'artifact_pct',     type:'num',   tip:'Artifact rate: % papers with artifact'},
-    {label:'RR%',              key:'repro_pct',        type:'num',   tip:'Reproducibility rate: % artifacts Reproduced'},
+    {label:'AR%',              key:'artifact_rate',     type:'num',   tip:'Artifact rate: % papers with artifact'},
+    {label:'RR%',              key:'repro_rate',        type:'num',   tip:'Reproducibility rate: % artifacts Reproduced'},
     {label:'AE',               key:'ae_memberships',    type:'num',   tip:'AE memberships'},
     {label:'Ch',               key:'chair_count',       type:'num',   tip:'Times chaired (★)'}
   ];
@@ -537,10 +537,10 @@
       // Display infinity symbol for null ae_ratio (no AE service)
       var aeRatioDisplay = (inst.ae_ratio === null || inst.ae_ratio === undefined) ? '∞' : (inst.ae_ratio === 0 ? '0' : inst.ae_ratio);
       cells.push('<td>' + aeRatioDisplay + '</td>');
-      cells.push('<td>' + (inst.author_count || '') + '</td>');
-      cells.push('<td>' + (inst.artifact_count || '') + '</td>');
+      cells.push('<td>' + (inst.num_authors || '') + '</td>');
+      cells.push('<td>' + (inst.artifacts || '') + '</td>');
       cells.push('<td>' + (inst.total_papers || '') + '</td>');
-      cells.push('<td>' + (inst.total_papers > 0 ? inst.artifact_pct + '%' : '') + '</td>');
+      cells.push('<td>' + (inst.total_papers > 0 ? inst.artifact_rate + '%' : '') + '</td>');
       // Calculate repro rate from badges
       var reproRate = 0;
       if (inst.badges_functional > 0 || inst.badges_reproducible > 0) {
@@ -605,7 +605,7 @@
           if (histLabels.length >= 2) {
             var chartId = 'instChart-' + instId;
             expandedContent += '<div style="margin-top:12px;"><strong>Score History:</strong>';
-            expandedContent += '<div style="max-width:500px;"><canvas id="' + chartId + '" height="150"></canvas></div></div>';
+            expandedContent += '<div style="max-width:750px;"><canvas id="' + chartId + '" height="195"></canvas></div></div>';
           }
         }
         expandedContent += '</div></td>';

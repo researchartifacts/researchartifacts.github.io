@@ -33,7 +33,7 @@ layout: default
 .ae-table th, .ae-table td { padding:6px 10px; border:1px solid #ddd; text-align:left; }
 .ae-table th { background:#f2f2f2; }
 .ae-table tr:nth-child(even) { background:#fafafa; }
-.chart-container { max-width:700px; margin:16px 0; }
+.chart-container { max-width:1050px; margin:16px 0; }
 #loading-msg { color:#888; font-style:italic; }
 .category-tag { display:inline-block; padding:1px 7px; border-radius:3px; font-size:0.78em; color:#fff; margin-left:6px; }
 .cat-systems { background:#2980b9; }
@@ -58,7 +58,7 @@ layout: default
 
   <div id="chart-section" style="display:none;">
     <h3>Contributions Over Time</h3>
-    <div class="chart-container"><canvas id="timelineChart" height="220"></canvas></div>
+    <div class="chart-container"><canvas id="timelineChart" height="290"></canvas></div>
   </div>
 
   <div id="papers-section" style="display:none;">
@@ -89,7 +89,7 @@ layout: default
 
   <div id="history-section" style="display:none;">
     <h3>Ranking History</h3>
-    <div class="chart-container"><canvas id="historyChart" height="220"></canvas></div>
+    <div class="chart-container"><canvas id="historyChart" height="290"></canvas></div>
   </div>
 </div>
 

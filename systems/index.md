@@ -11,8 +11,8 @@ Each cell shows **total (available, functional, reproduced)**.
 
 ## Artifacts per Conference
 
-<div style="width:100%; max-width:400px; margin:1em 0;">
-<canvas id="sysConfChart" height="200"></canvas>
+<div style="width:100%; max-width:600px; margin:1em 0;">
+<canvas id="sysConfChart" height="260"></canvas>
 </div>
 
 | Conference | Total | {% for y in site.data.artifacts_by_year reversed %}{{ y.year }} | {% endfor %}
