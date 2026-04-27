@@ -300,6 +300,55 @@
     "last_year": 2026
   },
   {
+    "name": "Jan Jancar",
+    "display_name": "Jan Jancar",
+    "affiliation": "Masaryk University",
+    "total_memberships": 6,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "CHES",
+        2023,
+        "member"
+      ],
+      [
+        "CHES",
+        2025,
+        "member"
+      ],
+      [
+        "NDSS",
+        2025,
+        "member"
+      ],
+      [
+        "NDSS",
+        2026,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "first_year": 2021,
+    "last_year": 2026
+  },
+  {
     "name": "Jessy Ayala",
     "display_name": "Jessy Ayala",
     "affiliation": "University of California, Irvine",
@@ -682,6 +731,49 @@
     "last_year": 2025
   },
   {
+    "name": "Lennert Wouters",
+    "display_name": "Lennert Wouters",
+    "affiliation": "KU Leuven",
+    "total_memberships": 5,
+    "chair_count": 1,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "CHES",
+        2024,
+        "member"
+      ],
+      [
+        "CHES",
+        2025,
+        "chair"
+      ],
+      [
+        "WOOT",
+        2024,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025
+  },
+  {
     "name": "Alessandro Erba",
     "display_name": "Alessandro Erba",
     "affiliation": "Karlsruhe Institute of Technology",
@@ -1021,49 +1113,6 @@
     "last_year": 2025
   },
   {
-    "name": "Jan Jancar",
-    "display_name": "Jan Jancar",
-    "affiliation": "Masaryk University",
-    "total_memberships": 5,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ],
-      [
-        "CHES",
-        2023,
-        "member"
-      ],
-      [
-        "CHES",
-        2025,
-        "member"
-      ],
-      [
-        "NDSS",
-        2025,
-        "member"
-      ],
-      [
-        "NDSS",
-        2026,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1,
-      "2023": 1,
-      "2025": 2,
-      "2026": 1
-    },
-    "first_year": 2022,
-    "last_year": 2026
-  },
-  {
     "name": "Kevin Borgolte",
     "display_name": "Kevin Borgolte",
     "affiliation": "Ruhr University Bochum",
@@ -1105,6 +1154,49 @@
     },
     "first_year": 2019,
     "last_year": 2023
+  },
+  {
+    "name": "Kris Kwiatkowski",
+    "display_name": "Kris Kwiatkowski",
+    "affiliation": "PQShield",
+    "total_memberships": 5,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2024,
+        "member"
+      ],
+      [
+        "CHES",
+        2025,
+        "member"
+      ],
+      [
+        "PETS",
+        2023,
+        "member"
+      ],
+      [
+        "PETS",
+        2024,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025
   },
   {
     "name": "Nathan Rutherford",
@@ -1564,43 +1656,6 @@
     "last_year": 2026
   },
   {
-    "name": "Lennert Wouters",
-    "display_name": "Lennert Wouters",
-    "affiliation": "KU Leuven",
-    "total_memberships": 4,
-    "chair_count": 1,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ],
-      [
-        "CHES",
-        2024,
-        "member"
-      ],
-      [
-        "CHES",
-        2025,
-        "chair"
-      ],
-      [
-        "WOOT",
-        2024,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1,
-      "2024": 2,
-      "2025": 1
-    },
-    "first_year": 2022,
-    "last_year": 2025
-  },
-  {
     "name": "Alessandro Baccarini",
     "display_name": "Alessandro Baccarini",
     "affiliation": "Input Output",
@@ -1746,6 +1801,43 @@
     },
     "first_year": 2024,
     "last_year": 2025
+  },
+  {
+    "name": "Cecylia Bocovich",
+    "display_name": "Cecylia Bocovich",
+    "affiliation": "The Tor Project",
+    "total_memberships": 4,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "PETS",
+        2020,
+        "member"
+      ],
+      [
+        "PETS",
+        2021,
+        "member"
+      ],
+      [
+        "PETS",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2020": 1,
+      "2021": 2,
+      "2022": 1
+    },
+    "first_year": 2020,
+    "last_year": 2022
   },
   {
     "name": "Christof Ferreira Torres",
@@ -2337,43 +2429,6 @@
     },
     "first_year": 2024,
     "last_year": 2026
-  },
-  {
-    "name": "Kris Kwiatkowski",
-    "display_name": "Kris Kwiatkowski",
-    "affiliation": "PQShield",
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2024,
-        "member"
-      ],
-      [
-        "CHES",
-        2025,
-        "member"
-      ],
-      [
-        "PETS",
-        2023,
-        "member"
-      ],
-      [
-        "PETS",
-        2024,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1,
-      "2024": 2,
-      "2025": 1
-    },
-    "first_year": 2023,
-    "last_year": 2025
   },
   {
     "name": "Kun Sun",
@@ -3476,6 +3531,37 @@
     "last_year": 2026
   },
   {
+    "name": "Alejandro Cabrera Aldaya",
+    "display_name": "Alejandro Cabrera Aldaya",
+    "affiliation": "Tampere University",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 2
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
     "name": "Alexander Bajic",
     "display_name": "Alexander Bajic",
     "affiliation": "Freie Universität Berlin",
@@ -3792,6 +3878,38 @@
     "last_year": 2023
   },
   {
+    "name": "Ben Marshall",
+    "display_name": "Ben Marshall",
+    "affiliation": "PQShield",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "CHES",
+        2025,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025
+  },
+  {
     "name": "Billy Tsouvalas",
     "display_name": "Billy Tsouvalas",
     "affiliation": "Stony Brook University",
@@ -3890,38 +4008,6 @@
     "name": "Carolin Zöbelein",
     "display_name": "Carolin Zöbelein",
     "affiliation": "Independent Researcher",
-    "total_memberships": 3,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "PETS",
-        2020,
-        "member"
-      ],
-      [
-        "PETS",
-        2021,
-        "member"
-      ],
-      [
-        "PETS",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2020": 1,
-      "2021": 1,
-      "2022": 1
-    },
-    "first_year": 2020,
-    "last_year": 2022
-  },
-  {
-    "name": "Cecylia Bocovich",
-    "display_name": "Cecylia Bocovich",
-    "affiliation": "The Tor Project",
     "total_memberships": 3,
     "chair_count": 0,
     "conferences": [
@@ -5437,6 +5523,38 @@
     "last_year": 2026
   },
   {
+    "name": "Norman Lahr",
+    "display_name": "Norman Lahr",
+    "affiliation": "Fraunhofer SIT",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "CHES",
+        2023,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2021,
+    "last_year": 2023
+  },
+  {
     "name": "Nurullah Demir",
     "display_name": "Nurullah Demir",
     "affiliation": "Institut for Internet Security",
@@ -5719,6 +5837,38 @@
     },
     "first_year": 2025,
     "last_year": 2026
+  },
+  {
+    "name": "Richard Petri",
+    "display_name": "Richard Petri",
+    "affiliation": "Fraunhofer SIT",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ],
+      [
+        "CHES",
+        2023,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2021,
+    "last_year": 2023
   },
   {
     "name": "Shangqi Lai",
@@ -6845,29 +6995,30 @@
     "last_year": 2025
   },
   {
-    "name": "Alejandro Cabrera Aldaya",
-    "display_name": "Alejandro Cabrera Aldaya",
-    "affiliation": "Tampere University",
+    "name": "Akira Takahashi",
+    "display_name": "Akira Takahashi",
+    "affiliation": "University of Edinburgh",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
       [
         "CHES",
-        2022,
+        2021,
         "member"
       ],
       [
-        "USENIXSEC",
-        2022,
+        "CHES",
+        2023,
         "member"
       ]
     ],
     "area": "security",
     "years": {
-      "2022": 2
+      "2021": 1,
+      "2023": 1
     },
-    "first_year": 2022,
-    "last_year": 2022
+    "first_year": 2021,
+    "last_year": 2023
   },
   {
     "name": "Aleksei Stafeev",
@@ -7258,32 +7409,6 @@
     "last_year": 2023
   },
   {
-    "name": "Ben Marshall",
-    "display_name": "Ben Marshall",
-    "affiliation": "PQShield",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ],
-      [
-        "CHES",
-        2025,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1,
-      "2025": 1
-    },
-    "first_year": 2022,
-    "last_year": 2025
-  },
-  {
     "name": "Benjamin Mixon-Baca",
     "display_name": "Benjamin Mixon-Baca",
     "affiliation": "Arizona State University/Breakpointing Bad",
@@ -7438,6 +7563,32 @@
     },
     "first_year": 2023,
     "last_year": 2024
+  },
+  {
+    "name": "Cesar Pereida Garcia",
+    "display_name": "Cesar Pereida Garcia",
+    "affiliation": "Tampere University",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
   },
   {
     "name": "Charlie Jacomme",
@@ -7674,6 +7825,32 @@
     "last_year": 2026
   },
   {
+    "name": "Duy-Phuc Pham",
+    "display_name": "Duy-Phuc Pham",
+    "affiliation": "Inria",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "USENIXSEC",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
     "name": "Eduard Vlad",
     "display_name": "Eduard Vlad",
     "affiliation": "EPFL",
@@ -7777,6 +7954,32 @@
     "last_year": 2024
   },
   {
+    "name": "Erdem Alkim",
+    "display_name": "Erdem Alkim",
+    "affiliation": "Dokuz Eylul University",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
     "name": "Eric Pauley",
     "display_name": "Eric Pauley",
     "affiliation": "University of Wisconsin-Madison",
@@ -7801,6 +8004,32 @@
     },
     "first_year": 2023,
     "last_year": 2024
+  },
+  {
+    "name": "Estuardo Alpirez Bock",
+    "display_name": "Estuardo Alpirez Bock",
+    "affiliation": "Aalto University",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
   },
   {
     "name": "Fabian Bäumer",
@@ -8683,6 +8912,32 @@
     "last_year": 2023
   },
   {
+    "name": "James Howe",
+    "display_name": "James Howe",
+    "affiliation": "PQShield",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
     "name": "Jan Niklas Drescher",
     "display_name": "Jan Niklas Drescher",
     "affiliation": "TU Darmstadt",
@@ -8988,6 +9243,58 @@
     },
     "first_year": 2023,
     "last_year": 2024
+  },
+  {
+    "name": "Joost Renes",
+    "display_name": "Joost Renes",
+    "affiliation": "NXP Semiconductors",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
+    "name": "Joppe W. Bos",
+    "display_name": "Joppe W. Bos",
+    "affiliation": "NXP Semiconductors",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2025,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025
   },
   {
     "name": "Jost Rossel",
@@ -10149,30 +10456,30 @@
     "last_year": 2023
   },
   {
-    "name": "Norman Lahr",
-    "display_name": "Norman Lahr",
-    "affiliation": "Fraunhofer SIT",
+    "name": "Olivier Bronchain",
+    "display_name": "Olivier Bronchain",
+    "affiliation": "Université Catholique de Louvain",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
       [
         "CHES",
-        2022,
+        2021,
         "member"
       ],
       [
         "CHES",
-        2023,
+        2022,
         "member"
       ]
     ],
     "area": "security",
     "years": {
-      "2022": 1,
-      "2023": 1
+      "2021": 1,
+      "2022": 1
     },
-    "first_year": 2022,
-    "last_year": 2023
+    "first_year": 2021,
+    "last_year": 2022
   },
   {
     "name": "Omer Akgul",
@@ -10305,6 +10612,32 @@
     "last_year": 2026
   },
   {
+    "name": "Pedro G. M. R. Alves",
+    "display_name": "Pedro G. M. R. Alves",
+    "affiliation": "University of Campinas",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
+  },
+  {
     "name": "Phi Hung Le",
     "display_name": "Phi Hung Le",
     "affiliation": "Google",
@@ -10355,6 +10688,32 @@
     },
     "first_year": 2022,
     "last_year": 2026
+  },
+  {
+    "name": "Pranesh Santikellur",
+    "display_name": "Pranesh Santikellur",
+    "affiliation": "Indian Institute of Technology Kharagpur",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
   },
   {
     "name": "Pujan Paudel",
@@ -10564,32 +10923,6 @@
     "last_year": 2018
   },
   {
-    "name": "Richard Petri",
-    "display_name": "Richard Petri",
-    "affiliation": "Fraunhofer SIT",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ],
-      [
-        "CHES",
-        2023,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1,
-      "2023": 1
-    },
-    "first_year": 2022,
-    "last_year": 2023
-  },
-  {
     "name": "Rishit Saiya",
     "display_name": "Rishit Saiya",
     "affiliation": "Cyber Defense",
@@ -10640,6 +10973,32 @@
     },
     "first_year": 2024,
     "last_year": 2025
+  },
+  {
+    "name": "Robert Primas",
+    "display_name": "Robert Primas",
+    "affiliation": "Graz University of Technology",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ],
+      [
+        "CHES",
+        2022,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022
   },
   {
     "name": "Rui Zhu",
@@ -13128,26 +13487,6 @@
     "last_year": 2022
   },
   {
-    "name": "Akira Takahashi",
-    "display_name": "Akira Takahashi",
-    "affiliation": "University of Edinburgh",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2023,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1
-    },
-    "first_year": 2023,
-    "last_year": 2023
-  },
-  {
     "name": "Alex Ozdemir",
     "display_name": "Alex Ozdemir",
     "affiliation": "Stanford University",
@@ -13706,6 +14045,26 @@
     },
     "first_year": 2018,
     "last_year": 2018
+  },
+  {
+    "name": "Andreas Abel",
+    "display_name": "Andreas Abel",
+    "affiliation": "Saarland University",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Andreas Brüggemann",
@@ -14906,26 +15265,6 @@
     },
     "first_year": 2023,
     "last_year": 2023
-  },
-  {
-    "name": "Cesar Pereida Garcia",
-    "display_name": "Cesar Pereida Garcia",
-    "affiliation": "Tampere University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "USENIXSEC",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
   },
   {
     "name": "Chamikara M.A.P.",
@@ -16168,26 +16507,6 @@
     "last_year": 2024
   },
   {
-    "name": "Duy-Phuc Pham",
-    "display_name": "Duy-Phuc Pham",
-    "affiliation": "Inria",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "USENIXSEC",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
     "name": "Eduardo Blazquez",
     "display_name": "Eduardo Blazquez",
     "affiliation": "Universidad Carlos III de Madrid",
@@ -16428,26 +16747,6 @@
     "last_year": 2021
   },
   {
-    "name": "Erdem Alkim",
-    "display_name": "Erdem Alkim",
-    "affiliation": "Dokuz Eylul University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
     "name": "Eric García Arribas",
     "display_name": "Eric García Arribas",
     "affiliation": "Graz University of Technology",
@@ -16516,26 +16815,6 @@
     "conferences": [
       [
         "USENIXSEC",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
-    "name": "Estuardo Alpirez Bock",
-    "display_name": "Estuardo Alpirez Bock",
-    "affiliation": "Aalto University",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
         2022,
         "member"
       ]
@@ -17088,6 +17367,26 @@
     "last_year": 2020
   },
   {
+    "name": "François Gérard",
+    "display_name": "François Gérard",
+    "affiliation": "University of Luxembourg",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
+  },
+  {
     "name": "Frederic RECOULES",
     "display_name": "Frederic RECOULES",
     "affiliation": "Université Grenoble Alpes",
@@ -17606,6 +17905,26 @@
     },
     "first_year": 2020,
     "last_year": 2020
+  },
+  {
+    "name": "Gustavo Banegas",
+    "display_name": "Gustavo Banegas",
+    "affiliation": "Chalmers University of Technology",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Gustavo Sánchez",
@@ -18768,26 +19087,6 @@
     "last_year": 2018
   },
   {
-    "name": "James Howe",
-    "display_name": "James Howe",
-    "affiliation": "PQShield",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
     "name": "Jan Drescher",
     "display_name": "Jan Drescher",
     "affiliation": "TU Braunschweig",
@@ -19608,46 +19907,6 @@
     "last_year": 2026
   },
   {
-    "name": "Joost Renes",
-    "display_name": "Joost Renes",
-    "affiliation": "NXP Semiconductors",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
-    "name": "Joppe W. Bos",
-    "display_name": "Joppe W. Bos",
-    "affiliation": "NXP Semiconductors",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2025,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
     "name": "Jordan Jenkins",
     "display_name": "Jordan Jenkins",
     "affiliation": "Brigham Young University",
@@ -20046,6 +20305,26 @@
     },
     "first_year": 2026,
     "last_year": 2026
+  },
+  {
+    "name": "Junwei Wang",
+    "display_name": "Junwei Wang",
+    "affiliation": "CryptoExperts",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Juraj Somorovsky",
@@ -20876,6 +21155,26 @@
     "conferences": [
       [
         "USENIXSEC",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
+  },
+  {
+    "name": "Lauren De Meyer",
+    "display_name": "Lauren De Meyer",
+    "affiliation": "KU Leuven",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
         2021,
         "member"
       ]
@@ -21966,6 +22265,26 @@
     },
     "first_year": 2023,
     "last_year": 2023
+  },
+  {
+    "name": "Martin R. Albrecht",
+    "display_name": "Martin R. Albrecht",
+    "affiliation": "Royal Holloway",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Mary Ellen Zurko",
@@ -23668,6 +23987,26 @@
     "last_year": 2024
   },
   {
+    "name": "Natalia Kulatova",
+    "display_name": "Natalia Kulatova",
+    "affiliation": "Inria",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
+  },
+  {
     "name": "Natasha Fernandes",
     "display_name": "Natasha Fernandes",
     "affiliation": "Macquarie University",
@@ -23846,6 +24185,26 @@
     },
     "first_year": 2023,
     "last_year": 2023
+  },
+  {
+    "name": "Nigel Smart",
+    "display_name": "Nigel Smart",
+    "affiliation": "KU Leuven",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Nikesh Gyawali",
@@ -24096,26 +24455,6 @@
     "conferences": [
       [
         "ACSAC",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
-    "name": "Olivier Bronchain",
-    "display_name": "Olivier Bronchain",
-    "affiliation": "Université Catholique de Louvain",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
         2022,
         "member"
       ]
@@ -24388,26 +24727,6 @@
     "last_year": 2023
   },
   {
-    "name": "Pedro G. M. R. Alves",
-    "display_name": "Pedro G. M. R. Alves",
-    "affiliation": "University of Campinas",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
-  },
-  {
     "name": "Pedro Maat Costa Massolino",
     "display_name": "Pedro Maat Costa Massolino",
     "affiliation": "PQShield",
@@ -24506,6 +24825,26 @@
     },
     "first_year": 2024,
     "last_year": 2024
+  },
+  {
+    "name": "Pepe Vila",
+    "display_name": "Pepe Vila",
+    "affiliation": "Arm",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Petar Paradžik",
@@ -24686,26 +25025,6 @@
     },
     "first_year": 2023,
     "last_year": 2023
-  },
-  {
-    "name": "Pranesh Santikellur",
-    "display_name": "Pranesh Santikellur",
-    "affiliation": "Indian Institute of Technology Kharagpur",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
   },
   {
     "name": "Prasanna Ravi",
@@ -25128,6 +25447,26 @@
     "last_year": 2023
   },
   {
+    "name": "Raghvendra Rohit",
+    "display_name": "Raghvendra Rohit",
+    "affiliation": "University of Rennes",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
+  },
+  {
     "name": "Rahmadi Trimananda",
     "display_name": "Rahmadi Trimananda",
     "affiliation": "University of California, Irvine",
@@ -25466,26 +25805,6 @@
     },
     "first_year": 2020,
     "last_year": 2020
-  },
-  {
-    "name": "Robert Primas",
-    "display_name": "Robert Primas",
-    "affiliation": "Graz University of Technology",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      [
-        "CHES",
-        2022,
-        "member"
-      ]
-    ],
-    "area": "security",
-    "years": {
-      "2022": 1
-    },
-    "first_year": 2022,
-    "last_year": 2022
   },
   {
     "name": "Roberto Perdisci (AE Chair)",
@@ -26848,6 +27167,26 @@
     "last_year": 2022
   },
   {
+    "name": "Shivam Bhasin",
+    "display_name": "Shivam Bhasin",
+    "affiliation": "Nanyang Technological University",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
+  },
+  {
     "name": "Shivan Sahib",
     "display_name": "Shivan Sahib",
     "affiliation": "Salesforce",
@@ -27266,6 +27605,26 @@
     },
     "first_year": 2025,
     "last_year": 2025
+  },
+  {
+    "name": "Sohaib ul Hassan",
+    "display_name": "Sohaib ul Hassan",
+    "affiliation": "Tampere University",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      [
+        "CHES",
+        2021,
+        "member"
+      ]
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021
   },
   {
     "name": "Son Ho",

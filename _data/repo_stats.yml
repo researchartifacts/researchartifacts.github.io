@@ -9,7 +9,7 @@ overall:
   total_downloads: 194646
   avg_stars: 94.3
   avg_forks: 12.3
-  last_updated: 2026-04-27 16:24:19 UTC
+  last_updated: 2026-04-27 21:26:09 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -22,56 +22,56 @@ by_conference:
   years:
   - year: 2017
     github_repos: 5
-    stars: 48
-    forks: 20
+    total_stars: 48
+    total_forks: 20
     avg_stars: 9.6
     avg_forks: 4.0
   - year: 2018
     github_repos: 13
-    stars: 806
-    forks: 218
+    total_stars: 806
+    total_forks: 218
     avg_stars: 62.0
     avg_forks: 16.8
   - year: 2019
     github_repos: 15
-    stars: 493
-    forks: 124
+    total_stars: 493
+    total_forks: 124
     avg_stars: 32.9
     avg_forks: 8.3
   - year: 2020
     github_repos: 18
-    stars: 935
-    forks: 241
+    total_stars: 935
+    total_forks: 241
     avg_stars: 51.9
     avg_forks: 13.4
   - year: 2021
     github_repos: 16
-    stars: 223
-    forks: 40
+    total_stars: 223
+    total_forks: 40
     avg_stars: 13.9
     avg_forks: 2.5
   - year: 2022
     github_repos: 33
-    stars: 245
-    forks: 50
+    total_stars: 245
+    total_forks: 50
     avg_stars: 7.4
     avg_forks: 1.5
   - year: 2023
     github_repos: 27
-    stars: 152
-    forks: 28
+    total_stars: 152
+    total_forks: 28
     avg_stars: 5.6
     avg_forks: 1.0
   - year: 2024
     github_repos: 31
-    stars: 109
-    forks: 11
+    total_stars: 109
+    total_forks: 11
     avg_stars: 3.5
     avg_forks: 0.4
   - year: 2025
     github_repos: 47
-    stars: 79
-    forks: 14
+    total_stars: 79
+    total_forks: 14
     avg_stars: 1.7
     avg_forks: 0.3
   top_repos:
@@ -145,20 +145,20 @@ by_conference:
   years:
   - year: 2022
     github_repos: 37
-    stars: 909
-    forks: 187
+    total_stars: 909
+    total_forks: 187
     avg_stars: 24.6
     avg_forks: 5.1
   - year: 2023
     github_repos: 35
-    stars: 3123
-    forks: 561
+    total_stars: 3123
+    total_forks: 561
     avg_stars: 89.2
     avg_forks: 16.0
   - year: 2024
     github_repos: 36
-    stars: 783
-    forks: 85
+    total_stars: 783
+    total_forks: 85
     avg_stars: 21.8
     avg_forks: 2.4
   top_repos:
@@ -233,20 +233,20 @@ by_conference:
   years:
   - year: 2021
     github_repos: 21
-    stars: 1008
-    forks: 150
+    total_stars: 1008
+    total_forks: 150
     avg_stars: 48.0
     avg_forks: 7.1
   - year: 2022
     github_repos: 32
-    stars: 1615
-    forks: 293
+    total_stars: 1615
+    total_forks: 293
     avg_stars: 50.5
     avg_forks: 9.2
   - year: 2025
     github_repos: 23
-    stars: 425
-    forks: 87
+    total_stars: 425
+    total_forks: 87
     avg_stars: 18.5
     avg_forks: 3.8
   top_repos:
@@ -327,32 +327,32 @@ by_conference:
   years:
   - year: 2020
     github_repos: 34
-    stars: 27976
-    forks: 3372
+    total_stars: 27976
+    total_forks: 3372
     avg_stars: 822.8
     avg_forks: 99.2
   - year: 2021
     github_repos: 18
-    stars: 802
-    forks: 171
+    total_stars: 802
+    total_forks: 171
     avg_stars: 44.6
     avg_forks: 9.5
   - year: 2022
     github_repos: 31
-    stars: 22593
-    forks: 2920
+    total_stars: 22593
+    total_forks: 2920
     avg_stars: 728.8
     avg_forks: 94.2
   - year: 2023
     github_repos: 25
-    stars: 1745
-    forks: 275
+    total_stars: 1745
+    total_forks: 275
     avg_stars: 69.8
     avg_forks: 11.0
   - year: 2024
     github_repos: 30
-    stars: 2187
-    forks: 256
+    total_stars: 2187
+    total_forks: 256
     avg_stars: 72.9
     avg_forks: 8.5
   top_repos:
@@ -427,44 +427,44 @@ by_conference:
   years:
   - year: 2020
     github_repos: 15
-    stars: 3489
-    forks: 470
+    total_stars: 3489
+    total_forks: 470
     avg_stars: 232.6
     avg_forks: 31.3
   - year: 2021
     github_repos: 21
-    stars: 13144
-    forks: 722
+    total_stars: 13144
+    total_forks: 722
     avg_stars: 625.9
     avg_forks: 34.4
   - year: 2022
     github_repos: 34
-    stars: 3897
-    forks: 594
+    total_stars: 3897
+    total_forks: 594
     avg_stars: 114.6
     avg_forks: 17.5
   - year: 2023
     github_repos: 39
-    stars: 560
-    forks: 111
+    total_stars: 560
+    total_forks: 111
     avg_stars: 14.4
     avg_forks: 2.8
   - year: 2024
     github_repos: 59
-    stars: 421
-    forks: 91
+    total_stars: 421
+    total_forks: 91
     avg_stars: 7.1
     avg_forks: 1.5
   - year: 2025
     github_repos: 91
-    stars: 451
-    forks: 94
+    total_stars: 451
+    total_forks: 94
     avg_stars: 5.0
     avg_forks: 1.0
   - year: 2026
     github_repos: 35
-    stars: 36
-    forks: 5
+    total_stars: 36
+    total_forks: 5
     avg_stars: 1.0
     avg_forks: 0.1
   top_repos:
@@ -476,8 +476,8 @@ by_conference:
     area: security
     stars: 12894
     forks: 641
-    description: "Build your own 'AirTags' \U0001F3F7 today! Framework for tracking\
-      \ personal Bluetooth devices via Apple's massive Find My network."
+    description: Build your own 'AirTags' 🏷 today! Framework for tracking personal
+      Bluetooth devices via Apple's massive Find My network.
     language: Swift
     name: seemoo-lab/openhaystack
     pushed_at: '2024-07-09T07:19:10Z'
@@ -536,26 +536,26 @@ by_conference:
   years:
   - year: 2019
     github_repos: 19
-    stars: 1404
-    forks: 400
+    total_stars: 1404
+    total_forks: 400
     avg_stars: 73.9
     avg_forks: 21.1
   - year: 2021
     github_repos: 34
-    stars: 2254
-    forks: 390
+    total_stars: 2254
+    total_forks: 390
     avg_stars: 66.3
     avg_forks: 11.5
   - year: 2023
     github_repos: 28
-    stars: 1149
-    forks: 208
+    total_stars: 1149
+    total_forks: 208
     avg_stars: 41.0
     avg_forks: 7.4
   - year: 2024
     github_repos: 24
-    stars: 1870
-    forks: 297
+    total_stars: 1870
+    total_forks: 297
     avg_stars: 77.9
     avg_forks: 12.4
   top_repos:
@@ -628,20 +628,20 @@ by_conference:
   years:
   - year: 2024
     github_repos: 6
-    stars: 44
-    forks: 11
+    total_stars: 44
+    total_forks: 11
     avg_stars: 7.3
     avg_forks: 1.8
   - year: 2025
     github_repos: 5
-    stars: 11
-    forks: 1
+    total_stars: 11
+    total_forks: 1
     avg_stars: 2.2
     avg_forks: 0.2
   - year: 2026
     github_repos: 6
-    stars: 5
-    forks: 2
+    total_stars: 5
+    total_forks: 2
     avg_stars: 0.8
     avg_forks: 0.3
   top_repos:
@@ -715,38 +715,38 @@ by_conference:
   years:
   - year: 2020
     github_repos: 24
-    stars: 3799
-    forks: 643
+    total_stars: 3799
+    total_forks: 643
     avg_stars: 158.3
     avg_forks: 26.8
   - year: 2021
     github_repos: 25
-    stars: 2051
-    forks: 281
+    total_stars: 2051
+    total_forks: 281
     avg_stars: 82.0
     avg_forks: 11.2
   - year: 2022
     github_repos: 88
-    stars: 5098
-    forks: 735
+    total_stars: 5098
+    total_forks: 735
     avg_stars: 57.9
     avg_forks: 8.4
   - year: 2023
     github_repos: 115
-    stars: 4499
-    forks: 814
+    total_stars: 4499
+    total_forks: 814
     avg_stars: 39.1
     avg_forks: 7.1
   - year: 2024
     github_repos: 124
-    stars: 2665
-    forks: 355
+    total_stars: 2665
+    total_forks: 355
     avg_stars: 21.5
     avg_forks: 2.9
   - year: 2025
     github_repos: 2
-    stars: 4
-    forks: 0
+    total_stars: 4
+    total_forks: 0
     avg_stars: 2.0
     avg_forks: 0.0
   top_repos:
@@ -783,9 +783,9 @@ by_conference:
     language: Python
     name: corkami/mitra
     pushed_at: '2024-12-22T20:29:32Z'
-  - title: "Disrupting Continuity of Apple\u2019s Wireless Ecosystem Security: New\
-      \ Tracking, DoS, and MitM Attacks on iOS and macOS Through Bluetooth Low Energy,\
-      \ AWDL, and Wi-Fi"
+  - title: 'Disrupting Continuity of Apple’s Wireless Ecosystem Security: New Tracking,
+      DoS, and MitM Attacks on iOS and macOS Through Bluetooth Low Energy, AWDL, and
+      Wi-Fi'
     url: https://github.com/seemoo-lab/openwifipass
     conference: USENIXSEC
     year: 2021
@@ -819,38 +819,38 @@ by_conference:
   years:
   - year: 2019
     github_repos: 4
-    stars: 12753
-    forks: 1048
+    total_stars: 12753
+    total_forks: 1048
     avg_stars: 3188.2
     avg_forks: 262.0
   - year: 2021
     github_repos: 1
-    stars: 19
-    forks: 0
+    total_stars: 19
+    total_forks: 0
     avg_stars: 19.0
     avg_forks: 0.0
   - year: 2022
     github_repos: 3
-    stars: 24
-    forks: 11
+    total_stars: 24
+    total_forks: 11
     avg_stars: 8.0
     avg_forks: 3.7
   - year: 2023
     github_repos: 1
-    stars: 3
-    forks: 1
+    total_stars: 3
+    total_forks: 1
     avg_stars: 3.0
     avg_forks: 1.0
   - year: 2024
     github_repos: 6
-    stars: 97
-    forks: 16
+    total_stars: 97
+    total_forks: 16
     avg_stars: 16.2
     avg_forks: 2.7
   - year: 2025
     github_repos: 8
-    stars: 721
-    forks: 73
+    total_stars: 721
+    total_forks: 73
     avg_stars: 90.1
     avg_forks: 9.1
   top_repos:
@@ -889,7 +889,7 @@ by_conference:
     language: Python
     name: fgsect/unicorefuzz
     pushed_at: '2023-01-02T18:12:54Z'
-  - title: "Exploiting Android\u2019s Hardened Memory Allocator"
+  - title: Exploiting Android’s Hardened Memory Allocator
     url: https://github.com/HexHive/scudo-exploitation/tree/woot24
     conference: WOOT
     year: 2024
@@ -900,17 +900,19 @@ by_conference:
     language: Python
     name: HexHive/scudo-exploitation
     pushed_at: '2024-10-21T14:02:23Z'
-  - title: 'RISC-V: #AlphanumericShellcoding'
-    url: https://github.com/RischardV/riscv-alphanumeric-shellcoding
+  - title: 'D-TIME: Distributed Threadless Independent Malware Execution for Runtime
+      Obfuscation'
+    url: https://github.com/JithinPavithran/d-time
     conference: WOOT
     year: 2019
     area: security
     stars: 36
-    forks: 6
-    description: Alphanumeric+1 shellcoding tools for RISC-V
+    forks: 12
+    description: 'This repository contains D-TIME: Distributed Threadless Independent
+      Malware Execution for Runtime Obfuscation.'
     language: C++
-    name: RischardV/riscv-alphanumeric-shellcoding
-    pushed_at: '2019-08-12T17:56:57Z'
+    name: pwnlogs/d-time
+    pushed_at: '2021-01-22T00:46:35Z'
 by_year:
 - year: 2017
   github_repos: 5

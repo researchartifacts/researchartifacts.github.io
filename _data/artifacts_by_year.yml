@@ -1,40 +1,40 @@
-- count: 12
+- year: 2017
+  count: 12
+  systems: 0
   security: 12
+- year: 2018
+  count: 22
   systems: 0
-  year: 2017
-- count: 22
   security: 22
-  systems: 0
-  year: 2018
-- count: 48
-  security: 26
+- year: 2019
+  count: 48
   systems: 22
-  year: 2019
-- count: 133
-  security: 85
+  security: 26
+- year: 2020
+  count: 133
   systems: 48
-  year: 2020
-- count: 257
-  security: 103
+  security: 85
+- year: 2021
+  count: 257
   systems: 154
-  year: 2021
-- count: 355
-  security: 236
+  security: 103
+- year: 2022
+  count: 355
   systems: 119
-  year: 2022
-- count: 397
-  security: 258
+  security: 236
+- year: 2023
+  count: 397
   systems: 139
-  year: 2023
-- count: 505
-  security: 348
+  security: 258
+- year: 2024
+  count: 505
   systems: 157
-  year: 2024
-- count: 786
-  security: 685
+  security: 348
+- year: 2025
+  count: 786
   systems: 101
-  year: 2025
-- count: 316
-  security: 316
+  security: 685
+- year: 2026
+  count: 316
   systems: 0
-  year: 2026
+  security: 316
