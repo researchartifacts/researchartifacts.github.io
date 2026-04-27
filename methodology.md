@@ -17,16 +17,6 @@ This page explains how we collect, process, and analyze artifact evaluation data
 | **Total Authors** | {{ site.data.author_summary.total_authors }} |
 | **AE Committee Members** | {{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.recurring_members }} recurring) |
 
-## Artifacts by Year and Area
-
-| Area | Total | {% for y in site.data.artifacts_by_year reversed %}{{ y.year }} | {% endfor %}
-|---|:---:|{% for y in site.data.artifacts_by_year reversed %}:---:|{% endfor %}
-| **[Systems]({{ '/systems/' | relative_url }})** | {% assign _st = 0 %}{% assign _sa = 0 %}{% assign _sf = 0 %}{% assign _sr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "systems" %}{% for yd in conf.years %}{% assign _st = _st | plus: yd.total %}{% assign _sa = _sa | plus: yd.available %}{% assign _sf = _sf | plus: yd.functional %}{% assign _sr = _sr | plus: yd.reproducible %}{% endfor %}{% endif %}{% endfor %}**{{ _st }}** ({{ _sa }}, {{ _sf }}, {{ _sr }}) | {% for y in site.data.artifacts_by_year reversed %}{% assign _ct = 0 %}{% assign _ca = 0 %}{% assign _cf = 0 %}{% assign _cr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "systems" %}{% for yd in conf.years %}{% if yd.year == y.year %}{% assign _ct = _ct | plus: yd.total %}{% assign _ca = _ca | plus: yd.available %}{% assign _cf = _cf | plus: yd.functional %}{% assign _cr = _cr | plus: yd.reproducible %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if _ct > 0 %}{{ _ct }} ({{ _ca }}, {{ _cf }}, {{ _cr }}){% else %}&ndash;{% endif %} | {% endfor %}
-| **[Security]({{ '/security/' | relative_url }})** | {% assign _st = 0 %}{% assign _sa = 0 %}{% assign _sf = 0 %}{% assign _sr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "security" %}{% for yd in conf.years %}{% assign _st = _st | plus: yd.total %}{% assign _sa = _sa | plus: yd.available %}{% assign _sf = _sf | plus: yd.functional %}{% assign _sr = _sr | plus: yd.reproducible %}{% endfor %}{% endif %}{% endfor %}**{{ _st }}** ({{ _sa }}, {{ _sf }}, {{ _sr }}) | {% for y in site.data.artifacts_by_year reversed %}{% assign _ct = 0 %}{% assign _ca = 0 %}{% assign _cf = 0 %}{% assign _cr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "security" %}{% for yd in conf.years %}{% if yd.year == y.year %}{% assign _ct = _ct | plus: yd.total %}{% assign _ca = _ca | plus: yd.available %}{% assign _cf = _cf | plus: yd.functional %}{% assign _cr = _cr | plus: yd.reproducible %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if _ct > 0 %}{{ _ct }} ({{ _ca }}, {{ _cf }}, {{ _cr }}){% else %}&ndash;{% endif %} | {% endfor %}
-| **Total** | {% assign _st = 0 %}{% assign _sa = 0 %}{% assign _sf = 0 %}{% assign _sr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% for yd in conf.years %}{% assign _st = _st | plus: yd.total %}{% assign _sa = _sa | plus: yd.available %}{% assign _sf = _sf | plus: yd.functional %}{% assign _sr = _sr | plus: yd.reproducible %}{% endfor %}{% endfor %}**{{ _st }}** ({{ _sa }}, {{ _sf }}, {{ _sr }}) | {% for y in site.data.artifacts_by_year reversed %}{% assign _ct = 0 %}{% assign _ca = 0 %}{% assign _cf = 0 %}{% assign _cr = 0 %}{% for conf in site.data.artifacts_by_conference %}{% for yd in conf.years %}{% if yd.year == y.year %}{% assign _ct = _ct | plus: yd.total %}{% assign _ca = _ca | plus: yd.available %}{% assign _cf = _cf | plus: yd.functional %}{% assign _cr = _cr | plus: yd.reproducible %}{% endif %}{% endfor %}{% endfor %}**{{ _ct }}** ({{ _ca }}, {{ _cf }}, {{ _cr }}) | {% endfor %}
-
-Each cell shows **total (available, functional, reproduced)**.
-
 {% endif %}
 
 ## Conferences Covered
@@ -42,11 +32,11 @@ We scrape artifact evaluation results from sysartifacts/secartifacts websites, e
 
 Repository statistics (GitHub stars/forks, Zenodo/Figshare downloads) are collected via their public APIs. Author names are matched to [DBLP](https://dblp.org) for disambiguation and total-publication counts. Author affiliations are enriched using DBLP person pages and [CSRankings](http://csrankings.org) faculty data.
 
-All scripts are in the [reprodb-pipeline](https://github.com/reprodb/reprodb-pipeline) repository. Full CLI reference, API documentation, and data model definitions are in the [pipeline documentation](https://reprodb.github.io/reprodb-pipeline/).
+All scripts are in the [reprodb-pipeline](https://github.com/ReproDB/reprodb-pipeline) repository. Full CLI reference, API documentation, and data model definitions are in the [pipeline documentation](https://reprodb.github.io/reprodb-pipeline/).
 
 ## Pipeline
 
-The pipeline ([run_pipeline.sh](https://github.com/reprodb/reprodb-pipeline/blob/main/run_pipeline.sh)) runs monthly via GitHub Actions:
+The pipeline ([run_pipeline.sh](https://github.com/ReproDB/reprodb-pipeline/blob/main/run_pipeline.sh)) runs monthly via GitHub Actions:
 
 1. **Scrape artifact results** from sysartifacts/secartifacts
 2. **Match papers to DBLP authors** and extract author affiliations
@@ -193,7 +183,7 @@ OpenAlex reported 14 artifacts with a total of 43 citing DOIs. We verified each 
 
 Because current bibliographic indexes do not reliably distinguish artifact citations from paper citations, **citation counts are excluded from the combined score and ranking tables**. The citation collection pipeline remains available as an optional, experimental module for future use as citation infrastructure matures.
 
-See the [verification scripts and detailed results](https://github.com/reprodb/reprodb-pipeline) for the full analysis.
+See the [verification scripts and detailed results](https://github.com/ReproDB/reprodb-pipeline) for the full analysis.
 
 ---
 
