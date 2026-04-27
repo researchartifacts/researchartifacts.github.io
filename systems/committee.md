@@ -18,7 +18,7 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 ## Members by Continent
 
 <div style="width:100%; max-width:600px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_continents_systems.svg' | relative_url }}" alt="Systems: Members by continent" style="width:100%;">
+  <canvas id="committeeContinentsChart" height="260"></canvas>
 </div>
 
 | Continent | Members |
@@ -31,7 +31,7 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 ## Top Countries
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_countries_systems.svg' | relative_url }}" alt="Systems: Top countries" style="width:100%;">
+  <canvas id="committeeCountriesChart" height="300"></canvas>
 </div>
 
 | Country | Members |
@@ -44,13 +44,15 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 ## Top Institutions
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_institutions_systems.svg' | relative_url }}" alt="Systems: Top institutions" style="width:100%;">
+  <canvas id="committeeInstitutionsChart" height="320"></canvas>
 </div>
 
 | Institution | Members |
 |---|:---:|
 {% for i in site.data.committee_stats.top_institutions_systems %}| {{ i.name }} | {{ i.count }} |
 {% endfor %}
+
+{% include committee_charts.html area="systems" %}
 
 {% else %}
 

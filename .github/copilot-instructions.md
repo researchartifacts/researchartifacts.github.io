@@ -8,7 +8,7 @@ via GitHub Actions. Manual edits **will be overwritten**.
 
 - **`_data/*.yml`** (except `navigation.yml`) — statistics, rankings, repo stats
 - **`assets/data/*.json`** — machine-readable data exports
-- **`assets/charts/*.svg`** — pre-generated matplotlib visualizations
+- **`assets/js/reprodb-chart.js`** — lightweight SVG-based Chart.js shim with dark-mode support
 
 To update these files, re-run the pipeline in reprodb-pipeline.
 

@@ -45,7 +45,7 @@ The table below shows the number of AE committee members per conference per year
 {% endfor %}
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_sizes.svg' | relative_url }}" alt="Committee sizes over time" style="width:100%;">
+  <canvas id="committeeSizesChart" height="260"></canvas>
 </div>
 
 ---
@@ -64,11 +64,11 @@ These gaps mean the **systems** committee count ({{ site.data.committee_stats.to
 ## Members by Continent
 
 <div style="width:100%; max-width:600px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_continents.svg' | relative_url }}" alt="Members by continent" style="width:100%;">
+  <canvas id="committeeContinentsChart" height="260"></canvas>
 </div>
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_continent_timeline.svg' | relative_url }}" alt="Continent distribution over time" style="width:100%;">
+  <canvas id="committeeContinentTimelineChart" height="300"></canvas>
 </div>
 
 | Continent | Members |
@@ -81,7 +81,7 @@ These gaps mean the **systems** committee count ({{ site.data.committee_stats.to
 ## Top Countries
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_countries.svg' | relative_url }}" alt="Top countries" style="width:100%;">
+  <canvas id="committeeCountriesChart" height="300"></canvas>
 </div>
 
 | Country | Members |
@@ -94,7 +94,7 @@ These gaps mean the **systems** committee count ({{ site.data.committee_stats.to
 ## Top Institutions
 
 <div style="width:100%; max-width:800px; margin:1em auto;">
-  <img src="{{ '/assets/charts/committee_institutions.svg' | relative_url }}" alt="Top institutions" style="width:100%;">
+  <canvas id="committeeInstitutionsChart" height="320"></canvas>
 </div>
 
 | Institution | Members |
@@ -114,6 +114,8 @@ These gaps mean the **systems** committee count ({{ site.data.committee_stats.to
 ## Download Data
 
 - **[committee_stats.json]({{ '/assets/data/committee_stats.json' | relative_url }})** — Complete committee dataset (countries, continents, institutions, per-year breakdowns)
+
+{% include committee_charts.html area="overall" sizes=true timeline=true %}
 
 {% else %}
 

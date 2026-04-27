@@ -359,20 +359,7 @@ a[href="#footer"] {
     border-color: #383c43 !important;
   }
 
-  // Chart wrapper background
-  .reprodb-chart svg rect[fill="#fff"] {
-    fill: #1f2227 !important;
-  }
 
-  // Static matplotlib SVG charts: invert for dark mode
-  img[src*="/assets/charts/"] {
-    filter: invert(0.88) hue-rotate(180deg);
-  }
-
-  // Chart.js canvas defaults for dark mode
-  canvas {
-    filter: none; // keep canvas charts unfiltered
-  }
 
   // Logo: swap R and background colours; DB stays light blue
   .site-logo .logo-bg { fill: #e2e8f0 !important; }
