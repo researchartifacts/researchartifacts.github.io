@@ -281,6 +281,21 @@ a[href="#footer"] {
     color: #aab0b8 !important;
   }
 
+  // Filter / control labels (Area, Contribution Type, Researcher, Affiliation, etc.)
+  #institution-controls,
+  #combined-controls,
+  #ae-controls,
+  #author-controls,
+  #filters,
+  #sort-controls,
+  label {
+    color: #d6d9dc !important;
+  }
+  select option {
+    background: #23272d !important;
+    color: #d6d9dc !important;
+  }
+
   // Page chrome
   .masthead,
   .greedy-nav,
@@ -362,6 +377,10 @@ a[href="#footer"] {
   }
   table td, table th {
     border-color: #383c43 !important;
+    color: #d6d9dc !important;
+  }
+  table td a {
+    color: #6cb6ff !important;
   }
 
   // ReproDB-specific table tweaks
