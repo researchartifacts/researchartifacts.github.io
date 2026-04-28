@@ -49,10 +49,12 @@ Ranked by combined score (artifacts published + AE committee memberships) at sys
         var name = (e.name || '').replace(/\t/g, ' ').replace(/\s+\d{4}$/, '');
         var aff  = (e.affiliation || '').replace(/^_/, '');
         var confs = (e.conferences || []).join(', ');
+        var authorUrl = '/author.html?name=' + encodeURIComponent(e.name);
+        var instUrl   = '/institution.html?name=' + encodeURIComponent(e.affiliation);
         var tr = document.createElement('tr');
         tr.innerHTML = '<td>' + (i+1) + '</td>'
-          + '<td>' + name + '</td>'
-          + '<td>' + aff + '</td>'
+          + '<td><a href="' + authorUrl + '">' + name + '</a></td>'
+          + '<td><a href="' + instUrl + '">' + aff + '</a></td>'
           + '<td>' + (e.artifact_count||0) + '</td>'
           + '<td>' + (e.ae_memberships||0) + '</td>'
           + '<td>' + (e.chair_count||0) + '</td>'
