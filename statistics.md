@@ -101,10 +101,10 @@ This page aggregates institution ranking data by country and continent, showing 
 ## Trends Over Time
 
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:18px 0;">
-  <div><canvas id="chartCountryTrend"></canvas></div>
-  <div><canvas id="chartContinentTrend"></canvas></div>
-  <div><canvas id="chartCountryBar"></canvas></div>
-  <div><canvas id="chartContinentBar"></canvas></div>
+  <div style="position:relative; min-height:250px;"><canvas id="chartCountryTrend"></canvas></div>
+  <div style="position:relative; min-height:250px;"><canvas id="chartContinentTrend"></canvas></div>
+  <div style="position:relative; min-height:250px;"><canvas id="chartCountryBar"></canvas></div>
+  <div style="position:relative; min-height:250px;"><canvas id="chartContinentBar"></canvas></div>
 </div>
 
 </div><!-- /geo-content -->
@@ -543,7 +543,9 @@ This page aggregates institution ranking data by country and continent, showing 
       renderCountries();
       document.getElementById('geo-loading').style.display = 'none';
       document.getElementById('geo-content').style.display = '';
-      drawCharts();
+      // Delay chart rendering until after browser completes layout reflow
+      // (Chart.js needs non-zero container dimensions to size canvases)
+      requestAnimationFrame(function() { drawCharts(); });
     })
     .catch(function(e) {
       document.getElementById('geo-loading').innerHTML =
