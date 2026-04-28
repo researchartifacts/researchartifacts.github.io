@@ -522,9 +522,9 @@ This page aggregates institution ranking data by country and continent, showing 
       countryData = agg.byCountry;
       renderContinents();
       renderCountries();
-      drawCharts();
       document.getElementById('geo-loading').style.display = 'none';
       document.getElementById('geo-content').style.display = '';
+      drawCharts();
     })
     .catch(function(e) {
       document.getElementById('geo-loading').innerHTML =
