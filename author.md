@@ -35,6 +35,10 @@ layout: default
 .ae-table tr:nth-child(even) { background:#fafafa; }
 .chart-container { max-width:1050px; margin:16px 0; }
 #loading-msg { color:#888; font-style:italic; }
+#share-btn { display:inline-block; margin-left:10px; padding:3px 10px; font-size:0.7em; cursor:pointer; background:#f0f0f0; border:1px solid #ccc; border-radius:4px; color:#555; vertical-align:middle; position:relative; }
+#share-btn:hover { background:#e0e0e0; }
+#share-btn .share-tip { display:none; position:absolute; bottom:125%; left:50%; transform:translateX(-50%); background:#333; color:#fff; font-size:0.85em; padding:4px 8px; border-radius:4px; white-space:nowrap; z-index:100; pointer-events:none; }
+#share-btn.copied .share-tip { display:block; }
 .category-tag { display:inline-block; padding:1px 7px; border-radius:3px; font-size:0.78em; color:#fff; margin-left:6px; }
 .cat-systems { background:#2980b9; }
 .cat-security { background:#c0392b; }
@@ -51,6 +55,7 @@ layout: default
 <div id="profile-container">
   <div class="profile-header">
     <h2 id="prof-name"></h2>
+    <span id="share-btn" style="display:none" title="Copy link to this profile">&#128279; Share<span class="share-tip">Link copied!</span></span>
     <div class="affil" id="prof-affil"></div>
   </div>
 
@@ -412,6 +417,28 @@ layout: default
     return '<div class="score-card"><div class="val">' + value + '</div><div class="lbl">' + label + '</div></div>';
   }
 
+  // --- Share button ---
+  var shareBtn = document.getElementById('share-btn');
+  function showShareButton() {
+    shareBtn.style.display = 'inline-block';
+  }
+  shareBtn.addEventListener('click', function() {
+    var url = window.location.href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function() { flashCopied(); });
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
+      flashCopied();
+    }
+  });
+  function flashCopied() {
+    shareBtn.classList.add('copied');
+    setTimeout(function() { shareBtn.classList.remove('copied'); }, 1500);
+  }
+
   // --- Search / autocomplete ---
   var searchBox = document.getElementById('author-search-box');
   var resultsList = document.getElementById('search-results');
@@ -452,6 +479,7 @@ layout: default
       url.searchParams.delete('q');
       url.searchParams.set('name', name);
       history.pushState(null, '', url);
+      showShareButton();
     }
   }
 
@@ -586,6 +614,7 @@ layout: default
       if (resolved) {
         searchBox.value = cleanName(resolved.name);
         renderProfile(resolved);
+        showShareButton();
       } else if (nameParam) {
         searchBox.value = nameParam;
         searchBox.dispatchEvent(new Event('input'));
