@@ -8,8 +8,9 @@
     page.security_data_url     — path to the security JSON file
 {% endcomment %}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.0.0/css/flag-icons.min.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.0.0/css/flag-icons.min.css"
+      integrity="sha384-aQuvIWWIbpu/mSqULLDiUveyYiPoJzPKAWjUmGJ+Elm+N/LJhzfZqsutsfw870JS"
+      crossorigin="anonymous">
 
 <div id="institution-controls" style="margin-bottom:6px; display:none; font-size:1em;">
   <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
@@ -61,9 +62,9 @@
 <script>
 (function() {
   var DATA_URLS = {
-    'all': '{{ page.institution_data_url | relative_url }}',
-    'systems': '{{ page.systems_data_url | relative_url }}',
-    'security': '{{ page.security_data_url | relative_url }}'
+    'all': '{{ page.institution_data_url | default: "/assets/data/institution_rankings.json" | relative_url }}',
+    'systems': '{{ page.systems_data_url | default: "/assets/data/systems_institution_rankings.json" | relative_url }}',
+    'security': '{{ page.security_data_url | default: "/assets/data/security_institution_rankings.json" | relative_url }}'
   };
   var currentArea = 'all';
   var baseUrl = '{{ "" | relative_url }}';
@@ -91,10 +92,10 @@
     {label:'S',                key:'combined_score',    type:'num',   tip:'Combined score: ∑(A+F+R) + ∑(AE memberships×3 + Chairs×5)'},
     {label:'AS',               key:'artifact_score',    type:'num',   tip:'Artifact score: sum of all artifact badges'},
     {label:'AES',              key:'ae_score',          type:'num',   tip:'AE service score: sum of committee service'},
-    {label:'A:E',              key:'ae_ratio',          type:'num',   tip:'Artifact:Evaluation ratio (artifact_score/ae_score)'},
-    {label:'R',                key:'num_authors',       type:'num',   tip:'Researchers'},
-    {label:'Ar',               key:'artifacts',         type:'num',   tip:'Total artifacts'},
+    {label:'A:E',              key:'author_count',      type:'num',   tip:'Researchers'},
+    {label:'Ar',               key:'artifact_count',    type:'num',   tip:'Total artifacts'},
     {label:'P',                key:'total_papers',      type:'num',   tip:'Total papers'},
+    {label:'AR%',              key:'artifact_pct',      type:'num',   tip:'Total papers'},
     {label:'AR%',              key:'artifact_rate',     type:'num',   tip:'Artifact rate: % papers with artifact'},
     {label:'RR%',              key:'repro_rate',        type:'num',   tip:'Reproducibility rate: % artifacts Reproduced'},
     {label:'AE',               key:'ae_memberships',    type:'num',   tip:'AE memberships'},
@@ -536,10 +537,10 @@
       cells.push('<td>' + (filterMode === 'ae_only' ? '<strong>' : '') + (inst.ae_score || 0) + (filterMode === 'ae_only' ? '</strong>' : '') + '</td>');
       // Display infinity symbol for null ae_ratio (no AE service)
       var aeRatioDisplay = (inst.ae_ratio === null || inst.ae_ratio === undefined) ? '∞' : (inst.ae_ratio === 0 ? '0' : inst.ae_ratio);
-      cells.push('<td>' + aeRatioDisplay + '</td>');
-      cells.push('<td>' + (inst.num_authors || '') + '</td>');
-      cells.push('<td>' + (inst.artifacts || '') + '</td>');
+      cells.push('<td>' + aeRatiauthor_count || '') + '</td>');
+      cells.push('<td>' + (inst.artifact_count || '') + '</td>');
       cells.push('<td>' + (inst.total_papers || '') + '</td>');
+      cells.push('<td>' + (inst.total_papers > 0 ? inst.artifact_pct
       cells.push('<td>' + (inst.total_papers > 0 ? inst.artifact_rate + '%' : '') + '</td>');
       // Calculate repro rate from badges
       var reproRate = 0;
@@ -605,7 +606,7 @@
           if (histLabels.length >= 2) {
             var chartId = 'instChart-' + instId;
             expandedContent += '<div style="margin-top:12px;"><strong>Score History:</strong>';
-            expandedContent += '<div style="max-width:750px;"><canvas id="' + chartId + '" height="195"></canvas></div></div>';
+            expandedContent += '<div style="max-width:500px;"><canvas id="' + chartId + '" height="150"></canvas></div></div>';
           }
         }
         expandedContent += '</div></td>';
@@ -661,11 +662,7 @@
     updatePageInfo();
   }
 
-  function escHtml(s) {
-    var d = document.createElement('div');
-    d.appendChild(document.createTextNode(s));
-    return d.innerHTML;
-  }
+  var escHtml = ReproDB.escHtml;
 
   function sortData(colIdx, asc) {
     sortedData = filteredData.slice();
@@ -732,36 +729,21 @@
 
   function buildHeader() {
     var tr = document.getElementById('institutionHead');
-    tr.innerHTML = '';
     var allCols = fixedCols.slice();
     // Update score column tooltip dynamically
     allCols[2].tip = getScoreLabel();
     for (var i = 0; i < yearColumns.length; i++) {
       allCols.push({label: shortenYear(yearColumns[i]), key:'_y' + yearColumns[i], type:'num'});
     }
-    for (var ci = 0; ci < allCols.length; ci++) {
-      var th = document.createElement('th');
-      th.innerHTML = allCols[ci].label;
-      th.className = 'i-sortable';
-      th.dataset.colIdx = ci;
-      th.style.cursor = 'pointer';
-      th.title = allCols[ci].tip || '';
-      if (ci === sortCol) th.classList.add(sortAsc ? 'i-sorted-asc' : 'i-sorted-desc');
-      th.addEventListener('click', (function(idx) {
-        return function(e) {
-          if (sortCol === idx) { sortAsc = !sortAsc; }
-          else { sortCol = idx; sortAsc = false; }
-          sortData(sortCol, sortAsc);
-          assignRanks();
-          currentPage = 0;
-          render();
-          var ths = document.getElementById('institutionHead').querySelectorAll('.i-sortable');
-          ths.forEach(function(h) { h.classList.remove('i-sorted-asc','i-sorted-desc'); });
-          e.currentTarget.classList.add(sortAsc ? 'i-sorted-asc' : 'i-sorted-desc');
-        };
-      })(ci));
-      tr.appendChild(th);
-    }
+    ReproDB.bindSortableHeaders(tr, allCols, { col: sortCol, asc: sortAsc }, function(idx) {
+      if (sortCol === idx) { sortAsc = !sortAsc; }
+      else { sortCol = idx; sortAsc = false; }
+      sortData(sortCol, sortAsc);
+      assignRanks();
+      currentPage = 0;
+      render();
+      return sortAsc;
+    });
   }
 
   function assignRanks() {
@@ -878,37 +860,64 @@
   document.getElementById('iPrevBtnB').addEventListener('click', goPrev);
   document.getElementById('iNextBtnB').addEventListener('click', goNext);
 
-  // Load institution ranking history + author profiles, then initial data
+  // Load institution ranking history + author profiles, then initial data.
+  // Defer until the table scrolls into view (or, as a fallback for browsers
+  // without IntersectionObserver, kick off immediately).
   var INST_HISTORY_URL = '{{ "/assets/data/institution_ranking_history.json" | relative_url }}';
-  Promise.all([
-    fetch(INST_HISTORY_URL).then(function(r) { return r.json(); }).catch(function() { return []; }),
-    fetch(PROFILES_URL).then(function(r) { return r.json(); }).catch(function() { return []; })
-  ]).then(function(results) {
-    instHistory = results[0] || [];
-    if (instHistory.length >= 2) {
-      prevInstSnapshot = instHistory[instHistory.length - 2].entries;
-    }
-    // Build affiliation -> sorted authors map
-    var profiles = results[1] || [];
-    profilesByAffiliation = {};
-    for (var i = 0; i < profiles.length; i++) {
-      var p = profiles[i];
-      var aff = p.affiliation || '';
-      if (!profilesByAffiliation[aff]) profilesByAffiliation[aff] = [];
-      profilesByAffiliation[aff].push(p);
-    }
-    // Sort each affiliation's authors by combined_score descending
-    Object.keys(profilesByAffiliation).forEach(function(aff) {
-      profilesByAffiliation[aff].sort(function(a, b) {
-        return (b.combined_score || 0) - (a.combined_score || 0);
+  var _bootStarted = false;
+  function bootstrap() {
+    if (_bootStarted) return;
+    _bootStarted = true;
+    Promise.all([
+      fetch(INST_HISTORY_URL).then(function(r) { return r.json(); }).catch(function() { return []; }),
+      fetch(PROFILES_URL).then(function(r) { return r.json(); }).catch(function() { return []; })
+    ]).then(function(results) {
+      instHistory = results[0] || [];
+      if (instHistory.length >= 2) {
+        prevInstSnapshot = instHistory[instHistory.length - 2].entries;
+      }
+      // Build affiliation -> sorted authors map
+      var profiles = results[1] || [];
+      profilesByAffiliation = {};
+      for (var i = 0; i < profiles.length; i++) {
+        var p = profiles[i];
+        var aff = p.affiliation || '';
+        if (!profilesByAffiliation[aff]) profilesByAffiliation[aff] = [];
+        profilesByAffiliation[aff].push(p);
+      }
+      // Sort each affiliation's authors by combined_score descending
+      Object.keys(profilesByAffiliation).forEach(function(aff) {
+        profilesByAffiliation[aff].sort(function(a, b) {
+          return (b.combined_score || 0) - (a.combined_score || 0);
+        });
       });
+      loadArea(currentArea);
     });
-    loadArea(currentArea);
-  });
+  }
+
+  // Lazy-init: only fetch the (~3 MB) data when the table scrolls within
+  // 300 px of the viewport. Saves bandwidth + main-thread work for visitors
+  // who never scroll down to it.
+  var _lazyTarget = document.getElementById('institutionLoading');
+  if ('IntersectionObserver' in window && _lazyTarget) {
+    var _io = new IntersectionObserver(function(entries) {
+      for (var i = 0; i < entries.length; i++) {
+        if (entries[i].isIntersecting) {
+          _io.disconnect();
+          bootstrap();
+          break;
+        }
+      }
+    }, { rootMargin: '300px 0px' });
+    _io.observe(_lazyTarget);
+  } else {
+    bootstrap();
+  }
 })();
 </script>
 
 <style>
+/* Sortable header rules live in assets/css/reprodb-table.css (.reprodb-sortable). */
 #institutionTable { font-size: 0.78em; border-collapse: collapse; width: 100%; }
 #institutionTable th, #institutionTable td { padding: 2px 4px; border: 1px solid #ddd; }
 #institutionTable th:nth-child(2), #institutionTable td:nth-child(2) { max-width: 200px; word-wrap: break-word; white-space: normal; }
@@ -918,9 +927,6 @@
 #institutionTable .inst-row:hover { background-color: #e8f4f8; }
 #institutionTable .expanded-row { background-color: #f9f9f9 !important; }
 #institutionTable .expanded-row:hover { background-color: #f9f9f9 !important; }
-.i-sortable::after { content: '\2195'; opacity: 0.3; margin-left: 2px; font-size: 0.75em; }
-.i-sorted-asc::after { content: '\2191'; opacity: 1; }
-.i-sorted-desc::after { content: '\2193'; opacity: 1; }
 .expand-btn { display: inline-block; font-size: 0.8em; color: #666; }
 .expand-btn:hover { color: #000; }
 /* Flag icons styling */
