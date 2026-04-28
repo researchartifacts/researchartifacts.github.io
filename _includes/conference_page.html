@@ -517,10 +517,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var filtered = [];
     for (var i = 0; i < rawData.length; i++) {
       var m = rawData[i];
-      var entries = (m.conferences||[]).filter(function(c) { return c[0] === CONF; });
+      var entries = (m.conferences||[]).filter(function(c) { return (c.conference || c[0]) === CONF; });
       if (entries.length === 0) continue;
-      var chairs = entries.filter(function(c) { return c[2] === 'chair'; }).length;
-      var years = entries.map(function(c) { return c[1]; });
+      var chairs = entries.filter(function(c) { return (c.role || c[2]) === 'chair'; }).length;
+      var years = entries.map(function(c) { return c.year || c[1]; });
       filtered.push({
         _display: m.display_name||m.name,
         affiliation: m.affiliation||'',
