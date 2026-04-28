@@ -136,6 +136,7 @@
         plugins: {
           title: { display: true, text: areaLabel + ': Yearly Stars & Forks (Avg + Median with P25-P75 bands)' },
           legend: {
+            position: 'bottom',
             labels: {
               filter: function(item) { return item.text.indexOf('(hidden anchor)') === -1; }
             }
@@ -198,7 +199,7 @@
       options: {
         responsive: true,
         interaction: { mode: 'index', intersect: false },
-        plugins: { title: { display: true, text: areaLabel + ': Conference-specific Stars by Year' } },
+        plugins: { title: { display: true, text: areaLabel + ': Conference-specific Stars by Year' }, legend: { position: 'bottom' } },
         scales: {
           y: { beginAtZero: true, title: { display: true, text: 'Stars (avg per repo)' } },
           x: { title: { display: true, text: 'Year' } }
@@ -212,7 +213,7 @@
       options: {
         responsive: true,
         interaction: { mode: 'index', intersect: false },
-        plugins: { title: { display: true, text: areaLabel + ': Conference-specific Forks by Year' } },
+        plugins: { title: { display: true, text: areaLabel + ': Conference-specific Forks by Year' }, legend: { position: 'bottom' } },
         scales: {
           y: { beginAtZero: true, title: { display: true, text: 'Forks (avg per repo)' } },
           x: { title: { display: true, text: 'Year' } }
