@@ -9,7 +9,7 @@ overall:
   total_downloads: 194646
   avg_stars: 94.3
   avg_forks: 12.3
-  last_updated: 2026-04-28 15:38:01 UTC
+  last_updated: 2026-04-28 17:13:50 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -900,17 +900,19 @@ by_conference:
     language: Python
     name: HexHive/scudo-exploitation
     pushed_at: '2024-10-21T14:02:23Z'
-  - title: 'RISC-V: #AlphanumericShellcoding'
-    url: https://github.com/RischardV/riscv-alphanumeric-shellcoding
+  - title: 'D-TIME: Distributed Threadless Independent Malware Execution for Runtime
+      Obfuscation'
+    url: https://github.com/JithinPavithran/d-time
     conference: WOOT
     year: 2019
     area: security
     stars: 36
-    forks: 6
-    description: Alphanumeric+1 shellcoding tools for RISC-V
+    forks: 12
+    description: 'This repository contains D-TIME: Distributed Threadless Independent
+      Malware Execution for Runtime Obfuscation.'
     language: C++
-    name: RischardV/riscv-alphanumeric-shellcoding
-    pushed_at: '2019-08-12T17:56:57Z'
+    name: pwnlogs/d-time
+    pushed_at: '2021-01-22T00:46:35Z'
 by_year:
 - year: 2017
   github_repos: 5
