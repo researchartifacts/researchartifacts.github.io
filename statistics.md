@@ -10,6 +10,20 @@ This page aggregates institution ranking data by country and continent, showing 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.0.0/css/flag-icons.min.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
+<style>
+/* Dark-mode overrides for statistics page inline styles */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d; --txt-muted: #8a8e95; }
+}
+html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d; --txt-muted: #8a8e95; }
+#geo-content { --tbl-border: #ddd; --row-alt: #f9f9f9; --txt-muted: #666; }
+
+#geo-content label { color: inherit; }
+#geo-content #cTotal { color: var(--txt-muted) !important; }
+#geo-content table td,
+#geo-content table th { border-color: var(--tbl-border) !important; }
+</style>
+
 <div id="geo-loading"><em>Loading institution data…</em></div>
 
 <div id="geo-content" style="display:none;">
@@ -95,7 +109,7 @@ This page aggregates institution ranking data by country and continent, showing 
   <button id="cPrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
   <span id="cPageInfo" style="margin:0 6px;"></span>
   <button id="cNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
-  <span id="cTotal" style="margin-left:12px; color:#666;"></span>
+  <span id="cTotal" style="margin-left:12px;"></span>
 </div>
 
 <h2>Trends Over Time</h2>
@@ -349,8 +363,7 @@ This page aggregates institution ranking data by country and continent, showing 
     var key = sortKeyMap[document.getElementById('continentSort').value] || 'combined';
     var sorted = continentData.slice().sort(sorter(key));
     document.getElementById('continentBody').innerHTML = sorted.map(function(c, i) {
-      var bg = i % 2 === 0 ? ' style="background:#f9f9f9;"' : '';
-      return '<tr' + bg + '>' +
+      return '<tr>' +
         '<td style="border:1px solid #ddd; padding:4px 6px; font-weight:bold;">' + c.name + '</td>' +
         '<td style="border:1px solid #ddd; padding:4px 6px; text-align:center;">' + c.countries + '</td>' +
         '<td style="border:1px solid #ddd; padding:4px 6px; text-align:center;">' + c.institutions + '</td>' +
@@ -385,8 +398,7 @@ This page aggregates institution ranking data by country and continent, showing 
     var end = Math.min(start + countryPageSize, countryRows.length);
     var page = countryRows.slice(start, end);
     document.getElementById('countryBody').innerHTML = page.map(function(c, i) {
-      var bg = i % 2 === 0 ? ' style="background:#f9f9f9;"' : '';
-      return '<tr' + bg + '>' +
+      return '<tr>' +
         '<td style="border:1px solid #ddd; padding:4px 6px; text-align:center;">' + flagHtml(c.code) + '</td>' +
         '<td style="border:1px solid #ddd; padding:4px 6px; font-weight:bold;">' + c.name + '</td>' +
         '<td style="border:1px solid #ddd; padding:4px 6px;">' + c.continent + '</td>' +
@@ -415,11 +427,25 @@ This page aggregates institution ranking data by country and continent, showing 
     document.getElementById('cNext').disabled = countryPage >= pages - 1;
   }
 
+  /* ── Dark-mode detection ─────────────────────────────────────── */
+  function isDark() {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t === 'dark') return true;
+    if (t === 'light') return false;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
   /* ── Charts ─────────────────────────────────────────────────────── */
   var chartInstances = [];
   function drawCharts() {
     chartInstances.forEach(function(c) { c.destroy(); });
     chartInstances = [];
+
+    var dark = isDark();
+    var txtColor = dark ? '#d6d9dc' : '#666';
+    var gridColor = dark ? '#383c43' : 'rgba(0,0,0,0.1)';
+    Chart.defaults.color = txtColor;
+    Chart.defaults.borderColor = gridColor;
 
     var palette = ['#2563eb','#dc2626','#16a34a','#f59e0b','#8b5cf6','#ec4899','#06b6d4','#84cc16'];
 
