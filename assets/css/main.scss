@@ -366,7 +366,77 @@ a[href="#footer"] {
     color: #d6d9dc !important;
   }
 
+  // Legend / total-info text beside tables (override inline color:#555/#666)
+  #author-legend, #inst-legend, #institution-legend,
+  #combined-legend, #ae-legend {
+    color: #aab0b8 !important;
+  }
+  #authorTotal, #instTotal, #iTotalInfo,
+  #cTotalInfo, #mTotalInfo, #aeTotal {
+    color: #9ca3ab !important;
+  }
 
+  // Rank-change "unchanged" indicator (inline color:#999)
+  .rank-unchanged {
+    color: #777 !important;
+  }
+
+  // Institution expanded-row sub-table (JS-generated inline styles)
+  #institutionTable .expanded-row td {
+    background-color: #1f2227 !important;
+    color: #d6d9dc !important;
+  }
+  #institutionTable .expanded-row table {
+    background: transparent !important;
+  }
+  #institutionTable .expanded-row th {
+    background-color: #2c3038 !important;
+    color: #f0f0f0 !important;
+    border-color: #4a4f57 !important;
+  }
+  #institutionTable .expanded-row td td {
+    border-color: #4a4f57 !important;
+  }
+  #institutionTable .expanded-row tr:nth-child(even),
+  #institutionTable .expanded-row tr:nth-child(even) td {
+    background-color: #23272d !important;
+  }
+  #institutionTable .expanded-row tr:nth-child(odd),
+  #institutionTable .expanded-row tr:nth-child(odd) td {
+    background-color: #1f2227 !important;
+  }
+
+  // Profile page elements
+  .profile-header .affil {
+    color: #9ca3ab !important;
+  }
+  .profile-search-results {
+    background: #23272d !important;
+    border-color: #4a4f57 !important;
+  }
+  .profile-search-results .sr-detail {
+    color: #9ca3ab !important;
+  }
+  .share-btn {
+    background: #2c3038 !important;
+    color: #d6d9dc !important;
+    border-color: #4a4f57 !important;
+  }
+
+  // Table hover rows (override light-mode #e8f4f8)
+  .area-tbl tr:hover,
+  .conf-tbl tr:hover,
+  #memberTable tr:hover {
+    background-color: #2f3a44 !important;
+  }
+
+  // Expand button in institution table
+  .expand-btn {
+    color: #9ca3ab !important;
+  }
+  .expand-btn:hover {
+    color: #d6d9dc !important;
+  }
 
   // Logo: swap R and background colours; DB stays light blue
   .site-logo .logo-bg { fill: #e2e8f0 !important; }

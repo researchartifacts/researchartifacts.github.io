@@ -521,7 +521,7 @@
         var instDiff = oldInstRank - instRankVal;
         if (instDiff > 0) instRankChange = ' <span style="color:#27ae60;font-size:0.8em" title="Up ' + instDiff + ' from #' + oldInstRank + '">▲' + instDiff + '</span>';
         else if (instDiff < 0) instRankChange = ' <span style="color:#e74c3c;font-size:0.8em" title="Down ' + (-instDiff) + ' from #' + oldInstRank + '">▼' + (-instDiff) + '</span>';
-        else instRankChange = ' <span style="color:#999;font-size:0.8em" title="Unchanged">–</span>';
+        else instRankChange = ' <span class="rank-unchanged" style="font-size:0.8em" title="Unchanged">–</span>';
       }
       cells.push('<td>' + expandIcon + (showRank ? instRankVal + instRankChange : '') + '</td>');
       
@@ -935,6 +935,7 @@
 #institutionTable .expanded-row:hover { background-color: #f9f9f9 !important; }
 .expand-btn { display: inline-block; font-size: 0.8em; color: #666; }
 .expand-btn:hover { color: #000; }
+.rank-unchanged { color: #999; }
 /* Flag icons styling */
 .fi { width: 1em; height: 1em; display: inline-block; margin-right: 4px; vertical-align: -0.125em; }
 </style>
