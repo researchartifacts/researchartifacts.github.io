@@ -476,6 +476,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {label:'R',           key:'author_count',   type:'num', tip:'Researchers'},
       {label:'Ar',          key:'artifact_count', type:'num', tip:'Artifacts'},
       {label:'P',           key:'total_papers',   type:'num', tip:'Papers'},
+      {label:'AR%',         key:'artifact_pct',   type:'num', tip:'Artifact rate: % papers with artifact'},
       {label:'AE',          key:'ae_memberships', type:'num', tip:'AE memberships'},
       {label:'Ch',          key:'chair_count',    type:'num', tip:'Times chaired'}
     ];
@@ -501,6 +502,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cells += '<td>' + (d.author_count||'') + '</td>';
         cells += '<td>' + (d.artifact_count||'') + '</td>';
         cells += '<td>' + (d.total_papers||'') + '</td>';
+        cells += '<td>' + (d.total_papers > 0 ? d.artifact_pct + '%' : '') + '</td>';
         cells += '<td>' + (d.ae_memberships||'') + '</td>';
         cells += '<td>' + (d.chair_count > 0 ? d.chair_count + ' \u2605' : '') + '</td>';
         for (var j = 0; j < yearCols.length; j++) {
