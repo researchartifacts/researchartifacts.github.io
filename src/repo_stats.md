@@ -25,11 +25,10 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 
 ## By Area
 
-| Area | GitHub Repos | Total Stars | Total Forks | Max Stars |
-|---|:---:|:---:|:---:|:---:|
-{% assign sys_repos = 0 %}{% assign sys_stars = 0 %}{% assign sys_forks = 0 %}{% assign sys_max = 0 %}{% for c in site.data.repo_stats.by_conference %}{% assign _is_sys = false %}{% for conf in site.data.artifacts_by_conference %}{% if conf.name == c.name and conf.category == "systems" %}{% assign _is_sys = true %}{% endif %}{% endfor %}{% if _is_sys %}{% assign sys_repos = sys_repos | plus: c.github_repos %}{% assign sys_stars = sys_stars | plus: c.total_stars %}{% assign sys_forks = sys_forks | plus: c.total_forks %}{% if c.max_stars > sys_max %}{% assign sys_max = c.max_stars %}{% endif %}{% endif %}{% endfor %}{% if sys_repos > 0 %}| **[Systems]({{ '/systems/repo_stats.html' | relative_url }})** | {{ sys_repos }} | {{ sys_stars }} | {{ sys_forks }} | {{ sys_max }} |
-{% endif %}{% assign sec_repos = 0 %}{% assign sec_stars = 0 %}{% assign sec_forks = 0 %}{% assign sec_max = 0 %}{% for c in site.data.repo_stats.by_conference %}{% assign _is_sec = false %}{% for conf in site.data.artifacts_by_conference %}{% if conf.name == c.name and conf.category == "security" %}{% assign _is_sec = true %}{% endif %}{% endfor %}{% if _is_sec %}{% assign sec_repos = sec_repos | plus: c.github_repos %}{% assign sec_stars = sec_stars | plus: c.total_stars %}{% assign sec_forks = sec_forks | plus: c.total_forks %}{% if c.max_stars > sec_max %}{% assign sec_max = c.max_stars %}{% endif %}{% endif %}{% endfor %}{% if sec_repos > 0 %}| **[Security]({{ '/security/repo_stats.html' | relative_url }})** | {{ sec_repos }} | {{ sec_stars }} | {{ sec_forks }} | {{ sec_max }} |
-{% endif %}
+| Area | GitHub Repos | Total Stars | Median Stars | Total Forks | Median Forks | Max Stars |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+{% for a in site.data.repo_stats.by_area %}| **[{{ a.name | capitalize }}]({{ '/' | append: a.name | append: '/repo_stats.html' | relative_url }})** | {{ a.github_repos }} | {{ a.total_stars }} | {{ a.median_stars }} | {{ a.total_forks }} | {{ a.median_forks }} | {{ a.max_stars }} |
+{% endfor %}
 
 ## Top Repositories
 
