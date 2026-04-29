@@ -15,9 +15,13 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 | **GitHub Repos** | {{ site.data.repo_stats.overall.github_repos }} |
 | **Total Stars** | {{ site.data.repo_stats.overall.total_stars }} |
 | **Median Stars** | {{ site.data.repo_stats.overall.median_stars }} |
+| **P25 Stars** | {{ site.data.repo_stats.overall.p25_stars }} |
+| **P75 Stars** | {{ site.data.repo_stats.overall.p75_stars }} |
 | **Max Stars** | {{ site.data.repo_stats.overall.max_stars }} |
 | **Total Forks** | {{ site.data.repo_stats.overall.total_forks }} |
 | **Median Forks** | {{ site.data.repo_stats.overall.median_forks }} |
+| **P25 Forks** | {{ site.data.repo_stats.overall.p25_forks }} |
+| **P75 Forks** | {{ site.data.repo_stats.overall.p75_forks }} |
 
 {% endif %}
 
@@ -25,9 +29,9 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 
 ## By Area
 
-| Area | GitHub Repos | Total Stars | Median Stars | Total Forks | Median Forks | Max Stars |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-{% for a in site.data.repo_stats.by_area %}| **[{{ a.name | capitalize }}]({{ '/' | append: a.name | append: '/repo_stats.html' | relative_url }})** | {{ a.github_repos }} | {{ a.total_stars }} | {{ a.median_stars }} | {{ a.total_forks }} | {{ a.median_forks }} | {{ a.max_stars }} |
+| Area | GitHub Repos | Total Stars | Median Stars | P25 Stars | P75 Stars | Total Forks | Median Forks | P25 Forks | P75 Forks | Max Stars |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+{% for a in site.data.repo_stats.by_area %}| **[{{ a.name | capitalize }}]({{ '/' | append: a.name | append: '/repo_stats.html' | relative_url }})** | {{ a.github_repos }} | {{ a.total_stars }} | {{ a.median_stars }} | {{ a.p25_stars }} | {{ a.p75_stars }} | {{ a.total_forks }} | {{ a.median_forks }} | {{ a.p25_forks }} | {{ a.p75_forks }} | {{ a.max_stars }} |
 {% endfor %}
 
 ## Top Repositories
