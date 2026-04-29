@@ -1,15 +1,15 @@
 overall:
-  github_repos: 1624
-  total_stars: 328625
-  total_forks: 65673
-  max_stars: 38084
-  max_forks: 16995
+  github_repos: 1609
+  total_stars: 245230
+  total_forks: 36908
+  max_stars: 33493
+  max_forks: 6954
   zenodo_repos: 825
   total_views: 225439
   total_downloads: 165507
-  avg_stars: 202.4
-  avg_forks: 40.4
-  last_updated: 2026-04-29 01:29:10 UTC
+  avg_stars: 152.4
+  avg_forks: 22.9
+  last_updated: 2026-04-29 14:05:22 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -324,11 +324,11 @@ by_conference:
     - functional
     - reproduced
 - name: EUROSYS
-  github_repos: 127
-  total_stars: 4109
-  total_forks: 979
-  avg_stars: 32.4
-  avg_forks: 7.7
+  github_repos: 125
+  total_stars: 3924
+  total_forks: 928
+  avg_stars: 31.4
+  avg_forks: 7.4
   max_stars: 596
   max_forks: 274
   years:
@@ -339,17 +339,17 @@ by_conference:
     avg_stars: 48.0
     avg_forks: 7.1
   - year: 2022
-    github_repos: 40
-    total_stars: 1685
-    total_forks: 307
-    avg_stars: 42.1
-    avg_forks: 7.7
+    github_repos: 39
+    total_stars: 1667
+    total_forks: 303
+    avg_stars: 42.7
+    avg_forks: 7.8
   - year: 2023
-    github_repos: 17
-    total_stars: 453
-    total_forks: 347
-    avg_stars: 26.6
-    avg_forks: 20.4
+    github_repos: 16
+    total_stars: 286
+    total_forks: 300
+    avg_stars: 17.9
+    avg_forks: 18.8
   - year: 2024
     github_repos: 14
     total_stars: 215
@@ -478,13 +478,13 @@ by_conference:
     - Ben L. Titzer
     - Anthony Rowe 0001
 - name: NDSS
-  github_repos: 71
-  total_stars: 65663
-  total_forks: 27150
-  avg_stars: 924.8
-  avg_forks: 382.4
-  max_stars: 38084
-  max_forks: 16995
+  github_repos: 69
+  total_stars: 4032
+  total_forks: 1343
+  avg_stars: 58.4
+  avg_forks: 19.5
+  max_stars: 1606
+  max_forks: 887
   years:
   - year: 2024
     github_repos: 21
@@ -493,11 +493,11 @@ by_conference:
     avg_stars: 19.7
     avg_forks: 6.0
   - year: 2025
-    github_repos: 22
-    total_stars: 64821
-    total_forks: 26977
-    avg_stars: 2946.4
-    avg_forks: 1226.2
+    github_repos: 20
+    total_stars: 3190
+    total_forks: 1170
+    avg_stars: 159.5
+    avg_forks: 58.5
   - year: 2026
     github_repos: 28
     total_stars: 429
@@ -505,40 +505,6 @@ by_conference:
     avg_stars: 15.3
     avg_forks: 1.7
   top_repos:
-  - title: 'type++: Prohibiting Type Confusion with Inline Type Information'
-    url: https://github.com/llvm/llvm-project
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 38084
-    forks: 16995
-    description: The LLVM Project is a collection of modular and reusable compiler
-      and toolchain technologies.
-    language: LLVM
-    name: llvm/llvm-project
-    pushed_at: '2026-04-28T23:31:00Z'
-    badges: &id001
-    - available
-    - functional
-    - reproduced
-    authors: &id002
-    - Nicolas Badoux
-    - Flavio Toffalini
-    - Yuseok Jeon
-    - Mathias Payer
-  - title: 'type++: Prohibiting Type Confusion with Inline Type Information'
-    url: https://github.com/chromium/chromium
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 23547
-    forks: 8812
-    description: The official GitHub mirror of the Chromium source
-    language: C++
-    name: chromium/chromium
-    pushed_at: '2026-04-28T23:46:56Z'
-    badges: *id001
-    authors: *id002
   - title: Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception
       Systems
     url: https://github.com/autowarefoundation/autoware.universe
@@ -593,12 +559,59 @@ by_conference:
     badges:
     - available
     - functional
+  - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
+      on IoT Devices'
+    url: https://github.com/IoTAccessControl/MCU-Token
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 157
+    forks: 90
+    description: A secure IoT authentication framework based on hardware fingerprinting
+    language: C
+    name: IoTAccessControl/MCU-Token
+    pushed_at: '2025-03-01T13:16:21Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Yue Xiao
+    - Yi He 0020
+    - Xiaoli Zhang 0003
+    - Qian Wang 0002
+    - Renjie Xie
+    - Kun Sun 0001
+    - Ke Xu 0002
+    - Qi Li 0002
+  - title: '5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service'
+    url: https://github.com/5GSEC/5G-Spector
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 56
+    forks: 14
+    description: An O-RAN compliant runtime intrusion detection system (xApp) for
+      layer-3 (L3) celluar attack detection
+    language: ''
+    name: 5GSEC/5G-Spector
+    pushed_at: '2024-11-04T19:27:54Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Haohuang Wen
+    - Phillip A. Porras
+    - Vinod Yegneswaran
+    - Ashish Gehani
+    - Zhiqiang Lin 0001
 - name: OSDI
-  github_repos: 138
-  total_stars: 55304
-  total_forks: 6993
-  avg_stars: 400.8
-  avg_forks: 50.7
+  github_repos: 135
+  total_stars: 38955
+  total_forks: 4807
+  avg_stars: 288.6
+  avg_forks: 35.6
   max_stars: 14349
   max_forks: 1854
   years:
@@ -621,11 +634,11 @@ by_conference:
     avg_stars: 728.8
     avg_forks: 94.2
   - year: 2023
-    github_repos: 25
-    total_stars: 1745
-    total_forks: 275
-    avg_stars: 69.8
-    avg_forks: 11.0
+    github_repos: 26
+    total_stars: 1785
+    total_forks: 284
+    avg_stars: 68.7
+    avg_forks: 10.9
   - year: 2024
     github_repos: 30
     total_stars: 2187
@@ -747,11 +760,11 @@ by_conference:
     - functional
     - reproduced
 - name: PETS
-  github_repos: 297
-  total_stars: 22049
-  total_forks: 2105
-  avg_stars: 74.2
-  avg_forks: 7.1
+  github_repos: 294
+  total_stars: 18677
+  total_forks: 1667
+  avg_stars: 63.5
+  avg_forks: 5.7
   max_stars: 12895
   max_forks: 641
   years:
@@ -786,11 +799,11 @@ by_conference:
     avg_stars: 7.1
     avg_forks: 1.5
   - year: 2025
-    github_repos: 92
-    total_stars: 451
-    total_forks: 95
-    avg_stars: 4.9
-    avg_forks: 1.0
+    github_repos: 90
+    total_stars: 389
+    total_forks: 79
+    avg_stars: 4.3
+    avg_forks: 0.9
   - year: 2026
     github_repos: 36
     total_stars: 87
@@ -884,11 +897,11 @@ by_conference:
     - Jocelyn Wang
     - Sophie Eng
 - name: SOSP
-  github_repos: 105
-  total_stars: 6678
-  total_forks: 1297
-  avg_stars: 63.6
-  avg_forks: 12.4
+  github_repos: 106
+  total_stars: 6681
+  total_forks: 1298
+  avg_stars: 63.0
+  avg_forks: 12.2
   max_stars: 1219
   max_forks: 166
   years:
@@ -899,11 +912,11 @@ by_conference:
     avg_stars: 73.9
     avg_forks: 21.1
   - year: 2021
-    github_repos: 34
-    total_stars: 2254
-    total_forks: 390
-    avg_stars: 66.3
-    avg_forks: 11.5
+    github_repos: 35
+    total_stars: 2257
+    total_forks: 391
+    avg_stars: 64.5
+    avg_forks: 11.2
   - year: 2023
     github_repos: 28
     total_stars: 1149
@@ -1113,11 +1126,11 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 523
-  total_stars: 150624
-  total_forks: 24248
-  avg_stars: 288.0
-  avg_forks: 46.4
+  github_repos: 520
+  total_stars: 150362
+  total_forks: 24183
+  avg_stars: 289.2
+  avg_forks: 46.5
   max_stars: 33493
   max_forks: 6954
   years:
@@ -1152,17 +1165,17 @@ by_conference:
     avg_stars: 330.0
     avg_forks: 38.9
   - year: 2025
-    github_repos: 100
-    total_stars: 45924
-    total_forks: 7827
-    avg_stars: 459.2
-    avg_forks: 78.3
+    github_repos: 98
+    total_stars: 45664
+    total_forks: 7765
+    avg_stars: 466.0
+    avg_forks: 79.2
   - year: 2026
-    github_repos: 31
-    total_stars: 43566
-    total_forks: 8543
-    avg_stars: 1405.4
-    avg_forks: 275.6
+    github_repos: 30
+    total_stars: 43564
+    total_forks: 8540
+    avg_stars: 1452.1
+    avg_forks: 284.7
   top_repos:
   - title: Identifying Provenance of Generative Text-to-Image Models
     url: https://github.com/huggingface/diffusers
@@ -1176,7 +1189,7 @@ by_conference:
     language: Python
     name: huggingface/diffusers
     pushed_at: '2026-04-28T19:20:25Z'
-    badges: &id003
+    badges: &id001
     - 'Badges: Available'
   - title: Inference of Error Specifications and Bug Detection Using Structural Similarities
     url: https://github.com/facebook/zstd
@@ -1255,7 +1268,7 @@ by_conference:
     language: Python
     name: kohya-ss/sd-scripts
     pushed_at: '2026-04-27T12:46:09Z'
-    badges: *id003
+    badges: *id001
 - name: WOOT
   github_repos: 31
   total_stars: 16219
@@ -1421,27 +1434,27 @@ by_year:
   max_stars: 14349
   max_forks: 1854
 - year: 2021
-  github_repos: 136
-  total_stars: 19501
-  total_forks: 1754
-  avg_stars: 143.4
-  avg_forks: 12.9
+  github_repos: 137
+  total_stars: 19504
+  total_forks: 1755
+  avg_stars: 142.4
+  avg_forks: 12.8
   max_stars: 12895
   max_forks: 641
 - year: 2022
-  github_repos: 272
-  total_stars: 37224
-  total_forks: 5155
-  avg_stars: 136.9
+  github_repos: 271
+  total_stars: 37206
+  total_forks: 5151
+  avg_stars: 137.3
   avg_forks: 19.0
   max_stars: 14349
   max_forks: 1854
 - year: 2023
   github_repos: 298
-  total_stars: 12605
-  total_forks: 2425
-  avg_stars: 42.3
-  avg_forks: 8.1
+  total_stars: 12478
+  total_forks: 2387
+  avg_stars: 41.9
+  avg_forks: 8.0
   max_stars: 1652
   max_forks: 274
 - year: 2024
@@ -1453,18 +1466,18 @@ by_year:
   max_stars: 27035
   max_forks: 2466
 - year: 2025
-  github_repos: 310
-  total_stars: 112758
-  total_forks: 35119
-  avg_stars: 363.7
-  avg_forks: 113.3
-  max_stars: 38084
-  max_forks: 16995
+  github_repos: 304
+  total_stars: 50805
+  total_forks: 9234
+  avg_stars: 167.1
+  avg_forks: 30.4
+  max_stars: 9699
+  max_forks: 1724
 - year: 2026
-  github_repos: 101
-  total_stars: 44087
-  total_forks: 8613
-  avg_stars: 436.5
-  avg_forks: 85.3
+  github_repos: 100
+  total_stars: 44085
+  total_forks: 8610
+  avg_stars: 440.9
+  avg_forks: 86.1
   max_stars: 33493
   max_forks: 6954

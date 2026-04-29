@@ -5,20 +5,20 @@ total_security: 2104
 total_conferences: 67
 total_countries: 59
 total_continents: 7
-total_institutions: 470
+total_institutions: 469
 unique_members: 2458
 unique_members_systems: 1201
 unique_members_security: 1348
 recurring_chairs: 82
 top_countries:
 - name: United States
-  count: 2103
+  count: 2106
 - name: China
   count: 373
 - name: Hong Kong
   count: 189
 - name: Germany
-  count: 182
+  count: 180
 - name: United Kingdom
   count: 111
 - name: Taiwan, Province of China
@@ -43,7 +43,7 @@ top_countries:
   count: 43
 top_countries_systems:
 - name: United States
-  count: 1240
+  count: 1243
 - name: China
   count: 272
 - name: Hong Kong
@@ -76,7 +76,7 @@ top_countries_security:
 - name: United States
   count: 863
 - name: Germany
-  count: 162
+  count: 160
 - name: China
   count: 101
 - name: Hong Kong
@@ -105,11 +105,11 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2173
+  count: 2176
 - name: Asia
   count: 908
 - name: Europe
-  count: 754
+  count: 752
 - name: Oceania
   count: 58
 - name: Africa
@@ -120,7 +120,7 @@ top_continents:
   count: 14
 top_continents_systems:
 - name: North America
-  count: 1267
+  count: 1270
 - name: Asia
   count: 570
 - name: Europe
@@ -137,7 +137,7 @@ top_continents_security:
 - name: North America
   count: 906
 - name: Europe
-  count: 485
+  count: 483
 - name: Asia
   count: 338
 - name: Oceania
@@ -226,10 +226,10 @@ top_institutions_systems:
   count: 28
 - name: Cornell University
   count: 26
+- name: University of Massachusetts at Amherst
+  count: 26
 - name: Huazhong University of Science and Technology
   count: 26
-- name: imperial college london
-  count: 25
 top_institutions_security:
 - name: cispa helmholtz center for information security
   count: 70
@@ -281,8 +281,8 @@ institution_timeline:
   systems: 0
   security: 12
 - year: 2019
-  total: 63
-  systems: 33
+  total: 64
+  systems: 34
   security: 33
 - year: 2020
   total: 79
@@ -305,13 +305,13 @@ institution_timeline:
   systems: 109
   security: 133
 - year: 2025
-  total: 246
+  total: 245
   systems: 135
-  security: 170
+  security: 169
 - year: 2026
-  total: 222
+  total: 221
   systems: 106
-  security: 172
+  security: 171
 committee_sizes:
 - conference: ACSAC
   year: 2017

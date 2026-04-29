@@ -4592,19 +4592,6 @@
   },
   {
     "title": "GNNLab: A Factored System for Sample-based GNN Training over GPUs",
-    "url": "https://github.com/SJTU-IPADS/fgnn-artifacts",
-    "conference": "EUROSYS",
-    "year": 2022,
-    "area": "systems",
-    "stars": 18,
-    "forks": 4,
-    "description": "FGNN's artifact evaluation (EuroSys 2022)",
-    "language": "Python",
-    "name": "SJTU-IPADS/fgnn-artifacts",
-    "pushed_at": "2022-04-25T14:41:48Z"
-  },
-  {
-    "title": "GNNLab: A Factored System for Sample-based GNN Training over GPUs",
     "url": "https://github.com/SJTU-IPADS/fgnn-artifacts/tree/0abc7182",
     "conference": "EUROSYS",
     "year": 2022,
@@ -5167,19 +5154,6 @@
     "language": "C++",
     "name": "kaist-ina/ns2-flexpass",
     "pushed_at": "2023-03-15T15:56:03Z"
-  },
-  {
-    "title": "MariusGNN: Resource-Efficient Out-of-Core Training of Graph Neural Networks",
-    "url": "https://github.com/marius-team/marius",
-    "conference": "EUROSYS",
-    "year": 2023,
-    "area": "systems",
-    "stars": 167,
-    "forks": 47,
-    "description": "Large scale graph learning on a single machine. ",
-    "language": "C++",
-    "name": "marius-team/marius",
-    "pushed_at": "2025-02-25T05:31:40Z"
   },
   {
     "title": "OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers",
@@ -5944,7 +5918,19 @@
     "description": "An O-RAN compliant runtime intrusion detection system (xApp) for layer-3 (L3) celluar attack detection",
     "language": "",
     "name": "5GSEC/5G-Spector",
-    "pushed_at": "2024-11-04T19:27:54Z"
+    "pushed_at": "2024-11-04T19:27:54Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Haohuang Wen",
+      "Phillip A. Porras",
+      "Vinod Yegneswaran",
+      "Ashish Gehani",
+      "Zhiqiang Lin 0001"
+    ]
   },
   {
     "title": "Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction",
@@ -5996,7 +5982,22 @@
     "description": "A secure IoT authentication framework based on hardware fingerprinting",
     "language": "C",
     "name": "IoTAccessControl/MCU-Token",
-    "pushed_at": "2025-03-01T13:16:21Z"
+    "pushed_at": "2025-03-01T13:16:21Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Yue Xiao",
+      "Yi He 0020",
+      "Xiaoli Zhang 0003",
+      "Qian Wang 0002",
+      "Renjie Xie",
+      "Kun Sun 0001",
+      "Ke Xu 0002",
+      "Qi Li 0002"
+    ]
   },
   {
     "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
@@ -6389,30 +6390,6 @@
     "pushed_at": "2024-11-30T15:40:13Z"
   },
   {
-    "title": "type++: Prohibiting Type Confusion with Inline Type Information",
-    "url": "https://github.com/chromium/chromium",
-    "conference": "NDSS",
-    "year": 2025,
-    "area": "security",
-    "stars": 23547,
-    "forks": 8812,
-    "description": "The official GitHub mirror of the Chromium source",
-    "language": "C++",
-    "name": "chromium/chromium",
-    "pushed_at": "2026-04-28T23:46:56Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "authors": [
-      "Nicolas Badoux",
-      "Flavio Toffalini",
-      "Yuseok Jeon",
-      "Mathias Payer"
-    ]
-  },
-  {
     "title": "EvoCrawl: Exploring Web Application Code and State using Evolutionary Search",
     "url": "https://github.com/dlgroupuoft/evocrawl",
     "conference": "NDSS",
@@ -6454,30 +6431,6 @@
       "available",
       "functional",
       "reproduced"
-    ]
-  },
-  {
-    "title": "type++: Prohibiting Type Confusion with Inline Type Information",
-    "url": "https://github.com/llvm/llvm-project",
-    "conference": "NDSS",
-    "year": 2025,
-    "area": "security",
-    "stars": 38084,
-    "forks": 16995,
-    "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
-    "language": "LLVM",
-    "name": "llvm/llvm-project",
-    "pushed_at": "2026-04-28T23:31:00Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "authors": [
-      "Nicolas Badoux",
-      "Flavio Toffalini",
-      "Yuseok Jeon",
-      "Mathias Payer"
     ]
   },
   {
@@ -8261,6 +8214,32 @@
     "language": "Assembly",
     "name": "glarer/UserspaceBypass",
     "pushed_at": "2026-03-12T05:51:23Z"
+  },
+  {
+    "title": "ORC: Increasing Cloud Memory Density via Object Reuse with Capabilities",
+    "url": "https://github.com/lsds/intravisor",
+    "conference": "OSDI",
+    "year": 2023,
+    "area": "systems",
+    "stars": 40,
+    "forks": 9,
+    "description": "Virtualisation platform using CHERI for isolation and sharing",
+    "language": "",
+    "name": "lsds/intravisor",
+    "pushed_at": "2024-06-05T09:02:24Z"
+  },
+  {
+    "title": "Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning",
+    "url": "https://github.com/microsoft/nnfusion/tree/cocktailer_artifact",
+    "conference": "OSDI",
+    "year": 2023,
+    "area": "systems",
+    "stars": 1000,
+    "forks": 166,
+    "description": "A flexible and efficient deep neural network (DNN) compiler that generates high-performance executable from a DNN model ",
+    "language": "C++",
+    "name": "microsoft/nnfusion",
+    "pushed_at": "2024-09-19T06:31:57Z"
   },
   {
     "title": "Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning",
@@ -13215,6 +13194,19 @@
     "language": "",
     "name": "rcslab/aurora-12.1",
     "pushed_at": "2021-08-20T01:56:28Z"
+  },
+  {
+    "title": "Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair",
+    "url": "https://github.com/rcstor/rcstor",
+    "conference": "SOSP",
+    "year": 2021,
+    "area": "systems",
+    "stars": 3,
+    "forks": 1,
+    "description": "",
+    "language": "Go",
+    "name": "rcstor/rcstor",
+    "pushed_at": "2023-05-11T11:50:24Z"
   },
   {
     "title": "WineFS: a hugepage-aware file system for persistent memory that ages gracefully",
@@ -19669,19 +19661,6 @@
     "pushed_at": "2025-12-17T17:57:56Z"
   },
   {
-    "title": "ALERT: Machine Learning-Enhanced Risk Estimation for Databases Supporting Encrypted Queries",
-    "url": "https://github.com/JigsawAttack/JigsawAttack",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 6,
-    "forks": 2,
-    "description": "",
-    "language": "Python",
-    "name": "JigsawAttack/JigsawAttack",
-    "pushed_at": "2024-08-05T02:57:56Z"
-  },
-  {
     "title": "MAESTRO: Multi-party AES using Lookup Tables",
     "url": "https://github.com/KULeuven-COSIC/maestro",
     "conference": "USENIXSEC",
@@ -19940,19 +19919,6 @@
     "language": "Python",
     "name": "YuxinWenRick/tree-ring-watermark",
     "pushed_at": "2024-03-21T17:23:06Z"
-  },
-  {
-    "title": "Practical Keyword Private Information Retrieval from Key-to-Index Mappings",
-    "url": "https://github.com/alibaba-edu/mpc4j",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 254,
-    "forks": 60,
-    "description": "",
-    "language": "Java",
-    "name": "alibaba-edu/mpc4j",
-    "pushed_at": "2026-04-02T09:03:31Z"
   },
   {
     "title": "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution",
@@ -21100,19 +21066,6 @@
     "language": "Rust",
     "name": "ryanleh/heli",
     "pushed_at": "2026-03-21T17:30:14Z"
-  },
-  {
-    "title": "Distributed Vector Commitments and Their Applications",
-    "url": "https://github.com/sunblaze-ucb/eVSS",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 2,
-    "forks": 3,
-    "description": "",
-    "language": "C++",
-    "name": "sunblaze-ucb/eVSS",
-    "pushed_at": "2022-01-16T21:03:10Z"
   },
   {
     "title": "Attacks on Approximate Caches in Text-to-Image Diffusion Models",

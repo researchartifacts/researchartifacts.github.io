@@ -689,6 +689,49 @@
     "top_authors": []
   },
   {
+    "affiliation": "Max Planck Society",
+    "combined_score": 259,
+    "artifact_score": 117,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 142,
+    "ae_ratio": 0.82,
+    "role": "Balanced",
+    "artifact_count": 60,
+    "badges_functional": 34,
+    "badges_reproducible": 25,
+    "ae_memberships": 44,
+    "chair_count": 5,
+    "total_papers": 87,
+    "artifact_pct": 69.0,
+    "author_count": 32,
+    "conferences": [
+      "ACSAC",
+      "ATC",
+      "CHES",
+      "EUROSYS",
+      "NDSS",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC",
+      "WOOT"
+    ],
+    "years": {
+      "2026": 6,
+      "2025": 28,
+      "2024": 15,
+      "2023": 19,
+      "2022": 19,
+      "2021": 7,
+      "2020": 5,
+      "2019": 0,
+      "2018": 1,
+      "2017": 0
+    },
+    "top_authors": []
+  },
+  {
     "affiliation": "University of California, Irvine",
     "combined_score": 255,
     "artifact_score": 60,
@@ -770,49 +813,6 @@
       "2019": 0,
       "2026": 6,
       "2018": 0,
-      "2017": 0
-    },
-    "top_authors": []
-  },
-  {
-    "affiliation": "Max Planck Society",
-    "combined_score": 243,
-    "artifact_score": 117,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 126,
-    "ae_ratio": 0.93,
-    "role": "Balanced",
-    "artifact_count": 60,
-    "badges_functional": 34,
-    "badges_reproducible": 25,
-    "ae_memberships": 40,
-    "chair_count": 3,
-    "total_papers": 87,
-    "artifact_pct": 69.0,
-    "author_count": 31,
-    "conferences": [
-      "ACSAC",
-      "ATC",
-      "CHES",
-      "EUROSYS",
-      "NDSS",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC",
-      "WOOT"
-    ],
-    "years": {
-      "2026": 5,
-      "2025": 27,
-      "2024": 14,
-      "2023": 18,
-      "2022": 19,
-      "2021": 7,
-      "2020": 5,
-      "2019": 0,
-      "2018": 1,
       "2017": 0
     },
     "top_authors": []
@@ -1972,6 +1972,47 @@
       "2026": 5,
       "2020": 3,
       "2019": 0,
+      "2018": 0,
+      "2017": 0
+    },
+    "top_authors": []
+  },
+  {
+    "affiliation": "University of Massachusetts Amherst",
+    "combined_score": 136,
+    "artifact_score": 58,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 78,
+    "ae_ratio": 0.74,
+    "role": "Balanced",
+    "artifact_count": 24,
+    "badges_functional": 20,
+    "badges_reproducible": 17,
+    "ae_memberships": 26,
+    "chair_count": 0,
+    "total_papers": 38,
+    "artifact_pct": 63.2,
+    "author_count": 20,
+    "conferences": [
+      "ACSAC",
+      "ATC",
+      "EUROSYS",
+      "NDSS",
+      "OSDI",
+      "PETS",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2022": 9,
+      "2024": 9,
+      "2025": 8,
+      "2023": 7,
+      "2026": 7,
+      "2021": 6,
+      "2020": 1,
+      "2019": 3,
       "2018": 0,
       "2017": 0
     },
@@ -3191,46 +3232,6 @@
       "2021": 2,
       "2020": 3,
       "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": []
-  },
-  {
-    "affiliation": "University of Massachusetts Amherst",
-    "combined_score": 87,
-    "artifact_score": 21,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 66,
-    "ae_ratio": 0.32,
-    "role": "Consumer",
-    "artifact_count": 9,
-    "badges_functional": 7,
-    "badges_reproducible": 6,
-    "ae_memberships": 22,
-    "chair_count": 0,
-    "total_papers": 14,
-    "artifact_pct": 64.3,
-    "author_count": 12,
-    "conferences": [
-      "ACSAC",
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "PETS",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2022": 7,
-      "2024": 6,
-      "2025": 3,
-      "2023": 5,
-      "2021": 3,
-      "2020": 1,
-      "2019": 1,
-      "2026": 5,
       "2018": 0,
       "2017": 0
     },
@@ -6162,44 +6163,6 @@
       "2021": 1,
       "2022": 2,
       "2023": 2
-    },
-    "top_authors": []
-  },
-  {
-    "affiliation": "Univ. of Massachusetts Amherst",
-    "combined_score": 34,
-    "artifact_score": 34,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 14,
-    "badges_functional": 12,
-    "badges_reproducible": 10,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 23,
-    "artifact_pct": 60.9,
-    "author_count": 5,
-    "conferences": [
-      "ACSAC",
-      "EUROSYS",
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 4,
-      "2024": 3,
-      "2023": 2,
-      "2022": 2,
-      "2021": 2,
-      "2020": 0,
-      "2019": 1,
-      "2018": 0,
-      "2017": 0
     },
     "top_authors": []
   },
@@ -10237,34 +10200,6 @@
     "top_authors": []
   },
   {
-    "affiliation": "Max-Planck-Institut für Informatik",
-    "combined_score": 16,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 16,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 4,
-    "chair_count": 2,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 1,
-      "2026": 1
-    },
-    "top_authors": []
-  },
-  {
     "affiliation": "Qatar Computing Research Institute",
     "combined_score": 16,
     "artifact_score": 4,
@@ -12502,40 +12437,6 @@
       "2021": 0,
       "2020": 0,
       "2019": 0
-    },
-    "top_authors": []
-  },
-  {
-    "affiliation": "UMass Amherst",
-    "combined_score": 12,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 2,
-    "conferences": [
-      "EUROSYS",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0,
-      "2019": 1,
-      "2026": 1
     },
     "top_authors": []
   },
@@ -24797,31 +24698,6 @@
     "author_count": 1,
     "conferences": [
       "EUROSYS"
-    ],
-    "years": {
-      "2026": 1
-    },
-    "top_authors": []
-  },
-  {
-    "affiliation": "Umass Amherst",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "OSDI"
     ],
     "years": {
       "2026": 1

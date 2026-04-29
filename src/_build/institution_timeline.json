@@ -38,6 +38,7 @@
       "imperial college london": 2,
       "epfl": 1,
       "Victoria University Toronto, University of Toronto": 2,
+      "University of Massachusetts at Amherst": 1,
       "University of Illinois Urbana-Champaign": 1,
       "University of California, Santa Cruz": 1,
       "Stanford University": 1,
@@ -1044,7 +1045,6 @@
       "University of Turin": 1,
       "Arak University of Technology": 4,
       "Louisiana State University": 4,
-      "max planck institute for informatics": 1,
       "University of Waterloo": 1,
       "vrije universiteit amsterdam": 3,
       "Ruhr-Universität Bochum": 2,
@@ -1124,7 +1124,7 @@
       "Columbia University": 5,
       "Bingham University": 3,
       "imdea software institute": 3,
-      "University of Massachusetts at Amherst": 5,
+      "University of Massachusetts at Amherst": 7,
       "google": 12,
       "University of California, Irvine": 13,
       "Rochester Institute of Technology": 1,
@@ -1253,7 +1253,6 @@
       "Universidade de Lisboa": 1,
       "vmware research": 1,
       "Arak University of Technology": 2,
-      "max planck institute for informatics": 1,
       "Denison University": 1,
       "University of Malta": 1,
       "Penza State University": 3,
@@ -1340,6 +1339,7 @@
       "imperial college london": 2,
       "epfl": 1,
       "Victoria University Toronto, University of Toronto": 2,
+      "University of Massachusetts at Amherst": 1,
       "University of Illinois Urbana-Champaign": 1,
       "University of California, Santa Cruz": 1,
       "Stanford University": 1,
@@ -1982,7 +1982,7 @@
       "Columbia University": 4,
       "Bingham University": 2,
       "imdea software institute": 3,
-      "University of Massachusetts at Amherst": 4,
+      "University of Massachusetts at Amherst": 6,
       "google": 4,
       "University of California, Irvine": 4,
       "Rochester Institute of Technology": 1,
@@ -2682,7 +2682,6 @@
       "University of Turin": 1,
       "Arak University of Technology": 4,
       "Louisiana State University": 4,
-      "max planck institute for informatics": 1,
       "West Chester University of Pennsylvania": 5,
       "University of Waterloo": 1,
       "John Brown University": 2,
@@ -2879,7 +2878,6 @@
       "vmware research": 1,
       "Arak University of Technology": 2,
       "inria": 1,
-      "max planck institute for informatics": 1,
       "Denison University": 1,
       "University of Malta": 1,
       "Penza State University": 3,
@@ -3576,8 +3574,8 @@
     },
     {
       "year": 2019,
-      "total": 63,
-      "systems": 33,
+      "total": 64,
+      "systems": 34,
       "security": 33
     },
     {
@@ -3612,15 +3610,15 @@
     },
     {
       "year": 2025,
-      "total": 246,
+      "total": 245,
       "systems": 135,
-      "security": 170
+      "security": 169
     },
     {
       "year": 2026,
-      "total": 222,
+      "total": 221,
       "systems": 106,
-      "security": 172
+      "security": 171
     }
   ]
 }

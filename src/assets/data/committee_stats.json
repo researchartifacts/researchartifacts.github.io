@@ -5,13 +5,13 @@
     "total_security": 2104,
     "total_countries": 59,
     "total_continents": 7,
-    "total_institutions": 470
+    "total_institutions": 469
   },
   "by_country": {
     "overall": [
       {
         "name": "United States",
-        "count": 2103
+        "count": 2106
       },
       {
         "name": "China",
@@ -23,7 +23,7 @@
       },
       {
         "name": "Germany",
-        "count": 182
+        "count": 180
       },
       {
         "name": "United Kingdom",
@@ -249,7 +249,7 @@
     "systems": [
       {
         "name": "United States",
-        "count": 1240
+        "count": 1243
       },
       {
         "name": "China",
@@ -447,7 +447,7 @@
       },
       {
         "name": "Germany",
-        "count": 162
+        "count": 160
       },
       {
         "name": "China",
@@ -647,7 +647,7 @@
     "overall": [
       {
         "name": "North America",
-        "count": 2173
+        "count": 2176
       },
       {
         "name": "Asia",
@@ -655,7 +655,7 @@
       },
       {
         "name": "Europe",
-        "count": 754
+        "count": 752
       },
       {
         "name": "Oceania",
@@ -677,7 +677,7 @@
     "systems": [
       {
         "name": "North America",
-        "count": 1267
+        "count": 1270
       },
       {
         "name": "Asia",
@@ -711,7 +711,7 @@
       },
       {
         "name": "Europe",
-        "count": 485
+        "count": 483
       },
       {
         "name": "Asia",
@@ -886,6 +886,10 @@
         "count": 27
       },
       {
+        "name": "University of Massachusetts at Amherst",
+        "count": 27
+      },
+      {
         "name": "Zhejiang University",
         "count": 27
       },
@@ -904,10 +908,6 @@
       {
         "name": "the ohio state university",
         "count": 25
-      },
-      {
-        "name": "University of Massachusetts at Amherst",
-        "count": 24
       },
       {
         "name": "University of California, Los Angeles",
@@ -1919,10 +1919,6 @@
       },
       {
         "name": "Swinburne University of Technology",
-        "count": 2
-      },
-      {
-        "name": "max planck institute for informatics",
         "count": 2
       },
       {
@@ -2692,6 +2688,10 @@
         "count": 26
       },
       {
+        "name": "University of Massachusetts at Amherst",
+        "count": 26
+      },
+      {
         "name": "Huazhong University of Science and Technology",
         "count": 26
       },
@@ -2721,10 +2721,6 @@
       },
       {
         "name": "eth zurich",
-        "count": 23
-      },
-      {
-        "name": "University of Massachusetts at Amherst",
         "count": 23
       },
       {
@@ -4554,10 +4550,6 @@
         "count": 2
       },
       {
-        "name": "max planck institute for informatics",
-        "count": 2
-      },
-      {
         "name": "University of Malta",
         "count": 2
       },
@@ -5163,7 +5155,7 @@
         "Japan": 1
       },
       "2019": {
-        "United States": 61,
+        "United States": 62,
         "Japan": 2,
         "Belgium": 1,
         "Russian Federation": 1,
@@ -5370,7 +5362,7 @@
       "2025": {
         "Spain": 14,
         "United States": 516,
-        "Germany": 31,
+        "Germany": 30,
         "United Kingdom": 17,
         "Greece": 5,
         "South Korea": 2,
@@ -5409,10 +5401,10 @@
         "Israel": 1
       },
       "2026": {
-        "United States": 394,
+        "United States": 396,
         "United Kingdom": 6,
         "Rwanda": 2,
-        "Germany": 37,
+        "Germany": 36,
         "Portugal": 3,
         "Spain": 4,
         "Greece": 2,
@@ -5451,7 +5443,7 @@
     },
     "country_systems": {
       "2019": {
-        "United States": 24,
+        "United States": 25,
         "Japan": 2,
         "Belgium": 1,
         "Russian Federation": 1,
@@ -5616,7 +5608,7 @@
         "Australia": 1
       },
       "2026": {
-        "United States": 171,
+        "United States": 173,
         "United Kingdom": 4,
         "Rwanda": 2,
         "Germany": 1,
@@ -5831,7 +5823,7 @@
         "Netherlands": 10,
         "Austria": 2,
         "Spain": 2,
-        "Germany": 26,
+        "Germany": 25,
         "Canada": 8,
         "Taiwan, Province of China": 10,
         "Malaysia": 3,
@@ -5857,7 +5849,7 @@
         "Belgium": 10,
         "Singapore": 6,
         "Netherlands": 6,
-        "Germany": 36,
+        "Germany": 35,
         "Taiwan, Province of China": 8,
         "Italy": 9,
         "Australia": 12,
@@ -5900,7 +5892,7 @@
         "Asia": 1
       },
       "2019": {
-        "North America": 64,
+        "North America": 65,
         "Asia": 10,
         "Europe": 22,
         "Unknown": 1,
@@ -5950,7 +5942,7 @@
         "Unknown": 2
       },
       "2025": {
-        "Europe": 139,
+        "Europe": 138,
         "North America": 533,
         "Asia": 228,
         "Africa": 10,
@@ -5959,8 +5951,8 @@
         "South America": 1
       },
       "2026": {
-        "North America": 411,
-        "Europe": 104,
+        "North America": 413,
+        "Europe": 103,
         "Africa": 11,
         "Asia": 134,
         "Unknown": 12,
@@ -5969,7 +5961,7 @@
     },
     "continent_systems": {
       "2019": {
-        "North America": 27,
+        "North America": 28,
         "Asia": 4,
         "Europe": 8,
         "Unknown": 1,
@@ -6021,7 +6013,7 @@
         "Oceania": 1
       },
       "2026": {
-        "North America": 173,
+        "North America": 175,
         "Europe": 22,
         "Africa": 5,
         "Asia": 48,
@@ -6088,7 +6080,7 @@
         "Unknown": 7,
         "Asia": 86,
         "North America": 188,
-        "Europe": 85,
+        "Europe": 84,
         "Oceania": 17,
         "South America": 1,
         "Africa": 2
@@ -6096,7 +6088,7 @@
       "2026": {
         "North America": 238,
         "Asia": 86,
-        "Europe": 82,
+        "Europe": 81,
         "Oceania": 12,
         "Africa": 6,
         "Unknown": 7
@@ -6927,11 +6919,6 @@
     },
     {
       "conference": "sosp2019",
-      "name": "Abhinav Jangda",
-      "affiliation": "UMass Amherst"
-    },
-    {
-      "conference": "sosp2019",
       "name": "Bunjamin Memishi",
       "affiliation": "German Aerospace Center"
     },
@@ -7547,6 +7534,11 @@
     },
     {
       "conference": "usenixsec2025",
+      "name": "Tiago Heinrich",
+      "affiliation": "Max Planck Society"
+    },
+    {
+      "conference": "usenixsec2025",
       "name": "Adrian Herrera",
       "affiliation": "Interrupt Labs"
     },
@@ -7624,6 +7616,11 @@
       "conference": "usenixsec2025",
       "name": "Kyle Fredrickson",
       "affiliation": "UCSC"
+    },
+    {
+      "conference": "usenixsec2026",
+      "name": "Tiago Heinrich",
+      "affiliation": "Max Planck Society"
     },
     {
       "conference": "usenixsec2026",
@@ -8307,11 +8304,6 @@
     },
     {
       "conference": "osdi2026",
-      "name": "Sarmistha Sarna Gomasta",
-      "affiliation": "Umass Amherst"
-    },
-    {
-      "conference": "osdi2026",
       "name": "Ishita Gupta",
       "affiliation": "Alai Studios"
     },
@@ -8339,11 +8331,6 @@
       "conference": "osdi2026",
       "name": "Akshat Sinha",
       "affiliation": "Rubrik"
-    },
-    {
-      "conference": "osdi2026",
-      "name": "Li Wu",
-      "affiliation": "UMass Amherst"
     },
     {
       "conference": "usenixsec2020",
