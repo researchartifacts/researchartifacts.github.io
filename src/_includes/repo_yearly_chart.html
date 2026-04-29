@@ -120,12 +120,10 @@
         datasets: [
           { label: 'Stars P25 (hidden anchor)', data: p25Stars, yAxisID: 'yStars', borderColor: 'rgba(0,0,0,0)', backgroundColor: 'rgba(0,0,0,0)', pointRadius: 0, borderWidth: 0, fill: false },
           { label: 'Stars P25-P75', data: starsBand, yAxisID: 'yStars', borderColor: 'rgba(31,119,180,0)', backgroundColor: 'rgba(31,119,180,0.13)', pointRadius: 0, borderWidth: 0, fill: '-1' },
-          { label: 'Avg Stars', data: avgStars, yAxisID: 'yStars', borderColor: 'rgba(31,119,180,1)', backgroundColor: 'rgba(31,119,180,1)', borderWidth: 2, pointRadius: 2.5, tension: 0.22, fill: false },
-          { label: 'Median Stars', data: medStars, yAxisID: 'yStars', borderColor: 'rgba(31,119,180,0.9)', backgroundColor: 'rgba(31,119,180,0.9)', borderDash: [6,4], borderWidth: 2, pointRadius: 2, tension: 0.22, fill: false },
+          { label: 'Median Stars', data: medStars, yAxisID: 'yStars', borderColor: 'rgba(31,119,180,1)', backgroundColor: 'rgba(31,119,180,1)', borderWidth: 2, pointRadius: 2.5, tension: 0.22, fill: false },
           { label: 'Forks P25 (hidden anchor)', data: p25Forks, yAxisID: 'yForks', borderColor: 'rgba(0,0,0,0)', backgroundColor: 'rgba(0,0,0,0)', pointRadius: 0, borderWidth: 0, fill: false },
           { label: 'Forks P25-P75', data: forksBand, yAxisID: 'yForks', borderColor: 'rgba(255,127,14,0)', backgroundColor: 'rgba(255,127,14,0.13)', pointRadius: 0, borderWidth: 0, fill: '-1' },
-          { label: 'Avg Forks', data: avgForks, yAxisID: 'yForks', borderColor: 'rgba(255,127,14,1)', backgroundColor: 'rgba(255,127,14,1)', borderWidth: 2, pointRadius: 2.5, tension: 0.22, fill: false },
-          { label: 'Median Forks', data: medForks, yAxisID: 'yForks', borderColor: 'rgba(255,127,14,0.9)', backgroundColor: 'rgba(255,127,14,0.9)', borderDash: [6,4], borderWidth: 2, pointRadius: 2, tension: 0.22, fill: false }
+          { label: 'Median Forks', data: medForks, yAxisID: 'yForks', borderColor: 'rgba(255,127,14,1)', backgroundColor: 'rgba(255,127,14,1)', borderWidth: 2, pointRadius: 2.5, tension: 0.22, fill: false }
         ]
       },
       options: {
@@ -133,7 +131,7 @@
         maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
         plugins: {
-          title: { display: true, text: areaLabel + ': Yearly Stars & Forks (Avg + Median with P25-P75 bands)' },
+          title: { display: true, text: areaLabel + ': Yearly Stars & Forks (Median with P25-P75 bands)' },
           legend: {
             position: 'bottom',
             labels: {
@@ -142,8 +140,8 @@
           }
         },
         scales: {
-          yStars: { type: 'linear', position: 'left', beginAtZero: true, title: { display: true, text: 'Stars (avg per repo)' } },
-          yForks: { type: 'linear', position: 'right', beginAtZero: true, grid: { drawOnChartArea: false }, title: { display: true, text: 'Forks (avg per repo)' } },
+          yStars: { type: 'linear', position: 'left', beginAtZero: true, title: { display: true, text: 'Stars (median per repo)' } },
+          yForks: { type: 'linear', position: 'right', beginAtZero: true, grid: { drawOnChartArea: false }, title: { display: true, text: 'Forks (median per repo)' } },
           x: { title: { display: true, text: 'Year' } }
         }
       }
