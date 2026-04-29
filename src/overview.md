@@ -243,8 +243,6 @@ Top-10 institutions by combined score (artifact creation + AE service) for each 
 
 ---
 
-<small>Last updated: {{ site.data.summary.last_updated | default: "unknown" }}. Data sourced from <a href="https://sysartifacts.github.io">sysartifacts</a> and <a href="https://secartifacts.github.io">secartifacts</a>.</small>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
