@@ -43,41 +43,41 @@ Total evaluated artifacts per year, split by area. Security adopted AE earlier (
 
 ---
 
-## Badge Distribution Comparison
+## Badge & Participation Rates
 
-Percentage of artifacts receiving each badge type, by area. Systems conferences consistently show higher badge depth, while security venues have been converging in recent years.
+Percentage of artifacts receiving each badge type (top row) and badge rates as a fraction of all accepted papers (bottom row). Open-science mandates — such as USENIX Security's 2025 policy — are the strongest lever, more than doubling participation in a single year.
 
 <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
   <div style="flex:1; min-width:400px; max-width:600px;">
-    <h4 style="text-align:center; margin:0 0 4px;">Systems</h4>
+    <h4 style="text-align:center; margin:0 0 4px;">Systems — % of AE Artifacts</h4>
     <div style="position:relative; height:240px; overflow:hidden;">
       <canvas id="badgeChartSys"></canvas>
     </div>
   </div>
   <div style="flex:1; min-width:400px; max-width:600px;">
-    <h4 style="text-align:center; margin:0 0 4px;">Security</h4>
+    <h4 style="text-align:center; margin:0 0 4px;">Security — % of AE Artifacts</h4>
     <div style="position:relative; height:240px; overflow:hidden;">
       <canvas id="badgeChartSec"></canvas>
     </div>
   </div>
 </div>
 
-<div style="position:relative; width:100%; max-width:900px; margin:2em auto; height:280px; overflow:hidden;">
+<div style="position:relative; width:100%; max-width:900px; margin:1.5em auto; height:280px; overflow:hidden;">
   <canvas id="badgeRateCompareChart"></canvas>
 </div>
 
----
-
-## AE Participation &amp; Badge Rates (% of Accepted Papers)
-
-Badge rates as a fraction of **all accepted papers** (not just AE submissions) reveal the true penetration of artifact evaluation. Open-science mandates — such as USENIX Security's 2025 policy — are the strongest lever, more than doubling participation in a single year.
-
 <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
   <div style="flex:1; min-width:400px; max-width:600px;">
-    <canvas id="partRateChartSys" height="280"></canvas>
+    <h4 style="text-align:center; margin:0 0 4px;">Systems — % of All Accepted Papers</h4>
+    <div style="position:relative; height:260px; overflow:hidden;">
+      <canvas id="partRateChartSys"></canvas>
+    </div>
   </div>
   <div style="flex:1; min-width:400px; max-width:600px;">
-    <canvas id="partRateChartSec" height="280"></canvas>
+    <h4 style="text-align:center; margin:0 0 4px;">Security — % of All Accepted Papers</h4>
+    <div style="position:relative; height:260px; overflow:hidden;">
+      <canvas id="partRateChartSec"></canvas>
+    </div>
   </div>
 </div>
 
@@ -292,11 +292,17 @@ document.addEventListener('DOMContentLoaded', function() {
       var y = "{{ yd.year }}";
       var bucket = (cat === "systems") ? sysYearBadges : secYearBadges;
       if (bucket[y]) {
-        bucket[y].total += {{ yd.total }};
-        bucket[y].available += {{ yd.available }};
-        bucket[y].functional += {{ yd.functional }};
-        bucket[y].reproducible += {{ yd.reproducible }};
-        bucket[y].reusable += {{ yd.reusable }};
+        var t = {{ yd.total }}, a = {{ yd.available }}, f = {{ yd.functional }}, r = {{ yd.reproducible }}, u = {{ yd.reusable }};
+        bucket[y].total += t;
+        /* If a conference-year has functional==total but no other badges,
+           those are really "evaluated only" (generic AE pass, no ACM badge). */
+        var isEvalOnly = (cat === 'security' && a === 0 && r === 0 && u === 0 && f === t && f > 0);
+        if (!isEvalOnly) {
+          bucket[y].available += a;
+          bucket[y].functional += f;
+          bucket[y].reproducible += r;
+          bucket[y].reusable += u;
+        }
       }
     }
     {% endfor %}
@@ -329,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: title + ' — Badge Rate (% of AE artifacts)' } },
+        plugins: { title: { display: false } },
         scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: '% of Artifacts' } } }
       }
     });
@@ -338,7 +344,9 @@ document.addEventListener('DOMContentLoaded', function() {
   makeBadgeChart('badgeChartSys', sysYearBadges, 'Systems', ['available','functional','reproducible','reusable']);
   makeBadgeChart('badgeChartSec', secYearBadges, 'Security', ['evaluated','available','functional','reproducible','reusable']);
 
-  /* Reproducibility rate comparison overlay */
+  /* Badge rate comparison overlay */
+  var sysAvailRate = badgeRateSeries(sysYearBadges, 'available');
+  var secAvailRate = badgeRateSeries(secYearBadges, 'available');
   var sysReproRate = badgeRateSeries(sysYearBadges, 'reproducible');
   var secReproRate = badgeRateSeries(secYearBadges, 'reproducible');
   var sysFuncRate  = badgeRateSeries(sysYearBadges, 'functional');
@@ -349,15 +357,17 @@ document.addEventListener('DOMContentLoaded', function() {
     data: {
       labels: years,
       datasets: [
+        { label: 'Systems — Available %', data: sysAvailRate, borderColor: SYS_COLOR, borderWidth: 2, borderDash: [2,2], fill: false, tension: 0.2, spanGaps: true },
+        { label: 'Security — Available %', data: secAvailRate, borderColor: SEC_COLOR, borderWidth: 2, borderDash: [2,2], fill: false, tension: 0.2, spanGaps: true },
+        { label: 'Systems — Functional %', data: sysFuncRate, borderColor: SYS_COLOR, borderWidth: 2, borderDash: [5,5], fill: false, tension: 0.2, spanGaps: true },
+        { label: 'Security — Functional %', data: secFuncRate, borderColor: SEC_COLOR, borderWidth: 2, borderDash: [5,5], fill: false, tension: 0.2, spanGaps: true },
         { label: 'Systems — Reproduced %', data: sysReproRate, borderColor: SYS_COLOR, borderWidth: 3, fill: false, tension: 0.2, spanGaps: true },
-        { label: 'Security — Reproduced %', data: secReproRate, borderColor: SEC_COLOR, borderWidth: 3, fill: false, tension: 0.2, spanGaps: true },
-        { label: 'Systems — Functional %', data: sysFuncRate, borderColor: SYS_COLOR, borderWidth: 1, borderDash: [5,5], fill: false, tension: 0.2, spanGaps: true },
-        { label: 'Security — Functional %', data: secFuncRate, borderColor: SEC_COLOR, borderWidth: 1, borderDash: [5,5], fill: false, tension: 0.2, spanGaps: true }
+        { label: 'Security — Reproduced %', data: secReproRate, borderColor: SEC_COLOR, borderWidth: 3, fill: false, tension: 0.2, spanGaps: true }
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { title: { display: true, text: 'Reproduced & Functional Rate: Systems vs. Security' } },
+      plugins: { title: { display: true, text: 'Available, Functional & Reproduced: Systems vs. Security' } },
       scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: '% of AE Artifacts' } } }
     }
   });
@@ -379,7 +389,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: title + ' — % of All Accepted Papers' } },
+        plugins: { title: { display: false } },
         scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: '%' } } }
       }
     });
