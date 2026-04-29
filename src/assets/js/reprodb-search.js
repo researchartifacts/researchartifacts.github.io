@@ -343,28 +343,23 @@
     }
 
     // Score: lower = better. Name-starts-with beats name-contains beats affiliation-only.
-    function scoreMatch(name, affiliation, acronym) {
+    function scoreMatch(name, affiliation) {
       var normName = normalizeText(name);
-      var searchName = acronym ? normName + ' ' + acronym.toLowerCase() : normName;
       var normAffil = normalizeText(affiliation || '');
       var nameStarts = terms.every(function(t) {
-        return searchName.split(' ').some(function(w) { return w.indexOf(t) === 0; });
+        return normName.split(' ').some(function(w) { return w.indexOf(t) === 0; });
       });
       if (nameStarts) return 0;
-      var nameContains = terms.every(function(t) { return searchName.indexOf(t) !== -1; });
+      var nameContains = terms.every(function(t) { return normName.indexOf(t) !== -1; });
       if (nameContains) return 1;
-      var fullText = searchName + ' ' + normAffil;
+      var fullText = normName + ' ' + normAffil;
       var fullMatch = terms.every(function(t) { return fullText.indexOf(t) !== -1; });
       if (fullMatch) {
         // Only match on affiliation if at least one term hits the name
-        var anyNameHit = terms.some(function(t) { return searchName.indexOf(t) !== -1; });
+        var anyNameHit = terms.some(function(t) { return normName.indexOf(t) !== -1; });
         if (anyNameHit) return 2;
       }
       return -1; // no match
-    }
-
-    function getAcronym(name) {
-      return (name || '').replace(/[^A-Z]/g, '');
     }
 
     var candidates = [];
@@ -373,8 +368,7 @@
       if (s >= 0) candidates.push({ type: 'author', data: p, score: s });
     });
     institutionData.forEach(function(inst) {
-      var acr = getAcronym(inst.affiliation);
-      var s = scoreMatch(inst.affiliation, '', acr);
+      var s = scoreMatch(inst.affiliation, '');
       if (s >= 0) candidates.push({ type: 'institution', data: inst, score: s });
     });
 

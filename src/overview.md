@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   /* ---------- colour palette ---------- */
   var SYS_COLOR  = '#2980b9';
   var SEC_COLOR  = '#c0392b';
-  var BADGE_COLORS = {available:'#27ae60', functional:'#2980b9', reproducible:'#8e44ad', reusable:'#e67e22'};
+  var BADGE_COLORS = {evaluated:'#95a5a6', available:'#27ae60', functional:'#2980b9', reproducible:'#8e44ad', reusable:'#e67e22'};
 
   var years = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
@@ -306,17 +306,25 @@ document.addEventListener('DOMContentLoaded', function() {
   function badgeRateSeries(yearBadges, badge) {
     return years.map(function(y) {
       var b = yearBadges[y];
-      return b.total > 0 ? Math.round(b[badge] / b.total * 100) : null;
+      if (b.total <= 0) return null;
+      if (badge === 'evaluated') {
+        var maxBadge = Math.max(b.available, b.functional, b.reproducible, b.reusable);
+        var evalOnly = b.total - maxBadge;
+        return evalOnly > 0 ? Math.round(evalOnly / b.total * 100) : 0;
+      }
+      return Math.round(b[badge] / b.total * 100);
     });
   }
 
-  function makeBadgeChart(canvasId, yearBadges, title) {
+  function makeBadgeChart(canvasId, yearBadges, title, badges) {
     new Chart(document.getElementById(canvasId), {
       type: 'line',
       data: {
         labels: years,
-        datasets: ['available','functional','reproducible','reusable'].map(function(badge){
-          return { label: badge.charAt(0).toUpperCase()+badge.slice(1), data: badgeRateSeries(yearBadges, badge), borderColor: BADGE_COLORS[badge], fill: false, tension: 0.2, spanGaps: true };
+        datasets: badges.map(function(badge){
+          var lbl = badge === 'evaluated' ? 'Evaluated (no badge)' : badge.charAt(0).toUpperCase()+badge.slice(1);
+          var dash = badge === 'evaluated' ? [4,4] : [];
+          return { label: lbl, data: badgeRateSeries(yearBadges, badge), borderColor: BADGE_COLORS[badge], borderDash: dash, fill: false, tension: 0.2, spanGaps: true };
         })
       },
       options: {
@@ -327,8 +335,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  makeBadgeChart('badgeChartSys', sysYearBadges, 'Systems');
-  makeBadgeChart('badgeChartSec', secYearBadges, 'Security');
+  makeBadgeChart('badgeChartSys', sysYearBadges, 'Systems', ['available','functional','reproducible','reusable']);
+  makeBadgeChart('badgeChartSec', secYearBadges, 'Security', ['evaluated','available','functional','reproducible','reusable']);
 
   /* Reproducibility rate comparison overlay */
   var sysReproRate = badgeRateSeries(sysYearBadges, 'reproducible');
