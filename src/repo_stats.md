@@ -14,10 +14,10 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 |---|---|
 | **GitHub Repos** | {{ site.data.repo_stats.overall.github_repos }} |
 | **Total Stars** | {{ site.data.repo_stats.overall.total_stars }} |
-| **Avg Stars** | {{ site.data.repo_stats.overall.avg_stars }} |
+| **Median Stars** | {{ site.data.repo_stats.overall.median_stars }} |
 | **Max Stars** | {{ site.data.repo_stats.overall.max_stars }} |
 | **Total Forks** | {{ site.data.repo_stats.overall.total_forks }} |
-| **Avg Forks** | {{ site.data.repo_stats.overall.avg_forks }} |
+| **Median Forks** | {{ site.data.repo_stats.overall.median_forks }} |
 
 {% endif %}
 
@@ -35,7 +35,7 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 
 {% include top_repos_table.html %}
 
-## Average Stars & Forks by Year
+## Median Stars & Forks by Year
 
 {% include repo_yearly_chart.html %}
 

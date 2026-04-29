@@ -12,16 +12,16 @@ GitHub stars and forks for artifact repositories from security conferences ({{ s
 
 ## By Conference
 
-| Conference | GitHub Repos | Total Stars | Avg Stars | Total Forks | Avg Forks | Max Stars |
+| Conference | GitHub Repos | Total Stars | Median Stars | Total Forks | Median Forks | Max Stars |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-{% for c in site.data.repo_stats.by_conference %}{% assign _is_sec = false %}{% for conf in site.data.artifacts_by_conference %}{% if conf.name == c.name and conf.category == "security" %}{% assign _is_sec = true %}{% endif %}{% endfor %}{% if _is_sec %}| **{{ c.name }}** | {{ c.github_repos }} | {{ c.total_stars }} | {{ c.avg_stars }} | {{ c.total_forks }} | {{ c.avg_forks }} | {{ c.max_stars }} |
+{% for c in site.data.repo_stats.by_conference %}{% assign _is_sec = false %}{% for conf in site.data.artifacts_by_conference %}{% if conf.name == c.name and conf.category == "security" %}{% assign _is_sec = true %}{% endif %}{% endfor %}{% if _is_sec %}| **{{ c.name }}** | {{ c.github_repos }} | {{ c.total_stars }} | {{ c.median_stars }} | {{ c.total_forks }} | {{ c.median_forks }} | {{ c.max_stars }} |
 {% endif %}{% endfor %}
 
 ## Top Repositories
 
 {% include top_repos_table.html %}
 
-## Average Stars & Forks by Year
+## Median Stars & Forks by Year
 
 {% include repo_yearly_chart.html %}
 
