@@ -1,0 +1,152 @@
+/* reprodb-charts.css — Shared chart & card layout for ReproDB pages. */
+
+/* ── CSS custom properties (light defaults, dark overrides below) ─── */
+:root {
+  --rdb-border: #ddd;
+  --rdb-muted: #666;
+  --rdb-row-alt: #f9f9f9;
+  --rdb-hover: #e8f4f8;
+}
+
+/* ── Summary cards ─────────────────────────────────────────────────── */
+.rdb-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 1em 0;
+}
+.rdb-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 16px;
+  border: 1px solid var(--rdb-border);
+  border-radius: 8px;
+  text-align: center;
+}
+.rdb-card-value {
+  font-size: 2em;
+  font-weight: bold;
+}
+.rdb-card-label {
+  color: var(--rdb-muted);
+}
+
+/* ── Chart row — two side-by-side charts ───────────────────────────── */
+.rdb-chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.rdb-chart-col {
+  flex: 1;
+  min-width: 400px;
+  max-width: 600px;
+}
+.rdb-chart-col h4 {
+  text-align: center;
+  margin: 0 0 4px;
+}
+
+/* ── Chart container with fixed height ─────────────────────────────── */
+.rdb-chart-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.rdb-chart-wrap--sm  { height: 240px; }
+.rdb-chart-wrap--md  { height: 260px; }
+.rdb-chart-wrap--lg  { height: 280px; }
+.rdb-chart-wrap--xl  { height: 400px; }
+
+/* ── Single wide chart ─────────────────────────────────────────────── */
+.rdb-chart-wide {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 1em auto;
+  overflow: hidden;
+}
+
+/* ── Scatter legend ────────────────────────────────────────────────── */
+.rdb-scatter-legend {
+  text-align: center;
+  margin: 0.5em 0;
+}
+.rdb-scatter-legend span {
+  font-size: 0.85em;
+  color: var(--rdb-muted);
+}
+.rdb-scatter-legend canvas {
+  vertical-align: middle;
+}
+.rdb-scatter-caption {
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--rdb-muted);
+}
+
+/* ── 2×N chart grid (used for multiple same-size charts) ───────────── */
+.rdb-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 1em 0;
+}
+@media (max-width: 860px) {
+  .rdb-chart-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Country / item cards (geographic page) ────────────────────────── */
+.rdb-country-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1em 0;
+}
+.rdb-country-card {
+  flex: 1 1 220px;
+  max-width: 280px;
+  padding: 12px 14px;
+  border: 1px solid var(--rdb-border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rdb-country-card .flag { font-size: 1.6em; flex-shrink: 0; }
+.rdb-country-card .info { min-width: 0; }
+.rdb-country-card .name { font-weight: 600; font-size: 0.95em; }
+.rdb-country-card .stats { font-size: 0.8em; color: var(--rdb-muted); }
+
+/* ── Search / filter bar ───────────────────────────────────────────── */
+.rdb-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 0.5em 0 1em;
+}
+.rdb-filter-bar input,
+.rdb-filter-bar select {
+  padding: 4px 8px;
+  font-size: 0.95em;
+  border: 1px solid var(--rdb-border);
+  border-radius: 4px;
+}
+.rdb-filter-bar input { width: 180px; }
+
+/* ── Dark-mode overrides ───────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --rdb-border: #4a4f57;
+    --rdb-muted: #8a8e95;
+    --rdb-row-alt: #23272d;
+    --rdb-hover: #2a3038;
+  }
+}
+html[data-theme="dark"] {
+  --rdb-border: #4a4f57;
+  --rdb-muted: #8a8e95;
+  --rdb-row-alt: #23272d;
+  --rdb-hover: #2a3038;
+}

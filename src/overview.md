@@ -3,7 +3,7 @@ title: "Systems vs. Security — Longitudinal Comparison"
 permalink: /overview.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/reprodb-overview.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/reprodb-charts.css' | relative_url }}">
 
 A side-by-side longitudinal comparison of artifact evaluation across **systems** and **security** conferences tracked in ReproDB ({{ site.data.summary.year_range }}).
 
@@ -11,18 +11,18 @@ A side-by-side longitudinal comparison of artifact evaluation across **systems**
 
 ## High-Level Summary
 
-<div class="ov-cards">
-  <div class="ov-card">
-    <div class="ov-card-value">{{ site.data.summary.total_artifacts }}</div>
-    <div class="ov-card-label">Total Artifacts</div>
+<div class="rdb-cards">
+  <div class="rdb-card">
+    <div class="rdb-card-value">{{ site.data.summary.total_artifacts }}</div>
+    <div class="rdb-card-label">Total Artifacts</div>
   </div>
-  <div class="ov-card">
-    <div class="ov-card-value">{{ site.data.summary.total_conferences }}</div>
-    <div class="ov-card-label">Conferences</div>
+  <div class="rdb-card">
+    <div class="rdb-card-value">{{ site.data.summary.total_conferences }}</div>
+    <div class="rdb-card-label">Conferences</div>
   </div>
-  <div class="ov-card">
-    <div class="ov-card-value">{{ site.data.summary.year_range }}</div>
-    <div class="ov-card-label">Year Range</div>
+  <div class="rdb-card">
+    <div class="rdb-card-value">{{ site.data.summary.year_range }}</div>
+    <div class="rdb-card-label">Year Range</div>
   </div>
 </div>
 
@@ -39,7 +39,7 @@ A side-by-side longitudinal comparison of artifact evaluation across **systems**
 
 Total evaluated artifacts per year, split by area. Security adopted AE earlier (2017) than systems (2019) and grew faster, though much of the gap reflects venue expansion rather than per-venue increases.
 
-<div class="ov-chart-wide ov-chart-wrap--xl">
+<div class="rdb-chart-wide rdb-chart-wrap--xl">
   <canvas id="artifactGrowthChart"></canvas>
 </div>
 
@@ -49,35 +49,35 @@ Total evaluated artifacts per year, split by area. Security adopted AE earlier (
 
 Percentage of artifacts receiving each badge type (top row) and badge rates as a fraction of all accepted papers (bottom row). Open-science mandates — such as USENIX Security's 2025 policy — are the strongest lever, more than doubling participation in a single year.
 
-<div class="ov-chart-row">
-  <div class="ov-chart-col">
+<div class="rdb-chart-row">
+  <div class="rdb-chart-col">
     <h4>Systems — % of AE Artifacts</h4>
-    <div class="ov-chart-wrap ov-chart-wrap--sm">
+    <div class="rdb-chart-wrap rdb-chart-wrap--sm">
       <canvas id="badgeChartSys"></canvas>
     </div>
   </div>
-  <div class="ov-chart-col">
+  <div class="rdb-chart-col">
     <h4>Security — % of AE Artifacts</h4>
-    <div class="ov-chart-wrap ov-chart-wrap--sm">
+    <div class="rdb-chart-wrap rdb-chart-wrap--sm">
       <canvas id="badgeChartSec"></canvas>
     </div>
   </div>
 </div>
 
-<div class="ov-chart-wide ov-chart-wrap--lg">
+<div class="rdb-chart-wide rdb-chart-wrap--lg">
   <canvas id="badgeRateCompareChart"></canvas>
 </div>
 
-<div class="ov-chart-row">
-  <div class="ov-chart-col">
+<div class="rdb-chart-row">
+  <div class="rdb-chart-col">
     <h4>Systems — % of All Accepted Papers</h4>
-    <div class="ov-chart-wrap ov-chart-wrap--md">
+    <div class="rdb-chart-wrap rdb-chart-wrap--md">
       <canvas id="partRateChartSys"></canvas>
     </div>
   </div>
-  <div class="ov-chart-col">
+  <div class="rdb-chart-col">
     <h4>Security — % of All Accepted Papers</h4>
-    <div class="ov-chart-wrap ov-chart-wrap--md">
+    <div class="rdb-chart-wrap rdb-chart-wrap--md">
       <canvas id="partRateChartSec"></canvas>
     </div>
   </div>
@@ -89,7 +89,7 @@ Percentage of artifacts receiving each badge type (top row) and badge rates as a
 
 Artifact counts by conference and year. Darker cells indicate more artifacts evaluated that year.
 
-<div class="ov-chart-wide">
+<div class="rdb-chart-wide">
   <canvas id="timelineHeatmap"></canvas>
 </div>
 
@@ -99,24 +99,24 @@ Artifact counts by conference and year. Darker cells indicate more artifacts eva
 
 Top-10 institutions by combined score (artifact creation + AE service) for each area. Institutions specialize: some lean towards artifact creation (producers), others towards evaluation service (consumers), and a few maintain balanced profiles. The two communities have largely distinct institutional ecosystems.
 
-<div class="ov-chart-row">
-  <div class="ov-chart-col">
+<div class="rdb-chart-row">
+  <div class="rdb-chart-col">
     <canvas id="instChartSys" height="340"></canvas>
   </div>
-  <div class="ov-chart-col">
+  <div class="rdb-chart-col">
     <canvas id="instChartSec" height="340"></canvas>
   </div>
 </div>
 
-<div class="ov-chart-wide ov-chart-wrap--xl">
+<div class="rdb-chart-wide rdb-chart-wrap--xl">
   <canvas id="instScatterChart"></canvas>
 </div>
-<div class="ov-scatter-legend">
+<div class="rdb-scatter-legend">
   <span style="margin-right:8px;">Security</span>
   <canvas id="instScatterLegend"></canvas>
   <span style="margin-left:8px;">Systems</span>
 </div>
-<p class="ov-scatter-caption">Each bubble is an institution. X = artifact score, Y = AE service score, size = combined score. Color indicates the systems/security balance. Only institutions with combined score &ge; 50 are shown.</p>
+<p class="rdb-scatter-caption">Each bubble is an institution. X = artifact score, Y = AE service score, size = combined score. Color indicates the systems/security balance. Only institutions with combined score &ge; 50 are shown.</p>
 
 {% else %}
 
