@@ -336,52 +336,75 @@
 
   function renderProfileCards(query, terms) {
     var container = document.getElementById('profileCards');
-    if (!terms || terms.length === 0) {
+    if (!terms || terms.length === 0 || query.trim().length < 2) {
       container.style.display = 'none';
       container.innerHTML = '';
       return;
     }
 
-    var matchedAuthors = authorProfiles.filter(function(p) {
-      var searchText = normalizeText(p.name) + ' ' + normalizeText(p.affiliation || '');
-      return terms.every(function(t) { return searchText.indexOf(t) !== -1; });
-    }).slice(0, 3);
+    // Score: lower = better. Name-starts-with beats name-contains beats affiliation-only.
+    function scoreMatch(name, affiliation) {
+      var normName = normalizeText(name);
+      var normAffil = normalizeText(affiliation || '');
+      var nameStarts = terms.every(function(t) {
+        return normName.split(' ').some(function(w) { return w.indexOf(t) === 0; });
+      });
+      if (nameStarts) return 0;
+      var nameContains = terms.every(function(t) { return normName.indexOf(t) !== -1; });
+      if (nameContains) return 1;
+      var fullText = normName + ' ' + normAffil;
+      var fullMatch = terms.every(function(t) { return fullText.indexOf(t) !== -1; });
+      if (fullMatch) {
+        // Only match on affiliation if at least one term hits the name
+        var anyNameHit = terms.some(function(t) { return normName.indexOf(t) !== -1; });
+        if (anyNameHit) return 2;
+      }
+      return -1; // no match
+    }
 
-    var matchedInsts = institutionData.filter(function(inst) {
-      var searchText = normalizeText(inst.affiliation || '');
-      return terms.every(function(t) { return searchText.indexOf(t) !== -1; });
-    }).slice(0, 3);
+    var candidates = [];
+    authorProfiles.forEach(function(p) {
+      var s = scoreMatch(p.name, p.affiliation);
+      if (s >= 0) candidates.push({ type: 'author', data: p, score: s });
+    });
+    institutionData.forEach(function(inst) {
+      var s = scoreMatch(inst.affiliation, '');
+      if (s >= 0) candidates.push({ type: 'institution', data: inst, score: s });
+    });
 
-    if (matchedAuthors.length === 0 && matchedInsts.length === 0) {
+    candidates.sort(function(a, b) { return a.score - b.score; });
+    candidates = candidates.slice(0, 3);
+
+    if (candidates.length === 0) {
       container.style.display = 'none';
       container.innerHTML = '';
       return;
     }
 
     var html = '<div class="profile-cards-row">';
-
-    matchedInsts.forEach(function(inst) {
-      var url = baseUrl + '/profile.html?name=' + encodeURIComponent(inst.affiliation) + '&type=institution';
-      var initials = (inst.affiliation || '?')[0].toUpperCase();
-      html += '<a class="profile-card" href="' + url + '">' +
-        '<div class="avatar inst-avatar">' + escHtml(initials) + '</div>' +
-        '<div class="card-info">' +
-          '<div class="card-name">' + escHtml(inst.affiliation) + '</div>' +
-          '<div class="card-detail">' + (inst.author_count || 0) + ' researchers</div>' +
-        '</div></a>';
+    candidates.forEach(function(c) {
+      if (c.type === 'institution') {
+        var inst = c.data;
+        var url = baseUrl + '/profile.html?name=' + encodeURIComponent(inst.affiliation) + '&type=institution';
+        var initials = (inst.affiliation || '?')[0].toUpperCase();
+        html += '<a class="profile-card" href="' + url + '">' +
+          '<div class="avatar inst-avatar">' + escHtml(initials) + '</div>' +
+          '<div class="card-info">' +
+            '<div class="card-name">' + escHtml(inst.affiliation) + '</div>' +
+            '<div class="card-detail">' + (inst.author_count || 0) + ' researchers</div>' +
+          '</div></a>';
+      } else {
+        var p = c.data;
+        var cleanN = (p.name || '').replace(/\s+\d{4}$/, '').replace(/\t/g, ' ');
+        var url = baseUrl + '/profile.html?name=' + encodeURIComponent(p.name) + (p.author_id != null ? '&id=' + p.author_id : '');
+        html += '<a class="profile-card" href="' + url + '">' +
+          '<div class="avatar author-avatar">' + escHtml(getInitials(cleanN)) + '</div>' +
+          '<div class="card-info">' +
+            '<div class="card-name">' + escHtml(cleanN) + '</div>' +
+            '<div class="card-detail">' + escHtml(p.affiliation || '') + '</div>' +
+          '</div></a>';
+      }
     });
-
-    matchedAuthors.forEach(function(p) {
-      var cleanN = (p.name || '').replace(/\s+\d{4}$/, '').replace(/\t/g, ' ');
-      var url = baseUrl + '/profile.html?name=' + encodeURIComponent(p.name) + (p.author_id != null ? '&id=' + p.author_id : '');
-      html += '<a class="profile-card" href="' + url + '">' +
-        '<div class="avatar author-avatar">' + escHtml(getInitials(cleanN)) + '</div>' +
-        '<div class="card-info">' +
-          '<div class="card-name">' + escHtml(cleanN) + '</div>' +
-          '<div class="card-detail">' + escHtml(p.affiliation || '') + '</div>' +
-        '</div></a>';
-    });
-
     html += '</div>';
     container.innerHTML = html;
     container.style.display = 'block';
