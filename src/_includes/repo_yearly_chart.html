@@ -1,6 +1,6 @@
 {% comment %}
   Yearly repository stats charts.
-  - all: one compact combined chart with avg+median and P25-P75 bands.
+  - all: one compact combined chart with median and P25-P75 bands.
   - systems/security: conference-specific lines only, split into Stars and Forks charts.
 
   Required page variables:
@@ -71,8 +71,8 @@
       for (var j = 0; j < years.length; j++) {
         var yr = years[j];
         var year = Number(yr.year);
-        var stars = Number(yr.avg_stars || 0);
-        var forks = Number(yr.avg_forks || 0);
+        var stars = Number(yr.median_stars || 0);
+        var forks = Number(yr.median_forks || 0);
 
         if (!yearMap[year]) yearMap[year] = { stars: [], forks: [] };
         yearMap[year].stars.push(stars);
@@ -199,7 +199,7 @@
         interaction: { mode: 'index', intersect: false },
         plugins: { title: { display: true, text: areaLabel + ': Conference-specific Stars by Year' }, legend: { position: 'bottom' } },
         scales: {
-          y: { beginAtZero: true, title: { display: true, text: 'Stars (avg per repo)' } },
+          y: { beginAtZero: true, title: { display: true, text: 'Stars (median per repo)' } },
           x: { title: { display: true, text: 'Year' } }
         }
       }
@@ -214,7 +214,7 @@
         interaction: { mode: 'index', intersect: false },
         plugins: { title: { display: true, text: areaLabel + ': Conference-specific Forks by Year' }, legend: { position: 'bottom' } },
         scales: {
-          y: { beginAtZero: true, title: { display: true, text: 'Forks (avg per repo)' } },
+          y: { beginAtZero: true, title: { display: true, text: 'Forks (median per repo)' } },
           x: { title: { display: true, text: 'Year' } }
         }
       }
