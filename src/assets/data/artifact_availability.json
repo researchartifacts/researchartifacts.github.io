@@ -1,56 +1,56 @@
 {
   "summary": {
-    "checked_at": "2026-09-06 15:43:25 UTC",
-    "total_urls": 3022,
-    "accessible_urls": 2938,
+    "checked_at": "2026-09-08 12:23:30 UTC",
+    "total_urls": 3163,
+    "accessible_urls": 3074,
     "accessibility_pct": 97.2,
     "by_platform": {
       "Bitbucket": {
-        "total": 11,
-        "accessible": 11,
-        "pct": 100.0
+        "total": 14,
+        "accessible": 13,
+        "pct": 92.9
       },
       "DOI-other": {
-        "total": 19,
+        "total": 25,
         "accessible": 18,
-        "pct": 94.7
+        "pct": 72.0
       },
       "Figshare": {
-        "total": 42,
-        "accessible": 41,
-        "pct": 97.6
+        "total": 43,
+        "accessible": 42,
+        "pct": 97.7
       },
       "GitHub": {
-        "total": 1452,
-        "accessible": 1420,
+        "total": 1522,
+        "accessible": 1489,
         "pct": 97.8
       },
       "GitLab": {
-        "total": 13,
-        "accessible": 13,
+        "total": 14,
+        "accessible": 14,
         "pct": 100.0
       },
       "Zenodo": {
-        "total": 1162,
-        "accessible": 1151,
+        "total": 1222,
+        "accessible": 1211,
         "pct": 99.1
       },
       "other": {
         "total": 323,
-        "accessible": 284,
-        "pct": 87.9
+        "accessible": 287,
+        "pct": 88.9
       }
     },
     "by_area": {
       "security": {
         "total": 2380,
-        "accessible": 2323,
-        "pct": 97.6
+        "accessible": 2325,
+        "pct": 97.7
       },
       "systems": {
-        "total": 642,
-        "accessible": 615,
-        "pct": 95.8
+        "total": 783,
+        "accessible": 749,
+        "pct": 95.7
       }
     },
     "by_year": {
@@ -75,9 +75,9 @@
         "pct": 94.7
       },
       "2021": {
-        "total": 144,
-        "accessible": 140,
-        "pct": 97.2
+        "total": 253,
+        "accessible": 243,
+        "pct": 96.0
       },
       "2022": {
         "total": 376,
@@ -85,14 +85,14 @@
         "pct": 96.3
       },
       "2023": {
-        "total": 358,
-        "accessible": 345,
-        "pct": 96.4
+        "total": 391,
+        "accessible": 376,
+        "pct": 96.2
       },
       "2024": {
         "total": 483,
-        "accessible": 459,
-        "pct": 95.0
+        "accessible": 460,
+        "pct": 95.2
       },
       "2025": {
         "total": 764,
@@ -100,9 +100,9 @@
         "pct": 98.8
       },
       "2026": {
-        "total": 707,
-        "accessible": 701,
-        "pct": 99.2
+        "total": 706,
+        "accessible": 702,
+        "pct": 99.4
       }
     },
     "by_year_area": {
@@ -142,13 +142,13 @@
       "2021": {
         "security": {
           "total": 97,
-          "accessible": 94,
-          "pct": 96.9
+          "accessible": 95,
+          "pct": 97.9
         },
         "systems": {
-          "total": 47,
-          "accessible": 46,
-          "pct": 97.9
+          "total": 156,
+          "accessible": 148,
+          "pct": 94.9
         }
       },
       "2022": {
@@ -170,16 +170,16 @@
           "pct": 96.9
         },
         "systems": {
-          "total": 102,
-          "accessible": 97,
-          "pct": 95.1
+          "total": 135,
+          "accessible": 128,
+          "pct": 94.8
         }
       },
       "2024": {
         "security": {
           "total": 345,
-          "accessible": 326,
-          "pct": 94.5
+          "accessible": 327,
+          "pct": 94.8
         },
         "systems": {
           "total": 138,
@@ -206,9 +206,9 @@
           "pct": 99.5
         },
         "systems": {
-          "total": 75,
-          "accessible": 72,
-          "pct": 96.0
+          "total": 74,
+          "accessible": 73,
+          "pct": 98.6
         }
       }
     },
@@ -297,25 +297,40 @@
         }
       },
       "2021": {
-        "GitHub": {
-          "total": 101,
-          "accessible": 101,
+        "Bitbucket": {
+          "total": 2,
+          "accessible": 2,
           "pct": 100.0
         },
-        "GitLab": {
+        "DOI-other": {
+          "total": 6,
+          "accessible": 0,
+          "pct": 0.0
+        },
+        "Figshare": {
           "total": 1,
           "accessible": 1,
           "pct": 100.0
         },
+        "GitHub": {
+          "total": 141,
+          "accessible": 140,
+          "pct": 99.3
+        },
+        "GitLab": {
+          "total": 2,
+          "accessible": 2,
+          "pct": 100.0
+        },
         "Zenodo": {
-          "total": 6,
-          "accessible": 6,
+          "total": 65,
+          "accessible": 65,
           "pct": 100.0
         },
         "other": {
           "total": 36,
-          "accessible": 32,
-          "pct": 88.9
+          "accessible": 33,
+          "pct": 91.7
         }
       },
       "2022": {
@@ -357,9 +372,9 @@
       },
       "2023": {
         "Bitbucket": {
-          "total": 1,
+          "total": 2,
           "accessible": 1,
-          "pct": 100.0
+          "pct": 50.0
         },
         "DOI-other": {
           "total": 1,
@@ -372,9 +387,9 @@
           "pct": 100.0
         },
         "GitHub": {
-          "total": 247,
-          "accessible": 242,
-          "pct": 98.0
+          "total": 277,
+          "accessible": 271,
+          "pct": 97.8
         },
         "GitLab": {
           "total": 3,
@@ -382,14 +397,14 @@
           "pct": 100.0
         },
         "Zenodo": {
-          "total": 54,
-          "accessible": 53,
-          "pct": 98.1
+          "total": 55,
+          "accessible": 54,
+          "pct": 98.2
         },
         "other": {
-          "total": 48,
-          "accessible": 41,
-          "pct": 85.4
+          "total": 49,
+          "accessible": 42,
+          "pct": 85.7
         }
       },
       "2024": {
@@ -425,8 +440,8 @@
         },
         "other": {
           "total": 64,
-          "accessible": 48,
-          "pct": 75.0
+          "accessible": 49,
+          "pct": 76.6
         }
       },
       "2025": {
@@ -484,8 +499,8 @@
         },
         "GitHub": {
           "total": 165,
-          "accessible": 163,
-          "pct": 98.8
+          "accessible": 164,
+          "pct": 99.4
         },
         "Zenodo": {
           "total": 505,
@@ -493,9 +508,9 @@
           "pct": 99.4
         },
         "other": {
-          "total": 15,
+          "total": 14,
           "accessible": 14,
-          "pct": 93.3
+          "pct": 100.0
         }
       }
     },
@@ -511,9 +526,9 @@
         "pct": 91.9
       },
       "CAIS": {
-        "total": 21,
+        "total": 20,
         "accessible": 19,
-        "pct": 90.5
+        "pct": 95.0
       },
       "CHES": {
         "total": 145,
@@ -521,9 +536,9 @@
         "pct": 100.0
       },
       "EUROSYS": {
-        "total": 246,
-        "accessible": 243,
-        "pct": 98.8
+        "total": 250,
+        "accessible": 248,
+        "pct": 99.2
       },
       "NDSS": {
         "total": 209,
@@ -537,13 +552,18 @@
       },
       "PETS": {
         "total": 425,
-        "accessible": 417,
-        "pct": 98.1
+        "accessible": 419,
+        "pct": 98.6
+      },
+      "SC": {
+        "total": 66,
+        "accessible": 60,
+        "pct": 90.9
       },
       "SOSP": {
-        "total": 67,
-        "accessible": 67,
-        "pct": 100.0
+        "total": 139,
+        "accessible": 136,
+        "pct": 97.8
       },
       "SP": {
         "total": 56,
@@ -1942,16 +1962,6 @@
       "conference": "CAIS",
       "year": 2026,
       "area": "systems",
-      "title": "CAMI: Cost-Aware Agent-Guided Multi-Indexing for Semantic Retrieval",
-      "url_key": "artifact_url",
-      "url": "n/a",
-      "platform": "other",
-      "accessible": false
-    },
-    {
-      "conference": "CAIS",
-      "year": 2026,
-      "area": "systems",
       "title": "Glia: A Human-Inspired AI for Automated Systems Design and Optimization",
       "url_key": "artifact_url",
       "url": "https://github.com/mit-nms/Engram",
@@ -2134,6 +2144,16 @@
       "area": "systems",
       "title": "Accelerating Graph Sampling for Graph Machine Learning using GPUs",
       "url_key": "repository_url",
+      "url": "https://github.com/plasma-umass/NextDoor",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2021,
+      "area": "systems",
+      "title": "Accelerating Graph Sampling for Graph Machine Learning using GPUs",
+      "url_key": "artifact_url",
       "url": "https://github.com/abhijangda/nextdoor-experiments/",
       "platform": "GitHub",
       "accessible": true
@@ -2143,7 +2163,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Achieving Low Tail-latency and High Scalability for Serializable Transactions in Edge Computing",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/hku-systems/dast",
       "platform": "GitHub",
       "accessible": true
@@ -2154,6 +2174,16 @@
       "area": "systems",
       "title": "Characterizing, Exploiting, and Detecting DMA Code Injection Vulnerabilities in the Presence of an IOMMU",
       "url_key": "repository_url",
+      "url": "https://github.com/Markuze/dma-kasan",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2021,
+      "area": "systems",
+      "title": "Characterizing, Exploiting, and Detecting DMA Code Injection Vulnerabilities in the Presence of an IOMMU",
+      "url_key": "artifact_url",
       "url": "https://github.com/Markuze/mmo-static",
       "platform": "GitHub",
       "accessible": true
@@ -2164,6 +2194,16 @@
       "area": "systems",
       "title": "DGCL: An Efficient Communication Library for Distributed GNN Training",
       "url_key": "repository_url",
+      "url": "https://github.com/czkkkkkk/ragdoll",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2021,
+      "area": "systems",
+      "title": "DGCL: An Efficient Communication Library for Distributed GNN Training",
+      "url_key": "artifact_url",
       "url": "https://github.com/czkkkkkk/gccl",
       "platform": "GitHub",
       "accessible": true
@@ -2173,7 +2213,7 @@
       "year": 2021,
       "area": "systems",
       "title": "M3: End-to-End Memory Management in Elastic System Software Stacks",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dsrg-uoft",
       "platform": "GitHub",
       "accessible": true
@@ -2183,7 +2223,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Finding Heterogeneous-Unsafe Configuration Parameters in Cloud Systems",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/StarThinking/ZebraConf",
       "platform": "GitHub",
       "accessible": true
@@ -2193,7 +2233,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Home, SafeHome: Smart Home Reliability with Visibility and Atomicity",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/Shegufta/SafeHomeFramework",
       "platform": "GitHub",
       "accessible": true
@@ -2203,7 +2243,7 @@
       "year": 2021,
       "area": "systems",
       "title": "PaSh: Light-touch Data-Parallel Shell Processing",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/andromeda/pash",
       "platform": "GitHub",
       "accessible": true
@@ -2213,7 +2253,7 @@
       "year": 2021,
       "area": "systems",
       "title": "rkt-io: A Direct I/O Stack for Shielded Execution",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/Mic92/rkt-io",
       "platform": "GitHub",
       "accessible": true
@@ -2223,7 +2263,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://zenodo.org/records/4988602",
       "platform": "Zenodo",
       "accessible": true
@@ -2233,7 +2273,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Site-to-Site Internet Traffic Control",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/bundler-project/evaluation",
       "platform": "GitHub",
       "accessible": true
@@ -2243,7 +2283,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Tahoe: Tree Structure-Aware High Performance Inference Engine for Decision Tree Ensemble on GPU",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/zhen-xie/Tahoe",
       "platform": "GitHub",
       "accessible": true
@@ -2253,7 +2293,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Take it to the Limit: Peak Prediction-driven Resource Overcommitment in Datacenters",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/googleinterns/cluster-resource-forecast",
       "platform": "GitHub",
       "accessible": true
@@ -2263,7 +2303,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Unikraft: Fast, Specialized Unikernels the Easy Way",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/unikraft/eurosys21-artifacts",
       "platform": "GitHub",
       "accessible": true
@@ -2274,6 +2314,16 @@
       "area": "systems",
       "title": "Confidential Computing for OpenPOWER",
       "url_key": "repository_url",
+      "url": "https://github.com/open-power/ultravisor/wiki/How-to-build-and-run-Secure-VM-using-Ultravisor-on-a-OpenPOWER-machine",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2021,
+      "area": "systems",
+      "title": "Confidential Computing for OpenPOWER",
+      "url_key": "artifact_url",
       "url": "https://github.com/mvle/eurosys2021_PEF_OpenPOWER",
       "platform": "GitHub",
       "accessible": true
@@ -2283,7 +2333,7 @@
       "year": 2021,
       "area": "systems",
       "title": "DZiG: Sparsity-Aware Incremental Processing of Streaming Graphs",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/pdclab/graphbolt/tree/eurosys21-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -2293,7 +2343,7 @@
       "year": 2021,
       "area": "systems",
       "title": "OFC: An Opportunistic Caching System for FaaS Platforms",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://gitlab.com/lenapster/faascache/-/tree/master/artifactEvaluation",
       "platform": "GitLab",
       "accessible": true
@@ -2303,7 +2353,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Understanding and Dealing with Hard Faults in Persistent Memory Systems",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/OrderLab/Arthas/blob/master/artifactREADME.md",
       "platform": "GitHub",
       "accessible": true
@@ -2313,7 +2363,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication Protocols",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/vasigavr1/Odyssey",
       "platform": "GitHub",
       "accessible": true
@@ -2323,7 +2373,7 @@
       "year": 2021,
       "area": "systems",
       "title": "TraceSplitter: A New Paradigm for Downscaling Traces",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/smsajal/TraceSplitter",
       "platform": "GitHub",
       "accessible": true
@@ -2333,7 +2383,7 @@
       "year": 2021,
       "area": "systems",
       "title": "Zeus: Locality-aware Distributed Transactions",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ease-lab/Zeus",
       "platform": "GitHub",
       "accessible": true
@@ -4054,9 +4104,9 @@
       "area": "systems",
       "title": "OptiLog: Assigning Roles in Byzantine Consensus",
       "url_key": "artifact_url",
-      "url": "https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts",
+      "url": "https://github.com/relab/optilog_artifacts",
       "platform": "GitHub",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -6319,11 +6369,1391 @@
       "accessible": true
     },
     {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Temporal Vectorization for Stencils",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5151491",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "LCCG: A Locality-Centric Hardware Accelerator for High Throughput of Concurrent Graph Processing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5155769",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Parallel Construction of Module Networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5144438",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Online Evolutionary Batch Size Orchestration for Scheduling Deep Learning Workloads in GPU Clusters",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5513082",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Krill: A Compiler and Runtime System for Concurrent Graph Processing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5165762",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Exploiting User Activeness for Data Retention in HPC Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5168853",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "LogECMem: Coupling Erasure-Coded In-Memory Key-Value Stores with Parity Logging",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5092219",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "KAISA: An Adaptive Second-order Optimizer Framework for Deep Neural Networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4895203",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5147569",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Cuttlefish: Library for Achieving Energy Efficiency in Multicore Parallel Programs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5167629",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Accelerating XOR-based Erasure Coding using Program Optimization Techniques",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5167006",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Accelerating Applications using Edge Tensor Processing Units",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5156431",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "On the Parallel I/O Optimality of Linear Algebra Kernels: Near-Optimal Matrix Factorizations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5168027",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "SV-Sim: Scalable PGAS-based State Vector Simulation of Quantum Circuits",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5206960",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "DeltaFS: A Scalable No-Ground-Truth Filesystem For Massively-Parallel Computing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4884852",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Reducing Redundancy in Data Organization and Arithmetic Calculation for Stencil Computations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.3881644",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "CAKE: Matrix Multiplication Using Constant-Bandwidth Blocks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5148715",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Hardware-supported Remote Persistence for Distributed Persistent Memory",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5162688",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "STM-Multifrontal QR: Streaming Task Mapping Multifrontal QR Factorization Empowered by GCN",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5144709",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Clairvoyant Prefetching for Distributed Machine Learning I/O",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5166929",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Discovering and Balancing Fundamental Cycles in Large Signed Graphs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5148797",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "High Performance Uncertainty Quantification with Parallelized Multilevel Markov Chain Monte Carlo",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5158988",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "3D Acoustic-Elastic Coupling with Gravity: The Dynamics of the 2018 Palu, Sulawesi Earthquake and Tsunami",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5159333",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Enable Simultaneous DNN Services Based on Deterministic Operator Overlap and Precise Latency Prediction",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5176097",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Index Launches: Scalable, Flexible Representation of Parallel Task Groups",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5164404",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "PAGANI: A Parallel Adaptive GPU Algorithm for Numerical Integration full strip note",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5204819",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Minimizing privilege for building HPC containers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.6084/m9.figshare.14396099",
+      "platform": "Figshare",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Efficient Tensor Core-based GPU Kernels for Structured Sparsity under Reduced Precision",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5136675",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Preparing an Incompressible-Flow Fluid Dynamics Code for Exascale-Class Wind Energy Simulations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4899910",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Efficient Large-Scale Language Model Training on GPU Clusters",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5181820",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Pinpointing Crash-Consistency Bugs in the HPC I/O Stack: A Cross-Layer Approach",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5168471",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with Autotuned Data-Parallel Training for Tabular Data full strip note",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4094667",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Bootstrapping In-situ Workflow Auto-Tuning via Combining Performance Models of Component Applications full strip note",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5003901",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Systematically Inferring I/O Performance Variability by Examining Repetitive Job Behavior",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5236852",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "MAPA: Multi-Accelerator Pattern Allocation Policy for Multi-Tenant GPU Servers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5152741",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Productivity, Portability, Performance: Data-Centric Python",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5155509",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Flare: Flexible In-Network Allreduce",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4836022",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Non-Recurring Engineering (NRE) Best Practices: A Case Study with the NERSC/NVIDIA OpenMP Contract",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5168093",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "SEEC: Stochastic Escape Express Channel",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5171429",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5144378",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Paths to OpenMP in the Kernel",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5164666",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "The Hidden cost of the Edge: A Performance Comparison ofEdge and Cloud Latencies",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5163851",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Scalable adaptive PDE solvers in arbitrary domains",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5168313",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5156596",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Accelerating large scale de novo metagenome assembly using GPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5165333",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Online Optimization of File Transfers in High-Speed Networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5164277",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "In-Depth Analyses of Unified Virtual Memory System for GPU Accelerated Computing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5148930",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "HatRPC: Hint-Accelerated Thrift RPC over RDMA",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5203281",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Characterization and Prediction of Deep Learning Workloads in Large-Scale GPU Datacenters",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5116412",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Reverse-Mode Automatic Differentiation and Optimization of GPU Kernels via Enzyme full strip note",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5147573",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "LibShalom: Optimizing Small and Irregular-shaped Matrix Multiplications on ARMv8 Multi-Cores",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5201457",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Simurgh: A Fully Decentralized and Secure NVMM User Space File System",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5163624",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "HPAC: Evaluating Approximate Computing Techniques on HPC OpenMP Applications.",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5167980",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Ribbon: Cost-Effective and QoS-Aware Deep Learning Model Inference using a Diverse Pool of Cloud Computing Instances",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5262865",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Lunule: An Agile and Judicious Metadata Load Balancer for CephFS",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5171833",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "A Next-Generation Discontinuous Galerkin Fluid Dynamics Solver with Application to High-Resolution Lung Airflow Simulations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5176507",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "LMFF: Efficient and Scalable Layered Materials Force Field on Heterogeneous Many-Core Processors",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5203181",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Whale: Efficient One-to-Many Data Partitioning in RDMA-assisted Distributed Stream Processing Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.4897500",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "ndzip-gpu: Efficient Lossless Compression of Scientific Floating-Point Data on GPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5144874",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "cuTS: Scaling Subgraph Isomorphism on Distributed Multi-GPU Systems Using Trie Based Data Structure",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.5154114",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Representation of Women in High-Performance Computing Conferences",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476480",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "PEPPA-X: finding program test inputs to bound silent data corruption vulnerability in HPC applications",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476481",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Tensor processing primitives: a programming abstraction for efficiency and portability in deep learning workloads",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476482",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "DistGNN: scalable distributed training for large-scale graph neural networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476483",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Dr. Top-k: delegate-centric Top-k on GPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476484",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "title": "Hybrid, scalable, trace-driven performance modeling of GPGPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.1145/3476485",
+      "platform": "DOI-other",
+      "accessible": false
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Boki: Stateful Serverless Computing with Shared Logs",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ut-osa/boki-benchmarks",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Understanding and Detecting Software Upgrade Failures in Distributed Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/zlab-purdue/ds-upgrade",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Gradient Compression Supercharged High-Performance Data Parallel DNN Training",
+      "url_key": "artifact_url",
+      "url": "https://gitlab.com/hipress/hipress",
+      "platform": "GitLab",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware",
+      "url_key": "artifact_url",
+      "url": "https://github.com/VeriGu/sosp-paper211-ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "iGUARD: In-GPU Advanced Race Detection",
+      "url_key": "artifact_url",
+      "url": "https://github.com/csl-iisc/iGUARD",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Forerunner: Constraint-based Speculative Transaction Execution for Ethereum",
+      "url_key": "artifact_url",
+      "url": "https://github.com/microsoft/Forerunner/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Crash Consistent Non-Volatile Memory Express",
+      "url_key": "artifact_url",
+      "url": "https://github.com/thustorage/ccnvme",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism",
+      "url_key": "artifact_url",
+      "url": "https://github.com/casys-kaist/LineFS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "When Idling is Ideal: Optimizing Tail-Latency for Highly-Dispersed Datacenter Workloads with Perséphone",
+      "url_key": "artifact_url",
+      "url": "https://github.com/maxdml/psp",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Exploiting Nil-Externality for Fast Replicated Storage",
+      "url_key": "artifact_url",
+      "url": "https://bitbucket.org/aganesan4/skyros/",
+      "platform": "Bitbucket",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Rabia: Simplifying State-Machine Replication Through Randomization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/haochenpan/rabia/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Coeus: A system for oblivious document ranking and retrieval",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ishtiyaque/Coeus_artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "FragPicker: A New Defragmentation Tool for Modern Storage Devices",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jonggyup/FragPicker",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "J-NVM: Off-heap Persistent Objects in Java",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jnvm-project/jnvm",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Basil: Breaking up BFT with ACID (transactions)",
+      "url_key": "artifact_url",
+      "url": "https://github.com/fsuri/SOSP21_artifact_eval",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Scale and Performance in a Filesystem Semi-Microkernel",
+      "url_key": "artifact_url",
+      "url": "https://github.com/WiscADSL/uFS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "HeMem: Scalable Tiered Memory Management for Big Data Applications and Real NVM",
+      "url_key": "artifact_url",
+      "url": "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/",
+      "platform": "Bitbucket",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage",
+      "url_key": "artifact_url",
+      "url": "https://github.com/huaicheng/IODA-SOSP21-AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks",
+      "url_key": "artifact_url",
+      "url": "https://github.com/hku-systems/bidl",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sslab-gatech/Rudra-Artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "MIND: In-Network Memory Management for Disaggregated Data Centers",
+      "url_key": "artifact_url",
+      "url": "https://github.com/shsym/mind",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy",
+      "url_key": "artifact_url",
+      "url": "https://github.com/karannewatia/Mycelium",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP",
+      "url_key": "artifact_url",
+      "url": "https://github.com/stanford-futuredata/POP",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ucbrise/snoopy",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "WineFS: a hugepage-aware file system for persistent memory that ages gracefully",
+      "url_key": "artifact_url",
+      "url": "https://github.com/rohankadekodi/WineFS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Caracal: Contention Management with Deterministic Concurrency Control",
+      "url_key": "artifact_url",
+      "url": "https://github.com/uoft-felis/felis",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "dSpace: Composable Abstractions for Smart Spaces",
+      "url_key": "artifact_url",
+      "url": "https://github.com/digi-project/sosp21-artifact",
+      "platform": "GitHub",
+      "accessible": false
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "The Aurora Single Level Store Operating System",
+      "url_key": "artifact_url",
+      "url": "https://github.com/rcslab/aurora-12.1/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "HEALER: Relation Learning Guided Kernel Fuzzing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SunHao-0/healer",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Random Walks on Huge Graphs at Cache Efficiency",
+      "url_key": "artifact_url",
+      "url": "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair",
+      "url_key": "artifact_url",
+      "url": "https://github.com/rcstor/rcstor",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Kauri: Scalable BFT Consensus with Pipelined Tree-Based Dissemination and Aggregation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Raycoms/Kauri-Public",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Kangaroo: Caching Billions of Tiny Objects on Flash",
+      "url_key": "artifact_url",
+      "url": "https://github.com/saramcallister/Kangaroo",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Witcher: Systematic Crash Consistency Testing for Non-Volatile Memory Key-Value Stores",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cosmoss-vt/witcher",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "PACTree: A High Performance Persistent Range Index Using PAC Guidelines",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cosmoss-vt/pactree",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Automated SmartNIC Offloading Insights for Network Functions",
+      "url_key": "artifact_url",
+      "url": "https://github.com/824728350/Clara",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis",
+      "url_key": "artifact_url",
+      "url": "https://github.com/rssys/snowboard",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "Regular Sequential Serializability and Regular Sequential Consistency",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jmhelt/tapir/tree/spanner",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "area": "systems",
+      "title": "The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/demikernel/demikernel",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Acto: Automatic End-to-End Testing for Operation Correctness of Cloud System Management",
+      "url_key": "artifact_url",
+      "url": "https://github.com/xlab-uiuc/acto/tree/sosp-ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Bagpipe: Accelerating Deep Recommendation Model Training",
+      "url_key": "artifact_url",
+      "url": "https://github.com/iidsample/bagpipe_artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Cornflakes: Zero-Copy Serialization for Microsecond-Scale Networking",
+      "url_key": "artifact_url",
+      "url": "https://github.com/deeptir18/cornflakes",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System",
+      "url_key": "artifact_url",
+      "url": "https://github.com/dmemsys/Ditto",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Edna: Disguising and Revealing User Data in Web Applications",
+      "url_key": "artifact_url",
+      "url": "https://github.com/tslilyai/edna/tree/artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sosp-ae-39/sosp-ae-astra",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture",
+      "url_key": "artifact_url",
+      "url": "https://github.com/vmexit/trio-sosp23-ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory",
+      "url_key": "artifact_url",
+      "url": "https://github.com/madsys-dev/Falcon",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "FIFO Queues are All You Need for Cache Eviction",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Thesys-lab/sosp23-s3fifo",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints",
+      "url_key": "artifact_url",
+      "url": "https://github.com/zhuangwang93/SOSP-30_AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Grove: a Separation-Logic Library for Verifying Distributed Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mit-pdos/grove-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/gpzlx1/gsampler-artifact-evaluation",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/pkusys/Halfmoon-bench",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Mira: A Program-Behavior-Guided Far Memory System",
+      "url_key": "artifact_url",
+      "url": "https://bitbucket.org/mira-sosp23/mira-ae",
+      "platform": "Bitbucket",
+      "accessible": false
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SymbioticLab/oobleck",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Paella: Low-latency Model Serving with Software-defined GPU Scheduling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/eniac/paella/tree/sosp23_artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory",
+      "url_key": "artifact_url",
+      "url": "https://github.com/madsys-dev/sosp-paper19-ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/microsoft/SparTA/tree/pit_artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Private Web Search with Tiptoe",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ahenzinger/tiptoe",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Sia: Heterogeneity-Aware, Goodput-Optimized ML-Cluster Scheduling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/siasosp23/artifacts/tree/main",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor",
+      "url_key": "artifact_url",
+      "url": "https://github.com/rssys/snowcat",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "SPFresh: Incremental In-Place Update for Billion-Scale Vector Search",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SPFresh/SPFresh",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Turbo: Effective Caching in Differentially-Private Databases",
+      "url_key": "artifact_url",
+      "url": "https://github.com/columbia/turbo-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "UGACHE: A Unified GPU Cache for Embedding-based Deep Learning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SJTU-IPADS/ugache-artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal Scheduling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/m8/concord",
+      "platform": "GitHub",
+      "accessible": false
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Antipode: Enforcing Cross-Service Causal Consistency in Distributed Applications",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Antipode-SOSP23",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Blueprint: A Toolchain for Highly-Reconfigurable Microservice Applications",
+      "url_key": "artifact_url",
+      "url": "https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "MEMTIS: Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cosmoss-jigu/memtis",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Pushing Performance Isolation Boundaries into Application with pBox",
+      "url_key": "artifact_url",
+      "url": "https://github.com/OrderLab/pBox",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "QuePaxa: Escaping the tyranny of timeouts in consensus",
+      "url_key": "artifact_url",
+      "url": "https://github.com/dedis/quepaxa/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design",
+      "url_key": "artifact_url",
+      "url": "https://github.com/breidys2/RackBlox",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Siloz: Leveraging DRAM Isolation Domains to Prevent Inter-VM Rowhammer",
+      "url_key": "artifact_url",
+      "url": "https://github.com/efeslab/siloz",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "area": "systems",
+      "title": "Validating JIT Compilers via Compilation Space Exploration",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.8188346",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
       "conference": "SOSP",
       "year": 2024,
       "area": "systems",
       "title": "Fast, Flexible, and Practical Kernel Extensions",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/rs3lab/KFlex",
       "platform": "GitHub",
       "accessible": true
@@ -6333,7 +7763,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Practical Verification of System-Software Components Written in Standard C",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dslab-epfl/tpot",
       "platform": "GitHub",
       "accessible": true
@@ -6343,7 +7773,7 @@
       "year": 2024,
       "area": "systems",
       "title": "vSoC: Efficient Virtual System-on-Chip on Heterogeneous Hardware",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/VirtualSoC/vsoc/tree/artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6353,7 +7783,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Verus: A Practical Foundation for Systems Verification",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/verus-lang/paper-sosp24-artifact/blob/main/site/guide.md",
       "platform": "GitHub",
       "accessible": true
@@ -6363,7 +7793,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Modular Verification of Secure and Leakage-Free Systems: From Application Specification to Circuit-Level Implementation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/anishathalye/parfait-hsm",
       "platform": "GitHub",
       "accessible": true
@@ -6373,7 +7803,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Caribou: Fine-Grained Geospatial Shifting of Serverless Applications for Sustainability",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ubc-cirrus-lab/caribou",
       "platform": "GitHub",
       "accessible": true
@@ -6383,7 +7813,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Ozz: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/casys-kaist/ozz_artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6393,7 +7823,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Reducing Energy Bloat in Large Model Training",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ml-energy/zeus/tree/kronos",
       "platform": "GitHub",
       "accessible": true
@@ -6403,7 +7833,7 @@
       "year": 2024,
       "area": "systems",
       "title": "CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dmemsys/CHIME",
       "platform": "GitHub",
       "accessible": true
@@ -6413,7 +7843,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Cookie Monster: Efficient On-Device Budgeting for Differentially-Private Ad-Measurement Systems",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/columbia/cookiemonster",
       "platform": "GitHub",
       "accessible": true
@@ -6423,7 +7853,7 @@
       "year": 2024,
       "area": "systems",
       "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/LoongServe/LoongServe",
       "platform": "GitHub",
       "accessible": true
@@ -6433,7 +7863,7 @@
       "year": 2024,
       "area": "systems",
       "title": "LazyLog: A New Shared Log Abstraction for Low-Latency Applications",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dassl-uiuc/LazyLog-Artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6443,7 +7873,7 @@
       "year": 2024,
       "area": "systems",
       "title": "TrEnv: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/switch-container",
       "platform": "GitHub",
       "accessible": true
@@ -6453,7 +7883,7 @@
       "year": 2024,
       "area": "systems",
       "title": "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ChaseLab-PKU/BIZA",
       "platform": "GitHub",
       "accessible": true
@@ -6463,7 +7893,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/huzhisheng/Aceso",
       "platform": "GitHub",
       "accessible": true
@@ -6473,7 +7903,7 @@
       "year": 2024,
       "area": "systems",
       "title": "SWARM: Replicating Shared Disaggregated-Memory Data in No Time",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/LPD-EPFL/swarm-artifacts",
       "platform": "GitHub",
       "accessible": true
@@ -6483,7 +7913,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor Collections",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/kungfu-team/tenplex/tree/sosp24-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6493,7 +7923,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Autobahn: Seamless high speed BFT",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/neilgiri/autobahn-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6503,7 +7933,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Dirigent: Lightweight Serverless Orchestration",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/eth-easl/dirigent",
       "platform": "GitHub",
       "accessible": true
@@ -6513,7 +7943,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Skyloft: A General High-Efficient Scheduling Framework in User Space",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/yhtzd/skyloft-sosp24-ae",
       "platform": "GitHub",
       "accessible": true
@@ -6523,7 +7953,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Fast Core Scheduling with Userspace Process Abstraction",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/neolinsu/sosp24ae",
       "platform": "GitHub",
       "accessible": true
@@ -6533,7 +7963,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/microsoft/nnfusion",
       "platform": "GitHub",
       "accessible": true
@@ -6543,7 +7973,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Tiered Memory Management: Access Latency is the Key!",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/host-architecture/colloid",
       "platform": "GitHub",
       "accessible": true
@@ -6553,7 +7983,7 @@
       "year": 2024,
       "area": "systems",
       "title": "SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/asprasad/treebeard/tree/silvanforge",
       "platform": "GitHub",
       "accessible": true
@@ -6563,7 +7993,7 @@
       "year": 2024,
       "area": "systems",
       "title": "Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/824728350/Zodiac/tree/master",
       "platform": "GitHub",
       "accessible": true
@@ -6573,7 +8003,7 @@
       "year": 2025,
       "area": "systems",
       "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/CHERIoT-Platform/cheriot-rtos",
       "platform": "GitHub",
       "accessible": true
@@ -6583,7 +8013,7 @@
       "year": 2025,
       "area": "systems",
       "title": "The Design and Implementation of a Virtual Firmware Monitor",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/epfl-dcsl/miralis-sosp25-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6593,7 +8023,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://bitbucket.org/yuhong_zhong/oasis",
       "platform": "Bitbucket",
       "accessible": true
@@ -6603,7 +8033,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/yale-nova/spirit",
       "platform": "GitHub",
       "accessible": true
@@ -6613,7 +8043,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Scalable Far Memory: Balancing Faults and Evictions",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/rs3lab/mage-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6623,7 +8053,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16912877",
       "platform": "Zenodo",
       "accessible": true
@@ -6633,7 +8063,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/eth-easl/sailor",
       "platform": "GitHub",
       "accessible": true
@@ -6643,7 +8073,7 @@
       "year": 2025,
       "area": "systems",
       "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16921000",
       "platform": "Zenodo",
       "accessible": true
@@ -6653,7 +8083,7 @@
       "year": 2025,
       "area": "systems",
       "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/verify-llm/TrainVerify",
       "platform": "GitHub",
       "accessible": true
@@ -6663,7 +8093,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/OrderLab/Atropos",
       "platform": "GitHub",
       "accessible": true
@@ -6673,7 +8103,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ICTPLSys/Orthrus",
       "platform": "GitHub",
       "accessible": true
@@ -6683,7 +8113,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/OrderLab/phoenix",
       "platform": "GitHub",
       "accessible": true
@@ -6693,7 +8123,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dslab-epfl/NEXDSIM_AE",
       "platform": "GitHub",
       "accessible": true
@@ -6703,7 +8133,7 @@
       "year": 2025,
       "area": "systems",
       "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16972909",
       "platform": "Zenodo",
       "accessible": true
@@ -6713,7 +8143,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/pie-project/pie",
       "platform": "GitHub",
       "accessible": true
@@ -6723,7 +8153,7 @@
       "year": 2025,
       "area": "systems",
       "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/zyqCSL/DiffKV",
       "platform": "GitHub",
       "accessible": true
@@ -6733,7 +8163,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/heheda12345/Jenga-SOSP25-AE",
       "platform": "GitHub",
       "accessible": true
@@ -6743,7 +8173,7 @@
       "year": 2025,
       "area": "systems",
       "title": "cache_ext: Customizing the Page Cache with eBPF",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/cache-ext/cache_ext",
       "platform": "GitHub",
       "accessible": true
@@ -6753,7 +8183,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/TELOS-syslab/Aeolia",
       "platform": "GitHub",
       "accessible": true
@@ -6763,7 +8193,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/fsolleza/loom",
       "platform": "GitHub",
       "accessible": true
@@ -6773,7 +8203,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Pesto: Cooking up High Performance BFT Queries",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/fsuri/Pequin-Artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6783,7 +8213,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/New-Consensus-Concurrency-Control/Tiga",
       "platform": "GitHub",
       "accessible": true
@@ -6793,7 +8223,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/LSDS/Tempo",
       "platform": "GitHub",
       "accessible": true
@@ -6803,7 +8233,7 @@
       "year": 2025,
       "area": "systems",
       "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/Leo9660/HedraRAG_AE",
       "platform": "GitHub",
       "accessible": true
@@ -6813,7 +8243,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/fpgasystems/Coyote",
       "platform": "GitHub",
       "accessible": true
@@ -6823,7 +8253,7 @@
       "year": 2025,
       "area": "systems",
       "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ise-uiuc/KNighter",
       "platform": "GitHub",
       "accessible": true
@@ -6833,7 +8263,7 @@
       "year": 2025,
       "area": "systems",
       "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/rs3lab/veritas",
       "platform": "GitHub",
       "accessible": true
@@ -6843,7 +8273,7 @@
       "year": 2025,
       "area": "systems",
       "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/yagehu/wasit",
       "platform": "GitHub",
       "accessible": true
@@ -6853,7 +8283,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/SunHao-0/BCF/tree/artifact-evaluation",
       "platform": "GitHub",
       "accessible": true
@@ -6863,7 +8293,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/mars-research/atmosphere-sosp25-artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6873,7 +8303,7 @@
       "year": 2025,
       "area": "systems",
       "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/stonysystems/automan",
       "platform": "GitHub",
       "accessible": true
@@ -6883,7 +8313,7 @@
       "year": 2025,
       "area": "systems",
       "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/CASP-Systems-BU/orq",
       "platform": "GitHub",
       "accessible": true
@@ -6893,7 +8323,7 @@
       "year": 2025,
       "area": "systems",
       "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/dedis/votegral",
       "platform": "GitHub",
       "accessible": true
@@ -6903,7 +8333,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Quilt: Resource-aware Merging of Serverless Workflows",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/eniac/quilt",
       "platform": "GitHub",
       "accessible": true
@@ -6913,7 +8343,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/eth-easl/dandelion",
       "platform": "GitHub",
       "accessible": true
@@ -6923,7 +8353,7 @@
       "year": 2025,
       "area": "systems",
       "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/kvcache-ai/ktransformers",
       "platform": "GitHub",
       "accessible": true
@@ -6933,7 +8363,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/ChandlerGuan/mercury_artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6943,7 +8373,7 @@
       "year": 2025,
       "area": "systems",
       "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/SJTU-IPADS/Copier",
       "platform": "GitHub",
       "accessible": true
@@ -6953,7 +8383,7 @@
       "year": 2025,
       "area": "systems",
       "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/TELOS-syslab/CortenMM-Artifact",
       "platform": "GitHub",
       "accessible": true
@@ -6963,7 +8393,7 @@
       "year": 2025,
       "area": "systems",
       "title": "FlexGuard: Fast Mutual Exclusion Independent of Subscription",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://gitlab.inria.fr/flexguard/flexguard",
       "platform": "other",
       "accessible": true
@@ -6973,7 +8403,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/kaist-cp/interval-vm.git",
       "platform": "GitHub",
       "accessible": true
@@ -6983,7 +8413,7 @@
       "year": 2025,
       "area": "systems",
       "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
-      "url_key": "repository_url",
+      "url_key": "artifact_url",
       "url": "https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot",
       "platform": "GitHub",
       "accessible": true
@@ -13776,7 +15206,7 @@
       "url_key": "artifact_url",
       "url": "https://gitlab.uni.lu/APSIA/uuhd-ppls",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "PETS",
@@ -15306,7 +16736,7 @@
       "url_key": "artifact_url",
       "url": "https://gitlab.uni.lu/APSIA/DeVoS/-/tree/f0320f8b39c3c0de4ebaa18ef7266d5d110aeb17",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "PETS",

@@ -1,7 +1,7 @@
 schema_version: 0.3.0
-total_artifacts: 3321
+total_artifacts: 3320
 total_conferences: 15
-systems_artifacts: 906
+systems_artifacts: 905
 security_artifacts: 2415
 conferences_list:
 - ACSAC
@@ -37,4 +37,4 @@ security_conferences:
 - USENIXSEC
 - WOOT
 year_range: 2017-2026
-last_updated: 2026-09-06 15:40:23 UTC
+last_updated: 2026-09-08 12:19:12 UTC

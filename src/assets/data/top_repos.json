@@ -15,6 +15,21 @@
     "area": "systems"
   },
   {
+    "title": "Efficient Large-Scale Language Model Training on GPU Clusters",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "year": 2021,
+    "stars": 17784,
+    "forks": 4467,
+    "authors": "",
+    "github_org": "NVIDIA",
+    "badges": "available,functional",
+    "last_active": "2026-09",
+    "description": "Ongoing research training transformer models at scale",
+    "language": "Python",
+    "conference": "SC",
+    "area": "systems"
+  },
+  {
     "title": "PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing",
     "url": "https://github.com/GreyDGL/PentestGPT",
     "year": 2024,
@@ -732,21 +747,6 @@
     "description": "",
     "language": "Python",
     "conference": "USENIXSEC",
-    "area": "security"
-  },
-  {
-    "title": "CustomProcessingUnit: Reverse Engineering and Customization of Intel Microcode",
-    "url": "https://github.com/pietroborrello/CustomProcessingUnit",
-    "year": 2023,
-    "stars": 411,
-    "forks": 27,
-    "authors": "",
-    "github_org": "pietroborrello",
-    "badges": "ORO",
-    "last_active": "2023-03",
-    "description": "The first analysis framework for CPU microcode",
-    "language": "C",
-    "conference": "WOOT",
     "area": "security"
   }
 ]

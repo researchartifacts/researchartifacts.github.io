@@ -104,22 +104,22 @@
   {
     "year": 2021,
     "all": {
-      "github_repos": 139,
-      "avg_stars": 143.4,
-      "avg_forks": 12.9,
+      "github_repos": 193,
+      "avg_stars": 199.7,
+      "avg_forks": 33.6,
       "min_stars": 14.1,
       "max_stars": 642.1,
       "min_forks": 1.0,
-      "max_forks": 35.6
+      "max_forks": 106.2
     },
     "systems": {
-      "github_repos": 75,
-      "avg_stars": 55.0,
-      "avg_forks": 9.6,
+      "github_repos": 129,
+      "avg_stars": 176.1,
+      "avg_forks": 42.0,
       "min_stars": 44.9,
-      "max_stars": 65.1,
+      "max_stars": 421.6,
       "min_forks": 7.2,
-      "max_forks": 11.3
+      "max_forks": 106.2
     },
     "security": {
       "github_repos": 64,
@@ -164,8 +164,8 @@
   {
     "year": 2023,
     "all": {
-      "github_repos": 305,
-      "avg_stars": 45.7,
+      "github_repos": 306,
+      "avg_stars": 45.6,
       "avg_forks": 8.8,
       "min_stars": 5.7,
       "max_stars": 109.0,
@@ -173,12 +173,12 @@
       "max_forks": 21.7
     },
     "systems": {
-      "github_repos": 102,
-      "avg_stars": 62.9,
-      "avg_forks": 13.6,
+      "github_repos": 103,
+      "avg_stars": 62.3,
+      "avg_forks": 13.5,
       "min_stars": 20.7,
       "max_stars": 92.1,
-      "min_forks": 7.8,
+      "min_forks": 7.5,
       "max_forks": 21.7
     },
     "security": {
@@ -254,22 +254,22 @@
   {
     "year": 2026,
     "all": {
-      "github_repos": 325,
-      "avg_stars": 43.7,
+      "github_repos": 326,
+      "avg_stars": 43.5,
       "avg_forks": 5.9,
       "min_stars": 0.8,
-      "max_stars": 227.7,
+      "max_stars": 223.0,
       "min_forks": 0.2,
-      "max_forks": 25.8
+      "max_forks": 25.3
     },
     "systems": {
-      "github_repos": 64,
-      "avg_stars": 172.7,
-      "avg_forks": 19.7,
+      "github_repos": 65,
+      "avg_stars": 170.0,
+      "avg_forks": 19.4,
       "min_stars": 7.6,
-      "max_stars": 227.7,
+      "max_stars": 223.0,
       "min_forks": 1.4,
-      "max_forks": 25.8
+      "max_forks": 25.3
     },
     "security": {
       "github_repos": 261,

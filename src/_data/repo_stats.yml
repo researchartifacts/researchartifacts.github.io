@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1985
-  total_stars: 173966
-  total_forks: 22750
+  github_repos: 2041
+  total_stars: 192571
+  total_forks: 27445
   max_stars: 19214
-  max_forks: 2575
-  zenodo_repos: 1180
-  total_views: 359040
-  total_downloads: 285484
-  avg_stars: 87.6
-  avg_forks: 11.5
+  max_forks: 4467
+  zenodo_repos: 1240
+  total_views: 380218
+  total_downloads: 291905
+  avg_stars: 94.4
+  avg_forks: 13.4
   median_stars: 6
   median_forks: 1
   p25_stars: 1.0
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-09-06 15:40:47 UTC
+  last_updated: 2026-09-08 12:20:50 UTC
 by_conference:
 - name: ACSAC
   github_repos: 212
@@ -521,15 +521,15 @@ by_conference:
     - available
     - functional
 - name: EUROSYS
-  github_repos: 167
+  github_repos: 168
   total_stars: 14868
   total_forks: 2178
-  avg_stars: 89.0
+  avg_stars: 88.5
   avg_forks: 13.0
-  median_stars: 5
-  median_forks: 1
+  median_stars: 5.0
+  median_forks: 1.0
   p25_stars: 2.0
-  p75_stars: 18.0
+  p75_stars: 17.8
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 10465
@@ -596,15 +596,15 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 5.0
   - year: 2026
-    github_repos: 48
+    github_repos: 49
     total_stars: 10928
     total_forks: 1240
-    avg_stars: 227.7
-    avg_forks: 25.8
-    median_stars: 3.0
-    median_forks: 0.5
+    avg_stars: 223.0
+    avg_forks: 25.3
+    median_stars: 3
+    median_forks: 0
     p25_stars: 1.0
-    p75_stars: 7.8
+    p75_stars: 7.5
     p25_forks: 0.0
     p75_forks: 2.0
   top_repos:
@@ -1235,18 +1235,133 @@ by_conference:
     - Deepak Kumaraswamy
     - Nishanth Chandran
     - Divya Gupta 0001
+- name: SC
+  github_repos: 44
+  total_stars: 18550
+  total_forks: 4675
+  avg_stars: 421.6
+  avg_forks: 106.2
+  median_stars: 6.0
+  median_forks: 1.5
+  p25_stars: 0.0
+  p75_stars: 13.5
+  p25_forks: 0.2
+  p75_forks: 6.0
+  max_stars: 17784
+  max_forks: 4467
+  years:
+  - year: 2021
+    github_repos: 44
+    total_stars: 18550
+    total_forks: 4675
+    avg_stars: 421.6
+    avg_forks: 106.2
+    median_stars: 6.0
+    median_forks: 1.5
+    p25_stars: 0.0
+    p75_stars: 13.5
+    p25_forks: 0.2
+    p75_forks: 6.0
+  top_repos:
+  - title: Efficient Large-Scale Language Model Training on GPU Clusters
+    url: https://github.com/NVIDIA/Megatron-LM
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 17784
+    forks: 4467
+    description: Ongoing research training transformer models at scale
+    language: Python
+    name: NVIDIA/Megatron-LM
+    pushed_at: '2026-09-08T11:51:13Z'
+    badges:
+    - available
+    - functional
+  - title: 'AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with
+      Autotuned Data-Parallel Training for Tabular Data full strip note'
+    url: https://github.com/deephyper/deephyper
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 308
+    forks: 66
+    description: 'DeepHyper: A Python Package for Massively Parallel Hyperparameter
+      Optimization in Machine Learning'
+    language: Python
+    name: deephyper/deephyper
+    pushed_at: '2026-03-27T07:54:30Z'
+    badges:
+    - available
+  - title: 'ndzip-gpu: Efficient Lossless Compression of Scientific Floating-Point
+      Data on GPUs'
+    url: https://github.com/fknorr/ndzip
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 76
+    forks: 18
+    description: A High-Throughput Parallel Lossless Compressor for Scientific Data
+    language: C++
+    name: celerity/ndzip
+    pushed_at: '2023-01-22T20:08:32Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Fabian Knorr
+    - Peter Thoman
+    - Thomas Fahringer
+  - title: Accelerating Applications using Edge Tensor Processing Units
+    url: https://github.com/escalab/GPETPU
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 52
+    forks: 9
+    description: GPTPU for SC 2021
+    language: C++
+    name: escalab/GPTPU
+    pushed_at: '2023-03-22T20:49:19Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Kuan-Chieh Hsu
+    - Hung-Wei Tseng 0001
+  - title: 'Krill: A Compiler and Runtime System for Concurrent Graph Processing'
+    url: https://github.com/chhzh123/Krill
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 47
+    forks: 10
+    description: An efficient concurrent graph processing system
+    language: C++
+    name: chhzh123/Krill
+    pushed_at: '2021-10-27T16:41:21Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Hongzheng Chen
+    - Minghua Shen
+    - Nong Xiao 0001
+    - Yutong Lu
 - name: SOSP
-  github_repos: 143
-  total_stars: 27555
-  total_forks: 3172
-  avg_stars: 192.7
-  avg_forks: 22.2
-  median_stars: 18.5
-  median_forks: 4.0
-  p25_stars: 6.0
-  p75_stars: 48.0
+  github_repos: 154
+  total_stars: 27610
+  total_forks: 3192
+  avg_stars: 179.3
+  avg_forks: 20.7
+  median_stars: 17
+  median_forks: 4
+  p25_stars: 5.0
+  p75_stars: 47.0
   p25_forks: 1.0
-  p75_forks: 12.0
+  p75_forks: 9.0
   max_stars: 19214
   max_forks: 1517
   years:
@@ -1263,28 +1378,28 @@ by_conference:
     p25_forks: 4.0
     p75_forks: 29.0
   - year: 2021
-    github_repos: 35
-    total_stars: 2278
-    total_forks: 395
-    avg_stars: 65.1
-    avg_forks: 11.3
-    median_stars: 18
-    median_forks: 6
-    p25_stars: 7.0
-    p75_stars: 34.0
+    github_repos: 45
+    total_stars: 2328
+    total_forks: 415
+    avg_stars: 51.7
+    avg_forks: 9.2
+    median_stars: 11
+    median_forks: 4
+    p25_stars: 2.5
+    p75_stars: 32.5
     p25_forks: 2.0
-    p75_forks: 9.0
+    p75_forks: 8.5
   - year: 2023
-    github_repos: 28
-    total_stars: 1195
+    github_repos: 29
+    total_stars: 1200
     total_forks: 218
-    avg_stars: 42.7
-    avg_forks: 7.8
-    median_stars: 18.0
-    median_forks: 4.0
-    p25_stars: 6.5
-    p75_stars: 70.2
-    p25_forks: 0.2
+    avg_stars: 41.4
+    avg_forks: 7.5
+    median_stars: 16
+    median_forks: 4
+    p25_stars: 6.0
+    p75_stars: 68.5
+    p25_forks: 0.0
     p75_forks: 12.0
   - year: 2024
     github_repos: 24
@@ -2060,19 +2175,19 @@ by_year:
   max_stars: 14365
   max_forks: 1856
 - year: 2021
-  github_repos: 139
-  total_stars: 19938
-  total_forks: 1799
-  avg_stars: 143.4
-  avg_forks: 12.9
-  median_stars: 14
-  median_forks: 4
-  p25_stars: 5.0
-  p75_stars: 34.0
+  github_repos: 193
+  total_stars: 38538
+  total_forks: 6494
+  avg_stars: 199.7
+  avg_forks: 33.6
+  median_stars: 11
+  median_forks: 3
+  p25_stars: 3.0
+  p75_stars: 29.0
   p25_forks: 1.0
-  p75_forks: 8.0
-  max_stars: 13235
-  max_forks: 666
+  p75_forks: 7.0
+  max_stars: 17784
+  max_forks: 4467
 - year: 2022
   github_repos: 279
   total_stars: 36180
@@ -2088,13 +2203,13 @@ by_year:
   max_stars: 14365
   max_forks: 1856
 - year: 2023
-  github_repos: 305
-  total_stars: 13942
+  github_repos: 306
+  total_stars: 13947
   total_forks: 2688
-  avg_stars: 45.7
+  avg_stars: 45.6
   avg_forks: 8.8
-  median_stars: 10
-  median_forks: 2
+  median_stars: 10.0
+  median_forks: 2.0
   p25_stars: 3.0
   p75_stars: 35.0
   p25_forks: 0.0
@@ -2130,13 +2245,13 @@ by_year:
   max_stars: 19214
   max_forks: 1517
 - year: 2026
-  github_repos: 325
+  github_repos: 326
   total_stars: 14197
   total_forks: 1919
-  avg_stars: 43.7
+  avg_stars: 43.5
   avg_forks: 5.9
-  median_stars: 1
-  median_forks: 0
+  median_stars: 1.0
+  median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 4.0
   p25_forks: 0.0
@@ -2145,14 +2260,14 @@ by_year:
   max_forks: 1179
 by_area:
 - name: systems
-  github_repos: 577
-  total_stars: 105183
-  total_forks: 13549
-  median_stars: 13
+  github_repos: 633
+  total_stars: 123788
+  total_forks: 18244
+  median_stars: 11
   median_forks: 3
   p25_stars: 3.0
-  p75_stars: 43.5
-  p25_forks: 0.5
+  p75_stars: 39.5
+  p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 19214
 - name: security

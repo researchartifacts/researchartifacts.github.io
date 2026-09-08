@@ -636,7 +636,6 @@ cais2026:
   artifact_urls:
   - https://github.com/CoreAI-Optimization/robust-llm-router
 - title: 'CAMI: Cost-Aware Agent-Guided Multi-Indexing for Semantic Retrieval'
-  artifact_url: n/a
   badges: available,functional
 - title: 'Glia: A Human-Inspired AI for Automated Systems Design and Optimization'
   artifact_url: https://github.com/mit-nms/Engram
@@ -738,290 +737,394 @@ cais2026:
 eurosys2021:
 - title: Accelerating Graph Sampling for Graph Machine Learning using GPUs
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456244
-  repository_url: https://github.com/abhijangda/nextdoor-experiments/
-  second_repository_url: https://github.com/plasma-umass/NextDoor
+  paper_url: https://doi.org/10.1145/3447786.3456244
+  artifact_url: https://github.com/abhijangda/nextdoor-experiments/
+  repository_url: https://github.com/plasma-umass/NextDoor
+  artifact_urls:
+  - https://github.com/abhijangda/nextdoor-experiments/
 - title: Achieving Low Tail-latency and High Scalability for Serializable Transactions
     in Edge Computing
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456238
-  repository_url: https://github.com/hku-systems/dast
+  paper_url: https://doi.org/10.1145/3447786.3456238
+  artifact_url: https://github.com/hku-systems/dast
+  artifact_urls:
+  - https://github.com/hku-systems/dast
 - title: Characterizing, Exploiting, and Detecting DMA Code Injection Vulnerabilities
     in the Presence of an IOMMU
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456249
-  repository_url: https://github.com/Markuze/mmo-static
-  second_repository_url: https://github.com/Markuze/dma-kasan
+  paper_url: https://doi.org/10.1145/3447786.3456249
+  artifact_url: https://github.com/Markuze/mmo-static
+  repository_url: https://github.com/Markuze/dma-kasan
+  artifact_urls:
+  - https://github.com/Markuze/mmo-static
 - title: 'DGCL: An Efficient Communication Library for Distributed GNN Training'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456233
-  repository_url: https://github.com/czkkkkkk/gccl
-  second_repository_url: https://github.com/czkkkkkk/ragdoll
+  paper_url: https://doi.org/10.1145/3447786.3456233
+  artifact_url: https://github.com/czkkkkkk/gccl
+  repository_url: https://github.com/czkkkkkk/ragdoll
+  artifact_urls:
+  - https://github.com/czkkkkkk/gccl
 - title: 'M3: End-to-End Memory Management in Elastic System Software Stacks'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456256
-  repository_url: https://github.com/dsrg-uoft
+  paper_url: https://doi.org/10.1145/3447786.3456256
+  artifact_url: https://github.com/dsrg-uoft
+  artifact_urls:
+  - https://github.com/dsrg-uoft
 - title: Finding Heterogeneous-Unsafe Configuration Parameters in Cloud Systems
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456250
-  repository_url: https://github.com/StarThinking/ZebraConf
+  paper_url: https://doi.org/10.1145/3447786.3456250
+  artifact_url: https://github.com/StarThinking/ZebraConf
+  artifact_urls:
+  - https://github.com/StarThinking/ZebraConf
 - title: 'Home, SafeHome: Smart Home Reliability with Visibility and Atomicity'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456261
-  repository_url: https://github.com/Shegufta/SafeHomeFramework
+  paper_url: https://doi.org/10.1145/3447786.3456261
+  artifact_url: https://github.com/Shegufta/SafeHomeFramework
+  artifact_urls:
+  - https://github.com/Shegufta/SafeHomeFramework
 - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456228
-  repository_url: https://github.com/andromeda/pash
+  paper_url: https://doi.org/10.1145/3447786.3456228
+  artifact_url: https://github.com/andromeda/pash
+  artifact_urls:
+  - https://github.com/andromeda/pash
 - title: 'rkt-io: A Direct I/O Stack for Shielded Execution'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456255
-  repository_url: https://github.com/Mic92/rkt-io
+  paper_url: https://doi.org/10.1145/3447786.3456255
+  artifact_url: https://github.com/Mic92/rkt-io
+  artifact_urls:
+  - https://github.com/Mic92/rkt-io
 - title: 'Seastar: Vertex-Centric Programming for Graph Neural Networks'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456247
-  repository_url: https://zenodo.org/records/4988602
+  paper_url: https://doi.org/10.1145/3447786.3456247
+  artifact_url: https://zenodo.org/records/4988602
+  artifact_urls:
+  - https://zenodo.org/records/4988602
 - title: Site-to-Site Internet Traffic Control
   badges: available,functional,reproduced
   award: Best Artifact Award
-  paper_url: 10.1145/3447786.3456260
-  repository_url: https://github.com/bundler-project/evaluation
+  paper_url: https://doi.org/10.1145/3447786.3456260
+  artifact_url: https://github.com/bundler-project/evaluation
+  artifact_urls:
+  - https://github.com/bundler-project/evaluation
 - title: 'Tahoe: Tree Structure-Aware High Performance Inference Engine for Decision
     Tree Ensemble on GPU'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456251
-  repository_url: https://github.com/zhen-xie/Tahoe
+  paper_url: https://doi.org/10.1145/3447786.3456251
+  artifact_url: https://github.com/zhen-xie/Tahoe
+  artifact_urls:
+  - https://github.com/zhen-xie/Tahoe
 - title: 'Take it to the Limit: Peak Prediction-driven Resource Overcommitment in
     Datacenters'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456259
-  repository_url: https://github.com/googleinterns/cluster-resource-forecast
+  paper_url: https://doi.org/10.1145/3447786.3456259
+  artifact_url: https://github.com/googleinterns/cluster-resource-forecast
+  artifact_urls:
+  - https://github.com/googleinterns/cluster-resource-forecast
 - title: 'Unikraft: Fast, Specialized Unikernels the Easy Way'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3447786.3456248
-  repository_url: https://github.com/unikraft/eurosys21-artifacts
+  paper_url: https://doi.org/10.1145/3447786.3456248
+  artifact_url: https://github.com/unikraft/eurosys21-artifacts
+  artifact_urls:
+  - https://github.com/unikraft/eurosys21-artifacts
 - title: Confidential Computing for OpenPOWER
   badges: available,functional
-  paper_url: 10.1145/3447786.3456243
-  repository_url: https://github.com/mvle/eurosys2021_PEF_OpenPOWER
-  second_repository_url: https://github.com/open-power/ultravisor/wiki/How-to-build-and-run-Secure-VM-using-Ultravisor-on-a-OpenPOWER-machine
+  paper_url: https://doi.org/10.1145/3447786.3456243
+  artifact_url: https://github.com/mvle/eurosys2021_PEF_OpenPOWER
+  repository_url: https://github.com/open-power/ultravisor/wiki/How-to-build-and-run-Secure-VM-using-Ultravisor-on-a-OpenPOWER-machine
+  artifact_urls:
+  - https://github.com/mvle/eurosys2021_PEF_OpenPOWER
 - title: 'DZiG: Sparsity-Aware Incremental Processing of Streaming Graphs'
   badges: available,functional
-  paper_url: 10.1145/3447786.3456230
-  repository_url: https://github.com/pdclab/graphbolt/tree/eurosys21-artifact
+  paper_url: https://doi.org/10.1145/3447786.3456230
+  artifact_url: https://github.com/pdclab/graphbolt/tree/eurosys21-artifact
+  artifact_urls:
+  - https://github.com/pdclab/graphbolt/tree/eurosys21-artifact
 - title: 'OFC: An Opportunistic Caching System for FaaS Platforms'
   badges: available,functional
-  paper_url: 10.1145/3447786.3456239
-  repository_url: https://gitlab.com/lenapster/faascache/-/tree/master/artifactEvaluation
+  paper_url: https://doi.org/10.1145/3447786.3456239
+  artifact_url: https://gitlab.com/lenapster/faascache/-/tree/master/artifactEvaluation
+  artifact_urls:
+  - https://gitlab.com/lenapster/faascache/-/tree/master/artifactEvaluation
 - title: Understanding and Dealing with Hard Faults in Persistent Memory Systems
   badges: available,functional
-  paper_url: 10.1145/3447786.3456252
-  repository_url: https://github.com/OrderLab/Arthas/blob/master/artifactREADME.md
+  paper_url: https://doi.org/10.1145/3447786.3456252
+  artifact_url: https://github.com/OrderLab/Arthas/blob/master/artifactREADME.md
+  artifact_urls:
+  - https://github.com/OrderLab/Arthas/blob/master/artifactREADME.md
 - title: 'Odyssey: The Impact of Modern Hardware on Strongly-Consistent Replication
     Protocols'
   badges: available
-  paper_url: 10.1145/3447786.3456240
-  repository_url: https://github.com/vasigavr1/Odyssey
+  paper_url: https://doi.org/10.1145/3447786.3456240
+  artifact_url: https://github.com/vasigavr1/Odyssey
+  artifact_urls:
+  - https://github.com/vasigavr1/Odyssey
 - title: 'TraceSplitter: A New Paradigm for Downscaling Traces'
   badges: available
-  paper_url: 10.1145/3447786.3456262
-  repository_url: https://github.com/smsajal/TraceSplitter
+  paper_url: https://doi.org/10.1145/3447786.3456262
+  artifact_url: https://github.com/smsajal/TraceSplitter
+  artifact_urls:
+  - https://github.com/smsajal/TraceSplitter
 - title: 'Zeus: Locality-aware Distributed Transactions'
   badges: available
-  paper_url: 10.1145/3447786.3456234
-  repository_url: https://github.com/ease-lab/Zeus
+  paper_url: https://doi.org/10.1145/3447786.3456234
+  artifact_url: https://github.com/ease-lab/Zeus
+  artifact_urls:
+  - https://github.com/ease-lab/Zeus
 eurosys2022:
 - title: 'OS Scheduling with Nest: Keeping Tasks Close Together on Warm Cores'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519585
-  artifact_url: 10.5281/zenodo.6344960
+  paper_url: https://doi.org/10.1145/3492321.3519585
+  artifact_url: https://doi.org/10.5281/zenodo.6344960
   repository_url: https://gitlab.inria.fr/nest-public/nest-artifact
-  summary: nest
+  summary_url: nest
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6344960
 - title: Improving Scalability of Database Systems by Reshaping User Parallel I/O
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519570
-  artifact_url: 10.5281/zenodo.6336004
+  paper_url: https://doi.org/10.1145/3492321.3519570
+  artifact_url: https://doi.org/10.5281/zenodo.6336004
   repository_url: https://github.com/NingBellWind/AppleS_Artifact
-  summary: reshapeio
+  summary_url: reshapeio
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6336004
 - title: A New Benchmark Harness for Systematic and Robust Evaluation of Streaming
     State Stores
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519592
-  artifact_url: 10.5281/zenodo.6347736
+  paper_url: https://doi.org/10.1145/3492321.3519592
+  artifact_url: https://doi.org/10.5281/zenodo.6347736
   repository_url: https://github.com/CASP-Systems-BU/Gadget
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6347736
 - title: 'SafePM: A Sanitizer for Persistent Memory'
   badges: available,functional,reproduced
   award: Distinguished Artifact Honorable Mention
-  paper_url: 10.1145/3492321.3519574
-  artifact_url: 10.5281/zenodo.6338745
+  paper_url: https://doi.org/10.1145/3492321.3519574
+  artifact_url: https://doi.org/10.5281/zenodo.6338745
   repository_url: https://github.com/mstniy/safepm
-  summary: safepm
+  summary_url: safepm
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6338745
 - title: Building an Efficient Key-Value Store in a Flexible Address Space
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519555
-  artifact_url: 10.5281/zenodo.6345713
+  paper_url: https://doi.org/10.1145/3492321.3519555
+  artifact_url: https://doi.org/10.5281/zenodo.6345713
   repository_url: https://github.com/flexible-address-space/eurosys22-artifact
-  summary: flexibleaddrspace
+  summary_url: flexibleaddrspace
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6345713
 - title: 'BetrFS: A Compleat File System for Commodity SSDs'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519571
-  artifact_url: 10.5281/zenodo.6345303
+  paper_url: https://doi.org/10.1145/3492321.3519571
+  artifact_url: https://doi.org/10.5281/zenodo.6345303
   repository_url: https://github.com/oscarlab/betrfs
-  summary: betrfs
+  summary_url: betrfs
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6345303
 - title: 'PKRU-Safe: Automatically Locking Down the Heap Between Safe and Unsafe Languages'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519582
-  artifact_url: 10.5281/zenodo.6336301
+  paper_url: https://doi.org/10.1145/3492321.3519582
+  artifact_url: https://doi.org/10.5281/zenodo.6336301
   repository_url: https://github.com/securesystemslab/PKRU-Safe
-  summary: pkrusafe
+  summary_url: pkrusafe
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6336301
 - title: 'Rolis: a software approach to efficiently replicating multi-core transactions'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519561
-  artifact_url: 10.5281/zenodo.6335844
+  paper_url: https://doi.org/10.1145/3492321.3519561
+  artifact_url: https://doi.org/10.5281/zenodo.6335844
   repository_url: https://github.com/shenweihai1/rolis-eurosys2022
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6335844
 - title: KASLR in the age of MicroVMs
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519578
+  paper_url: https://doi.org/10.1145/3492321.3519578
   repository_url: https://github.com/bencw12/in-monitor-rando-benchmarking
-  summary: kaslrvm
+  summary_url: kaslrvm
 - title: 'OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519573
-  artifact_url: 10.5281/zenodo.6336200
+  paper_url: https://doi.org/10.1145/3492321.3519573
+  artifact_url: https://doi.org/10.5281/zenodo.6336200
   repository_url: https://github.com/XiaZhouZero/OPEC
-  summary: opec
+  summary_url: opec
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6336200
 - title: 'Jiffy: Elastic Far-Memory for Stateful Serverless Analytics.'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519587
-  artifact_url: 10.5281/zenodo.6349596
+  paper_url: https://doi.org/10.1145/3492321.3519587
+  artifact_url: https://doi.org/10.5281/zenodo.6349596
   repository_url: https://github.com/resource-disaggregation/jiffy-artifact
-  summary: jiffy
+  summary_url: jiffy
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6349596
 - title: 'D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519576
-  artifact_url: 10.5281/zenodo.6345350
+  paper_url: https://doi.org/10.1145/3492321.3519576
+  artifact_url: https://doi.org/10.5281/zenodo.6345350
   repository_url: https://github.com/erdos-project/erdos
-  summary: d3
+  summary_url: d3
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6345350
 - title: Isolating at the Hardware Limit with Virtines
   badges: available,functional,reproduced
   award: Distinguished Artifact
-  paper_url: 10.1145/3492321.3519553
-  artifact_url: 10.5281/zenodo.6350453
+  paper_url: https://doi.org/10.1145/3492321.3519553
+  artifact_url: https://doi.org/10.5281/zenodo.6350453
   repository_url: https://github.com/virtines/wasp
-  summary: virtines
+  summary_url: virtines
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6350453
 - title: 'Unicorn: Reasoning about Configurable System Performance through the lens
     of Causality'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519575
-  artifact_url: 10.5281/zenodo.6360540
+  paper_url: https://doi.org/10.1145/3492321.3519575
+  artifact_url: https://doi.org/10.5281/zenodo.6360540
   repository_url: https://github.com/softsys4ai/unicorn
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6360540
 - title: 'GNNLab: A Factored System for Sample-based GNN Training over GPUs'
   badges: available,functional,reproduced
   award: Distinguished Artifact Honorable Mention
-  paper_url: 10.1145/3492321.3519557
-  artifact_url: 10.5281/zenodo.6347456
+  paper_url: https://doi.org/10.1145/3492321.3519557
+  artifact_url: https://doi.org/10.5281/zenodo.6347456
   repository_url: https://github.com/SJTU-IPADS/fgnn-artifacts/tree/0abc7182
-  summary: gnnlab
+  summary_url: gnnlab
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6347456
 - title: 'VMSH: Hypervisor-agnostic Guest Overlays for VMs'
   badges: available,functional,reproduced
   award: Distinguished Artifact Honorable Mention
-  paper_url: 10.1145/3492321.3519589
-  artifact_url: 10.5281/zenodo.6337102
+  paper_url: https://doi.org/10.1145/3492321.3519589
+  artifact_url: https://doi.org/10.5281/zenodo.6337102
   repository_url: https://github.com/Mic92/vmsh
-  summary: vmsh
+  summary_url: vmsh
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6337102
 - title: 'Kite: Lightweight Critical Service Domains full strip note'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519586
-  artifact_url: 10.5281/zenodo.6348174
+  paper_url: https://doi.org/10.1145/3492321.3519586
+  artifact_url: https://doi.org/10.5281/zenodo.6348174
   repository_url: https://github.com/ssrg-vt/kite
-  summary: kite
+  summary_url: kite
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6348174
 - title: Characterizing the Performance of Intel Optane Persistent Memory -- A Close
     Look at its On-DIMM Buffering
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519556
-  artifact_url: 10.5281/zenodo.6342303
+  paper_url: https://doi.org/10.1145/3492321.3519556
+  artifact_url: https://doi.org/10.5281/zenodo.6342303
   repository_url: https://github.com/lingfenghsiang/Persistent-Memory-Study
-  summary: optane
+  summary_url: optane
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6342303
 - title: 'LiteReconfig: Cost and Content Aware Reconfiguration of Video Object Detection
     Systems for Mobile GPUs'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519577
-  artifact_url: 10.5281/zenodo.6345733
+  paper_url: https://doi.org/10.1145/3492321.3519577
+  artifact_url: https://doi.org/10.5281/zenodo.6345733
   repository_url: https://github.com/StarsThu2016/LiteReconfig_AE
-  summary: litereconfig
+  summary_url: litereconfig
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6345733
 - title: 'DAMYSUS: Streamlined BFT Consensus Leveraging Trusted Components'
   badges: available,functional,reproduced
-  paper_url: 10.1145/3492321.3519568
+  paper_url: https://doi.org/10.1145/3492321.3519568
   repository_url: https://github.com/vrahli/damysus
-  summary: damysus
+  summary_url: damysus
 - title: Optimizing the Interval-centric Distributed Computing Model for Temporal
     Graph Algorithms
   badges: available,functional
-  paper_url: 10.1145/3492321.3519588
-  artifact_url: 10.5281/zenodo.6337790
+  paper_url: https://doi.org/10.1145/3492321.3519588
+  artifact_url: https://doi.org/10.5281/zenodo.6337790
   repository_url: https://github.com/dream-lab/wicm/tree/Eurosys2022
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6337790
 - title: 'Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning'
   badges: available,functional
-  paper_url: 10.1145/3492321.3519563
-  artifact_url: 10.5281/zenodo.6345869
+  paper_url: https://doi.org/10.1145/3492321.3519563
+  artifact_url: https://doi.org/10.5281/zenodo.6345869
   repository_url: https://github.com/mlsys-seo/ooo-backprop
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6345869
 - title: 'Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus'
   badges: available,functional
-  paper_url: 10.1145/3492321.3519594
-  artifact_url: 10.5281/zenodo.6353717
+  paper_url: https://doi.org/10.1145/3492321.3519594
+  artifact_url: https://doi.org/10.5281/zenodo.6353717
   repository_url: https://github.com/asonnino/narwhal
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6353717
 - title: 'Varuna: Scalable, Low-cost Training of Massive Deep Learning Models'
   badges: available,functional
-  paper_url: 10.1145/3492321.3519584
-  artifact_url: 10.5281/zenodo.6359660
+  paper_url: https://doi.org/10.1145/3492321.3519584
+  artifact_url: https://doi.org/10.5281/zenodo.6359660
   repository_url: https://github.com/microsoft/varuna/
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6359660
 - title: State Machine Replication Scalability Made Simple
   badges: available,functional
-  paper_url: 10.1145/3492321.3519579
-  artifact_url: 10.5281/zenodo.6344032
+  paper_url: https://doi.org/10.1145/3492321.3519579
+  artifact_url: https://doi.org/10.5281/zenodo.6344032
   repository_url: https://github.com/hyperledger-labs/mirbft/tree/research-iss
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6344032
 - title: 'Verified Programs Can Party: Optimizing Kernel Extensions via Post-Verification
     In-Kernel Merging'
   badges: available,functional
-  paper_url: 10.1145/3492321.3519562
-  artifact_url: 10.5281/zenodo.6336103
+  paper_url: https://doi.org/10.1145/3492321.3519562
+  artifact_url: https://doi.org/10.5281/zenodo.6336103
   repository_url: https://github.com/synercys/eurosys-kfuse-artifact
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6336103
 - title: 'Beating the I/O bottleneck: A case for log-structured virtual disks'
   badges: available,functional
-  paper_url: 10.1145/3492321.3524271
-  artifact_url: 10.5281/zenodo.6354775
+  paper_url: https://doi.org/10.1145/3492321.3524271
+  artifact_url: https://doi.org/10.5281/zenodo.6354775
   repository_url: https://github.com/asch/dis
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6354775
 - title: 'Sharing is Caring: Secure and Efficient Shared Memory Support for MVEEs'
   badges: available
-  paper_url: 10.1145/3492321.3519558
-  artifact_url: 10.5281/zenodo.6360235
+  paper_url: https://doi.org/10.1145/3492321.3519558
+  artifact_url: https://doi.org/10.5281/zenodo.6360235
   repository_url: https://github.com/ReMon-MVEE/ReMon
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6360235
 - title: 'FaaSnap: FaaS Made Fast Using Snapshot-based VMs'
   badges: available
-  paper_url: 10.1145/3492321.3524270
-  artifact_url: 10.5281/zenodo.6360833
+  paper_url: https://doi.org/10.1145/3492321.3524270
+  artifact_url: https://doi.org/10.5281/zenodo.6360833
   repository_url: https://github.com/ucsdsysnet/faasnap
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6360833
 - title: 'DeepRest: Deep Resource Estimation for Interactive Microservices'
   badges: available
-  paper_url: 10.1145/3492321.3519564
-  artifact_url: 10.5281/zenodo.6335690
+  paper_url: https://doi.org/10.1145/3492321.3519564
+  artifact_url: https://doi.org/10.5281/zenodo.6335690
   repository_url: https://github.com/IBM/api-tracing-app-management
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6335690
 - title: 'Tebis: Index Shipping for Efficient Replication in LSM Key-Value Stores'
   badges: available
-  paper_url: 10.1145/3492321.3519572
-  artifact_url: 10.5281/zenodo.6349594
+  paper_url: https://doi.org/10.1145/3492321.3519572
+  artifact_url: https://doi.org/10.5281/zenodo.6349594
   repository_url: https://github.com/CARV-ICS-FORTH/tebis
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6349594
 - title: 'p2KVS: a Portable 2-Dimensional Parallelizing Framework to Improve Scalability
     of Key-value Stores on SSDs'
   badges: available
-  paper_url: 10.1145/3492321.3519567
-  artifact_url: 10.5281/zenodo.6336196
+  paper_url: https://doi.org/10.1145/3492321.3519567
+  artifact_url: https://doi.org/10.5281/zenodo.6336196
   repository_url: https://github.com/luziyi23/p2KVS/
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6336196
 - title: Memory Deduplication for Serverless Computing with Medes
   badges: available
-  paper_url: 10.1145/3492321.3524272
-  artifact_url: 10.5281/zenodo.6374411
+  paper_url: https://doi.org/10.1145/3492321.3524272
+  artifact_url: https://doi.org/10.5281/zenodo.6374411
   repository_url: https://github.com/DivyanshuSaxena/Medes
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.6374411
 eurosys2023:
 - title: 'DRAMHiT: A Hash Table Architected for the Speed of DRAM'
   badges: available,functional,reproduced
@@ -1641,10 +1744,10 @@ eurosys2025:
   - https://github.com/Fjallraven-hc/NeuStream-AE
 eurosys2026:
 - title: 'OptiLog: Assigning Roles in Byzantine Consensus'
-  artifact_url: https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts
+  artifact_url: https://github.com/relab/optilog_artifacts
   badges: available,functional
   artifact_urls:
-  - https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts
+  - https://github.com/relab/optilog_artifacts
 - title: 'TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO'
   artifact_url: https://github.com/intellabs/tierscape
   badges: available,functional
@@ -2757,303 +2860,440 @@ osdi2025:
   badges: available,functional,reproduced
 sc2021:
 - title: Temporal Vectorization for Stencils
-  artifact_doi: 10.5281/zenodo.5151491
+  artifact_url: https://doi.org/10.5281/zenodo.5151491
   badges: available, functional
-  paper_doi: '3458817.3476149'
+  paper_url: https://doi.org/3458817.3476149
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5151491
 - title: 'LCCG: A Locality-Centric Hardware Accelerator for High Throughput of Concurrent
     Graph Processing'
-  artifact_doi: 10.5281/zenodo.5155769
+  artifact_url: https://doi.org/10.5281/zenodo.5155769
   badges: available, functional, reproduced
-  paper_doi: '3458817.3480854'
+  paper_url: https://doi.org/3458817.3480854
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5155769
 - title: Parallel Construction of Module Networks
-  artifact_doi: 10.5281/zenodo.5144438
+  artifact_url: https://doi.org/10.5281/zenodo.5144438
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476207'
+  paper_url: https://doi.org/3458817.3476207
+  award: Best Reproducibility Advancement Award Finalist
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5144438
 - title: Online Evolutionary Batch Size Orchestration for Scheduling Deep Learning
     Workloads in GPU Clusters
-  artifact_doi: 10.5281/zenodo.5513082
+  artifact_url: https://doi.org/10.5281/zenodo.5513082
   badges: available, functional, reproduced
-  paper_doi: '3458817.3480859'
+  paper_url: https://doi.org/3458817.3480859
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5513082
 - title: 'Krill: A Compiler and Runtime System for Concurrent Graph Processing'
-  artifact_doi: 10.5281/zenodo.5165762
+  artifact_url: https://doi.org/10.5281/zenodo.5165762
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476159'
+  paper_url: https://doi.org/3458817.3476159
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5165762
 - title: Exploiting User Activeness for Data Retention in HPC Systems
-  artifact_doi: 10.5281/zenodo.5168853
+  artifact_url: https://doi.org/10.5281/zenodo.5168853
   badges: available, functional
-  paper_doi: '3458817.3476201'
+  paper_url: https://doi.org/3458817.3476201
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5168853
 - title: 'LogECMem: Coupling Erasure-Coded In-Memory Key-Value Stores with Parity
     Logging'
-  artifact_doi: 10.5281/zenodo.5092219
+  artifact_url: https://doi.org/10.5281/zenodo.5092219
   badges: available
-  paper_doi: '3458817.3480852'
+  paper_url: https://doi.org/3458817.3480852
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5092219
 - title: 'KAISA: An Adaptive Second-order Optimizer Framework for Deep Neural Networks'
-  artifact_doi: 10.5281/zenodo.4895203
+  artifact_url: https://doi.org/10.5281/zenodo.4895203
   badges: available, functional
-  paper_doi: '3458817.3476152'
+  paper_url: https://doi.org/3458817.3476152
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4895203
 - title: Understanding, Predicting and Scheduling Serverless Workloads under Partial
     Interference
-  artifact_doi: 10.5281/zenodo.5147569
+  artifact_url: https://doi.org/10.5281/zenodo.5147569
   badges: available
-  paper_doi: '3458817.3476215'
+  paper_url: https://doi.org/3458817.3476215
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5147569
 - title: 'Cuttlefish: Library for Achieving Energy Efficiency in Multicore Parallel
     Programs'
-  artifact_doi: 10.5281/zenodo.5167629
+  artifact_url: https://doi.org/10.5281/zenodo.5167629
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476163'
+  paper_url: https://doi.org/3458817.3476163
+  award: Best Reproducibility Advancement Award Finalist
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5167629
 - title: Accelerating XOR-based Erasure Coding using Program Optimization Techniques
-  artifact_doi: 10.5281/zenodo.5167006
+  artifact_url: https://doi.org/10.5281/zenodo.5167006
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476204'
+  paper_url: https://doi.org/3458817.3476204
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5167006
 - title: Accelerating Applications using Edge Tensor Processing Units
-  artifact_doi: 10.5281/zenodo.5156431
+  artifact_url: https://doi.org/10.5281/zenodo.5156431
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476177'
+  paper_url: https://doi.org/3458817.3476177
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5156431
 - title: 'On the Parallel I/O Optimality of Linear Algebra Kernels: Near-Optimal Matrix
     Factorizations'
-  artifact_doi: 10.5281/zenodo.5168027
+  artifact_url: https://doi.org/10.5281/zenodo.5168027
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476167'
+  paper_url: https://doi.org/3458817.3476167
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5168027
 - title: 'SV-Sim: Scalable PGAS-based State Vector Simulation of Quantum Circuits'
-  artifact_doi: 10.5281/zenodo.5206960
+  artifact_url: https://doi.org/10.5281/zenodo.5206960
   badges: available, functional
-  paper_doi: '3458817.3476169'
+  paper_url: https://doi.org/3458817.3476169
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5206960
 - title: 'DeltaFS: A Scalable No-Ground-Truth Filesystem For Massively-Parallel Computing'
-  artifact_doi: 10.5281/zenodo.4884852
+  artifact_url: https://doi.org/10.5281/zenodo.4884852
   badges: available, functional
-  paper_doi: '3458817.3476148'
+  paper_url: https://doi.org/3458817.3476148
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4884852
 - title: Reducing Redundancy in Data Organization and Arithmetic Calculation for Stencil
     Computations
-  artifact_doi: 10.5281/zenodo.3881644
+  artifact_url: https://doi.org/10.5281/zenodo.3881644
   badges: available
-  paper_doi: '3458817.3476154'
+  paper_url: https://doi.org/3458817.3476154
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.3881644
 - title: 'CAKE: Matrix Multiplication Using Constant-Bandwidth Blocks'
-  artifact_doi: 10.5281/zenodo.5148715
+  artifact_url: https://doi.org/10.5281/zenodo.5148715
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476166'
+  paper_url: https://doi.org/3458817.3476166
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5148715
 - title: Hardware-supported Remote Persistence for Distributed Persistent Memory
-  artifact_doi: 10.5281/zenodo.5162688
+  artifact_url: https://doi.org/10.5281/zenodo.5162688
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476194'
+  paper_url: https://doi.org/3458817.3476194
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5162688
 - title: 'STM-Multifrontal QR: Streaming Task Mapping Multifrontal QR Factorization
     Empowered by GCN'
-  artifact_doi: 10.5281/zenodo.5144709
+  artifact_url: https://doi.org/10.5281/zenodo.5144709
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476199'
+  paper_url: https://doi.org/3458817.3476199
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5144709
 - title: Clairvoyant Prefetching for Distributed Machine Learning I/O
-  artifact_doi: 10.5281/zenodo.5166929
+  artifact_url: https://doi.org/10.5281/zenodo.5166929
   badges: available
-  paper_doi: '3458817.3476181'
+  paper_url: https://doi.org/3458817.3476181
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5166929
 - title: Discovering and Balancing Fundamental Cycles in Large Signed Graphs
-  artifact_doi: 10.5281/zenodo.5148797
+  artifact_url: https://doi.org/10.5281/zenodo.5148797
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476153'
+  paper_url: https://doi.org/3458817.3476153
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5148797
 - title: High Performance Uncertainty Quantification with Parallelized Multilevel
     Markov Chain Monte Carlo
-  artifact_doi: 10.5281/zenodo.5158988
+  artifact_url: https://doi.org/10.5281/zenodo.5158988
   badges: available
-  paper_doi: '3458817.3476150'
+  paper_url: https://doi.org/3458817.3476150
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5158988
 - title: '3D Acoustic-Elastic Coupling with Gravity: The Dynamics of the 2018 Palu,
     Sulawesi Earthquake and Tsunami'
-  artifact_doi: 10.5281/zenodo.5159333
+  artifact_url: https://doi.org/10.5281/zenodo.5159333
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476173'
+  paper_url: https://doi.org/3458817.3476173
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5159333
 - title: Enable Simultaneous DNN Services Based on Deterministic Operator Overlap
     and Precise Latency Prediction
-  artifact_doi: 10.5281/zenodo.5176097
+  artifact_url: https://doi.org/10.5281/zenodo.5176097
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476143'
+  paper_url: https://doi.org/3458817.3476143
+  award: Best Reproducibility Advancement Award Finalist
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5176097
 - title: 'Index Launches: Scalable, Flexible Representation of Parallel Task Groups'
-  artifact_doi: 10.5281/zenodo.5164404
+  artifact_url: https://doi.org/10.5281/zenodo.5164404
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476175'
+  paper_url: https://doi.org/3458817.3476175
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5164404
 - title: 'PAGANI: A Parallel Adaptive GPU Algorithm for Numerical Integration full
     strip note'
-  artifact_doi: 10.5281/zenodo.5204819
+  artifact_url: https://doi.org/10.5281/zenodo.5204819
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476198'
+  paper_url: https://doi.org/3458817.3476198
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5204819
 - title: Minimizing privilege for building HPC containers
-  artifact_doi: 10.6084/m9.figshare.14396099
+  artifact_url: https://doi.org/10.6084/m9.figshare.14396099
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476187'
+  paper_url: https://doi.org/3458817.3476187
+  artifact_urls:
+  - https://doi.org/10.6084/m9.figshare.14396099
 - title: Efficient Tensor Core-based GPU Kernels for Structured Sparsity under Reduced
     Precision
-  artifact_doi: 10.5281/zenodo.5136675
+  artifact_url: https://doi.org/10.5281/zenodo.5136675
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476182'
+  paper_url: https://doi.org/3458817.3476182
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5136675
 - title: Preparing an Incompressible-Flow Fluid Dynamics Code for Exascale-Class Wind
     Energy Simulations
-  artifact_doi: 10.5281/zenodo.4899910
+  artifact_url: https://doi.org/10.5281/zenodo.4899910
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476185'
+  paper_url: https://doi.org/3458817.3476185
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4899910
 - title: Efficient Large-Scale Language Model Training on GPU Clusters
-  artifact_doi: 10.5281/zenodo.5181820
+  artifact_url: https://doi.org/10.5281/zenodo.5181820
   badges: available, functional
-  paper_doi: '3458817.3476209'
+  paper_url: https://doi.org/3458817.3476209
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5181820
 - title: 'Pinpointing Crash-Consistency Bugs in the HPC I/O Stack: A Cross-Layer Approach'
-  artifact_doi: 10.5281/zenodo.5168471
+  artifact_url: https://doi.org/10.5281/zenodo.5168471
   badges: available, functional
-  paper_doi: '3458817.3476144'
+  paper_url: https://doi.org/3458817.3476144
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5168471
 - title: 'AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with
     Autotuned Data-Parallel Training for Tabular Data full strip note'
-  artifact_doi: 10.5281/zenodo.4094667
+  artifact_url: https://doi.org/10.5281/zenodo.4094667
   badges: available
-  paper_doi: '3458817.3476203'
+  paper_url: https://doi.org/3458817.3476203
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4094667
 - title: Bootstrapping In-situ Workflow Auto-Tuning via Combining Performance Models
     of Component Applications full strip note
-  artifact_doi: 10.5281/zenodo.5003901
+  artifact_url: https://doi.org/10.5281/zenodo.5003901
   badges: available, functional
-  paper_doi: '3458817.3476197'
+  paper_url: https://doi.org/3458817.3476197
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5003901
 - title: Systematically Inferring I/O Performance Variability by Examining Repetitive
     Job Behavior
-  artifact_doi: 10.5281/zenodo.5236852
+  artifact_url: https://doi.org/10.5281/zenodo.5236852
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476186'
+  paper_url: https://doi.org/3458817.3476186
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5236852
 - title: 'MAPA: Multi-Accelerator Pattern Allocation Policy for Multi-Tenant GPU Servers'
-  artifact_doi: 10.5281/zenodo.5152741
+  artifact_url: https://doi.org/10.5281/zenodo.5152741
   badges: available, functional
-  paper_doi: '3458817.3480853'
+  paper_url: https://doi.org/3458817.3480853
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5152741
 - title: 'Productivity, Portability, Performance: Data-Centric Python'
-  artifact_doi: 10.5281/zenodo.5155509
+  artifact_url: https://doi.org/10.5281/zenodo.5155509
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476176'
+  paper_url: https://doi.org/3458817.3476176
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5155509
 - title: 'Flare: Flexible In-Network Allreduce'
-  artifact_doi: 10.5281/zenodo.4836022
+  artifact_url: https://doi.org/10.5281/zenodo.4836022
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476178'
+  paper_url: https://doi.org/3458817.3476178
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4836022
 - title: 'Non-Recurring Engineering (NRE) Best Practices: A Case Study with the NERSC/NVIDIA
     OpenMP Contract'
-  artifact_doi: 10.5281/zenodo.5168093
+  artifact_url: https://doi.org/10.5281/zenodo.5168093
   badges: available
-  paper_doi: '3458817.3476213'
+  paper_url: https://doi.org/3458817.3476213
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5168093
 - title: 'SEEC: Stochastic Escape Express Channel'
-  artifact_doi: 10.5281/zenodo.5171429
+  artifact_url: https://doi.org/10.5281/zenodo.5171429
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476140'
+  paper_url: https://doi.org/3458817.3476140
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5171429
 - title: 'APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU
     Tensor Cores'
-  artifact_doi: 10.5281/zenodo.5144378
+  artifact_url: https://doi.org/10.5281/zenodo.5144378
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476157'
+  paper_url: https://doi.org/3458817.3476157
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5144378
 - title: Paths to OpenMP in the Kernel
-  artifact_doi: 10.5281/zenodo.5164666
+  artifact_url: https://doi.org/10.5281/zenodo.5164666
   badges: available
-  paper_doi: '3458817.3476183'
+  paper_url: https://doi.org/3458817.3476183
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5164666
 - title: 'The Hidden cost of the Edge: A Performance Comparison ofEdge and Cloud Latencies'
-  artifact_doi: 10.5281/zenodo.5163851
+  artifact_url: https://doi.org/10.5281/zenodo.5163851
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476142'
+  paper_url: https://doi.org/3458817.3476142
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5163851
 - title: Scalable adaptive PDE solvers in arbitrary domains
-  artifact_doi: 10.5281/zenodo.5168313
+  artifact_url: https://doi.org/10.5281/zenodo.5168313
   badges: available
-  paper_doi: '3458817.3476220'
+  paper_url: https://doi.org/3458817.3476220
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5168313
 - title: 'ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning'
-  artifact_doi: 10.5281/zenodo.5156596
+  artifact_url: https://doi.org/10.5281/zenodo.5156596
   badges: available, functional
-  paper_doi: '3458817.3476205'
+  paper_url: https://doi.org/3458817.3476205
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5156596
 - title: Accelerating large scale de novo metagenome assembly using GPUs
-  artifact_doi: 10.5281/zenodo.5165333
+  artifact_url: https://doi.org/10.5281/zenodo.5165333
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476212'
+  paper_url: https://doi.org/3458817.3476212
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5165333
 - title: Online Optimization of File Transfers in High-Speed Networks
-  artifact_doi: 10.5281/zenodo.5164277
+  artifact_url: https://doi.org/10.5281/zenodo.5164277
   badges: available
-  paper_doi: '3458817.3476208'
+  paper_url: https://doi.org/3458817.3476208
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5164277
 - title: In-Depth Analyses of Unified Virtual Memory System for GPU Accelerated Computing
-  artifact_doi: 10.5281/zenodo.5148930
+  artifact_url: https://doi.org/10.5281/zenodo.5148930
   badges: available, functional, reproduced
-  paper_doi: '3458817.3480855'
+  paper_url: https://doi.org/3458817.3480855
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5148930
 - title: 'HatRPC: Hint-Accelerated Thrift RPC over RDMA'
-  artifact_doi: 10.5281/zenodo.5203281
+  artifact_url: https://doi.org/10.5281/zenodo.5203281
   badges: available
-  paper_doi: '3458817.3476191'
+  paper_url: https://doi.org/3458817.3476191
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5203281
 - title: Characterization and Prediction of Deep Learning Workloads in Large-Scale
     GPU Datacenters
-  artifact_doi: 10.5281/zenodo.5116412
+  artifact_url: https://doi.org/10.5281/zenodo.5116412
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476223'
+  paper_url: https://doi.org/3458817.3476223
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5116412
 - title: Reverse-Mode Automatic Differentiation and Optimization of GPU Kernels via
     Enzyme full strip note
-  artifact_doi: 10.5281/zenodo.5147573
+  artifact_url: https://doi.org/10.5281/zenodo.5147573
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476165'
+  paper_url: https://doi.org/3458817.3476165
+  award: Best Reproducibility Advancement Award Finalist
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5147573
 - title: 'LibShalom: Optimizing Small and Irregular-shaped Matrix Multiplications
     on ARMv8 Multi-Cores'
-  artifact_doi: 10.5281/zenodo.5201457
+  artifact_url: https://doi.org/10.5281/zenodo.5201457
   badges: available
-  paper_doi: '3458817.3476217'
+  paper_url: https://doi.org/3458817.3476217
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5201457
 - title: 'Simurgh: A Fully Decentralized and Secure NVMM User Space File System'
-  artifact_doi: 10.5281/zenodo.5163624
+  artifact_url: https://doi.org/10.5281/zenodo.5163624
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476180'
+  paper_url: https://doi.org/3458817.3476180
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5163624
 - title: 'HPAC: Evaluating Approximate Computing Techniques on HPC OpenMP Applications.'
-  artifact_doi: 10.5281/zenodo.5167980
+  artifact_url: https://doi.org/10.5281/zenodo.5167980
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476216'
+  paper_url: https://doi.org/3458817.3476216
+  award: Best Reproducibility Advancement Award Finalist
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5167980
 - title: 'Ribbon: Cost-Effective and QoS-Aware Deep Learning Model Inference using
     a Diverse Pool of Cloud Computing Instances'
-  artifact_doi: 10.5281/zenodo.5262865
+  artifact_url: https://doi.org/10.5281/zenodo.5262865
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476168'
+  paper_url: https://doi.org/3458817.3476168
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5262865
 - title: 'Lunule: An Agile and Judicious Metadata Load Balancer for CephFS'
-  artifact_doi: 10.5281/zenodo.5171833
+  artifact_url: https://doi.org/10.5281/zenodo.5171833
   badges: available
-  paper_doi: '3458817.3476196'
+  paper_url: https://doi.org/3458817.3476196
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5171833
 - title: A Next-Generation Discontinuous Galerkin Fluid Dynamics Solver with Application
     to High-Resolution Lung Airflow Simulations
-  artifact_doi: 10.5281/zenodo.5176507
+  artifact_url: https://doi.org/10.5281/zenodo.5176507
   badges: available
-  paper_doi: '3458817.3476171'
+  paper_url: https://doi.org/3458817.3476171
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5176507
 - title: 'LMFF: Efficient and Scalable Layered Materials Force Field on Heterogeneous
     Many-Core Processors'
-  artifact_doi: 10.5281/zenodo.5203181
+  artifact_url: https://doi.org/10.5281/zenodo.5203181
   badges: available, functional
-  paper_doi: '3458817.3476137'
+  paper_url: https://doi.org/3458817.3476137
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5203181
 - title: 'Whale: Efficient One-to-Many Data Partitioning in RDMA-assisted Distributed
     Stream Processing Systems'
-  artifact_doi: 10.5281/zenodo.4897500
+  artifact_url: https://doi.org/10.5281/zenodo.4897500
   badges: available
-  paper_doi: '3458817.3476192'
+  paper_url: https://doi.org/3458817.3476192
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.4897500
 - title: 'ndzip-gpu: Efficient Lossless Compression of Scientific Floating-Point Data
     on GPUs'
-  artifact_doi: 10.5281/zenodo.5144874
+  artifact_url: https://doi.org/10.5281/zenodo.5144874
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476224'
+  paper_url: https://doi.org/3458817.3476224
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5144874
 - title: 'cuTS: Scaling Subgraph Isomorphism on Distributed Multi-GPU Systems Using
     Trie Based Data Structure'
-  artifact_doi: 10.5281/zenodo.5154114
+  artifact_url: https://doi.org/10.5281/zenodo.5154114
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476214'
+  paper_url: https://doi.org/3458817.3476214
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.5154114
 - title: Representation of Women in High-Performance Computing Conferences
-  artifact_doi: 10.1145/3476480
+  artifact_url: https://doi.org/10.1145/3476480
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476164'
+  paper_url: https://doi.org/3458817.3476164
+  artifact_urls:
+  - https://doi.org/10.1145/3476480
 - title: 'PEPPA-X: finding program test inputs to bound silent data corruption vulnerability
     in HPC applications'
-  artifact_doi: 10.1145/3476481
+  artifact_url: https://doi.org/10.1145/3476481
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476147'
+  paper_url: https://doi.org/3458817.3476147
+  artifact_urls:
+  - https://doi.org/10.1145/3476481
 - title: 'Tensor processing primitives: a programming abstraction for efficiency and
     portability in deep learning workloads'
-  artifact_doi: 10.1145/3476482
+  artifact_url: https://doi.org/10.1145/3476482
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476206'
+  paper_url: https://doi.org/3458817.3476206
+  artifact_urls:
+  - https://doi.org/10.1145/3476482
 - title: 'DistGNN: scalable distributed training for large-scale graph neural networks'
-  artifact_doi: 10.1145/3476483
+  artifact_url: https://doi.org/10.1145/3476483
   badges: available, functional
-  paper_doi: '3458817.3480856'
+  paper_url: https://doi.org/3458817.3480856
+  artifact_urls:
+  - https://doi.org/10.1145/3476483
 - title: 'Dr. Top-k: delegate-centric Top-k on GPUs'
-  artifact_doi: 10.1145/3476484
+  artifact_url: https://doi.org/10.1145/3476484
   badges: available, functional
-  paper_doi: '3458817.3476141'
+  paper_url: https://doi.org/3458817.3476141
+  artifact_urls:
+  - https://doi.org/10.1145/3476484
 - title: Hybrid, scalable, trace-driven performance modeling of GPGPUs
-  artifact_doi: 10.1145/3476485
+  artifact_url: https://doi.org/10.1145/3476485
   badges: available, functional, reproduced
-  paper_doi: '3458817.3476221'
+  paper_url: https://doi.org/3458817.3476221
+  artifact_urls:
+  - https://doi.org/10.1145/3476485
 - title: 'Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional
     Pipelines'
   badges: functional
-  paper_doi: '3458817.3476145'
+  paper_url: https://doi.org/3458817.3476145
 sosp2019:
 - title: Verifying concurrent, crash-safe systems with Perennial
   github_url: https://github.com/mit-pdos/perennial/tree/master/artifact
@@ -3131,732 +3371,998 @@ sosp2019:
   badges: Available
 sosp2021:
 - title: 'Boki: Stateful Serverless Computing with Shared Logs'
-  github_url: https://github.com/ut-osa/boki-benchmarks
+  artifact_url: https://github.com/ut-osa/boki-benchmarks
   badges: Available, Functional, Reproduced
-  summary: boki
-  doi: 10.1145/3477132.3483541
+  summary_url: boki
+  paper_url: https://doi.org/10.1145/3477132.3483541
+  artifact_urls:
+  - https://github.com/ut-osa/boki-benchmarks
 - title: Understanding and Detecting Software Upgrade Failures in Distributed Systems
-  github_url: https://github.com/zlab-purdue/ds-upgrade
-  additional_urls:
+  artifact_url: https://github.com/zlab-purdue/ds-upgrade
+  badges: Available, Functional, Reproduced
+  summary_url: duptester
+  paper_url: https://doi.org/10.1145/3477132.3483577
+  artifact_urls:
+  - https://github.com/zlab-purdue/ds-upgrade
   - https://github.com/jwjwyoung/DUPChecker
   - https://gitlab.dsrg.utoronto.ca/zhuqi/DUPTester
-  jupyter_url: https://github.com/jwjwyoung/RecentUpgradeFailureStudy
-  vm_url: http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY
-  badges: Available, Functional, Reproduced
-  summary: duptester
-  doi: 10.1145/3477132.3483577
+  - https://github.com/jwjwyoung/RecentUpgradeFailureStudy
+  - http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY
 - title: Gradient Compression Supercharged High-Performance Data Parallel DNN Training
-  github_url: https://gitlab.com/hipress/hipress
+  artifact_url: https://gitlab.com/hipress/hipress
   badges: Available, Functional, Reproduced
-  summary: hipress
-  doi: 10.1145/3477132.3483553
+  summary_url: hipress
+  paper_url: https://doi.org/10.1145/3477132.3483553
+  artifact_urls:
+  - https://gitlab.com/hipress/hipress
 - title: Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory
     Hardware
-  github_url: https://github.com/VeriGu/sosp-paper211-ae
-  proof_url: https://github.com/VeriGu/sosp-paper211-ae-proof
-  additional_urls:
+  artifact_url: https://github.com/VeriGu/sosp-paper211-ae
+  badges: Available, Functional, Reproduced
+  summary_url: verigu
+  paper_url: https://doi.org/10.1145/3477132.3483560
+  artifact_urls:
+  - https://github.com/VeriGu/sosp-paper211-ae
   - https://github.com/VeriGu/usenix-ae-linux
   - https://github.com/VeriGu/vct-qemu
-  badges: Available, Functional, Reproduced
-  summary: verigu
-  doi: 10.1145/3477132.3483560
+  - https://github.com/VeriGu/sosp-paper211-ae-proof
 - title: 'iGUARD: In-GPU Advanced Race Detection'
-  github_url: https://github.com/csl-iisc/iGUARD
+  artifact_url: https://github.com/csl-iisc/iGUARD
   badges: Available, Functional, Reproduced
-  summary: iguard
-  doi: 10.1145/3477132.3483545
+  summary_url: iguard
+  paper_url: https://doi.org/10.1145/3477132.3483545
+  artifact_urls:
+  - https://github.com/csl-iisc/iGUARD
 - title: 'Forerunner: Constraint-based Speculative Transaction Execution for Ethereum'
-  github_url: https://github.com/microsoft/Forerunner/
+  artifact_url: https://github.com/microsoft/Forerunner/
   badges: Available, Functional, Reproduced
-  summary: forerunner
-  doi: 10.1145/3477132.3483564
+  summary_url: forerunner
+  paper_url: https://doi.org/10.1145/3477132.3483564
+  artifact_urls:
+  - https://github.com/microsoft/Forerunner/
 - title: Crash Consistent Non-Volatile Memory Express
-  github_url: https://github.com/thustorage/ccnvme
+  artifact_url: https://github.com/thustorage/ccnvme
   badges: Available, Functional, Reproduced
-  summary: ccnvme
-  doi: 10.1145/3477132.3483577
+  summary_url: ccnvme
+  paper_url: https://doi.org/10.1145/3477132.3483577
+  artifact_urls:
+  - https://github.com/thustorage/ccnvme
 - title: 'LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline
     Parallelism'
-  github_url: https://github.com/casys-kaist/LineFS
+  artifact_url: https://github.com/casys-kaist/LineFS
   badges: Available, Functional, Reproduced
-  summary: linefs
-  doi: 10.1145/3477132.3483565
+  summary_url: linefs
+  paper_url: https://doi.org/10.1145/3477132.3483565
+  artifact_urls:
+  - https://github.com/casys-kaist/LineFS
 - title: 'When Idling is Ideal: Optimizing Tail-Latency for Highly-Dispersed Datacenter
     Workloads with Perséphone'
-  github_url: https://github.com/maxdml/psp
-  jupyter_url: https://github.com/maxdml/psp/blob/master/sosp_aec/aec.ipynb
+  artifact_url: https://github.com/maxdml/psp
   badges: Available, Functional, Reproduced
-  summary: perséphone
-  doi: 10.1145/3477132.3483571
+  summary_url: perséphone
+  paper_url: https://doi.org/10.1145/3477132.3483571
+  artifact_urls:
+  - https://github.com/maxdml/psp
+  - https://github.com/maxdml/psp/blob/master/sosp_aec/aec.ipynb
 - title: Exploiting Nil-Externality for Fast Replicated Storage
-  bitbucket_url: https://bitbucket.org/aganesan4/skyros/
-  data_url: https://zenodo.org/record/5520021
+  artifact_url: https://bitbucket.org/aganesan4/skyros/
   badges: Available, Functional, Reproduced
-  summary: skyros
-  doi: 10.1145/3477132.3483543
+  summary_url: skyros
+  paper_url: https://doi.org/10.1145/3477132.3483543
+  artifact_urls:
+  - https://bitbucket.org/aganesan4/skyros/
+  - https://zenodo.org/record/5520021
 - title: 'Rabia: Simplifying State-Machine Replication Through Randomization'
-  github_url: https://github.com/haochenpan/rabia/
-  cloudlab_url: https://www.cloudlab.us/show-profile.php?uuid=1af34047-fb02-11eb-84f8-e4434b2381fc
+  artifact_url: https://github.com/haochenpan/rabia/
   badges: Available, Functional, Reproduced
-  summary: rabia
-  doi: 10.1145/3477132.3483582
+  summary_url: rabia
+  paper_url: https://doi.org/10.1145/3477132.3483582
+  artifact_urls:
+  - https://github.com/haochenpan/rabia/
+  - https://www.cloudlab.us/show-profile.php?uuid=1af34047-fb02-11eb-84f8-e4434b2381fc
 - title: 'Coeus: A system for oblivious document ranking and retrieval'
-  github_url: https://github.com/ishtiyaque/Coeus_artifact
+  artifact_url: https://github.com/ishtiyaque/Coeus_artifact
   badges: Available, Functional, Reproduced
-  summary: coeus
-  doi: 10.1145/3477132.3483586
+  summary_url: coeus
+  paper_url: https://doi.org/10.1145/3477132.3483586
+  artifact_urls:
+  - https://github.com/ishtiyaque/Coeus_artifact
 - title: 'FragPicker: A New Defragmentation Tool for Modern Storage Devices'
-  github_url: https://github.com/jonggyup/FragPicker
+  artifact_url: https://github.com/jonggyup/FragPicker
   badges: Available, Functional, Reproduced
-  summary: fragpicker
-  doi: 10.1145/3477132.3483593
+  summary_url: fragpicker
+  paper_url: https://doi.org/10.1145/3477132.3483593
+  artifact_urls:
+  - https://github.com/jonggyup/FragPicker
 - title: 'J-NVM: Off-heap Persistent Objects in Java'
-  github_url: https://github.com/jnvm-project/jnvm
+  artifact_url: https://github.com/jnvm-project/jnvm
   badges: Available, Functional, Reproduced
-  summary: jnvm
-  doi: 10.1145/3477132.3483579
+  summary_url: jnvm
+  paper_url: https://doi.org/10.1145/3477132.3483579
+  artifact_urls:
+  - https://github.com/jnvm-project/jnvm
 - title: 'Basil: Breaking up BFT with ACID (transactions)'
-  github_url: https://github.com/fsuri/SOSP21_artifact_eval
-  cloudlab_url: https://www.cloudlab.us/p/morty/SOSP108
+  artifact_url: https://github.com/fsuri/SOSP21_artifact_eval
   badges: Available, Functional, Reproduced
-  summary: basil
-  doi: 10.1145/3477132.3483552
+  summary_url: basil
+  paper_url: https://doi.org/10.1145/3477132.3483552
+  artifact_urls:
+  - https://github.com/fsuri/SOSP21_artifact_eval
+  - https://www.cloudlab.us/p/morty/SOSP108
 - title: Scale and Performance in a Filesystem Semi-Microkernel
-  web_url: https://research.cs.wisc.edu/adsl/Software/uFS/
-  github_url: https://github.com/WiscADSL/uFS
+  artifact_url: https://github.com/WiscADSL/uFS
   badges: Available, Functional, Reproduced
-  summary: ufs
-  doi: 10.1145/3477132.3483581
+  summary_url: ufs
+  paper_url: https://doi.org/10.1145/3477132.3483581
+  artifact_urls:
+  - https://github.com/WiscADSL/uFS
+  - https://research.cs.wisc.edu/adsl/Software/uFS/
 - title: 'HeMem: Scalable Tiered Memory Management for Big Data Applications and Real
     NVM'
-  bitbucket_url: https://bitbucket.org/ajaustin/hemem/src/sosp-submission/
+  artifact_url: https://bitbucket.org/ajaustin/hemem/src/sosp-submission/
   badges: Available, Functional, Reproduced
-  summary: hemem
-  doi: 10.1145/3477132.3483550
+  summary_url: hemem
+  paper_url: https://doi.org/10.1145/3477132.3483550
+  artifact_urls:
+  - https://bitbucket.org/ajaustin/hemem/src/sosp-submission/
 - title: 'IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern
     Flash Storage'
-  bitbucket_url: https://github.com/huaicheng/IODA-SOSP21-AE
-  additional_urls:
-  - https://asciinema.org/a/431726
+  artifact_url: https://github.com/huaicheng/IODA-SOSP21-AE
   badges: Available, Functional, Reproduced
-  summary: ioda
-  doi: 10.1145/3477132.3483573
+  summary_url: ioda
+  paper_url: https://doi.org/10.1145/3477132.3483573
+  artifact_urls:
+  - https://github.com/huaicheng/IODA-SOSP21-AE
+  - https://asciinema.org/a/431726
 - title: 'BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for
     Datacenter Networks'
-  github_url: https://github.com/hku-systems/bidl
+  artifact_url: https://github.com/hku-systems/bidl
   badges: Available, Functional, Reproduced
-  summary: bidl
-  doi: 10.1145/3477132.3483574
+  summary_url: bidl
+  paper_url: https://doi.org/10.1145/3477132.3483574
+  artifact_urls:
+  - https://github.com/hku-systems/bidl
 - title: 'Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale'
-  github_url: https://github.com/sslab-gatech/Rudra-Artifacts
+  artifact_url: https://github.com/sslab-gatech/Rudra-Artifacts
   badges: Available, Functional, Reproduced
-  summary: rudra
-  award: true
-  doi: 10.1145/3477132.3483570
+  summary_url: rudra
+  award: Distinguished Artifact
+  paper_url: https://doi.org/10.1145/3477132.3483570
+  artifact_urls:
+  - https://github.com/sslab-gatech/Rudra-Artifacts
 - title: 'MIND: In-Network Memory Management for Disaggregated Data Centers'
-  github_url: https://github.com/shsym/mind
+  artifact_url: https://github.com/shsym/mind
   badges: Available, Functional, Reproduced
-  summary: mind
-  doi: 10.1145/3477132.3483582
+  summary_url: mind
+  paper_url: https://doi.org/10.1145/3477132.3483582
+  artifact_urls:
+  - https://github.com/shsym/mind
 - title: 'Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy'
-  github_url: https://github.com/karannewatia/Mycelium
-  summary: mycelium
+  artifact_url: https://github.com/karannewatia/Mycelium
+  summary_url: mycelium
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3477132.3483585
+  paper_url: https://doi.org/10.1145/3477132.3483585
+  artifact_urls:
+  - https://github.com/karannewatia/Mycelium
 - title: Solving Large-Scale Granular Resource Allocation Problems Efficiently with
     POP
-  github_url: https://github.com/stanford-futuredata/POP
+  artifact_url: https://github.com/stanford-futuredata/POP
   badges: Available, Functional, Reproduced
-  summary: pop
-  doi: 10.1145/3477132.3483588
+  summary_url: pop
+  paper_url: https://doi.org/10.1145/3477132.3483588
+  artifact_urls:
+  - https://github.com/stanford-futuredata/POP
 - title: 'Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage'
-  github_url: https://github.com/ucbrise/snoopy
+  artifact_url: https://github.com/ucbrise/snoopy
   badges: Available, Functional, Reproduced
-  summary: snoopy
-  doi: 10.1145/3477132.3483562
+  summary_url: snoopy
+  paper_url: https://doi.org/10.1145/3477132.3483562
+  artifact_urls:
+  - https://github.com/ucbrise/snoopy
 - title: 'WineFS: a hugepage-aware file system for persistent memory that ages gracefully'
-  github_url: https://github.com/rohankadekodi/WineFS
+  artifact_url: https://github.com/rohankadekodi/WineFS
   badges: Available, Functional, Reproduced
-  summary: winefs
-  doi: 10.1145/3477132.3483567
+  summary_url: winefs
+  paper_url: https://doi.org/10.1145/3477132.3483567
+  artifact_urls:
+  - https://github.com/rohankadekodi/WineFS
 - title: 'Caracal: Contention Management with Deterministic Concurrency Control'
-  github_url: https://github.com/uoft-felis/felis
-  additional_urls:
-  - https://github.com/uoft-felis/felis-controller
+  artifact_url: https://github.com/uoft-felis/felis
   badges: Available, Functional, Reproduced
-  summary: caracal
-  doi: 10.1145/3477132.3483591
+  summary_url: caracal
+  paper_url: https://doi.org/10.1145/3477132.3483591
+  artifact_urls:
+  - https://github.com/uoft-felis/felis
+  - https://github.com/uoft-felis/felis-controller
 - title: 'dSpace: Composable Abstractions for Smart Spaces'
-  github_url: https://github.com/digi-project/sosp21-artifact
+  artifact_url: https://github.com/digi-project/sosp21-artifact
   badges: Available, Functional
-  summary: dspace
-  doi: 10.1145/3477132.3483559
+  summary_url: dspace
+  paper_url: https://doi.org/10.1145/3477132.3483559
+  artifact_urls:
+  - https://github.com/digi-project/sosp21-artifact
 - title: The Aurora Single Level Store Operating System
-  web_url: https://rcs.uwaterloo.ca/aurora/
-  github_url: https://github.com/rcslab/aurora-12.1/
-  scripts_url: https://github.com/rcslab/aurora-bench/
-  additional_urls:
+  artifact_url: https://github.com/rcslab/aurora-12.1/
+  badges: Available, Functional
+  summary_url: aurora
+  paper_url: https://doi.org/10.1145/3477132.3483563
+  artifact_urls:
+  - https://github.com/rcslab/aurora-12.1/
+  - https://rcs.uwaterloo.ca/aurora/
   - https://github.com/rcslab/aurora/
-  badges: Available, Functional
-  summary: aurora
-  doi: 10.1145/3477132.3483563
+  - https://github.com/rcslab/aurora-bench/
 - title: 'HEALER: Relation Learning Guided Kernel Fuzzing'
-  github_url: https://github.com/SunHao-0/healer
+  artifact_url: https://github.com/SunHao-0/healer
   badges: Available, Functional
-  summary: healer
-  doi: 10.1145/3477132.3483547
+  summary_url: healer
+  paper_url: https://doi.org/10.1145/3477132.3483547
+  artifact_urls:
+  - https://github.com/SunHao-0/healer
 - title: Random Walks on Huge Graphs at Cache Efficiency
-  github_url: https://github.com/flashmobwalk/flashmob/tree/sosp21-ae
+  artifact_url: https://github.com/flashmobwalk/flashmob/tree/sosp21-ae
   badges: Available, Functional
-  summary: flashmob
-  doi: 10.1145/3477132.3483575
+  summary_url: flashmob
+  paper_url: https://doi.org/10.1145/3477132.3483575
+  artifact_urls:
+  - https://github.com/flashmobwalk/flashmob/tree/sosp21-ae
 - title: 'Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair'
-  github_url: https://github.com/rcstor/rcstor
+  artifact_url: https://github.com/rcstor/rcstor
   badges: Available, Functional
-  summary: rcstor
-  doi: 10.1145/3477132.3483558
+  summary_url: rcstor
+  paper_url: https://doi.org/10.1145/3477132.3483558
+  artifact_urls:
+  - https://github.com/rcstor/rcstor
 - title: 'Kauri: Scalable BFT Consensus with Pipelined Tree-Based Dissemination and
     Aggregation'
-  github_url: https://github.com/Raycoms/Kauri-Public
+  artifact_url: https://github.com/Raycoms/Kauri-Public
   badges: Available, Functional
-  summary: kauri
-  doi: 10.1145/3477132.3483584
+  summary_url: kauri
+  paper_url: https://doi.org/10.1145/3477132.3483584
+  artifact_urls:
+  - https://github.com/Raycoms/Kauri-Public
 - title: 'Kangaroo: Caching Billions of Tiny Objects on Flash'
-  github_url: https://github.com/saramcallister/Kangaroo
-  additional_urls:
-  - https://github.com/saramcallister/CacheLib-1
+  artifact_url: https://github.com/saramcallister/Kangaroo
   badges: Available, Functional
-  summary: kangaroo
-  doi: 10.1145/3477132.3483568
+  summary_url: kangaroo
+  paper_url: https://doi.org/10.1145/3477132.3483568
+  artifact_urls:
+  - https://github.com/saramcallister/Kangaroo
+  - https://github.com/saramcallister/CacheLib-1
 - title: 'Witcher: Systematic Crash Consistency Testing for Non-Volatile Memory Key-Value
     Stores'
-  github_url: https://github.com/cosmoss-vt/witcher
+  artifact_url: https://github.com/cosmoss-vt/witcher
   badges: Available, Functional
-  summary: witcher
-  doi: 10.1145/3477132.3483556
+  summary_url: witcher
+  paper_url: https://doi.org/10.1145/3477132.3483556
+  artifact_urls:
+  - https://github.com/cosmoss-vt/witcher
 - title: 'PACTree: A High Performance Persistent Range Index Using PAC Guidelines'
-  github_url: https://github.com/cosmoss-vt/pactree
+  artifact_url: https://github.com/cosmoss-vt/pactree
   badges: Available, Functional
-  summary: pactree
-  doi: 10.1145/3477132.3483589
+  summary_url: pactree
+  paper_url: https://doi.org/10.1145/3477132.3483589
+  artifact_urls:
+  - https://github.com/cosmoss-vt/pactree
 - title: Automated SmartNIC Offloading Insights for Network Functions
-  github_url: https://github.com/824728350/Clara
+  artifact_url: https://github.com/824728350/Clara
   badges: Available, Functional
-  summary: clara
-  doi: 10.1145/3477132.3483583
+  summary_url: clara
+  paper_url: https://doi.org/10.1145/3477132.3483583
+  artifact_urls:
+  - https://github.com/824728350/Clara
 - title: 'Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread
     Communication Analysis'
-  github_url: https://github.com/rssys/snowboard
+  artifact_url: https://github.com/rssys/snowboard
   badges: Available, Functional
-  summary: snowboard
-  doi: 10.1145/3477132.3483549
+  summary_url: snowboard
+  paper_url: https://doi.org/10.1145/3477132.3483549
+  artifact_urls:
+  - https://github.com/rssys/snowboard
 - title: 'CLoF: A Compositional Lock Framework for Multi-level NUMA Systems'
   badges: Functional, Reproduced
-  summary: clof
-  doi: 10.1145/3477132.3483557
+  summary_url: clof
+  paper_url: https://doi.org/10.1145/3477132.3483557
 - title: Regular Sequential Serializability and Regular Sequential Consistency
-  github_url: https://github.com/jmhelt/tapir/tree/spanner
-  additional_urls:
-  - https://github.com/princeton-sns/gryff/tree/rs
+  artifact_url: https://github.com/jmhelt/tapir/tree/spanner
   badges: Available
-  summary: rss-rsc
-  doi: 10.1145/3477132.3483566
+  summary_url: rss-rsc
+  paper_url: https://doi.org/10.1145/3477132.3483566
+  artifact_urls:
+  - https://github.com/jmhelt/tapir/tree/spanner
+  - https://github.com/princeton-sns/gryff/tree/rs
 - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
     Systems
-  github_url: https://github.com/demikernel/demikernel
-  cloudlab_url: https://www.cloudlab.us/p/Demeter/testing-pair/9
-  additional_urls:
+  artifact_url: https://github.com/demikernel/demikernel
+  badges: Available
+  summary_url: demikernel
+  paper_url: https://doi.org/10.1145/3477132.3483569
+  artifact_urls:
+  - https://github.com/demikernel/demikernel
   - https://github.com/demikernel/echo
   - https://github.com/demikernel/demikernel/tree/osdi-legacy-code
-  badges: Available
-  summary: demikernel
-  doi: 10.1145/3477132.3483569
+  - https://www.cloudlab.us/p/Demeter/testing-pair/9
 sosp2023:
 - title: 'Acto: Automatic End-to-End Testing for Operation Correctness of Cloud System
     Management'
-  github_url: https://github.com/xlab-uiuc/acto/tree/sosp-ae
+  artifact_url: https://github.com/xlab-uiuc/acto/tree/sosp-ae
   badges: Available, Functional, Reproduced
-  summary: acto
-  doi: 10.1145/3600006.3613161
+  summary_url: acto
+  paper_url: https://doi.org/10.1145/3600006.3613161
+  artifact_urls:
+  - https://github.com/xlab-uiuc/acto/tree/sosp-ae
 - title: 'Bagpipe: Accelerating Deep Recommendation Model Training'
-  github_url: https://github.com/iidsample/bagpipe_artifacts
+  artifact_url: https://github.com/iidsample/bagpipe_artifacts
   badges: Available, Functional, Reproduced
-  summary: bagpipe
-  doi: 10.1145/3600006.3613142
+  summary_url: bagpipe
+  paper_url: https://doi.org/10.1145/3600006.3613142
+  artifact_urls:
+  - https://github.com/iidsample/bagpipe_artifacts
 - title: 'Cornflakes: Zero-Copy Serialization for Microsecond-Scale Networking'
-  github_url: https://github.com/deeptir18/cornflakes
-  scripts_url: https://github.com/deeptir18/cornflakes-scripts
-  cloudlab_url: https://www.cloudlab.us/p/955539a31b0c7be330933414edd8d4af54f7dbec
+  artifact_url: https://github.com/deeptir18/cornflakes
   badges: Available, Functional, Reproduced
-  summary: cornflakes
-  doi: 10.1145/3600006.3613137
+  summary_url: cornflakes
+  paper_url: https://doi.org/10.1145/3600006.3613137
+  artifact_urls:
+  - https://github.com/deeptir18/cornflakes
+  - https://github.com/deeptir18/cornflakes-scripts
+  - https://www.cloudlab.us/p/955539a31b0c7be330933414edd8d4af54f7dbec
 - title: 'Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System'
-  github_url: https://github.com/dmemsys/Ditto
+  artifact_url: https://github.com/dmemsys/Ditto
   badges: Available, Functional, Reproduced
-  summary: ditto
-  doi: 10.1145/3600006.3613144
+  summary_url: ditto
+  paper_url: https://doi.org/10.1145/3600006.3613144
+  artifact_urls:
+  - https://github.com/dmemsys/Ditto
 - title: 'Edna: Disguising and Revealing User Data in Web Applications'
-  github_url: https://github.com/tslilyai/edna/tree/artifact
+  artifact_url: https://github.com/tslilyai/edna/tree/artifact
   badges: Available, Functional, Reproduced
-  summary: edna
-  doi: 10.1145/3600006.3613146
+  summary_url: edna
+  paper_url: https://doi.org/10.1145/3600006.3613146
+  artifact_urls:
+  - https://github.com/tslilyai/edna/tree/artifact
 - title: Efficient Memory Management for Large Language Model Serving with PagedAttention
-  github_url: https://github.com/sosp-ae-39/sosp-ae-astra
+  artifact_url: https://github.com/sosp-ae-39/sosp-ae-astra
   badges: Available, Functional, Reproduced
-  summary: astra
-  doi: 10.1145/3600006.3613165
+  summary_url: astra
+  paper_url: https://doi.org/10.1145/3600006.3613165
+  artifact_urls:
+  - https://github.com/sosp-ae-39/sosp-ae-astra
 - title: Enabling High-Performance and Secure Userspace NVM File Systems with the
     Trio Architecture
-  github_url: https://github.com/vmexit/trio-sosp23-ae
+  artifact_url: https://github.com/vmexit/trio-sosp23-ae
   badges: Available, Functional, Reproduced
-  summary: trio
-  doi: 10.1145/3600006.3613171
+  summary_url: trio
+  paper_url: https://doi.org/10.1145/3600006.3613171
+  artifact_urls:
+  - https://github.com/vmexit/trio-sosp23-ae
 - title: 'Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory'
-  github_url: https://github.com/madsys-dev/Falcon
+  artifact_url: https://github.com/madsys-dev/Falcon
   badges: Available, Functional, Reproduced
-  summary: falcon
-  doi: 10.1145/3600006.3613141
+  summary_url: falcon
+  paper_url: https://doi.org/10.1145/3600006.3613141
+  artifact_urls:
+  - https://github.com/madsys-dev/Falcon
 - title: FIFO Queues are All You Need for Cache Eviction
-  github_url: https://github.com/Thesys-lab/sosp23-s3fifo
+  artifact_url: https://github.com/Thesys-lab/sosp23-s3fifo
   badges: Available, Functional, Reproduced
-  summary: fifo
-  doi: 10.1145/3600006.3613147
+  summary_url: fifo
+  paper_url: https://doi.org/10.1145/3600006.3613147
+  artifact_urls:
+  - https://github.com/Thesys-lab/sosp23-s3fifo
 - title: 'GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints'
-  github_url: https://github.com/zhuangwang93/SOSP-30_AE
+  artifact_url: https://github.com/zhuangwang93/SOSP-30_AE
   badges: Available, Functional, Reproduced
-  summary: gemini
-  doi: 10.1145/3600006.3613145
+  summary_url: gemini
+  paper_url: https://doi.org/10.1145/3600006.3613145
+  artifact_urls:
+  - https://github.com/zhuangwang93/SOSP-30_AE
 - title: 'Grove: a Separation-Logic Library for Verifying Distributed Systems'
-  github_url: https://github.com/mit-pdos/grove-artifact
+  artifact_url: https://github.com/mit-pdos/grove-artifact
   badges: Available, Functional, Reproduced
-  summary: grove
-  doi: 10.1145/3600006.3613172
+  summary_url: grove
+  paper_url: https://doi.org/10.1145/3600006.3613172
+  artifact_urls:
+  - https://github.com/mit-pdos/grove-artifact
 - title: 'gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning'
-  github_url: https://github.com/gpzlx1/gsampler-artifact-evaluation
+  artifact_url: https://github.com/gpzlx1/gsampler-artifact-evaluation
   badges: Available, Functional, Reproduced
-  summary: gsampler
-  doi: 10.1145/3600006.3613168
+  summary_url: gsampler
+  paper_url: https://doi.org/10.1145/3600006.3613168
+  artifact_urls:
+  - https://github.com/gpzlx1/gsampler-artifact-evaluation
 - title: 'Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing'
-  github_url: https://github.com/pkusys/Halfmoon-bench
+  artifact_url: https://github.com/pkusys/Halfmoon-bench
   badges: Available, Functional, Reproduced
-  summary: halfmoon
-  doi: 10.1145/3600006.3613154
+  summary_url: halfmoon
+  paper_url: https://doi.org/10.1145/3600006.3613154
+  artifact_urls:
+  - https://github.com/pkusys/Halfmoon-bench
 - title: 'Mira: A Program-Behavior-Guided Far Memory System'
-  github_url: https://bitbucket.org/mira-sosp23/mira-ae
+  artifact_url: https://bitbucket.org/mira-sosp23/mira-ae
   badges: Available, Functional, Reproduced
-  summary: mira
-  doi: 10.1145/3600006.3613157
+  summary_url: mira
+  paper_url: https://doi.org/10.1145/3600006.3613157
+  artifact_urls:
+  - https://bitbucket.org/mira-sosp23/mira-ae
 - title: 'Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates'
-  github_url: https://github.com/SymbioticLab/oobleck
+  artifact_url: https://github.com/SymbioticLab/oobleck
   badges: Available, Functional, Reproduced
-  summary: oobleck
-  doi: 10.1145/3600006.3613152
+  summary_url: oobleck
+  paper_url: https://doi.org/10.1145/3600006.3613152
+  artifact_urls:
+  - https://github.com/SymbioticLab/oobleck
 - title: 'Paella: Low-latency Model Serving with Software-defined GPU Scheduling'
-  github_url: https://github.com/eniac/paella/tree/sosp23_artifact
+  artifact_url: https://github.com/eniac/paella/tree/sosp23_artifact
   badges: Available, Functional, Reproduced
-  summary: paella
-  doi: 10.1145/3600006.3613163
+  summary_url: paella
+  paper_url: https://doi.org/10.1145/3600006.3613163
+  artifact_urls:
+  - https://github.com/eniac/paella/tree/sosp23_artifact
 - title: Partial Failure Resilient Memory Management System for (CXL-based) Distributed
     Shared Memory
-  github_url: https://github.com/madsys-dev/sosp-paper19-ae
+  artifact_url: https://github.com/madsys-dev/sosp-paper19-ae
   badges: Available, Functional, Reproduced
-  summary: partial
-  doi: 10.1145/3600006.3613135
+  summary_url: partial
+  paper_url: https://doi.org/10.1145/3600006.3613135
+  artifact_urls:
+  - https://github.com/madsys-dev/sosp-paper19-ae
 - title: 'PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation
     Invariant Transformation'
-  github_url: https://github.com/microsoft/SparTA/tree/pit_artifact
+  artifact_url: https://github.com/microsoft/SparTA/tree/pit_artifact
   badges: Available, Functional, Reproduced
-  summary: pit
-  doi: 10.1145/3600006.3613139
+  summary_url: pit
+  paper_url: https://doi.org/10.1145/3600006.3613139
+  artifact_urls:
+  - https://github.com/microsoft/SparTA/tree/pit_artifact
 - title: Private Web Search with Tiptoe
-  github_url: https://github.com/ahenzinger/tiptoe
+  artifact_url: https://github.com/ahenzinger/tiptoe
   badges: Available, Functional, Reproduced
-  summary: tiptoe
-  doi: 10.1145/3600006.3613134
+  summary_url: tiptoe
+  paper_url: https://doi.org/10.1145/3600006.3613134
+  artifact_urls:
+  - https://github.com/ahenzinger/tiptoe
 - title: 'Sia: Heterogeneity-Aware, Goodput-Optimized ML-Cluster Scheduling'
-  github_url: https://github.com/siasosp23/artifacts/tree/main
+  artifact_url: https://github.com/siasosp23/artifacts/tree/main
   badges: Available, Functional, Reproduced
-  summary: sia
-  doi: 10.1145/3600006.3613175
+  summary_url: sia
+  paper_url: https://doi.org/10.1145/3600006.3613175
+  artifact_urls:
+  - https://github.com/siasosp23/artifacts/tree/main
 - title: 'Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor'
-  github_url: https://github.com/rssys/snowcat
+  artifact_url: https://github.com/rssys/snowcat
   badges: Available, Functional, Reproduced
-  summary: snowcat
-  doi: 10.1145/3600006.3613148
+  summary_url: snowcat
+  paper_url: https://doi.org/10.1145/3600006.3613148
+  artifact_urls:
+  - https://github.com/rssys/snowcat
 - title: 'SPFresh: Incremental In-Place Update for Billion-Scale Vector Search'
-  github_url: https://github.com/SPFresh/SPFresh
+  artifact_url: https://github.com/SPFresh/SPFresh
   badges: Available, Functional, Reproduced
-  summary: spfresh
-  doi: 10.1145/3600006.3613166
+  summary_url: spfresh
+  paper_url: https://doi.org/10.1145/3600006.3613166
+  artifact_urls:
+  - https://github.com/SPFresh/SPFresh
 - title: 'Turbo: Effective Caching in Differentially-Private Databases'
-  github_url: https://github.com/columbia/turbo-artifact
+  artifact_url: https://github.com/columbia/turbo-artifact
   badges: Available, Functional, Reproduced
-  summary: turbo
-  doi: 10.1145/3600006.3613174
+  summary_url: turbo
+  paper_url: https://doi.org/10.1145/3600006.3613174
+  artifact_urls:
+  - https://github.com/columbia/turbo-artifact
 - title: 'UGACHE: A Unified GPU Cache for Embedding-based Deep Learning'
-  github_url: https://github.com/SJTU-IPADS/ugache-artifacts
+  artifact_url: https://github.com/SJTU-IPADS/ugache-artifacts
   badges: Available, Functional, Reproduced
-  summary: ugache
-  doi: 10.1145/3600006.3613169
+  summary_url: ugache
+  paper_url: https://doi.org/10.1145/3600006.3613169
+  artifact_urls:
+  - https://github.com/SJTU-IPADS/ugache-artifacts
 - title: Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal
     Scheduling
-  github_url: https://github.com/m8/concord
+  artifact_url: https://github.com/m8/concord
   badges: Available, Functional
-  summary: concord
-  doi: 10.1145/3600006.3613136
+  summary_url: concord
+  paper_url: https://doi.org/10.1145/3600006.3613136
+  artifact_urls:
+  - https://github.com/m8/concord
 - title: 'Antipode: Enforcing Cross-Service Causal Consistency in Distributed Applications'
-  github_url: https://github.com/Antipode-SOSP23
+  artifact_url: https://github.com/Antipode-SOSP23
   badges: Available, Functional
-  summary: antipode
-  doi: 10.1145/3600006.3613176
+  summary_url: antipode
+  paper_url: https://doi.org/10.1145/3600006.3613176
+  artifact_urls:
+  - https://github.com/Antipode-SOSP23
 - title: 'Blueprint: A Toolchain for Highly-Reconfigurable Microservice Applications'
-  github_url: https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler
+  artifact_url: https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler
   badges: Available, Functional
-  summary: blueprint
-  doi: 10.1145/3600006.3613138
+  summary_url: blueprint
+  paper_url: https://doi.org/10.1145/3600006.3613138
+  artifact_urls:
+  - https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler
 - title: 'MEMTIS: Efficient Memory Tiering with Dynamic Page Classification and Page
     Size Determination'
-  github_url: https://github.com/cosmoss-jigu/memtis
+  artifact_url: https://github.com/cosmoss-jigu/memtis
   badges: Available, Functional
-  summary: memtis
-  doi: 10.1145/3600006.3613167
+  summary_url: memtis
+  paper_url: https://doi.org/10.1145/3600006.3613167
+  artifact_urls:
+  - https://github.com/cosmoss-jigu/memtis
 - title: Pushing Performance Isolation Boundaries into Application with pBox
-  github_url: https://github.com/OrderLab/pBox
+  artifact_url: https://github.com/OrderLab/pBox
   badges: Available, Functional
-  summary: pbox
-  doi: 10.1145/3600006.3613159
+  summary_url: pbox
+  paper_url: https://doi.org/10.1145/3600006.3613159
+  artifact_urls:
+  - https://github.com/OrderLab/pBox
 - title: 'QuePaxa: Escaping the tyranny of timeouts in consensus'
-  github_url: https://github.com/dedis/quepaxa/
+  artifact_url: https://github.com/dedis/quepaxa/
   badges: Available, Functional
-  summary: quepaxa
-  doi: 10.1145/3600006.3613150
+  summary_url: quepaxa
+  paper_url: https://doi.org/10.1145/3600006.3613150
+  artifact_urls:
+  - https://github.com/dedis/quepaxa/
 - title: 'RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage
     Co-Design'
-  github_url: https://github.com/breidys2/RackBlox
+  artifact_url: https://github.com/breidys2/RackBlox
   badges: Available, Functional
-  summary: rackblox
-  doi: 10.1145/3600006.3613170
+  summary_url: rackblox
+  paper_url: https://doi.org/10.1145/3600006.3613170
+  artifact_urls:
+  - https://github.com/breidys2/RackBlox
 - title: 'Siloz: Leveraging DRAM Isolation Domains to Prevent Inter-VM Rowhammer'
-  github_url: https://github.com/efeslab/siloz
+  artifact_url: https://github.com/efeslab/siloz
   badges: Available, Functional
-  summary: siloz
-  doi: 10.1145/3600006.3613143
+  summary_url: siloz
+  paper_url: https://doi.org/10.1145/3600006.3613143
+  artifact_urls:
+  - https://github.com/efeslab/siloz
 - title: Validating JIT Compilers via Compilation Space Exploration
-  github_url: https://doi.org/10.5281/zenodo.8188346
+  artifact_url: https://doi.org/10.5281/zenodo.8188346
   badges: Available, Functional
-  summary: artemis
-  doi: 10.1145/3600006.3613140
+  summary_url: artemis
+  paper_url: https://doi.org/10.1145/3600006.3613140
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.8188346
 - title: Flexible Advancement in Asynchronous BFT Consensus
   badges: Functional, Reproduced
-  summary: superma
-  doi: 10.1145/3600006.3613164
+  summary_url: superma
+  paper_url: https://doi.org/10.1145/3600006.3613164
 sosp2024:
 - title: Fast, Flexible, and Practical Kernel Extensions
-  repository_url: https://github.com/rs3lab/KFlex
+  artifact_url: https://github.com/rs3lab/KFlex
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695950
+  paper_url: https://doi.org/10.1145/3694715.3695950
+  artifact_urls:
+  - https://github.com/rs3lab/KFlex
 - title: Practical Verification of System-Software Components Written in Standard
     C
-  repository_url: https://github.com/dslab-epfl/tpot
+  artifact_url: https://github.com/dslab-epfl/tpot
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695980
+  paper_url: https://doi.org/10.1145/3694715.3695980
+  artifact_urls:
+  - https://github.com/dslab-epfl/tpot
 - title: 'vSoC: Efficient Virtual System-on-Chip on Heterogeneous Hardware'
-  repository_url: https://github.com/VirtualSoC/vsoc/tree/artifact
+  artifact_url: https://github.com/VirtualSoC/vsoc/tree/artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695946
+  paper_url: https://doi.org/10.1145/3694715.3695946
+  artifact_urls:
+  - https://github.com/VirtualSoC/vsoc/tree/artifact
 - title: 'Verus: A Practical Foundation for Systems Verification'
-  repository_url: https://github.com/verus-lang/paper-sosp24-artifact/blob/main/site/guide.md
+  artifact_url: https://github.com/verus-lang/paper-sosp24-artifact/blob/main/site/guide.md
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695952
+  paper_url: https://doi.org/10.1145/3694715.3695952
+  artifact_urls:
+  - https://github.com/verus-lang/paper-sosp24-artifact/blob/main/site/guide.md
 - title: 'Modular Verification of Secure and Leakage-Free Systems: From Application
     Specification to Circuit-Level Implementation'
-  repository_url: https://github.com/anishathalye/parfait-hsm
+  artifact_url: https://github.com/anishathalye/parfait-hsm
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695956
+  paper_url: https://doi.org/10.1145/3694715.3695956
+  artifact_urls:
+  - https://github.com/anishathalye/parfait-hsm
 - title: 'Caribou: Fine-Grained Geospatial Shifting of Serverless Applications for
     Sustainability'
-  repository_url: https://github.com/ubc-cirrus-lab/caribou
+  artifact_url: https://github.com/ubc-cirrus-lab/caribou
   badges: Available, Functional
-  doi: 10.1145/3694715.3695954
+  paper_url: https://doi.org/10.1145/3694715.3695954
+  artifact_urls:
+  - https://github.com/ubc-cirrus-lab/caribou
 - title: 'Ozz: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory
     Access Reordering'
-  repository_url: https://github.com/casys-kaist/ozz_artifact
+  artifact_url: https://github.com/casys-kaist/ozz_artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695944
+  paper_url: https://doi.org/10.1145/3694715.3695944
+  artifact_urls:
+  - https://github.com/casys-kaist/ozz_artifact
 - title: Reducing Energy Bloat in Large Model Training
-  repository_url: https://github.com/ml-energy/zeus/tree/kronos
+  artifact_url: https://github.com/ml-energy/zeus/tree/kronos
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695970
+  paper_url: https://doi.org/10.1145/3694715.3695970
+  artifact_urls:
+  - https://github.com/ml-energy/zeus/tree/kronos
 - title: 'CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated
     Memory'
-  repository_url: https://github.com/dmemsys/CHIME
+  artifact_url: https://github.com/dmemsys/CHIME
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695959
+  paper_url: https://doi.org/10.1145/3694715.3695959
+  artifact_urls:
+  - https://github.com/dmemsys/CHIME
 - title: 'Cookie Monster: Efficient On-Device Budgeting for Differentially-Private
     Ad-Measurement Systems'
-  repository_url: https://github.com/columbia/cookiemonster
+  artifact_url: https://github.com/columbia/cookiemonster
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695965
+  paper_url: https://doi.org/10.1145/3694715.3695965
+  artifact_urls:
+  - https://github.com/columbia/cookiemonster
 - title: 'LoongServe: Efficiently Serving Long-Context Large Language Models with
     Elastic Sequence Parallelism'
-  repository_url: https://github.com/LoongServe/LoongServe
+  artifact_url: https://github.com/LoongServe/LoongServe
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695948
+  paper_url: https://doi.org/10.1145/3694715.3695948
+  artifact_urls:
+  - https://github.com/LoongServe/LoongServe
 - title: 'LazyLog: A New Shared Log Abstraction for Low-Latency Applications'
-  repository_url: https://github.com/dassl-uiuc/LazyLog-Artifact
+  artifact_url: https://github.com/dassl-uiuc/LazyLog-Artifact
   badges: Available, Functional
-  doi: 10.1145/3694715.3695983
+  paper_url: https://doi.org/10.1145/3694715.3695983
+  artifact_urls:
+  - https://github.com/dassl-uiuc/LazyLog-Artifact
 - title: 'TrEnv: Transparently Share Serverless Execution Environments Across Different
     Functions and Nodes'
-  repository_url: https://github.com/switch-container
+  artifact_url: https://github.com/switch-container
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695967
+  paper_url: https://doi.org/10.1145/3694715.3695967
+  artifact_urls:
+  - https://github.com/switch-container
 - title: 'BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and
     Performance'
-  repository_url: https://github.com/ChaseLab-PKU/BIZA
+  artifact_url: https://github.com/ChaseLab-PKU/BIZA
   badges: Available
-  doi: 10.1145/3694715.3695953
+  paper_url: https://doi.org/10.1145/3694715.3695953
+  artifact_urls:
+  - https://github.com/ChaseLab-PKU/BIZA
 - title: 'Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value
     Stores'
-  repository_url: https://github.com/huzhisheng/Aceso
+  artifact_url: https://github.com/huzhisheng/Aceso
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695951
+  paper_url: https://doi.org/10.1145/3694715.3695951
+  artifact_urls:
+  - https://github.com/huzhisheng/Aceso
 - title: 'SWARM: Replicating Shared Disaggregated-Memory Data in No Time'
-  repository_url: https://github.com/LPD-EPFL/swarm-artifacts
+  artifact_url: https://github.com/LPD-EPFL/swarm-artifacts
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695945
+  paper_url: https://doi.org/10.1145/3694715.3695945
+  artifact_urls:
+  - https://github.com/LPD-EPFL/swarm-artifacts
 - title: 'Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor
     Collections'
-  repository_url: https://github.com/kungfu-team/tenplex/tree/sosp24-artifact
+  artifact_url: https://github.com/kungfu-team/tenplex/tree/sosp24-artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.369597
+  paper_url: https://doi.org/10.1145/3694715.369597
+  artifact_urls:
+  - https://github.com/kungfu-team/tenplex/tree/sosp24-artifact
 - title: 'Autobahn: Seamless high speed BFT'
-  repository_url: https://github.com/neilgiri/autobahn-artifact
+  artifact_url: https://github.com/neilgiri/autobahn-artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695942
+  paper_url: https://doi.org/10.1145/3694715.3695942
+  artifact_urls:
+  - https://github.com/neilgiri/autobahn-artifact
 - title: 'Dirigent: Lightweight Serverless Orchestration'
-  repository_url: https://github.com/eth-easl/dirigent
+  artifact_url: https://github.com/eth-easl/dirigent
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695966
+  paper_url: https://doi.org/10.1145/3694715.3695966
+  artifact_urls:
+  - https://github.com/eth-easl/dirigent
 - title: 'Skyloft: A General High-Efficient Scheduling Framework in User Space'
-  repository_url: https://github.com/yhtzd/skyloft-sosp24-ae
+  artifact_url: https://github.com/yhtzd/skyloft-sosp24-ae
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695973
+  paper_url: https://doi.org/10.1145/3694715.3695973
+  artifact_urls:
+  - https://github.com/yhtzd/skyloft-sosp24-ae
 - title: Fast Core Scheduling with Userspace Process Abstraction
-  repository_url: https://github.com/neolinsu/sosp24ae
+  artifact_url: https://github.com/neolinsu/sosp24ae
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695976
+  paper_url: https://doi.org/10.1145/3694715.3695976
+  artifact_urls:
+  - https://github.com/neolinsu/sosp24ae
 - title: Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with
     FractalTensor
-  repository_url: https://github.com/microsoft/nnfusion
+  artifact_url: https://github.com/microsoft/nnfusion
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695961
+  paper_url: https://doi.org/10.1145/3694715.3695961
+  artifact_urls:
+  - https://github.com/microsoft/nnfusion
 - title: 'Tiered Memory Management: Access Latency is the Key!'
-  repository_url: https://github.com/host-architecture/colloid
+  artifact_url: https://github.com/host-architecture/colloid
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695968
+  paper_url: https://doi.org/10.1145/3694715.3695968
+  artifact_urls:
+  - https://github.com/host-architecture/colloid
 - title: 'SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference'
-  repository_url: https://github.com/asprasad/treebeard/tree/silvanforge
+  artifact_url: https://github.com/asprasad/treebeard/tree/silvanforge
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3694715.3695958
+  paper_url: https://doi.org/10.1145/3694715.3695958
+  artifact_urls:
+  - https://github.com/asprasad/treebeard/tree/silvanforge
 - title: Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs
-  repository_url: https://github.com/824728350/Zodiac/tree/master
+  artifact_url: https://github.com/824728350/Zodiac/tree/master
   badges: Available
-  doi: 10.1145/3694715.3695974
+  paper_url: https://doi.org/10.1145/3694715.3695974
+  artifact_urls:
+  - https://github.com/824728350/Zodiac/tree/master
 sosp2025:
 - title: 'Proto: A Guided Journey through Modern OS Construction'
   badges: Functional
-  doi: 10.1145/3731569.3764811
+  paper_url: https://doi.org/10.1145/3731569.3764811
 - title: 'CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost
     Embedded Devices'
-  repository_url: https://github.com/CHERIoT-Platform/cheriot-rtos
+  artifact_url: https://github.com/CHERIoT-Platform/cheriot-rtos
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764844
+  paper_url: https://doi.org/10.1145/3731569.3764844
+  artifact_urls:
+  - https://github.com/CHERIoT-Platform/cheriot-rtos
 - title: The Design and Implementation of a Virtual Firmware Monitor
-  repository_url: https://github.com/epfl-dcsl/miralis-sosp25-artifact
+  artifact_url: https://github.com/epfl-dcsl/miralis-sosp25-artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764826
+  paper_url: https://doi.org/10.1145/3731569.3764826
+  artifact_urls:
+  - https://github.com/epfl-dcsl/miralis-sosp25-artifact
 - title: 'Oasis: Pooling PCIe Devices Over CXL to Boost Utilization'
-  repository_url: https://bitbucket.org/yuhong_zhong/oasis
+  artifact_url: https://bitbucket.org/yuhong_zhong/oasis
   badges: Available
-  doi: 10.1145/3731569.3764812
+  paper_url: https://doi.org/10.1145/3731569.3764812
+  artifact_urls:
+  - https://bitbucket.org/yuhong_zhong/oasis
 - title: 'Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems'
-  repository_url: https://github.com/yale-nova/spirit
+  artifact_url: https://github.com/yale-nova/spirit
   badges: Available, Functional
-  doi: 10.1145/3731569.3764805
+  paper_url: https://doi.org/10.1145/3731569.3764805
+  artifact_urls:
+  - https://github.com/yale-nova/spirit
 - title: 'Scalable Far Memory: Balancing Faults and Evictions'
-  repository_url: https://github.com/rs3lab/mage-artifact
+  artifact_url: https://github.com/rs3lab/mage-artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764842
+  paper_url: https://doi.org/10.1145/3731569.3764842
+  artifact_urls:
+  - https://github.com/rs3lab/mage-artifact
 - title: 'Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud
     via Guest Delegation'
-  repository_url: https://doi.org/10.5281/zenodo.16912877
+  artifact_url: https://doi.org/10.5281/zenodo.16912877
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764801
+  paper_url: https://doi.org/10.1145/3731569.3764801
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.16912877
 - title: 'Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and
     Geo-distributed Clusters'
-  repository_url: https://github.com/eth-easl/sailor
+  artifact_url: https://github.com/eth-easl/sailor
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764839
+  paper_url: https://doi.org/10.1145/3731569.3764839
+  artifact_urls:
+  - https://github.com/eth-easl/sailor
 - title: 'DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context
     Parallelism'
-  repository_url: https://doi.org/10.5281/zenodo.16921000
+  artifact_url: https://doi.org/10.5281/zenodo.16921000
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764849
+  paper_url: https://doi.org/10.1145/3731569.3764849
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.16921000
 - title: 'TrainVerify: Equivalence-Based Verification for Distributed LLM Training'
-  repository_url: https://github.com/verify-llm/TrainVerify
+  artifact_url: https://github.com/verify-llm/TrainVerify
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764850
+  paper_url: https://doi.org/10.1145/3731569.3764850
+  artifact_urls:
+  - https://github.com/verify-llm/TrainVerify
 - title: Mitigating Application Resource Overload with Targeted Task Cancellation
-  repository_url: https://github.com/OrderLab/Atropos
+  artifact_url: https://github.com/OrderLab/Atropos
   badges: Available
-  doi: 10.1145/3731569.3764835
+  paper_url: https://doi.org/10.1145/3731569.3764835
+  artifact_urls:
+  - https://github.com/OrderLab/Atropos
 - title: 'Orthrus: Efficient and Timely Detection of Silent User Data Corruption in
     the Cloud with Resource-Adaptive Computation Validation'
-  repository_url: https://github.com/ICTPLSys/Orthrus
+  artifact_url: https://github.com/ICTPLSys/Orthrus
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764832
+  paper_url: https://doi.org/10.1145/3731569.3764832
+  artifact_urls:
+  - https://github.com/ICTPLSys/Orthrus
 - title: Optimistic Recovery for High-Availability Software via Partial Process State
     Preservation
-  repository_url: https://github.com/OrderLab/phoenix
+  artifact_url: https://github.com/OrderLab/phoenix
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764858
+  paper_url: https://doi.org/10.1145/3731569.3764858
+  artifact_urls:
+  - https://github.com/OrderLab/phoenix
 - title: Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks
-  repository_url: https://github.com/dslab-epfl/NEXDSIM_AE
+  artifact_url: https://github.com/dslab-epfl/NEXDSIM_AE
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764825
+  paper_url: https://doi.org/10.1145/3731569.3764825
+  artifact_urls:
+  - https://github.com/dslab-epfl/NEXDSIM_AE
 - title: 'PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language
     Model Applications'
-  repository_url: https://doi.org/10.5281/zenodo.16972909
+  artifact_url: https://doi.org/10.5281/zenodo.16972909
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764834
+  paper_url: https://doi.org/10.1145/3731569.3764834
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.16972909
 - title: 'Pie: A Programmable Serving System for Emerging LLM Applications'
-  repository_url: https://github.com/pie-project/pie
+  artifact_url: https://github.com/pie-project/pie
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764814
+  paper_url: https://doi.org/10.1145/3731569.3764814
+  artifact_urls:
+  - https://github.com/pie-project/pie
 - title: 'DiffKV: Differentiated Memory Management for Large Language Models with
     Parallel KV Compaction'
-  repository_url: https://github.com/zyqCSL/DiffKV
+  artifact_url: https://github.com/zyqCSL/DiffKV
   badges: Available
-  doi: 10.1145/3731569.3764810
+  paper_url: https://doi.org/10.1145/3731569.3764810
+  artifact_urls:
+  - https://github.com/zyqCSL/DiffKV
 - title: 'Jenga: Effective Memory Management for Serving LLM with Heterogeneity'
-  repository_url: https://github.com/heheda12345/Jenga-SOSP25-AE
+  artifact_url: https://github.com/heheda12345/Jenga-SOSP25-AE
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764823
+  paper_url: https://doi.org/10.1145/3731569.3764823
+  artifact_urls:
+  - https://github.com/heheda12345/Jenga-SOSP25-AE
 - title: 'cache_ext: Customizing the Page Cache with eBPF'
-  repository_url: https://github.com/cache-ext/cache_ext
+  artifact_url: https://github.com/cache-ext/cache_ext
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764820
+  paper_url: https://doi.org/10.1145/3731569.3764820
+  artifact_urls:
+  - https://github.com/cache-ext/cache_ext
 - title: 'Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack'
-  repository_url: https://github.com/TELOS-syslab/Aeolia
+  artifact_url: https://github.com/TELOS-syslab/Aeolia
   badges: Available, Functional
-  doi: 10.1145/3731569.3764816
+  paper_url: https://doi.org/10.1145/3731569.3764816
+  artifact_urls:
+  - https://github.com/TELOS-syslab/Aeolia
 - title: 'Loom: Efficient Capture and Querying of High-Frequency Telemetry'
-  repository_url: https://github.com/fsolleza/loom
+  artifact_url: https://github.com/fsolleza/loom
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764853
+  paper_url: https://doi.org/10.1145/3731569.3764853
+  artifact_urls:
+  - https://github.com/fsolleza/loom
 - title: 'Pesto: Cooking up High Performance BFT Queries'
-  repository_url: https://github.com/fsuri/Pequin-Artifact
+  artifact_url: https://github.com/fsuri/Pequin-Artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764799
+  paper_url: https://doi.org/10.1145/3731569.3764799
+  artifact_urls:
+  - https://github.com/fsuri/Pequin-Artifact
 - title: 'Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks'
-  repository_url: https://github.com/New-Consensus-Concurrency-Control/Tiga
+  artifact_url: https://github.com/New-Consensus-Concurrency-Control/Tiga
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764854
+  paper_url: https://doi.org/10.1145/3731569.3764854
+  artifact_urls:
+  - https://github.com/New-Consensus-Concurrency-Control/Tiga
 - title: 'Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs'
-  repository_url: https://github.com/LSDS/Tempo
+  artifact_url: https://github.com/LSDS/Tempo
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764840
+  paper_url: https://doi.org/10.1145/3731569.3764840
+  artifact_urls:
+  - https://github.com/LSDS/Tempo
 - title: 'HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows'
-  repository_url: https://github.com/Leo9660/HedraRAG_AE
+  artifact_url: https://github.com/Leo9660/HedraRAG_AE
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764806
+  paper_url: https://doi.org/10.1145/3731569.3764806
+  artifact_urls:
+  - https://github.com/Leo9660/HedraRAG_AE
 - title: 'Coyote v2: Raising the Level of Abstraction for Data Center FPGAs'
-  repository_url: https://github.com/fpgasystems/Coyote
+  artifact_url: https://github.com/fpgasystems/Coyote
   badges: Available
-  doi: 10.1145/3731569.3764845
+  paper_url: https://doi.org/10.1145/3731569.3764845
+  artifact_urls:
+  - https://github.com/fpgasystems/Coyote
 - title: 'KNighter: Transforming Static Analysis with LLM-Synthesized Checkers'
-  repository_url: https://github.com/ise-uiuc/KNighter
+  artifact_url: https://github.com/ise-uiuc/KNighter
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764827
+  paper_url: https://doi.org/10.1145/3731569.3764827
+  artifact_urls:
+  - https://github.com/ise-uiuc/KNighter
 - title: 'eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle'
-  repository_url: https://github.com/rs3lab/veritas
+  artifact_url: https://github.com/rs3lab/veritas
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764797
+  paper_url: https://doi.org/10.1145/3731569.3764797
+  artifact_urls:
+  - https://github.com/rs3lab/veritas
 - title: 'WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface
     Implementations'
-  repository_url: https://github.com/yagehu/wasit
+  artifact_url: https://github.com/yagehu/wasit
   badges: Available, Functional
-  doi: 10.1145/3731569.3764819
+  paper_url: https://doi.org/10.1145/3731569.3764819
+  artifact_urls:
+  - https://github.com/yagehu/wasit
 - title: 'Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction
     Refinement'
-  repository_url: https://github.com/SunHao-0/BCF/tree/artifact-evaluation
+  artifact_url: https://github.com/SunHao-0/BCF/tree/artifact-evaluation
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764796
+  paper_url: https://doi.org/10.1145/3731569.3764796
+  artifact_urls:
+  - https://github.com/SunHao-0/BCF/tree/artifact-evaluation
 - title: 'Atmosphere: Practical Verified Kernels with Rust and Verus'
-  repository_url: https://github.com/mars-research/atmosphere-sosp25-artifact
+  artifact_url: https://github.com/mars-research/atmosphere-sosp25-artifact
   badges: Functional
-  doi: 10.1145/3731569.3764821
+  paper_url: https://doi.org/10.1145/3731569.3764821
+  artifact_urls:
+  - https://github.com/mars-research/atmosphere-sosp25-artifact
 - title: 'AutoMan: Facilitating Verified Distributed Systems Development Through Automatic
     Code Generation and Manual Optimizations'
-  repository_url: https://github.com/stonysystems/automan
+  artifact_url: https://github.com/stonysystems/automan
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764822
+  paper_url: https://doi.org/10.1145/3731569.3764822
+  artifact_urls:
+  - https://github.com/stonysystems/automan
 - title: 'ORQ: Complex Analytics on Private Data with Strong Security Guarantees'
-  repository_url: https://github.com/CASP-Systems-BU/orq
+  artifact_url: https://github.com/CASP-Systems-BU/orq
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764833
+  paper_url: https://doi.org/10.1145/3731569.3764833
+  artifact_urls:
+  - https://github.com/CASP-Systems-BU/orq
 - title: 'TRIP: Coercion-resistant Registration for E-Voting with Verifiability and
     Usability in Votegral'
-  repository_url: https://github.com/dedis/votegral
+  artifact_url: https://github.com/dedis/votegral
   badges: Available, Functional
-  doi: 10.1145/3731569.3764837
+  paper_url: https://doi.org/10.1145/3731569.3764837
+  artifact_urls:
+  - https://github.com/dedis/votegral
 - title: 'Quilt: Resource-aware Merging of Serverless Workflows'
-  repository_url: https://github.com/eniac/quilt
+  artifact_url: https://github.com/eniac/quilt
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764830
-- title: 'Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage
-    Services'
-  badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764824
+  paper_url: https://doi.org/10.1145/3731569.3764830
+  artifact_urls:
+  - https://github.com/eniac/quilt
 - title: Unlocking True Elasticity for the Cloud-Native Era with Dandelion
-  repository_url: https://github.com/eth-easl/dandelion
+  artifact_url: https://github.com/eth-easl/dandelion
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764803
+  paper_url: https://doi.org/10.1145/3731569.3764803
+  artifact_urls:
+  - https://github.com/eth-easl/dandelion
 - title: Managing Scalable Direct Storage Accesses for GPUs with GoFS
   badges: Functional, Reproduced
-  doi: 10.1145/3731569.3764857
+  paper_url: https://doi.org/10.1145/3731569.3764857
 - title: 'KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference
     for MoE Models'
-  repository_url: https://github.com/kvcache-ai/ktransformers
+  artifact_url: https://github.com/kvcache-ai/ktransformers
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764843
+  paper_url: https://doi.org/10.1145/3731569.3764843
+  artifact_urls:
+  - https://github.com/kvcache-ai/ktransformers
 - title: 'Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory
     Scheduling'
-  repository_url: https://github.com/ChandlerGuan/mercury_artifact
+  artifact_url: https://github.com/ChandlerGuan/mercury_artifact
   badges: Available, Functional
-  doi: 10.1145/3731569.3764798
+  paper_url: https://doi.org/10.1145/3731569.3764798
+  artifact_urls:
+  - https://github.com/ChandlerGuan/mercury_artifact
 - title: How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service
-  repository_url: https://github.com/SJTU-IPADS/Copier
+  artifact_url: https://github.com/SJTU-IPADS/Copier
   badges: Available, Functional
-  doi: 10.1145/3731569.3764800
+  paper_url: https://doi.org/10.1145/3731569.3764800
+  artifact_urls:
+  - https://github.com/SJTU-IPADS/Copier
 - title: 'CortenMM: Efficient Memory Management with Strong Correctness Guarantees'
-  repository_url: https://github.com/TELOS-syslab/CortenMM-Artifact
+  artifact_url: https://github.com/TELOS-syslab/CortenMM-Artifact
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764836
+  paper_url: https://doi.org/10.1145/3731569.3764836
+  artifact_urls:
+  - https://github.com/TELOS-syslab/CortenMM-Artifact
 - title: 'FlexGuard: Fast Mutual Exclusion Independent of Subscription'
-  repository_url: https://gitlab.inria.fr/flexguard/flexguard
+  artifact_url: https://gitlab.inria.fr/flexguard/flexguard
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764852
+  paper_url: https://doi.org/10.1145/3731569.3764852
+  artifact_urls:
+  - https://gitlab.inria.fr/flexguard/flexguard
 - title: Scalable Address Spaces using Concurrent Interval Skiplist
-  repository_url: https://github.com/kaist-cp/interval-vm.git
+  artifact_url: https://github.com/kaist-cp/interval-vm.git
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3764807
+  paper_url: https://doi.org/10.1145/3731569.3764807
+  artifact_urls:
+  - https://github.com/kaist-cp/interval-vm.git
 - title: 'Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact
     Evaluation'
-  repository_url: https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot
+  artifact_url: https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot
   badges: Available, Functional, Reproduced
-  doi: 10.1145/3731569.3768291
+  paper_url: https://doi.org/10.1145/3731569.3768291
+  artifact_urls:
+  - https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot
 acsac2017:
 - title: A Secure Mobile Authentication Alternative To Biometrics
   badges: functional

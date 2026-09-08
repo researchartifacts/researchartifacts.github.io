@@ -15,6 +15,21 @@
     "area": "systems"
   },
   {
+    "title": "Efficient Large-Scale Language Model Training on GPU Clusters",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "year": 2021,
+    "stars": 17784,
+    "forks": 4467,
+    "authors": "",
+    "github_org": "NVIDIA",
+    "badges": "available,functional",
+    "last_active": "2026-09",
+    "description": "Ongoing research training transformer models at scale",
+    "language": "Python",
+    "conference": "SC",
+    "area": "systems"
+  },
+  {
     "title": "Retiarii: A Deep Learning Exploratory-Training Framework",
     "url": "https://github.com/microsoft/nni/tree/retiarii_artifact",
     "year": 2020,
@@ -420,6 +435,21 @@
     "area": "systems"
   },
   {
+    "title": "AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with Autotuned Data-Parallel Training for Tabular Data full strip note",
+    "url": "https://github.com/deephyper/deephyper",
+    "year": 2021,
+    "stars": 308,
+    "forks": 66,
+    "authors": "",
+    "github_org": "deephyper",
+    "badges": "available",
+    "last_active": "2026-03",
+    "description": "DeepHyper: A Python Package for Massively Parallel Hyperparameter Optimization in Machine Learning",
+    "language": "Python",
+    "conference": "SC",
+    "area": "systems"
+  },
+  {
     "title": "BetrFS: A Compleat File System for Commodity SSDs",
     "url": "https://github.com/oscarlab/betrfs",
     "year": 2022,
@@ -717,36 +747,6 @@
     "description": "SplitFS: persistent-memory file system that reduces software overhead (SOSP 2019)",
     "language": "C",
     "conference": "SOSP",
-    "area": "systems"
-  },
-  {
-    "title": "VMSH: Hypervisor-agnostic Guest Overlays for VMs",
-    "url": "https://github.com/Mic92/vmsh",
-    "year": 2022,
-    "stars": 170,
-    "forks": 9,
-    "authors": "",
-    "github_org": "Mic92",
-    "badges": "",
-    "last_active": "2026-08",
-    "description": "Shell into a virtualized linux, with your own tools ",
-    "language": "Rust",
-    "conference": "EUROSYS",
-    "area": "systems"
-  },
-  {
-    "title": "Dissecting BFT Consensus: In Trusted Components we Trust!",
-    "url": "https://github.com/resilientdb/resilientdb",
-    "year": 2023,
-    "stars": 170,
-    "forks": 278,
-    "authors": "",
-    "github_org": "resilientdb",
-    "badges": "",
-    "last_active": "2026-08",
-    "description": "Global-Scale Sustainable Blockchain Fabric",
-    "language": "TypeScript",
-    "conference": "EUROSYS",
     "area": "systems"
   }
 ]
